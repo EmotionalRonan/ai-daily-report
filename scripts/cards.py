@@ -42,9 +42,20 @@ def wrap(d, text, font, w):
         out.append(cur)
     return out
 
+_CJK = r'[\u4e00-\u9fff]'
+def pangu(s):
+    s = re.sub(f'({_CJK})([A-Za-z0-9@#$])', r'\1 \2', s)
+    s = re.sub(f'([A-Za-z0-9%$])({_CJK})', r'\1 \2', s)
+    return s
 def text_block(d, x, y, text, font, w, fill, lh):
-    text = text.replace('⭐', '星')
-    for l in wrap(d, text, font, w): d.text((x, y), l, font=font, fill=fill); y += lh
+    text = pangu(text.replace('⭐', '星'))
+    lines = wrap(d, text, font, w); ww = w
+    # avoid orphans: last line of 1-3 chars → narrow the measure a little
+    while len(lines) > 1 and len(lines[-1].strip()) <= 3 and ww > w * 0.8:
+        ww -= font.size // 2; lines2 = wrap(d, text, font, ww)
+        if len(lines2) > len(lines): break
+        lines = lines2
+    for l in lines: d.text((x, y), l, font=font, fill=fill); y += lh
     return y
 
 def rule(d, y, x0=80, x1=1000, fill=INK, w=2): d.line([(x0, y), (x1, y)], fill=fill, width=w)
@@ -68,33 +79,30 @@ def build(dpath):
         rule(d, 196, w=4); rule(d, 206, w=1)
         return 250
 
-    # 1 cover
+    # 1 cover — research rule: big title ≤3 lines, ≤8 chars/line, little else; key info above bottom 15%
     img, d = new()
     rule(d, 90, w=1); d.text((W // 2, 150), 'AI 日报', font=F('serif', 64), fill=INK, anchor='mm')
     rule(d, 212, w=4); rule(d, 222, w=1)
-    d.text((80, 252), f'{y_}年{int(m_)}月{int(d_)}日 · {D["weekday"]}', font=F('reg', 26), fill=SUB)
-    d.text((W - 80, 252), f'第 {D["issue"]} 期', font=F('reg', 26), fill=SUB, anchor='ra')
-    d.text((80, 380), md, font=F('serif', 46), fill=RED)
-    y = 450
-    for fs in (118, 108, 98, 90):
-        if len(wrap(d, D['title'], F('serif', fs), 920)) <= 3: break
-    for l in wrap(d, D['title'], F('serif', fs), 920): d.text((80, y), l, font=F('serif', fs), fill=INK); y += int(fs * 1.28)
-    y = text_block(d, 80, y + 18, D['subtitle'], F('reg', 36), 920, SUB, 54) + 50
-    rule(d, y, fill=INK, w=2); y += 30
-    d.text((80, y), '本期要闻', font=F('bold', 28), fill=RED); y += 58
-    for i, h in enumerate(D['headlines']):
-        d.text((80, y), CN[i], font=F('serifb', 34), fill=RED)
-        y = text_block(d, 136, y, h['title'], F('med', 34), 864, INK, 50) + 22
-    assert y < H - 130, ('cover overflow', y)
+    d.text((80, 252), f'{y_}年{int(m_)}月{int(d_)}日 · {D["weekday"]}', font=F('reg', 28), fill=SUB)
+    d.text((W - 80, 252), f'第 {D["issue"]} 期', font=F('reg', 28), fill=SUB, anchor='ra')
+    lines = D['xhs'].get('cover', D['title']).split('\n')
+    fs = 190
+    while fs > 110 and max(d.textlength(l, font=F('serif', fs)) for l in lines) > 920: fs -= 6
+    lh = int(fs * 1.22); y = 420 + (3 - len(lines)) * lh // 2
+    d.rectangle((80, y - 50, 200, y - 40), fill=RED)
+    for l in lines: d.text((76, y), l, font=F('serif', fs), fill=INK); y += lh
+    y = text_block(d, 80, y + 30, D['xhs'].get('deck', D['subtitle']), F('med', 42), 920, SUB, 62)
+    assert y < H * 0.85, ('cover overflow', y)
+    d.text((80, H * 0.85 - 40), '左滑看今日头条 →', font=F('reg', 30), fill=RED, anchor='lb')
     footer(d, 1); save(img, 1)
 
     # 2 headlines
-    for fs in (44, 42, 40, 38, 36):
+    for fs in (46, 44, 42, 40):
         img, d = new(); y = header(d, '今日头条', 'TOP STORIES')
         for i, h in enumerate(D['headlines']):
             d.text((80, y), f'头条{CN[i]}', font=F('bold', 26), fill=RED); y += 46
             y = text_block(d, 80, y, h['title'], F('serifb', fs), 920, INK, int(fs * 1.45)) + 12
-            y = text_block(d, 80, y, h['why'], F('reg', fs - 12), 920, SUB, int((fs - 12) * 1.65)) + 8
+            wf = max(32, fs - 10); y = text_block(d, 80, y, h['why'], F('reg', wf), 920, SUB, int(wf * 1.6)) + 8
             d.text((80, y), '来源：' + h['source'], font=F('reg', 24), fill=MUTE); y += 44
             if i < len(D['headlines']) - 1: rule(d, y + 6, fill=RULE, w=2); y += 40
         if y < H - 130: break
@@ -103,14 +111,15 @@ def build(dpath):
 
     # 3.. topics
     for ti, t in enumerate(topics):
-        for fs in (38, 36, 34, 32, 30):
+        for fs, gap in ((42, 30), (40, 28), (38, 24), (36, 22), (34, 18)):
             img, d = new(); y = header(d, t['name'], t.get('kicker', ''))
             for j, it in enumerate(t['items']):
-                if j: rule(d, y, fill=RULE, w=2); y += 30
-                d.text((80, y + 2), f'{j + 1:02d}', font=F('serifb', 30), fill=RED)
-                y = text_block(d, 150, y, it['title'], F('bold', fs), 850, INK, int(fs * 1.45)) + 8
-                y = text_block(d, 150, y, it['note'], F('reg', fs - 8), 850, SUB, int((fs - 8) * 1.65)) + 6
-                d.text((150, y), f'{it["src"]} · {it["metric"]}'.replace('⭐', '星'), font=F('reg', 23), fill=MUTE); y += 52
+                if j: rule(d, y, fill=RULE, w=2); y += gap
+                d.text((80, y + 4), f'{j + 1:02d}', font=F('serifb', 32), fill=RED)
+                y = text_block(d, 150, y, it['title'], F('bold', fs), 850, INK, int(fs * 1.42)) + 6
+                nf = max(32, fs - 6)
+                y = text_block(d, 150, y, it['note'], F('reg', nf), 850, SUB, int(nf * 1.55)) + 4
+                d.text((150, y), f'{it["src"]} · {it["metric"]}'.replace('⭐', '星'), font=F('reg', 26), fill=MUTE); y += 26 + gap
             if y < H - 130: break
         assert y < H - 130, ('topic overflow', ti, y)
         footer(d, 3 + ti); save(img, 3 + ti)
@@ -131,13 +140,13 @@ def build(dpath):
     # WeChat header 900x383 (rendered 2x)
     W2, H2 = 1800, 766; img = Image.new('RGB', (W2, H2), PAPER); d = ImageDraw.Draw(img)
     d.rectangle((0, 0, 28, H2), fill=RED)
-    d.text((120, 110), 'AI 日报', font=F('serif', 56), fill=INK)
-    d.text((W2 - 110, 140), f'{dot} · 第 {D["issue"]} 期', font=F('reg', 36), fill=SUB, anchor='rm')
-    rule(d, 205, 120, W2 - 110, INK, 5); rule(d, 219, 120, W2 - 110, INK, 2)
+    d.text((120, 80), 'AI 日报', font=F('serif', 56), fill=INK)
+    d.text((W2 - 110, 110), f'{dot} · 第 {D["issue"]} 期', font=F('reg', 36), fill=SUB, anchor='rm')
+    rule(d, 172, 120, W2 - 110, INK, 5); rule(d, 186, 120, W2 - 110, INK, 2)  # keep text in top 60%: feed overlays title at bottom
     for fs in (120, 108, 96, 88):
-        if d.textlength(D['title'], font=F('serif', fs)) <= W2 - 240: break
-    d.text((120, 290), D['title'], font=F('serif', fs), fill=INK)
-    d.text((124, 290 + int(fs * 1.35) + 20), D['subtitle'], font=F('reg', 46), fill=SUB)
+        if d.textlength(pangu(D['title']), font=F('serif', fs)) <= W2 - 240: break
+    d.text((120, 236), pangu(D['title']), font=F('serif', fs), fill=INK)
+    d.text((124, 236 + int(fs * 1.35) + 16), pangu(D['subtitle']), font=F('reg', 46), fill=SUB)
     wd = os.path.join(ROOT, 'reports', dt)
     img.resize((900, 383), Image.LANCZOS).save(os.path.join(wd, 'wechat_header.png'))
     # thumb 500x500 (rendered 2x)

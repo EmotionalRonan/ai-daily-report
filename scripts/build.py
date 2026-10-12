@@ -5,7 +5,13 @@ Editorial style: paper background, serif headlines, one vermilion accent. No sto
 """
 import json, os, html, glob, argparse
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-e = html.escape
+import re as _re
+_CJK = r'[\u4e00-\u9fff]'
+def pangu(s):
+    s = _re.sub(f'({_CJK})([A-Za-z0-9@#$])', r'\1 \2', s)
+    s = _re.sub(f'([A-Za-z0-9%$])({_CJK})', r'\1 \2', s)
+    return s
+def e(x): return html.escape(pangu(str(x)))
 CN_NUM = '一二三四五六七八九十'
 
 def date_line(d):
@@ -89,14 +95,14 @@ def web_html(d):
 
 # ---------------------------------------------------------------- wechat
 def wechat_html(d):
-    INK = '#141414'; SUB = '#4a4740'; MUTE = '#8a857a'; RULE = '#d9d3c7'; RED = '#c8372d'
+    INK = '#1f1f1f'; SUB = '#3f3f3f'; MUTE = '#888888'; RULE = '#e5e0d6'; RED = '#c8372d'
     SERIF = 'font-family:Noto Serif SC,Songti SC,STSong,serif;'
-    P = f'margin:0 0 14px;font-size:15px;line-height:1.9;color:{SUB};letter-spacing:.5px;text-align:justify;'
+    P = f'margin:0 0 16px;font-size:15px;line-height:1.8;color:{SUB};letter-spacing:1px;text-align:justify;'
     def label(t, en=''):
         return (f'<section style="margin:36px 0 16px;border-top:2px solid {INK};padding-top:8px;">'
-                f'<span style="font-size:14px;font-weight:bold;color:{RED};letter-spacing:3px;">{t}</span>'
+                f'<span style="font-size:18px;font-weight:bold;color:{INK};letter-spacing:2px;">{t}</span>'
                 f'<span style="font-size:11px;color:{MUTE};letter-spacing:2px;margin-left:8px;">{en}</span></section>')
-    o = [f'<section style="max-width:677px;margin:0 auto;font-family:-apple-system,PingFang SC,Microsoft YaHei,sans-serif;">',
+    o = [f'<section style="max-width:677px;margin:0 auto;padding:0 12px;font-family:-apple-system,PingFang SC,Microsoft YaHei,sans-serif;">',
          f'<section style="text-align:center;border-bottom:3px double {INK};padding:6px 0 10px;"><p style="margin:0;{SERIF}font-size:22px;font-weight:900;letter-spacing:8px;color:{INK};">AI 日报</p>'
          f'<p style="margin:8px 0 0;font-size:11px;color:{MUTE};letter-spacing:1px;">{date_line(d)}</p></section>',
          f'<p style="margin:26px 0 10px;{SERIF}font-size:26px;font-weight:900;line-height:1.35;color:{INK};">{e(d["title"])}</p>',
@@ -104,27 +110,27 @@ def wechat_html(d):
          f'<p style="{P}">{e(d["lead"])}</p>', label('今日头条', 'TOP STORIES')]
     for i, h in enumerate(d['headlines']):
         o.append(f'<p style="margin:22px 0 4px;font-size:13px;font-weight:bold;color:{RED};{SERIF}">头条 {CN_NUM[i]}</p>')
-        o.append(f'<p style="margin:0 0 10px;{SERIF}font-size:19px;font-weight:bold;line-height:1.5;color:{INK};">{e(h["title"])}</p>')
+        o.append(f'<p style="margin:0 0 10px;{SERIF}font-size:18px;font-weight:bold;line-height:1.55;letter-spacing:.5px;color:{INK};">{e(h["title"])}</p>')
         o.append(f'<p style="{P}">{e(h["body"])}</p>')
-        o.append(f'<p style="margin:0 0 6px;padding-left:12px;border-left:2px solid {RED};font-size:15px;line-height:1.85;color:{INK};">{e(h["why"])}</p>')
+        o.append(f'<p style="margin:0 0 6px;padding-left:12px;border-left:2px solid {RED};font-size:15px;line-height:1.8;letter-spacing:1px;color:{INK};">{e(h["why"])}</p>')
         o.append(f'<p style="margin:0 0 8px;font-size:12px;color:{MUTE};">来源：{e(h["source"])}</p>')
     for t in d.get('topics', []):
         o.append(label(e(t['name']), e(t.get('kicker', ''))))
         for j, it in enumerate(t['items']):
             bt = '' if j == 0 else f'border-top:1px solid {RULE};'
-            o.append(f'<section style="padding:12px 0;{bt}"><p style="margin:0 0 4px;font-size:16px;font-weight:bold;line-height:1.6;color:{INK};">{e(it["title"])}</p>'
-                     f'<p style="margin:0 0 4px;font-size:14px;line-height:1.8;color:{SUB};">{e(it["note"])}</p>'
+            o.append(f'<section style="padding:12px 0;{bt}"><p style="margin:0 0 4px;font-size:16px;font-weight:bold;line-height:1.6;letter-spacing:.5px;color:{INK};">{e(it["title"])}</p>'
+                     f'<p style="margin:0 0 4px;font-size:15px;line-height:1.8;letter-spacing:1px;color:{SUB};">{e(it["note"])}</p>'
                      f'<p style="margin:0;font-size:12px;color:{MUTE};">{e(it["src"])} · {e(it["metric"])}</p></section>')
     o.append(label('各平台热榜', 'TRENDING'))
     for s in d['sections']:
         o.append(f'<p style="margin:16px 0 4px;font-size:14px;font-weight:bold;color:{INK};">{e(s["name"])}</p>')
         for i, it in enumerate(s['items'], 1):
-            o.append(f'<p style="margin:0;padding:3px 0;font-size:13px;line-height:1.7;color:{SUB};"><span style="color:{RED};font-family:Georgia,serif;margin-right:6px;">{i}</span>{e(it["title"])}<span style="color:{MUTE};font-size:11px;"> · {e(it["metric"])}</span></p>')
+            o.append(f'<p style="margin:0;padding:3px 0;font-size:14px;line-height:1.75;color:{SUB};"><span style="color:{RED};font-family:Georgia,serif;margin-right:6px;">{i}</span>{e(it["title"])}<span style="color:{MUTE};font-size:12px;"> · {e(it["metric"])}</span></p>')
     o.append(label('编辑手记', 'NOTES'))
-    o.append(f'<section style="background:#f4f1ea;padding:16px 18px;">' + ''.join(f'<p style="margin:0 0 10px;font-size:15px;line-height:1.9;color:{INK};">{e(c)}</p>' for c in d['comments']) + '</section>')
+    o.append(f'<section style="background:#f4f1ea;padding:16px 18px;">' + ''.join(f'<p style="margin:0 0 10px;font-size:15px;line-height:1.8;letter-spacing:1px;color:{INK};">{e(c)}</p>' for c in d['comments']) + '</section>')
     o.append(f'<p style="margin:30px 0 4px;text-align:center;font-size:15px;color:{INK};">{e(d["xhs"].get("closing", "你最关心哪一条？欢迎留言。"))}</p>')
     o.append(f'<p style="margin:0 0 24px;text-align:center;font-size:12px;color:{MUTE};">每天早上 8 点见</p>')
-    o.append(f'<p style="padding-top:10px;border-top:1px solid {RULE};font-size:11px;line-height:1.8;color:{MUTE};">本期参考：{e(source_names(d))}。标注“据报道”“社区声称”的内容尚未得到官方证实。</p></section>')
+    o.append(f'<p style="padding-top:10px;border-top:1px solid {RULE};font-size:12px;line-height:1.8;color:{MUTE};">本期参考：{e(source_names(d))}。标注“据报道”“社区声称”的内容尚未得到官方证实。</p></section>')
     body = '\n'.join(o)
     return f'<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>{e(d["title"])}</title></head><body style="margin:0;padding:16px;background:#fff;">\n<!-- 电脑浏览器打开 → 全选复制 → 粘贴到公众号编辑器 -->\n{body}\n</body></html>'
 

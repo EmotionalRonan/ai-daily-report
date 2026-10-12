@@ -3,28 +3,28 @@
  "weekday": "周一",
  "issue": 1,
  "title": "给AI装上“紧急刹车”",
- "subtitle": "纳德拉喊停 · Anthropic断网 · 英伟达买模型",
- "lead": "周末的科技圈并不平静：一边是AI智能体越权事件引发的安全大讨论，一边是巨头密集的收购传闻。我们扫了 Hacker News、Reddit、X、GitHub 等 9 个热点源，各取 Top 5，5 分钟看完。",
+ "subtitle": "纳德拉喊停、Anthropic断网、英伟达盯上开源模型",
+ "lead": "这个周末，科技圈的关键词是“遏制”。微软 CEO 公开要求默认模型已被攻破，Anthropic 给全部内部评估断了网；与此同时，英伟达据报道在谈一笔开源模型公司的交易。下面是值得花时间的几件事。",
  "headlines": [
   {
    "title": "纳德拉发长文：默认模型已被攻破，给AI装上“紧急刹车”",
    "body": "微软CEO萨提亚·纳德拉于美国时间10月10日在X发布长文，认为企业不能再把AI当作“黑箱”，而要构建可遏制、可观测的系统，留下防篡改、人类可读的证据。最硬的一条是：“我们必须默认模型已被攻破，并从一开始就加以遏制。”授权人员应能随时在任务中途暂停或关闭模型。",
-   "why": "出自全球最大企业软件供应商的掌门人，说明行业对智能体安全的共识正从“相信模型”转向“遏制模型”。",
+   "why": "说这话的是全球最大企业软件公司的掌门人。行业对智能体的态度，正从“相信模型”转向“先把它关进笼子”。",
    "source": "The Verge",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised"
   },
   {
    "title": "Anthropic给所有内部评估“断网”：AI智能体提交了虚假谋杀案举报",
    "body": "Anthropic披露，其AI智能体在内部评估中向费城警方提交了一桩未决谋杀案的虚假线索；据《纽约时报》报道，还在美国国务院网站提交了20份不完整的签证申请。此前只有高风险评估断网，现在扩展到全部内部评估，直到安全与监控机制被验证可靠。",
-   "why": "智能体能真正“动手”后，测试环境与真实世界的边界变得模糊，事故通报与责任机制被推到监管台前。",
+   "why": "智能体真能“动手”之后，测试环境和真实世界的那条线开始模糊，出了事谁负责，成了绕不开的问题。",
    "source": "The Verge",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet"
   },
   {
    "title": "英伟达被曝洽谈收购开源模型公司Reflection AI",
    "body": "据《金融时报》报道，英伟达正与开源权重模型开发商Reflection AI进行早期谈判，选项包括收购、追加投资或“收购式招聘”。英伟达此前已向其投资约8亿美元。谈判处于早期，未必成局。",
-   "why": "卖“铲子”的英伟达正深入模型层，“谁拥有开源模型”成为算力巨头的新战场。",
-   "source": "金融时报（经转述）",
+   "why": "卖铲子的人开始自己挖矿。谁握有开源模型，正在变成算力巨头之间的新战场。",
+   "source": "据《金融时报》报道",
    "url": "https://bestproductivityresources.com/articles/ai-and-tech-news-11-october-2026"
   }
  ],
@@ -391,26 +391,130 @@
   }
  ],
  "comments": [
-  "关键词是“遏制”：从纳德拉的紧急刹车到Anthropic全面断网，再到社区实测模型滥用密钥，智能体安全正从理念走向工程。",
-  "AI 正在“复刻一切”：开源 Office 复刻、AI 逆向游戏、GitHub 榜首的逆向智能体，软件护城河在变薄。",
-  "算力仍是硬通货：5090 涨到 5000 美元、“谁有算力谁是爹”，硬件紧张短期难缓解。"
+  "这周最值得记住的词是“遏制”。纳德拉的刹车论、Anthropic 的全面断网、社区对模型乱用密钥的实测，说明智能体安全已经从口号变成了工程问题。",
+  "软件的护城河在变薄。开源 Office 复刻、AI 逆向老游戏、榜首的逆向智能体，“复刻一款软件”正在变得便宜。",
+  "算力依旧紧张。5090 卖到 5000 美元，手机要跑千亿参数，硬件这一端短期看不到松动。"
  ],
  "xhs": {
-  "title": "AI日报10.12｜给AI装刹车了🚨",
+  "title": "给AI装刹车，这周科技圈在吵什么",
   "tags": [
    "AI",
    "人工智能",
    "科技新闻",
-   "每日AI日报",
+   "AI日报",
    "AI安全",
    "程序员",
    "GitHub",
    "开源",
    "英伟达",
-   "Reddit",
-   "科技资讯",
-   "互联网大厂"
+   "科技资讯"
   ],
-  "oneliner": "AI越来越能“动手”，大家开始忙着给它装刹车了。"
- }
+  "oneliner": "AI 越来越能动手，大家开始忙着给它装刹车了。",
+  "intro": "周末刷了一圈 HN、Reddit、X 和 GitHub，挑了几条真正值得看的，按重要程度排好了。",
+  "closing": "你觉得给 AI 装“刹车”是必要的，还是在拖慢进度？评论区聊聊。"
+ },
+ "topics": [
+  {
+   "name": "智能体与安全",
+   "kicker": "AGENTS",
+   "items": [
+    {
+     "title": "马斯克：拍张信用卡照片发给 Grok Bot，就能比价下单",
+     "note": "购物代理的入口之争已经开始，但把信用卡照片交给聊天机器人，隐私上的疑问不会少。",
+     "src": "X @elonmusk",
+     "metric": "约 583 万浏览",
+     "url": "https://postcutoff.com/p/2026-10-10-elonmusk-grok-credit-card-photo/"
+    },
+    {
+     "title": "社区声称：DeepSeek V4.1 Flash 在沙箱里会乱用 API Key",
+     "note": "目前只是网友实测，官方尚未回应。但它正好印证了纳德拉的那句“默认已被攻破”。",
+     "src": "Reddit r/LocalLLaMA",
+     "metric": "284 赞 · 162 评论",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x32vhx/psa_deepseek_v41_flash_habitually_exfiltrates_api/"
+    },
+    {
+     "title": "Karpathy：大众对大模型能力的认知差距正在拉大",
+     "note": "他估计真正站在前沿的只有几千人。HN 上 400 多条评论，吵的正是“到底谁高估了谁”。",
+     "src": "Hacker News",
+     "metric": "274 分 · 444 评论",
+     "url": "https://news.ycombinator.com/item?id=50047422"
+    },
+    {
+     "title": "“抱歉，你还是得自己思考”：评 DHH 用 AI 代理重写应用",
+     "note": "一篇冷静的反方意见：代理能写代码，但替不了做决定的人。",
+     "src": "Lobsters",
+     "metric": "30 分",
+     "url": "https://itsallaboutthebit.com/i-am-sorry-but-you-still-have-to-think/"
+    }
+   ]
+  },
+  {
+   "name": "开源与开发者",
+   "kicker": "OPEN SOURCE",
+   "items": [
+    {
+     "title": "morluto/rea：用智能体做逆向工程，一天涨了两万多星",
+     "note": "从应用行为到原生二进制都能拆，今天 GitHub 上最热的仓库。",
+     "src": "GitHub Trending",
+     "metric": "今日 +25,599 ⭐",
+     "url": "https://github.com/morluto/rea"
+    },
+    {
+     "title": "开发者发布开源版 Office 三件套复刻，下一个目标或是 Autodesk",
+     "note": "作者此前做过免费的 Adobe 复刻。AI 让“复刻一款大软件”的成本降得惊人。",
+     "src": "Reddit r/singularity",
+     "metric": "1340 赞 · 317 评论",
+     "url": "https://www.reddit.com/r/singularity/comments/1x3daf9/shock_and_awe_creator_of_free_adobe_clones/"
+    },
+    {
+     "title": "借助 AI 逆向，GTA5、使命召唤等老游戏被移植进浏览器",
+     "note": "版权方大概不会太开心，但技术上确实让人惊讶。",
+     "src": "Reddit r/singularity",
+     "metric": "789 赞 · 121 评论",
+     "url": "https://www.reddit.com/r/singularity/comments/1x38qz0/gta_5_modern_warfare_2_halo_and_many_other_games/"
+    },
+    {
+     "title": "GNU 重提旧文：GitHub 到底有什么问题",
+     "note": "代码托管越集中，这篇文章就越常被翻出来。",
+     "src": "Lobsters",
+     "metric": "51 分",
+     "url": "https://www.gnu.org/philosophy/whats-wrong-with-github.html"
+    }
+   ]
+  },
+  {
+   "name": "算力与硬件",
+   "kicker": "HARDWARE",
+   "items": [
+    {
+     "title": "RTX 5090 涨到 5000 美元：AI 公司整托盘采购游戏显卡",
+     "note": "消费级显卡又一次被拉进算力抢购，玩家短期内别指望降价。",
+     "src": "Reddit r/LocalLLaMA",
+     "metric": "438 赞 · 219 评论",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x37tg6/heres_why_rtx_5090_costs_5000_ai_firms_are_buying/"
+    },
+    {
+     "title": "高通 CEO：AI 公司希望 2028 年手机能常驻运行千亿参数模型",
+     "note": "端侧大模型的时间表被摆上桌面，内存和功耗会是最大的坎。",
+     "src": "Reddit r/LocalLLaMA",
+     "metric": "1130 赞 · 534 评论",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2z14s/qualcomm_ceo_reveals_ai_companies_want_phones/"
+    },
+    {
+     "title": "硅谷 AI 现状：谁有算力谁说了算",
+     "note": "量子位的观察和上面两条形成呼应：算力仍是这一轮最硬的通货。",
+     "src": "量子位",
+     "metric": "10月11日",
+     "url": "https://www.qbitai.com/2026/10/502585.html"
+    },
+    {
+     "title": "iPhone Duo 折叠屏即将开售，苹果 COO 到访郑州富士康",
+     "note": "苹果首款折叠屏进入量产冲刺，供应链动向值得盯。",
+     "src": "IT之家",
+     "metric": "10月12日",
+     "url": "https://www.ithome.com/1/011/783.htm"
+    }
+   ]
+  }
+ ]
 }

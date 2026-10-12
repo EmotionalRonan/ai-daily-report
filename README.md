@@ -1,12 +1,12 @@
-# 🗞️ AI 日报 · AI Daily
+# AI 日报
 
-科技 · AI · 编程热点日报。每天 08:00（北京时间）更新，**9 个热点源各取 Top 5**，一份内容输出三种样式：
+科技 · 人工智能 · 编程，每天早上 8 点出刊。每期三条头条、三个专题，外加九个平台的热榜，一份内容三种样式：
 
 | 样式 | 文件 | 用法 |
 |---|---|---|
-| 🌐 网页版 | `reports/日期/index.html` | 直接浏览 / GitHub Pages |
-| 💬 公众号版 | `reports/日期/wechat.html` + `wechat_header.png` + `wechat_thumb.png` | 电脑浏览器打开 → 全选复制 → 粘贴到公众号编辑器（样式为内联，可保留） |
-| 📕 小红书版 | `reports/日期/xiaohongshu.md` + `xhs/01~06.png` | 6 张 3:4 卡片按顺序上传，正文与话题标签直接复制 |
+| 网页版 | `reports/日期/index.html` | 直接浏览 / GitHub Pages |
+| 公众号版 | `reports/日期/wechat.html` + `wechat_header.png` + `wechat_thumb.png` | 电脑浏览器打开 → 全选复制 → 粘贴到公众号编辑器（样式为内联，可保留） |
+| 小红书版 | `reports/日期/xiaohongshu.md` + `xhs/01~06.png` | 6 张 3:4 卡片按顺序上传，正文与话题标签直接复制 |
 
 ## 最新一期
 
@@ -31,10 +31,9 @@
 ## 结构
 
 ```
-data/YYYY-MM-DD.json     每期结构化数据（头条、9 源 Top5、点评、小红书标签）
+data/YYYY-MM-DD.json     每期数据：头条、专题（topics）、各平台热榜、编辑手记、小红书文案
 scripts/build.py         生成网页版 / 公众号版 / 小红书文案 + 往期目录
-scripts/cards.py         生成小红书卡片与公众号头图、封面（PIL + Noto Sans SC）
-assets/                  每期背景插画
+scripts/cards.py         生成小红书卡片与公众号头图、封面（PIL + 思源宋体/黑体，报纸版式）
 reports/YYYY-MM-DD/      成品
 ```
 
@@ -44,4 +43,4 @@ python3 scripts/build.py data/2026-10-12.json
 python3 scripts/cards.py data/2026-10-12.json
 ```
 
-> 内容由 AI 辅助整理，关键事实已核对来源；标注“据报道”的为未经官方证实的消息。
+> 关键事实均核对过原始来源；标注“据报道”“社区声称”的内容尚未得到官方证实。

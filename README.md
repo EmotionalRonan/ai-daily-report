@@ -10,7 +10,7 @@
 
 ## 最新一期
 
-- **2026-10-12｜给AI装上“紧急刹车”** — [网页](reports/2026-10-12/index.html) · [公众号](reports/2026-10-12/wechat.html) · [小红书](reports/2026-10-12/xiaohongshu.md)
+- **2026-10-12｜写代码不贵了，验收才贵** — [网页](reports/2026-10-12/index.html) · [公众号](reports/2026-10-12/wechat.html) · [小红书](reports/2026-10-12/xiaohongshu.md)
 
 排版规范：[`docs/layout.md`](docs/layout.md)
 

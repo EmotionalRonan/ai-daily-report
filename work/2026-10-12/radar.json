@@ -1,0 +1,500 @@
+{
+ "date": "2026-10-12",
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "经典 RTS《横扫千军》为现代电脑重制",
+     "en": "Total Annihilation, rebuilt for modern computers",
+     "metric": "420 分 · 179 评论",
+     "url": "https://news.ycombinator.com/item?id=50045984",
+     "time": "10-12 02:04",
+     "what": "老游戏开源重制项目上首页"
+    },
+    {
+     "title": "争议长文：Passkeys 是个陷阱",
+     "en": "Passkeys are a trap",
+     "metric": "403 分 · 229 评论",
+     "url": "https://news.ycombinator.com/item?id=50048312",
+     "time": "10-12 05:59",
+     "what": "作者认为通行密钥加深平台锁定"
+    },
+    {
+     "title": "纽约市“点击即取消”订阅新规生效",
+     "en": "NYC's \"Click to Cancel\" rule is now in effect",
+     "metric": "402 分 · 197 评论",
+     "url": "https://news.ycombinator.com/item?id=50045946",
+     "time": "10-12 02:01",
+     "what": "取消订阅须与开通一样简单"
+    },
+    {
+     "title": "Karpathy：大众对 LLM 能力的认知差距在扩大",
+     "en": "The gap in shared understanding of LLM capability is widening",
+     "metric": "334 分 · 505 评论",
+     "url": "https://news.ycombinator.com/item?id=50047422",
+     "time": "10-12 04:20",
+     "what": "评论数当日最高"
+    },
+    {
+     "title": "谷歌芬兰数据中心砍林被叫停",
+     "en": "Google is illegally cutting forest to build data centers",
+     "metric": "269 分 · 71 评论",
+     "url": "https://news.ycombinator.com/item?id=50048638",
+     "time": "10-12 06:33",
+     "what": "卫报 10/6 报道：未完成环评即砍伐 330 公顷"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "AI 社区热帖",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "免费 Adobe 复刻作者再发开源 Office 三件套",
+     "en": "r/singularity",
+     "metric": "1481 赞 · 332 评论",
+     "url": "https://www.reddit.com/r/singularity/comments/1x3daf9/shock_and_awe_creator_of_free_adobe_clones/",
+     "time": "10-12",
+     "what": "Tom's Hardware 报道"
+    },
+    {
+     "title": "“哪天普通 PC 能本地跑 Sonnet 级模型”",
+     "en": "r/ClaudeAI",
+     "metric": "889 赞 · 303 评论",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x35dqe/the_day_we_can_run_sonnetlevel_ai_locally_on_a/",
+     "time": "10-11",
+     "what": "本地大模型讨论帖"
+    },
+    {
+     "title": "借助 AI 逆向，GTA5、使命召唤等被移植进浏览器",
+     "en": "r/singularity",
+     "metric": "820 赞 · 126 评论",
+     "url": "https://www.reddit.com/r/singularity/comments/1x38qz0/gta_5_modern_warfare_2_halo_and_many_other_games/",
+     "time": "10-11",
+     "what": "Destructoid 报道"
+    },
+    {
+     "title": "网友称用 Opus 5.5 把《星际火狐》《索尼克 CD》原生移植到 PC",
+     "en": "r/ClaudeAI",
+     "metric": "656 赞 · 232 评论",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/",
+     "time": "10-12",
+     "what": "作者后来更正：更接近专用模拟器+静态重编译，不是干净源码"
+    },
+    {
+     "title": "RTX 5090 涨到 5000 美元：AI 公司整托盘采购",
+     "en": "r/LocalLLaMA",
+     "metric": "463 赞 · 223 评论",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x37tg6/heres_why_rtx_5090_costs_5000_ai_firms_are_buying/",
+     "time": "10-11",
+     "what": "VideoCardz 报道"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X / Twitter",
+   "tag": "科技圈刷屏",
+   "color": "#111111",
+   "url": "https://agentflare.org/social/tech/index.html",
+   "short": "X",
+   "items": [
+    {
+     "title": "桑德斯：AI 产品违法就起诉 CEO，并立即暂停先进 AI",
+     "en": "@BernieSanders",
+     "metric": "48.2万 浏览 · 1.74万 赞",
+     "url": "https://x.com/BernieSanders/status/2108979025943093524",
+     "time": "10-10",
+     "what": "回应 Anthropic 模型虚假报案"
+    },
+    {
+     "title": "马斯克：客服中心岗位会“很快消失”",
+     "en": "@elonmusk（经 @Polymarket）",
+     "metric": "39.7万 浏览",
+     "url": "https://x.com/Polymarket/status/2108970611708239887",
+     "time": "10-11",
+     "what": "二手转述，待核原帖"
+    },
+    {
+     "title": "DHH：SpaceX AI 赞助 Omarchy 150 万美元 Grok 额度",
+     "en": "@dhh",
+     "metric": "54万 浏览 · 1.21万 赞",
+     "url": "https://x.com/dhh/status/2108127662120014285",
+     "time": "10-10",
+     "what": "开源基金会获企业赞助"
+    },
+    {
+     "title": "智能咖啡机 10 天跑掉 1TB 流量",
+     "en": "@Dexerto",
+     "metric": "220万 浏览 · 3.92万 赞",
+     "url": "https://x.com/Dexerto/status/2109267794705412271",
+     "time": "10-11",
+     "what": "与往期重复"
+    },
+    {
+     "title": "用 Opus 5.5 做“像玩策略游戏一样”的仓储软件",
+     "en": "@DilumSanjaya",
+     "metric": "230万 浏览 · 2.45万 赞",
+     "url": "https://x.com/DilumSanjaya/status/2106426962738880879",
+     "time": "—",
+     "what": "与往期重复"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "今日爆火仓库",
+   "color": "#24292f",
+   "url": "https://github.com/trending",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "morluto/rea：用智能体逆向一切",
+     "en": "Reverse engineering agents",
+     "metric": "今日 +25,599 ⭐",
+     "url": "https://github.com/morluto/rea",
+     "time": "10-12",
+     "what": ""
+    },
+    {
+     "title": "boykopovar/AnyPS5：PS5 程序自动移植到 Linux/Windows",
+     "en": "Porting tool",
+     "metric": "今日 +3,952 ⭐",
+     "url": "https://github.com/boykopovar/AnyPS5",
+     "time": "10-12",
+     "what": ""
+    },
+    {
+     "title": "storytold/artcraft：给艺术家和电影人的创作引擎",
+     "en": "Creative engine",
+     "metric": "今日 +2,957 ⭐",
+     "url": "https://github.com/storytold/artcraft",
+     "time": "10-12",
+     "what": ""
+    },
+    {
+     "title": "cathrynlavery/diagram-design：给编程智能体用的 44 种图表",
+     "en": "Agent diagram skills",
+     "metric": "今日 +1,083 ⭐",
+     "url": "https://github.com/cathrynlavery/diagram-design",
+     "time": "10-12",
+     "what": ""
+    },
+    {
+     "title": "lyogavin/airllm：4GB 显卡跑 70B 推理",
+     "en": "Low-VRAM inference",
+     "metric": "今日 +548 ⭐",
+     "url": "https://github.com/lyogavin/airllm",
+     "time": "10-12",
+     "what": ""
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "今日热门论文",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "VisionWeave：让多模态模型原生具备弹性视觉表征",
+     "en": "VisionWeave",
+     "metric": "21 赞",
+     "url": "https://huggingface.co/papers/2610.07987",
+     "time": "10-06",
+     "what": ""
+    },
+    {
+     "title": "DiffusionART：高效稳定的扩散模型强化学习",
+     "en": "DiffusionART",
+     "metric": "10 赞",
+     "url": "https://huggingface.co/papers/2610.12572",
+     "time": "10-08",
+     "what": ""
+    },
+    {
+     "title": "SepGen：单模型完成多音轨音视频分离与生成",
+     "en": "SepGen",
+     "metric": "7 赞",
+     "url": "https://huggingface.co/papers/2610.11361",
+     "time": "10-08",
+     "what": ""
+    },
+    {
+     "title": "从只看结果的强化学习中诱导过程监督",
+     "en": "Inducing Process Supervision",
+     "metric": "7 赞",
+     "url": "https://huggingface.co/papers/2609.36641",
+     "time": "09-29",
+     "what": ""
+    },
+    {
+     "title": "SWE-Duel：编程智能体的自扩展对战竞技场",
+     "en": "SWE-Duel",
+     "metric": "3 赞",
+     "url": "https://huggingface.co/papers/2610.12569",
+     "time": "10-08",
+     "what": ""
+    }
+   ]
+  },
+  {
+   "key": "media",
+   "name": "The Verge · TechCrunch",
+   "tag": "海外科技媒体",
+   "color": "#5200ff",
+   "url": "https://www.theverge.com/",
+   "short": "外媒",
+   "items": [
+    {
+     "title": "学用本地 AI：兴奋、眼花，也很折腾",
+     "en": "The Verge",
+     "metric": "10月11日",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
+     "time": "10-11",
+     "what": ""
+    },
+    {
+     "title": "取消保密协议，能说服数据中心反对者吗",
+     "en": "TechCrunch",
+     "metric": "10月11日",
+     "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
+     "time": "10-11",
+     "what": "亚马逊跟进微软，不再与地方政府签 NDA"
+    },
+    {
+     "title": "HomeView 会是苹果第一个成功的智能家居产品吗",
+     "en": "TechCrunch",
+     "metric": "10月11日",
+     "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
+     "time": "10-12",
+     "what": ""
+    },
+    {
+     "title": "硅谷开始配合特朗普给 AI“改名”",
+     "en": "The Verge",
+     "metric": "10月12日",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
+     "time": "10-12",
+     "what": "与往期重复"
+    },
+    {
+     "title": "高管们认为语音 AI 还没迎来 ChatGPT 时刻",
+     "en": "TechCrunch",
+     "metric": "10月11日",
+     "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+     "time": "10-11",
+     "what": "与往期重复"
+    }
+   ]
+  },
+  {
+   "key": "qbit",
+   "name": "量子位",
+   "tag": "中文 AI 热点",
+   "color": "#e60012",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "王氏猜想刚刚扩展到四维",
+     "en": "量子位",
+     "metric": "10月11日",
+     "url": "https://www.qbitai.com/2026/10/502584.html",
+     "time": "10-11",
+     "what": ""
+    },
+    {
+     "title": "下架 8 个月，GPT-4o 的“拯救行动”还在继续",
+     "en": "量子位",
+     "metric": "10月11日",
+     "url": "https://www.qbitai.com/2026/10/502550.html",
+     "time": "10-11",
+     "what": ""
+    },
+    {
+     "title": "DeepSeek Bot 民间版：装个插件就能用",
+     "en": "量子位",
+     "metric": "10月11日",
+     "url": "https://www.qbitai.com/2026/10/502544.html",
+     "time": "10-11",
+     "what": ""
+    },
+    {
+     "title": "24 天估值翻到 75 亿美元：Jev 的硅谷逆袭",
+     "en": "量子位",
+     "metric": "10月10日",
+     "url": "https://www.qbitai.com/2026/10/502492.html",
+     "time": "10-10",
+     "what": ""
+    },
+    {
+     "title": "Nano Banana 升级 2.1：4K 直出，中文进步明显",
+     "en": "量子位",
+     "metric": "10月10日",
+     "url": "https://www.qbitai.com/2026/10/502484.html",
+     "time": "10-10",
+     "what": ""
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "数码与硬件",
+   "color": "#d22222",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "无问芯穹完成 23 亿元 C 轮融资",
+     "en": "IT之家",
+     "metric": "10月12日",
+     "url": "https://www.ithome.com/1/011/849.htm",
+     "time": "10-12",
+     "what": "累计 43 亿元"
+    },
+    {
+     "title": "宇树王兴兴：过去最大的错误是对 AI 还不够相信",
+     "en": "IT之家",
+     "metric": "10月12日",
+     "url": "https://www.ithome.com/1/011/850.htm",
+     "time": "10-12",
+     "what": ""
+    },
+    {
+     "title": "阶跃 Step 5 Preview 上线腾讯 WorkBuddy，限免两周",
+     "en": "IT之家",
+     "metric": "10月12日",
+     "url": "https://www.ithome.com/1/011/852.htm",
+     "time": "10-12",
+     "what": ""
+    },
+    {
+     "title": "华为折叠屏累计发货突破 2000 万台",
+     "en": "IT之家",
+     "metric": "10月12日",
+     "url": "https://www.ithome.com/1/011/811.htm",
+     "time": "10-12",
+     "what": ""
+    },
+    {
+     "title": "丘成桐数学与人工智能实验室联盟在清华成立",
+     "en": "IT之家",
+     "metric": "10月12日",
+     "url": "https://www.ithome.com/1/011/814.htm",
+     "time": "10-12",
+     "what": ""
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "硬核编程讨论",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "Rachel by the Bay：我还在，只是不在这儿写了",
+     "en": "rachelbythebay",
+     "metric": "103 分",
+     "url": "https://lobste.rs/s/4ehrkn",
+     "time": "10-11",
+     "what": ""
+    },
+    {
+     "title": "D-Bus 地狱",
+     "en": "dbushell",
+     "metric": "44 分",
+     "url": "https://lobste.rs/s/qgybwb",
+     "time": "10-12",
+     "what": ""
+    },
+    {
+     "title": "LineageOS 24.0 发布",
+     "en": "lineageos",
+     "metric": "36 分",
+     "url": "https://lobste.rs/s/ecxril",
+     "time": "10-11",
+     "what": ""
+    },
+    {
+     "title": "“抱歉，你还是得自己思考”",
+     "en": "itsallaboutthebit",
+     "metric": "34 分",
+     "url": "https://lobste.rs/s/k2natg",
+     "time": "10-12",
+     "what": "与往期重复"
+    },
+    {
+     "title": "Git 提交到底有多大",
+     "en": "ratfactor",
+     "metric": "28 分",
+     "url": "https://lobste.rs/s/9wcfld",
+     "time": "10-11",
+     "what": ""
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "title": "5000 亿 token 反编译一款 FPS：先造“验收器”，便宜模型也能干好",
+   "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+   "why": "一手长文，HN 186 分；与 rea 爆星、Opus 移植老游戏同一条线",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "无问芯穹完成 23 亿元 C 轮，累计 43 亿元",
+   "url": "https://www.ithome.com/1/011/849.htm",
+   "why": "当天中文 AI Infra 最大融资，转引证券时报",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "桑德斯：AI 违法就起诉 CEO，并暂停先进 AI",
+   "url": "https://x.com/BernieSanders/status/2108979025943093524",
+   "why": "Anthropic 事件的政治后续；多家媒体引原帖",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "谷歌芬兰数据中心未环评砍林 330 公顷被叫停",
+   "url": "https://www.theguardian.com/technology/2026/oct/06/google-datacentres-finland-temporary-halt-environmental-impact-assessment",
+   "why": "卫报一手，但发布于 10/6，偏旧",
+   "pick": false,
+   "status": "已核"
+  },
+  {
+   "title": "亚马逊跟进微软，不再与地方政府签数据中心 NDA",
+   "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+   "why": "TC 播客讨论，原消息 10/3",
+   "pick": false,
+   "status": "待核"
+  },
+  {
+   "title": "马斯克称客服岗位将很快消失",
+   "url": "https://x.com/Polymarket/status/2108970611708239887",
+   "why": "只有 Polymarket 转述",
+   "pick": false,
+   "status": "待核"
+  }
+ ],
+ "notes": "X 用 agentflare 聚合页 + web_search 核对；HF 当日论文点赞普遍偏低，按 upvotes 取前 5；已避开今晨手工版的大部分条目，重复的已标注。"
+}

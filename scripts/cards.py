@@ -33,7 +33,7 @@ def wrap(d, text, font, w):
         toks = re.findall(r'[A-Za-z0-9.\-_/@+#%’\']+|.', seg); cur = ''
         for t in toks:
             if d.textlength(cur + t, font=font) > w and cur.strip():
-                if t in NOSTART:            # keep closing punctuation with previous char
+                while cur and t and t[0] in NOSTART:  # keep closing punctuation (even runs like ”，) with previous char
                     cur, t = cur[:-1], cur[-1] + t
                 while cur and cur[-1] in NOEND:  # opening punctuation never ends a line
                     cur, t = cur[:-1], cur[-1] + t
@@ -97,7 +97,7 @@ def build(dpath):
     footer(d, 1); save(img, 1)
 
     # 2 headlines
-    for fs in (46, 44, 42, 40):
+    for fs in (46, 44, 42, 40, 38, 36):
         img, d = new(); y = header(d, '今日头条', 'TOP STORIES')
         for i, h in enumerate(D['headlines']):
             d.text((80, y), f'头条{CN[i]}', font=F('bold', 26), fill=RED); y += 46

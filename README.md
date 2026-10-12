@@ -5,14 +5,23 @@
 | 样式 | 文件 | 用法 |
 |---|---|---|
 | 网页版 | `reports/日期/index.html` | 直接浏览 / GitHub Pages |
-| 公众号版 | `reports/日期/wechat.html` + `wechat_header.png` + `wechat_thumb.png` | 电脑浏览器打开 → 全选复制 → 粘贴到公众号编辑器（样式为内联，可保留） |
-| 小红书版 | `reports/日期/xiaohongshu.md` + `xhs/01~06.png` | 6 张 3:4 卡片按顺序上传，正文与话题标签直接复制 |
+| 公众号版 | `reports/日期/wechat/`：`wechat.html`（订阅号版）、`wechat_links.html`（外链版）、`header.png`（头图 900×383）、`thumb.png`（次条封面 500×500） | 电脑浏览器打开 → 全选复制 → 粘贴到公众号编辑器（样式为内联，可保留） |
+| 小红书版 | `reports/日期/xhs/`：`01~06.png`（3:4 卡片）、`xiaohongshu.md`（正文与话题） | 6 张 3:4 卡片按顺序上传，正文与话题标签直接复制 |
 
 ## 最新一期
 
-- **2026-10-12｜写代码不贵了，验收才贵** — [网页](reports/2026-10-12/index.html) · [公众号](reports/2026-10-12/wechat.html) · [小红书](reports/2026-10-12/xiaohongshu.md)
+- **2026-10-12｜写代码不贵了，验收才贵** — [网页](reports/2026-10-12/index.html) · [公众号](reports/2026-10-12/wechat/wechat.html) · [小红书](reports/2026-10-12/xhs/xiaohongshu.md)
 
 网页版（GitHub Pages）：https://emotionalronan.github.io/ai-daily-report/
+
+目录结构（每期）：
+
+```
+reports/日期/
+├── index.html          网页版（GitHub Pages，公众号「阅读原文」指向这里）
+├── wechat/             公众号：wechat.html、wechat_links.html、header.png、thumb.png
+└── xhs/                小红书：01~06.png、xiaohongshu.md
+```
 
 排版规范：[`docs/layout.md`](docs/layout.md)
 

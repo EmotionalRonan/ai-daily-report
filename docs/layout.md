@@ -13,6 +13,6 @@
 - 行首不出现标点、末行不留孤字（脚本自动处理）。
 
 ## 公众号外链
-- 普通订阅号正文不能放外部链接（只有认证且开通微信支付的账号可以）。所以 wechat.html 不放外链：热榜每条带角标，文末列出原文地址，发布时把「原文链接」设为当期网页版 https://emotionalronan.github.io/ai-daily-report/reports/DATE/，读者点「阅读原文」即可一键打开每条原文。
-- wechat_links.html 是标题可直接点击的版本，账号有外链权限时用它。
+- 普通订阅号正文不能放外部链接（只有认证且开通微信支付的账号可以）。所以 wechat/wechat.html 不放外链：热榜每条带角标，文末列出原文地址，发布时把「原文链接」设为当期网页版 https://emotionalronan.github.io/ai-daily-report/reports/DATE/，读者点「阅读原文」即可一键打开每条原文。
+- wechat/wechat_links.html 是标题可直接点击的版本，账号有外链权限时用它。
 - 网页版由 gh-pages 分支发布，每期推送时同步：`git push origin main:gh-pages`。

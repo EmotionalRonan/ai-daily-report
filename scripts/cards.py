@@ -147,15 +147,15 @@ def build(dpath):
         if d.textlength(pangu(D['title']), font=F('serif', fs)) <= W2 - 240: break
     d.text((120, 236), pangu(D['title']), font=F('serif', fs), fill=INK)
     d.text((124, 236 + int(fs * 1.35) + 16), pangu(D['subtitle']), font=F('reg', 46), fill=SUB)
-    wd = os.path.join(ROOT, 'reports', dt)
-    img.resize((900, 383), Image.LANCZOS).save(os.path.join(wd, 'wechat_header.png'))
+    wd = os.path.join(ROOT, 'reports', dt, 'wechat'); os.makedirs(wd, exist_ok=True)
+    img.resize((900, 383), Image.LANCZOS).save(os.path.join(wd, 'header.png'))
     # thumb 500x500 (rendered 2x)
     sq = Image.new('RGB', (1000, 1000), PAPER); d = ImageDraw.Draw(sq)
     rule(d, 250, 140, 860, INK, 6); rule(d, 266, 140, 860, INK, 2)
     d.text((500, 440), 'AI 日报', font=F('serif', 170), fill=INK, anchor='mm')
     rule(d, 600, 140, 860, INK, 2); rule(d, 616, 140, 860, INK, 6)
     d.text((500, 730), md, font=F('serif', 110), fill=RED, anchor='mm')
-    sq.resize((500, 500), Image.LANCZOS).save(os.path.join(wd, 'wechat_thumb.png'))
+    sq.resize((500, 500), Image.LANCZOS).save(os.path.join(wd, 'thumb.png'))
     print('\n'.join(files))
 
 if __name__ == '__main__': build(sys.argv[1])

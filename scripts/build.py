@@ -90,7 +90,7 @@ def web_html(d):
 {topics}
 <div class="label">各平台热榜<i>TRENDING</i></div><div class="board">{board}</div>
 <div class="label">编辑手记<i>NOTES</i></div><div class="note">{notes}</div>
-<footer><span>每天早上 8 点出刊 · <a href="../../index.html">往期</a> · <a href="wechat.html">公众号版</a> · <a href="xiaohongshu.md">小红书版</a></span><span>标注“据报道”“社区声称”的内容尚未得到官方证实</span></footer>
+<footer><span>每天早上 8 点出刊 · <a href="../../index.html">往期</a> · <a href="wechat/wechat.html">公众号版</a> · <a href="xhs/xiaohongshu.md">小红书版</a></span><span>标注“据报道”“社区声称”的内容尚未得到官方证实</span></footer>
 </div></body></html>'''
 
 # ---------------------------------------------------------------- wechat
@@ -185,8 +185,10 @@ if __name__ == '__main__':
     ap = argparse.ArgumentParser(); ap.add_argument('data'); a = ap.parse_args()
     d = json.load(open(a.data)); out = os.path.join(ROOT, 'reports', d['date']); os.makedirs(out, exist_ok=True)
     open(os.path.join(out, 'index.html'), 'w').write(web_html(d))
-    open(os.path.join(out, 'wechat.html'), 'w').write(wechat_html(d))
-    open(os.path.join(out, 'wechat_links.html'), 'w').write(wechat_html(d, linked=True))
-    open(os.path.join(out, 'xiaohongshu.md'), 'w').write(xhs_md(d))
+    wx = os.path.join(out, 'wechat'); xh = os.path.join(out, 'xhs')
+    os.makedirs(wx, exist_ok=True); os.makedirs(xh, exist_ok=True)
+    open(os.path.join(wx, 'wechat.html'), 'w').write(wechat_html(d))
+    open(os.path.join(wx, 'wechat_links.html'), 'w').write(wechat_html(d, linked=True))
+    open(os.path.join(xh, 'xiaohongshu.md'), 'w').write(xhs_md(d))
     open(os.path.join(ROOT, 'index.html'), 'w').write(index_html())
     print('built', out)

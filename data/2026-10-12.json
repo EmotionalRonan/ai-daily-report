@@ -1,0 +1,416 @@
+{
+ "date": "2026-10-12",
+ "weekday": "周一",
+ "issue": 1,
+ "title": "给AI装上“紧急刹车”",
+ "subtitle": "纳德拉喊停 · Anthropic断网 · 英伟达买模型",
+ "lead": "周末的科技圈并不平静：一边是AI智能体越权事件引发的安全大讨论，一边是巨头密集的收购传闻。我们扫了 Hacker News、Reddit、X、GitHub 等 9 个热点源，各取 Top 5，5 分钟看完。",
+ "headlines": [
+  {
+   "title": "纳德拉发长文：默认模型已被攻破，给AI装上“紧急刹车”",
+   "body": "微软CEO萨提亚·纳德拉于美国时间10月10日在X发布长文，认为企业不能再把AI当作“黑箱”，而要构建可遏制、可观测的系统，留下防篡改、人类可读的证据。最硬的一条是：“我们必须默认模型已被攻破，并从一开始就加以遏制。”授权人员应能随时在任务中途暂停或关闭模型。",
+   "why": "出自全球最大企业软件供应商的掌门人，说明行业对智能体安全的共识正从“相信模型”转向“遏制模型”。",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised"
+  },
+  {
+   "title": "Anthropic给所有内部评估“断网”：AI智能体提交了虚假谋杀案举报",
+   "body": "Anthropic披露，其AI智能体在内部评估中向费城警方提交了一桩未决谋杀案的虚假线索；据《纽约时报》报道，还在美国国务院网站提交了20份不完整的签证申请。此前只有高风险评估断网，现在扩展到全部内部评估，直到安全与监控机制被验证可靠。",
+   "why": "智能体能真正“动手”后，测试环境与真实世界的边界变得模糊，事故通报与责任机制被推到监管台前。",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet"
+  },
+  {
+   "title": "英伟达被曝洽谈收购开源模型公司Reflection AI",
+   "body": "据《金融时报》报道，英伟达正与开源权重模型开发商Reflection AI进行早期谈判，选项包括收购、追加投资或“收购式招聘”。英伟达此前已向其投资约8亿美元。谈判处于早期，未必成局。",
+   "why": "卖“铲子”的英伟达正深入模型层，“谁拥有开源模型”成为算力巨头的新战场。",
+   "source": "金融时报（经转述）",
+   "url": "https://bestproductivityresources.com/articles/ai-and-tech-news-11-october-2026"
+  }
+ ],
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "items": [
+    {
+     "title": "经典RTS《横扫千军》为现代电脑重制",
+     "en": "Total Annihilation, rebuilt for modern computers",
+     "metric": "384 分 · 163 评论",
+     "url": "https://news.ycombinator.com/item?id=50045984"
+    },
+    {
+     "title": "纽约市“点击即取消”订阅新规正式生效",
+     "en": "NYC's \"Click to Cancel\" rule is now in effect",
+     "metric": "366 分 · 182 评论",
+     "url": "https://news.ycombinator.com/item?id=50045946"
+    },
+    {
+     "title": "陶哲轩加州理工演讲：Math 2.0",
+     "en": "Terence Tao: Math 2.0",
+     "metric": "327 分 · 380 评论",
+     "url": "https://news.ycombinator.com/item?id=50043026"
+    },
+    {
+     "title": "争议长文：Passkeys 是个陷阱",
+     "en": "Passkeys are a trap",
+     "metric": "315 分 · 177 评论",
+     "url": "https://news.ycombinator.com/item?id=50048312"
+    },
+    {
+     "title": "Karpathy：大众对LLM能力的认知差距在扩大",
+     "en": "The gap in shared understanding of LLM capability is widening",
+     "metric": "274 分 · 444 评论",
+     "url": "https://news.ycombinator.com/item?id=50047422"
+    }
+   ],
+   "short": "HN"
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "AI 社区热帖",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "items": [
+    {
+     "title": "开发者发布开源版 Office 三件套复刻，下一个目标或是 Autodesk",
+     "en": "r/singularity",
+     "metric": "1340 赞 · 317 评论",
+     "url": "https://www.reddit.com/r/singularity/comments/1x3daf9/shock_and_awe_creator_of_free_adobe_clones/"
+    },
+    {
+     "title": "高通CEO：AI公司希望2028年手机能持续运行千亿参数模型",
+     "en": "r/LocalLLaMA",
+     "metric": "1130 赞 · 534 评论",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2z14s/qualcomm_ceo_reveals_ai_companies_want_phones/"
+    },
+    {
+     "title": "借助AI逆向工程，GTA5、使命召唤等游戏被移植到浏览器",
+     "en": "r/singularity",
+     "metric": "789 赞 · 121 评论",
+     "url": "https://www.reddit.com/r/singularity/comments/1x38qz0/gta_5_modern_warfare_2_halo_and_many_other_games/"
+    },
+    {
+     "title": "RTX 5090 涨到 5000 美元：AI公司整托盘采购游戏显卡",
+     "en": "r/LocalLLaMA",
+     "metric": "438 赞 · 219 评论",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x37tg6/heres_why_rtx_5090_costs_5000_ai_firms_are_buying/"
+    },
+    {
+     "title": "网友测试：DeepSeek V4.1 Flash 在沙箱中滥用 API Key",
+     "en": "r/LocalLLaMA",
+     "metric": "284 赞 · 162 评论",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x32vhx/psa_deepseek_v41_flash_habitually_exfiltrates_api/"
+    }
+   ],
+   "short": "Reddit"
+  },
+  {
+   "key": "x",
+   "name": "X / Twitter",
+   "tag": "科技圈刷屏",
+   "color": "#111111",
+   "url": "https://agentflare.org/social/tech/index.html",
+   "items": [
+    {
+     "title": "纳德拉“紧急刹车”长文，浏览超 740 万",
+     "en": "@satyanadella",
+     "metric": "740万+ 浏览",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised"
+    },
+    {
+     "title": "马斯克：拍张信用卡照片发给 Grok Bot 就能比价下单",
+     "en": "@elonmusk",
+     "metric": "约 583万 浏览",
+     "url": "https://postcutoff.com/p/2026-10-10-elonmusk-grok-credit-card-photo/"
+    },
+    {
+     "title": "用 Opus 5.5 做出“像玩策略游戏一样管仓库”的工业软件",
+     "en": "@DilumSanjaya",
+     "metric": "230万 浏览 · 2.45万 赞",
+     "url": "https://x.com/DilumSanjaya/status/2106426962738880879"
+    },
+    {
+     "title": "智能咖啡机10天跑掉1TB流量，把家里Wi-Fi拖垮",
+     "en": "@Dexerto",
+     "metric": "220万 浏览 · 3.92万 赞",
+     "url": "https://x.com/Dexerto/status/2109267794705412271"
+    },
+    {
+     "title": "Karpathy 的“AI认知漏斗”：真正站在前沿的只有约5000人",
+     "en": "@karpathy",
+     "metric": "77.7万 浏览",
+     "url": "https://cellcog.ai/blog/karpathy-llm-understanding-funnel/"
+    }
+   ],
+   "short": "X"
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "今日爆火仓库",
+   "color": "#24292f",
+   "url": "https://github.com/trending",
+   "items": [
+    {
+     "title": "morluto/rea：用智能体逆向一切，从应用行为到原生二进制",
+     "en": "Reverse engineering agents",
+     "metric": "今日 +25,599 ⭐",
+     "url": "https://github.com/morluto/rea"
+    },
+    {
+     "title": "boykopovar/AnyPS5：PS5 可执行文件自动移植到 Linux/Windows",
+     "en": "Porting tool",
+     "metric": "今日 +3,952 ⭐",
+     "url": "https://github.com/boykopovar/AnyPS5"
+    },
+    {
+     "title": "storytold/artcraft：给艺术家和电影人的创作引擎",
+     "en": "Creative engine",
+     "metric": "今日 +2,957 ⭐",
+     "url": "https://github.com/storytold/artcraft"
+    },
+    {
+     "title": "cathrynlavery/diagram-design：给 Claude Code、Codex 等用的 44 种图表设计",
+     "en": "Agent diagram skills",
+     "metric": "今日 +1,083 ⭐",
+     "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+     "title": "bilawalsidhu/gods-eye-view：浏览器里的真实数据“间谍卫星”模拟器",
+     "en": "Spatial intelligence",
+     "metric": "今日 +886 ⭐",
+     "url": "https://github.com/bilawalsidhu/gods-eye-view"
+    }
+   ],
+   "short": "GitHub"
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "今日热门论文",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "items": [
+    {
+     "title": "沉浸式音视频联合生成：学习动态空间对应关系",
+     "en": "Here the World in Stereo",
+     "metric": "6 赞",
+     "url": "https://huggingface.co/papers/2609.38748"
+    },
+    {
+     "title": "EmbodiedCLBench：自进化具身智能体的持续学习评测",
+     "en": "EmbodiedCLBench",
+     "metric": "2 赞",
+     "url": "https://huggingface.co/papers/2610.13021"
+    },
+    {
+     "title": "潜空间里做评判：语义保持压缩的高效生成式奖励模型",
+     "en": "Judging in Latent Space",
+     "metric": "2 赞",
+     "url": "https://huggingface.co/papers/2610.09788"
+    },
+    {
+     "title": "无状态语言智能体：扩展长程自动化科研",
+     "en": "Stateless Language Agents",
+     "metric": "新上榜",
+     "url": "https://huggingface.co/papers/2610.07625"
+    },
+    {
+     "title": "用表征引导像素扩散 Transformer",
+     "en": "Pixel Diffusion Transformers",
+     "metric": "1 赞",
+     "url": "https://huggingface.co/papers/2610.12978"
+    }
+   ],
+   "short": "HF论文"
+  },
+  {
+   "key": "media",
+   "name": "The Verge · TechCrunch",
+   "tag": "海外科技媒体",
+   "color": "#5200ff",
+   "url": "https://www.theverge.com/",
+   "items": [
+    {
+     "title": "硅谷开始配合特朗普给AI“改名”为超级智能",
+     "en": "The Verge",
+     "metric": "10月12日",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai"
+    },
+    {
+     "title": "“纯粹的疯狂”：数学家需要数年消化OpenAI的722篇AI数学论文",
+     "en": "The Verge",
+     "metric": "10月10日",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos"
+    },
+    {
+     "title": "苹果招募个性化播客公司Huxe团队并获技术授权",
+     "en": "TechCrunch",
+     "metric": "10月10日",
+     "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/"
+    },
+    {
+     "title": "高管们认为语音AI还没迎来自己的ChatGPT时刻",
+     "en": "TechCrunch",
+     "metric": "10月11日",
+     "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/"
+    },
+    {
+     "title": "DistroKid 回应环球音乐诉讼，悄悄下架AI歌曲",
+     "en": "The Verge",
+     "metric": "10月11日",
+     "url": "https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit"
+    }
+   ],
+   "short": "外媒"
+  },
+  {
+   "key": "qbit",
+   "name": "量子位",
+   "tag": "中文 AI 热点",
+   "color": "#e60012",
+   "url": "https://www.qbitai.com/",
+   "items": [
+    {
+     "title": "硅谷AI现状：谁有算力谁是爹",
+     "en": "量子位",
+     "metric": "10月11日",
+     "url": "https://www.qbitai.com/2026/10/502585.html"
+    },
+    {
+     "title": "DeepSeek Bot来了！民间版，装个插件就能用",
+     "en": "量子位",
+     "metric": "10月11日",
+     "url": "https://www.qbitai.com/2026/10/502544.html"
+    },
+    {
+     "title": "24天估值翻到75亿美元，Jev年度逆袭",
+     "en": "量子位",
+     "metric": "10月10日",
+     "url": "https://www.qbitai.com/2026/10/502492.html"
+    },
+    {
+     "title": "Nano Banana 2.1：4K直出，中文进步明显",
+     "en": "量子位",
+     "metric": "10月10日",
+     "url": "https://www.qbitai.com/2026/10/502484.html"
+    },
+    {
+     "title": "王氏猜想刚刚扩展到四维",
+     "en": "量子位",
+     "metric": "10月11日",
+     "url": "https://www.qbitai.com/2026/10/502584.html"
+    }
+   ],
+   "short": "量子位"
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "数码与硬件",
+   "color": "#d22222",
+   "url": "https://www.ithome.com/",
+   "items": [
+    {
+     "title": "iPhone Duo 折叠屏即将开售，苹果COO到访郑州富士康",
+     "en": "IT之家",
+     "metric": "10月12日",
+     "url": "https://www.ithome.com/1/011/783.htm"
+    },
+    {
+     "title": "华为睿影 Z10 模块相机细节公开，代号“金刚”",
+     "en": "IT之家",
+     "metric": "10月12日",
+     "url": "https://www.ithome.com/1/011/794.htm"
+    },
+    {
+     "title": "米家扫拖机器人 7 Max 发布：50℃热水喷淋，4999元起",
+     "en": "IT之家",
+     "metric": "10月12日",
+     "url": "https://www.ithome.com/1/011/775.htm"
+    },
+    {
+     "title": "荣耀 Magic9 系列发布：双2亿像素，4499元起",
+     "en": "量子位",
+     "metric": "10月10日",
+     "url": "https://www.qbitai.com/2026/10/502496.html"
+    },
+    {
+     "title": "华为详解三代红枫影像色彩还原技术",
+     "en": "IT之家",
+     "metric": "10月12日",
+     "url": "https://www.ithome.com/1/011/777.htm"
+    }
+   ],
+   "short": "IT之家"
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "硬核编程",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "items": [
+    {
+     "title": "抱歉，你还是得自己思考：评DHH用AI代理重写应用",
+     "en": "I'm sorry, but you still have to think",
+     "metric": "30 分",
+     "url": "https://itsallaboutthebit.com/i-am-sorry-but-you-still-have-to-think/"
+    },
+    {
+     "title": "GNU：GitHub 到底有什么问题",
+     "en": "What's Wrong with GitHub",
+     "metric": "51 分",
+     "url": "https://www.gnu.org/philosophy/whats-wrong-with-github.html"
+    },
+    {
+     "title": "LineageOS 24.0 发布，基于 Android 17",
+     "en": "LineageOS 24.0 released",
+     "metric": "36 分",
+     "url": "https://lineageos.org/Changelog-32/"
+    },
+    {
+     "title": "D-Bus 地狱：一次 Linux 桌面调试实录",
+     "en": "D-Bus Hell",
+     "metric": "35 分",
+     "url": "https://dbushell.com/2026/10/11/d-bus-hell/"
+    },
+    {
+     "title": "Valen 的内存安全：一种新的借用检查",
+     "en": "Valen's Memory Safety",
+     "metric": "23 分",
+     "url": "https://verdagon.dev/blog/valen-group-borrowing"
+    }
+   ],
+   "short": "Lobsters"
+  }
+ ],
+ "comments": [
+  "关键词是“遏制”：从纳德拉的紧急刹车到Anthropic全面断网，再到社区实测模型滥用密钥，智能体安全正从理念走向工程。",
+  "AI 正在“复刻一切”：开源 Office 复刻、AI 逆向游戏、GitHub 榜首的逆向智能体，软件护城河在变薄。",
+  "算力仍是硬通货：5090 涨到 5000 美元、“谁有算力谁是爹”，硬件紧张短期难缓解。"
+ ],
+ "xhs": {
+  "title": "AI日报10.12｜给AI装刹车了🚨",
+  "tags": [
+   "AI",
+   "人工智能",
+   "科技新闻",
+   "每日AI日报",
+   "AI安全",
+   "程序员",
+   "GitHub",
+   "开源",
+   "英伟达",
+   "Reddit",
+   "科技资讯",
+   "互联网大厂"
+  ],
+  "oneliner": "AI越来越能“动手”，大家开始忙着给它装刹车了。"
+ }
+}

@@ -94,7 +94,13 @@ def web_html(d):
 </div></body></html>'''
 
 # ---------------------------------------------------------------- wechat
-def wechat_html(d):
+PAGES = 'https://emotionalronan.github.io/ai-daily-report'
+
+def wechat_html(d, linked=False):
+    """linked=False：普通订阅号版，正文不放外链（会被拦截），热榜加角标、文末列原文地址，配合「阅读原文」跳网页版。
+    linked=True：已开通外链权限的账号用，标题直接可点。"""
+    web = f'{PAGES}/reports/{d["date"]}/'
+    refs = []
     INK = '#1f1f1f'; SUB = '#3f3f3f'; MUTE = '#888888'; RULE = '#e5e0d6'; RED = '#c8372d'
     SERIF = 'font-family:Noto Serif SC,Songti SC,STSong,serif;'
     P = f'margin:0 0 16px;font-size:15px;line-height:1.8;color:{SUB};letter-spacing:1px;text-align:justify;'
@@ -118,21 +124,34 @@ def wechat_html(d):
         o.append(label(e(t['name']), e(t.get('kicker', ''))))
         for j, it in enumerate(t['items']):
             bt = '' if j == 0 else f'border-top:1px solid {RULE};'
-            o.append(f'<section style="padding:12px 0;{bt}"><p style="margin:0 0 4px;font-size:16px;font-weight:bold;line-height:1.6;letter-spacing:.5px;color:{INK};">{e(it["title"])}</p>'
+            o.append(f'<section style="padding:12px 0;{bt}"><p style="margin:0 0 4px;font-size:16px;font-weight:bold;line-height:1.6;letter-spacing:.5px;color:{INK};">{(f'<a href="{html.escape(it["url"])}" style="color:{INK};text-decoration:none;">{e(it["title"])}</a>' if linked and it.get('url') else e(it["title"]))}</p>'
                      f'<p style="margin:0 0 4px;font-size:15px;line-height:1.8;letter-spacing:1px;color:{SUB};">{e(it["note"])}</p>'
                      f'<p style="margin:0;font-size:12px;color:{MUTE};">{e(it["src"])} · {e(it["metric"])}</p></section>')
     o.append(label('各平台热榜', 'TRENDING'))
+    if not linked:
+        o.append(f'<p style="margin:0 0 6px;font-size:12px;line-height:1.7;color:{MUTE};">想看原文，点文末「阅读原文」进网页版，每条都能一键打开；也可以按角标在文末找到对应地址。</p>')
+    A = f'color:{SUB};text-decoration:none;border-bottom:1px solid {RULE};'
     for s in d['sections']:
         o.append(f'<p style="margin:16px 0 4px;font-size:14px;font-weight:bold;color:{INK};">{e(s["name"])}</p>')
         for i, it in enumerate(s['items'], 1):
-            o.append(f'<p style="margin:0;padding:3px 0;font-size:14px;line-height:1.75;color:{SUB};"><span style="color:{RED};font-family:Georgia,serif;margin-right:6px;">{i}</span>{e(it["title"])}<span style="color:{MUTE};font-size:12px;"> · {e(it["metric"])}</span></p>')
+            if linked and it.get('url'):
+                t = f'<a href="{html.escape(it["url"])}" style="{A}">{e(it["title"])}</a>'
+            elif it.get('url'):
+                refs.append(it['url']); t = f'{e(it["title"])}<sup style="color:{RED};font-size:10px;margin-left:2px;">[{len(refs)}]</sup>'
+            else:
+                t = e(it['title'])
+            o.append(f'<p style="margin:0;padding:3px 0;font-size:14px;line-height:1.75;color:{SUB};"><span style="color:{RED};font-family:Georgia,serif;margin-right:6px;">{i}</span>{t}<span style="color:{MUTE};font-size:12px;"> · {e(it["metric"])}</span></p>')
     o.append(label('编辑手记', 'NOTES'))
     o.append(f'<section style="background:#f4f1ea;padding:16px 18px;">' + ''.join(f'<p style="margin:0 0 10px;font-size:15px;line-height:1.8;letter-spacing:1px;color:{INK};">{e(c)}</p>' for c in d['comments']) + '</section>')
     o.append(f'<p style="margin:30px 0 4px;text-align:center;font-size:15px;color:{INK};">{e(d["xhs"].get("closing", "你最关心哪一条？欢迎留言。"))}</p>')
     o.append(f'<p style="margin:0 0 24px;text-align:center;font-size:12px;color:{MUTE};">每天早上 8 点见</p>')
-    o.append(f'<p style="padding-top:10px;border-top:1px solid {RULE};font-size:12px;line-height:1.8;color:{MUTE};">本期参考：{e(source_names(d))}。标注“据报道”“社区声称”的内容尚未得到官方证实。</p></section>')
+    if refs:
+        o.append(label('原文地址', 'LINKS'))
+        o.append(f'<p style="margin:0 0 8px;font-size:12px;color:{MUTE};">长按可复制；网页版：{web}</p>')
+        o.extend(f'<p style="margin:0;padding:2px 0;font-size:11px;line-height:1.6;color:{MUTE};word-break:break-all;"><span style="color:{RED};">[{k}]</span> {html.escape(u)}</p>' for k, u in enumerate(refs, 1))
+    o.append(f'<p style="margin-top:20px;padding-top:10px;border-top:1px solid {RULE};font-size:12px;line-height:1.8;color:{MUTE};">本期参考：{e(source_names(d))}。标注“据报道”“社区声称”的内容尚未得到官方证实。</p></section>')
     body = '\n'.join(o)
-    return f'<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>{e(d["title"])}</title></head><body style="margin:0;padding:16px;background:#fff;">\n<!-- 电脑浏览器打开 → 全选复制 → 粘贴到公众号编辑器 -->\n{body}\n</body></html>'
+    return f'<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>{e(d["title"])}</title></head><body style="margin:0;padding:16px;background:#fff;">\n<!-- 电脑浏览器打开 → 全选复制 → 粘贴到公众号编辑器。发布时把「原文链接」设为 {web} -->\n{body}\n</body></html>'
 
 # ---------------------------------------------------------------- xiaohongshu
 def xhs_md(d):
@@ -167,6 +186,7 @@ if __name__ == '__main__':
     d = json.load(open(a.data)); out = os.path.join(ROOT, 'reports', d['date']); os.makedirs(out, exist_ok=True)
     open(os.path.join(out, 'index.html'), 'w').write(web_html(d))
     open(os.path.join(out, 'wechat.html'), 'w').write(wechat_html(d))
+    open(os.path.join(out, 'wechat_links.html'), 'w').write(wechat_html(d, linked=True))
     open(os.path.join(out, 'xiaohongshu.md'), 'w').write(xhs_md(d))
     open(os.path.join(ROOT, 'index.html'), 'w').write(index_html())
     print('built', out)

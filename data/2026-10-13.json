@@ -1,0 +1,516 @@
+{
+ "date": "2026-10-13",
+ "weekday": "周二",
+ "issue": 2,
+ "title": "模型更强了，默认也更多了",
+ "subtitle": "Meta 首个前沿模型、Codex 常驻后台之争、微软 Maia 300",
+ "lead": "Meta 交出首个前沿模型，微软自研芯片推到 2 纳米；同一天，Codex 因默认开启的后台进程被开发者围攻。能力和算力都在往上堆，用户盯着的却是默认设置。",
+ "headlines": [
+  {
+   "title": "Meta 发布首个前沿模型 Muse Wonder，定价对标 Opus 5.5",
+   "body": "Meta 周一发布 Muse Wonder 与 Wonder Full，称首个前沿模型，自测与 Fable 5.1、GPT-6 Astra 相当。Wonder 的 API 每百万 token 输入 4 美元、输出 20 美元；Wonder Full 仅限 Muse Code 订阅用户，不开放 API。",
+   "why": "Meta 第一次拿出对标 OpenAI、Anthropic 的价码，但成绩全是自家测试，独立评测出来前先看看就好。",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/"
+  },
+  {
+   "title": "Codex CLI 0.157.0 起默认常驻后台，开发者要求改成可选",
+   "body": "开发者在 GitHub 反馈：Codex CLI 自 0.157.0 起，打开会话就启动常驻后台进程，关窗口也不退，还复制约 374MB 安装包、每小时查更新。关闭办法是 codex features disable daemon_auto_start。issue 仍为 open，HN 421 分。",
+   "why": "问题不在守护进程本身，而在没人事先告诉你。工具越像常驻助手，“默认开启”越要被当面问一句。",
+   "source": "GitHub openai/codex",
+   "url": "https://github.com/openai/codex/issues/48195"
+  },
+  {
+   "title": "微软发布 Maia 300：2 纳米、288GB HBM4，2027 年部署",
+   "body": "据 IT 之家，微软发布自研芯片 Maia 300：台积电 N2P 工艺，288GB HBM4，带宽 18TB/s，FP4 算力最高 13.8 PFLOPS，功耗 950W（Maia 200 为 750W）。单机架 96 颗，最多组 12000 颗集群，计划 2027 年部署。",
+   "why": "大厂自研芯片正从“补充”变成“议价筹码”。但 2027 才部署，眼下算力紧张的账，还得靠别人的 GPU 来平。",
+   "source": "IT之家",
+   "url": "https://www.ithome.com/1/012/115.htm"
+  }
+ ],
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "Meta 发布 Muse Wonder",
+     "en": "Muse Wonder",
+     "metric": "498 分 · 268 评论",
+     "url": "https://news.ycombinator.com/item?id=50059115"
+    },
+    {
+     "title": "Codex CLI 默认装常驻后台守护进程，被开发者吐槽",
+     "en": "Codex CLI installs a persistent, self-updating background daemon by default",
+     "metric": "421 分 · 222 评论",
+     "url": "https://news.ycombinator.com/item?id=50060694"
+    },
+    {
+     "title": "智谱发布法律垂类模型 GLM-Legal",
+     "en": "GLM-Legal",
+     "metric": "397 分 · 224 评论",
+     "url": "https://news.ycombinator.com/item?id=50058507"
+    },
+    {
+     "title": "黑客远程触发欧洲超市冷柜自动除霜",
+     "en": "Hackers activate automatic defrosting in supermarket fridges across Europe",
+     "metric": "386 分 · 612 评论",
+     "url": "https://news.ycombinator.com/item?id=50055304"
+    },
+    {
+     "title": "长文：用 C 语言写现代 Web 应用",
+     "en": "A Modern Web App in C",
+     "metric": "356 分 · 155 评论",
+     "url": "https://news.ycombinator.com/item?id=50058528"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "AI 社区热帖",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "Karpathy 拆解大众与前沿用户之间的能力差距",
+     "en": "r/singularity",
+     "metric": "790 赞 · 200 评论",
+     "url": "https://www.reddit.com/r/singularity/comments/1x3gsc4/andrej_karpathy_breaks_down_the_capability_gap/"
+    },
+    {
+     "title": "社区声称：Codex 用量限额投票，取消 5 小时限额一方领先",
+     "en": "r/OpenAI",
+     "metric": "485 赞 · 250 评论",
+     "url": "https://www.reddit.com/r/OpenAI/comments/1x3d4z1/thank_god/"
+    },
+    {
+     "title": "Claude 共享账号被设了自定义指令，网友自嘲“救了婚姻”",
+     "en": "r/ClaudeAI",
+     "metric": "431 赞 · 128 评论",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x395p7/claude_saved_my_marriage/"
+    },
+    {
+     "title": "Claude 新版 Projects 向 Chat 与 Cowork 推广，用户要求可选",
+     "en": "r/ClaudeAI",
+     "metric": "358 赞 · 143 评论",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x33na4/new_projects_rolling_out_for_chat_and_cowork_oh/"
+    },
+    {
+     "title": "10–16GB 显存能跑的模型排行",
+     "en": "r/LocalLLaMA",
+     "metric": "347 赞 · 85 评论",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3gpyi/every_model_that_can_be_run_on_1016gb_vram_ranked/"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X / Twitter",
+   "tag": "科技圈刷屏",
+   "color": "#111111",
+   "url": "https://agentflare.org/social/tech/index.html",
+   "short": "X",
+   "items": [
+    {
+     "title": "课堂 AI 监控引发争议",
+     "en": "@MaxBlumenthal",
+     "metric": "14.4万 浏览 · 1.19万 赞",
+     "url": "https://x.com/MaxBlumenthal/status/2108579870867358068"
+    },
+    {
+     "title": "路透：美国各州因“软件故障”误登记 3 万余名非公民选民",
+     "en": "@Polymarket（转述路透）",
+     "metric": "51.3万 浏览 · 1.11万 赞",
+     "url": "https://x.com/Polymarket/status/2102793260611825948"
+    },
+    {
+     "title": "网传新款 iPhone 将用以色列芯片（聚合页转述，社区声称）",
+     "en": "@AppalachianSig",
+     "metric": "37.5万 浏览 · 6.4千 赞",
+     "url": "https://x.com/AppalachianSig/status/2100084441284538731"
+    },
+    {
+     "title": "“人造的，就像你的头发”：AI 话题段子",
+     "en": "@TheMaineWonk",
+     "metric": "13.1万 浏览 · 1.25万 赞",
+     "url": "https://x.com/TheMaineWonk/status/2108282303663288745"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "今日爆火仓库",
+   "color": "#24292f",
+   "url": "https://github.com/trending",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "storytold/artcraft：给艺术家与电影人的创作引擎",
+     "en": "Creative engine",
+     "metric": "今日 +4,095 ⭐",
+     "url": "https://github.com/storytold/artcraft"
+    },
+    {
+     "title": "cathrynlavery/diagram-design：为编程智能体出 44 种图表",
+     "en": "Editorial diagrams",
+     "metric": "今日 +2,081 ⭐",
+     "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+     "title": "bilawalsidhu/gods-eye-view：浏览器里的开源 3D 卫星情报沙盘",
+     "en": "Spatial intelligence globe",
+     "metric": "今日 +1,895 ⭐",
+     "url": "https://github.com/bilawalsidhu/gods-eye-view"
+    },
+    {
+     "title": "Alishahryar1/free-claude-code：免费用 Claude Code 等多个编程工具",
+     "en": "Free harnesses",
+     "metric": "今日 +626 ⭐",
+     "url": "https://github.com/Alishahryar1/free-claude-code"
+    },
+    {
+     "title": "mksglu/context-mode：给编程智能体做上下文瘦身",
+     "en": "Context optimization",
+     "metric": "今日 +246 ⭐",
+     "url": "https://github.com/mksglu/context-mode"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "今日热门论文",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "人类的“第六感”：多模态模型直觉视觉推理基准",
+     "en": "Humanity's Sixth Sense",
+     "metric": "14 赞",
+     "url": "https://huggingface.co/papers/2610.08966"
+    },
+    {
+     "title": "分布鲁棒的混合专家训练",
+     "en": "Distributionally Robust MoE Training",
+     "metric": "5 赞",
+     "url": "https://huggingface.co/papers/2610.07207"
+    },
+    {
+     "title": "多智能体系统的心智模型",
+     "en": "Mental-Models for Multi-Agent Systems",
+     "metric": "3 赞",
+     "url": "https://huggingface.co/papers/2610.12453"
+    },
+    {
+     "title": "医生使用语言模型的方式与评测不一致",
+     "en": "Clinician use of language models",
+     "metric": "3 赞",
+     "url": "https://huggingface.co/papers/2610.11069"
+    },
+    {
+     "title": "数据空间迭代的少步生成",
+     "en": "Few-Step Generation via Data-Space Iteration",
+     "metric": "2 赞",
+     "url": "https://huggingface.co/papers/2610.12102"
+    }
+   ]
+  },
+  {
+   "key": "media",
+   "name": "The Verge · TechCrunch",
+   "tag": "海外科技媒体",
+   "color": "#5200ff",
+   "url": "https://www.theverge.com/",
+   "short": "外媒",
+   "items": [
+    {
+     "title": "微软新 AI 芯片让它少依赖英伟达 GPU",
+     "en": "The Verge",
+     "metric": "10月12日",
+     "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout"
+    },
+    {
+     "title": "纳德拉：应假定所有 AI 模型都已“被攻破”",
+     "en": "The Verge",
+     "metric": "10月11日",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised"
+    },
+    {
+     "title": "Anthropic 把内部评测与互联网隔开",
+     "en": "The Verge",
+     "metric": "10月10日",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet"
+    },
+    {
+     "title": "Anthropic 模型向费城警方发出虚假凶案线索",
+     "en": "TechCrunch",
+     "metric": "10月9日",
+     "url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/"
+    },
+    {
+     "title": "苹果披露：招揽个性化播客公司 Huxe 团队并授权技术",
+     "en": "TechCrunch",
+     "metric": "10月10日",
+     "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/"
+    }
+   ]
+  },
+  {
+   "key": "qbit",
+   "name": "量子位",
+   "tag": "国内 AI 圈",
+   "color": "#2f6bff",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "GPT-6 Astra 联手非职业数学家，证明 57 年“摆圆”难题",
+     "en": "量子位",
+     "metric": "10月12日",
+     "url": "https://www.qbitai.com/2026/10/502667.html"
+    },
+    {
+     "title": "智谱新模型，每秒 490 tokens",
+     "en": "量子位",
+     "metric": "10月12日",
+     "url": "https://www.qbitai.com/2026/10/502649.html"
+    },
+    {
+     "title": "2026 年没过完，已有 480 亿美元投进物理 AI",
+     "en": "量子位",
+     "metric": "10月12日",
+     "url": "https://www.qbitai.com/2026/10/502741.html"
+    },
+    {
+     "title": "华为 AI 通关 25 款游戏，操作次数比人类少 56%",
+     "en": "量子位",
+     "metric": "10月12日",
+     "url": "https://www.qbitai.com/2026/10/502654.html"
+    },
+    {
+     "title": "何恺明团队发布多模态 Harness 框架",
+     "en": "量子位",
+     "metric": "10月11日",
+     "url": "https://www.qbitai.com/2026/10/502628.html"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "国内科技数码",
+   "color": "#d4222a",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "英特尔 CEO 陈立武：未来两三年 AI 硬件将持续短缺",
+     "en": "IT之家",
+     "metric": "10月13日",
+     "url": "https://www.ithome.com/1/012/144.htm"
+    },
+    {
+     "title": "CounterPoint：内存短缺使 Q3 手机出货创 14 年新低",
+     "en": "IT之家",
+     "metric": "10月12日",
+     "url": "https://www.ithome.com/1/012/130.htm"
+    },
+    {
+     "title": "微软 Maia 300 发布：N2P 工艺、288GB HBM4",
+     "en": "IT之家",
+     "metric": "10月12日",
+     "url": "https://www.ithome.com/1/012/115.htm"
+    },
+    {
+     "title": "阿里千问发布 QwenGyre：面向超长程智能体任务的在线强化学习框架",
+     "en": "IT之家",
+     "metric": "10月12日",
+     "url": "https://www.ithome.com/1/012/066.htm"
+    },
+    {
+     "title": "小鹏：今年底实现人形机器人量产，2027 上半年交付",
+     "en": "IT之家",
+     "metric": "10月12日",
+     "url": "https://www.ithome.com/1/012/094.htm"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "程序员圈",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "Rich Hickey：“AI”不是工具",
+     "en": "'AI' is Not a Tool",
+     "metric": "88 分 · 30 评论",
+     "url": "https://lobste.rs/s/ikk8ie"
+    },
+    {
+     "title": "Ruby 的魏玛时代",
+     "en": "Living in the Weimar era of Ruby",
+     "metric": "45 分 · 9 评论",
+     "url": "https://lobste.rs/s/lfen2h"
+    },
+    {
+     "title": "（后量子）密码学的正确答案",
+     "en": "(Post-Quantum) Cryptographic Right Answers",
+     "metric": "45 分 · 3 评论",
+     "url": "https://lobste.rs/s/sozl9e"
+    },
+    {
+     "title": "Linus Torvalds 借 Claude Code 改进 Linux 内核",
+     "en": "Linus Torvalds Working On A Hefty Linux Kernel Improvement With Claude Code",
+     "metric": "43 分 · 58 评论",
+     "url": "https://lobste.rs/s/iq5xtw"
+    },
+    {
+     "title": "指纹正在取代 Cookie",
+     "en": "Fingerprints are the new cookies",
+     "metric": "27 分 · 18 评论",
+     "url": "https://lobste.rs/s/ml9xrb"
+    }
+   ]
+  }
+ ],
+ "topics": [
+  {
+   "name": "智能体的边界",
+   "kicker": "AGENTS",
+   "items": [
+    {
+     "title": "Anthropic 把内部评测与互联网隔开",
+     "note": "TC 的标题更直白：管不住，就先断网。",
+     "src": "The Verge",
+     "metric": "10月10日",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet"
+    },
+    {
+     "title": "Anthropic 模型向费城警方发出虚假凶案线索",
+     "note": "昨天桑德斯要起诉 CEO，正是因为这件事。",
+     "src": "TechCrunch",
+     "metric": "10月9日",
+     "url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/"
+    },
+    {
+     "title": "纳德拉：应假定所有 AI 模型都已被攻破",
+     "note": "微软掌门人说这话，企业采购的安全清单要变长了。",
+     "src": "The Verge",
+     "metric": "10月11日",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised"
+    },
+    {
+     "title": "Ars：AI 编程智能体写得更多，软件并没变多",
+     "note": "和昨天“验收才贵”是同一个结论。",
+     "src": "Hacker News · Ars Technica",
+     "metric": "294 分 · 253 评论",
+     "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/"
+    }
+   ]
+  },
+  {
+   "name": "算力与硬件",
+   "kicker": "COMPUTE",
+   "items": [
+    {
+     "title": "英特尔 CEO 陈立武：未来两三年 AI 硬件将持续短缺",
+     "note": "供给方自己说缺，涨价预期短期不会消退。",
+     "src": "IT之家",
+     "metric": "10月13日",
+     "url": "https://www.ithome.com/1/012/144.htm"
+    },
+    {
+     "title": "内存短缺：Q3 手机出货创 14 年新低",
+     "note": "AI 吃走内存，最先疼的是买手机的人。",
+     "src": "IT之家",
+     "metric": "10月12日",
+     "url": "https://www.ithome.com/1/012/130.htm"
+    },
+    {
+     "title": "AMD 发布智能体机架 Helion，最高 32,768 核",
+     "note": "智能体负载偏 CPU，GPU 之外的赛道也在被抢。",
+     "src": "IT之家",
+     "metric": "10月12日",
+     "url": "https://www.ithome.com/1/012/103.htm"
+    },
+    {
+     "title": "黑客远程触发欧洲超市冷柜自动除霜",
+     "note": "联网设备的安全短板，这次落到了食品上。",
+     "src": "Hacker News · Tom's Hardware",
+     "metric": "386 分 · 612 评论",
+     "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident"
+    }
+   ]
+  },
+  {
+   "name": "开发者与国产",
+   "kicker": "DEVELOPERS",
+   "items": [
+    {
+     "title": "阿里千问发布 QwenGyre，面向超长程智能体任务",
+     "note": "国内模型的新战场也转向“跑得久”。",
+     "src": "IT之家",
+     "metric": "10月12日",
+     "url": "https://www.ithome.com/1/012/066.htm"
+    },
+    {
+     "title": "智谱新模型，每秒 490 tokens",
+     "note": "速度成了国产模型的卖点，价格战之后换了打法。",
+     "src": "量子位",
+     "metric": "10月12日",
+     "url": "https://www.qbitai.com/2026/10/502649.html"
+    },
+    {
+     "title": "Torvalds 借 Claude Code 改内核",
+     "note": "据 Phoronix 报道，内核圈对智能体的态度在松动。",
+     "src": "Lobsters · Phoronix",
+     "metric": "43 分 · 58 评论",
+     "url": "https://www.phoronix.com/news/Linus-Torvalds-Claude-Code"
+    },
+    {
+     "title": "Anthropic 斥资 1 亿美元培养前沿部署工程师",
+     "note": "模型卖出去之后，落地的人才反而成了稀缺品。",
+     "src": "IT之家",
+     "metric": "10月12日",
+     "url": "https://www.ithome.com/1/012/132.htm"
+    }
+   ]
+  }
+ ],
+ "comments": [
+  "三条头条有个共同点：能力在涨，默认值也在涨。Codex 的后台进程、Maia 300 的 950W，都是被调高的默认。",
+  "智能体这边，Anthropic 断网评测、纳德拉说“假定被攻破”，口径一致：先承认管不住，再谈怎么管。",
+  "Meta 的成绩单是自家测试，Maia 300 要到 2027 年才部署。今天能当场验证的，只有 Codex 那条 issue。"
+ ],
+ "xhs": {
+  "title": "模型更强，默认也更多",
+  "cover": "模型更强\n默认也更多",
+  "deck": "Codex 悄悄常驻后台",
+  "intro": "Meta 交出第一个前沿模型，微软把自研芯片推到 2 纳米，Codex 却因为一个默认设置被开发者围攻。",
+  "oneliner": "能力越强，越需要有人在装之前问你一句：这个能常驻吗？",
+  "closing": "你的编程工具里，有没有哪个默认开启的功能让你意外过？",
+  "tags": [
+   "AI",
+   "人工智能",
+   "AI编程",
+   "科技新闻",
+   "AI日报",
+   "Codex",
+   "Meta",
+   "芯片",
+   "程序员",
+   "开源"
+  ]
+ }
+}

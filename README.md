@@ -10,7 +10,7 @@
 
 ## 最新一期
 
-- **2026-10-12｜写代码不贵了，验收才贵** — [网页](reports/2026-10-12/index.html) · [公众号](reports/2026-10-12/wechat/wechat.html) · [小红书](reports/2026-10-12/xhs/xiaohongshu.md)
+- **2026-10-13｜模型更强了，默认也更多了** — [网页](reports/2026-10-13/index.html) · [公众号](reports/2026-10-13/wechat/wechat.html) · [小红书](reports/2026-10-13/xhs/xiaohongshu.md)
 
 网页版（GitHub Pages）：https://emotionalronan.github.io/ai-daily-report/
 

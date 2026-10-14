@@ -64,7 +64,7 @@ def build(dpath):
     D = json.load(open(dpath)); dt = D['date']; y_, m_, d_ = dt.split('-')
     dot = f'{y_}.{m_}.{d_}'; md = f'{int(m_)}.{int(d_)}'
     out = os.path.join(ROOT, 'reports', dt, 'xhs'); os.makedirs(out, exist_ok=True)
-    W, H = 1080, 1440; topics = D.get('topics', [])[:3]; total = 3 + len(topics); files = []
+    W, H = 1080, 1440; topics = D.get('topics', [])[:3]; nh = len(D['headlines']); total = 2 + nh + len(topics); files = []
     def save(img, n):
         f = os.path.join(out, f'{n:02d}.png'); img.save(f); files.append(f)
     def new():
@@ -96,18 +96,30 @@ def build(dpath):
     d.text((80, H * 0.85 - 40), '左滑看今日头条 →', font=F('reg', 30), fill=RED, anchor='lb')
     footer(d, 1); save(img, 1)
 
-    # 2 headlines
-    for fs in (46, 44, 42, 40, 38, 36):
-        img, d = new(); y = header(d, '今日头条', 'TOP STORIES')
-        for i, h in enumerate(D['headlines']):
-            d.text((80, y), f'头条{CN[i]}', font=F('bold', 26), fill=RED); y += 46
-            y = text_block(d, 80, y, h['title'], F('serifb', fs), 920, INK, int(fs * 1.45)) + 12
-            wf = max(32, fs - 10); y = text_block(d, 80, y, h['why'], F('reg', wf), 920, SUB, int(wf * 1.6)) + 8
-            d.text((80, y), '来源：' + h['source'], font=F('reg', 24), fill=MUTE); y += 44
-            if i < len(D['headlines']) - 1: rule(d, y + 6, fill=RULE, w=2); y += 40
-        if y < H - 130: break
-    assert y < H - 130, ('headline overflow', y)
-    footer(d, 2); save(img, 2)
+    # 2..: one card per headline — the source's own picture on top (cropped to 16:9), then title, why, credit
+    for i, h in enumerate(D['headlines']):
+        n = 2 + i; im = h.get('image')
+        for fs in (54, 50, 46, 42, 40):
+            img, d = new(); y = header(d, f'头条{CN[i]}', 'TOP STORIES')
+            if im:
+                ph = Image.open(os.path.join(ROOT, 'reports', dt, im['file'])).convert('RGB')
+                tw, th = 920, 518; r = max(tw / ph.width, th / ph.height)
+                ph = ph.resize((round(ph.width * r), round(ph.height * r)), Image.LANCZOS)
+                l, t = (ph.width - tw) // 2, (ph.height - th) // 2; ph = ph.crop((l, t, l + tw, t + th))
+                img.paste(ph, (80, y)); d.rectangle((80, y, 80 + tw - 1, y + th - 1), outline=RULE, width=2)
+                y += th + 14
+                d.text((80, y), '图片来源：' + im['credit'], font=F('reg', 24), fill=MUTE); y += 54
+            else:
+                y += 40
+            y = text_block(d, 80, y, h['title'], F('serifb', fs if im else fs + 10), 920, INK, int((fs if im else fs + 10) * 1.42)) + 18
+            wf = max(32, fs - 14)
+            d.rectangle((80, y + 8, 85, y + 8 + int(wf * 1.2)), fill=RED)
+            y = text_block(d, 106, y, h['why'], F('reg', wf), 894, SUB, int(wf * 1.62)) + 10
+            if not im:
+                d.text((80, y + 10), '来源：' + h['source'], font=F('reg', 26), fill=MUTE); y += 56
+            if y < H - 130: break
+        assert y < H - 130, ('headline overflow', i, y)
+        footer(d, n); save(img, n)
 
     # 3.. topics
     for ti, t in enumerate(topics):
@@ -122,7 +134,7 @@ def build(dpath):
                 d.text((150, y), f'{it["src"]} · {it["metric"]}'.replace('⭐', '星'), font=F('reg', 26), fill=MUTE); y += 26 + gap
             if y < H - 130: break
         assert y < H - 130, ('topic overflow', ti, y)
-        footer(d, 3 + ti); save(img, 3 + ti)
+        footer(d, 2 + nh + ti); save(img, 2 + nh + ti)
 
     # last: editor notes
     for fs in (40, 38, 36, 34):

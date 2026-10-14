@@ -4,8 +4,12 @@
 
 ## 你负责什么
 - 读 work/DATE/radar.json，定 3 条头条、3 个专题（每个 4 条）、3 条编辑手记、小红书文案。
-- 动笔前先在 work/DATE/judgment.md 写一句当天的核心判断（例如“大家开始忙着给 AI 装刹车”），全期围绕它组织。
+- 动笔前先写 work/DATE/judgment.md（≥300 字符），三节都要有：
+  - 「核心判断」：一句话（例如“大家开始忙着给 AI 装刹车”），全期围绕它组织。
+  - 「头条入选」：3 条头条各自为什么入选，对应 radar.json 里哪一条。
+  - 「落选」：至少 3 个重要候选为什么没进头条（每条一行，以 - 开头）。
 - 关键事实亲自 web_fetch 原文核对后再写。
+- 头条的 url 尽量用带配图的一手页面；需要指定某张图时，在该头条加 "image_url"（必须是这个原文页面上的图）。
 - 写出 data/DATE.json，字段照 data/2026-10-12.json：headlines（body 80–150 字，why 一两句）、topics（title ≤32 字，note ≤40 字的有判断点评）、comments（每条 ≤70 字）、xhs（title ≤20 字、cover 2–3 行每行 ≤8 字、deck ≤16 字、intro、oneliner、closing 一个具体问题、8–10 tags）、sources。
 - 收到「文字编辑」的“需要看”清单后，逐条修改或说明为何不改，排版之前的所有问题由你收口。
 

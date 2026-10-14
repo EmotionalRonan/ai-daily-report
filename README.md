@@ -6,7 +6,7 @@
 |---|---|---|
 | 网页版 | `reports/日期/index.html` | 直接浏览 / GitHub Pages |
 | 公众号版 | `reports/日期/wechat/`：`wechat.html`（订阅号版）、`wechat_links.html`（外链版）、`header.png`（头图 900×383）、`thumb.png`（次条封面 500×500） | 电脑浏览器打开 → 全选复制 → 粘贴到公众号编辑器（样式为内联，可保留） |
-| 小红书版 | `reports/日期/xhs/`：`01~06.png`（3:4 卡片）、`xiaohongshu.md`（正文与话题） | 6 张 3:4 卡片按顺序上传，正文与话题标签直接复制 |
+| 小红书版 | `reports/日期/xhs/`：`01~08.png`（3:4 卡片，每条头条一张带原文配图）、`xiaohongshu.md`（正文与话题） | 6 张 3:4 卡片按顺序上传，正文与话题标签直接复制 |
 
 ## 最新一期
 
@@ -19,8 +19,8 @@
 ```
 reports/日期/
 ├── index.html          网页版（GitHub Pages，公众号「阅读原文」指向这里）
-├── wechat/             公众号：wechat.html、wechat_links.html、header.png、thumb.png
-└── xhs/                小红书：01~06.png、xiaohongshu.md
+├── wechat/             公众号：wechat.html、wechat_links.html、header.png、thumb.png、img/（头条配图）
+└── xhs/                小红书：01~08.png、xiaohongshu.md
 ```
 
 排版规范：[`docs/layout.md`](docs/layout.md)

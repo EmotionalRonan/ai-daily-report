@@ -47,6 +47,8 @@ a{color:inherit;text-decoration:none}a:hover{color:var(--red)}
 .story p{margin:0 0 12px;color:var(--sub)}
 .story .why{color:var(--ink);border-left:2px solid var(--red);padding:2px 0 2px 14px;margin-top:14px}
 .story .src{font-size:12px;color:var(--mute)}
+.story figure{margin:4px 0 16px}.story figure img{display:block;width:100%;height:auto;border:1px solid var(--rule);background:var(--card)}
+.story figcaption{font-size:12px;color:var(--mute);margin-top:6px}
 .item{display:grid;grid-template-columns:1fr auto;gap:2px 18px;padding:16px 0;border-top:1px solid var(--rule)}
 .item:first-of-type{border-top:0}
 .item h3{margin:0;font-size:17px;line-height:1.55;font-weight:700}
@@ -64,10 +66,16 @@ footer{margin:56px 0 0;padding:18px 0 46px;border-top:3px double var(--ink);font
 @media(max-width:600px){body{font-size:16px}.story h2{font-size:21px}.mast .line{flex-direction:column;gap:2px;text-align:center}}
 '''
 
+def fig(h):
+    im = h.get('image')
+    if not im: return ''
+    return (f'<figure><a href="{e(h["url"])}" target="_blank" rel="noopener"><img src="{e(im["file"])}" alt="{e(h["title"])}" loading="lazy" '
+            f'width="{im.get("w", "")}" height="{im.get("h", "")}"></a><figcaption>图片来源：{e(im["credit"])}</figcaption></figure>')
+
 def web_html(d):
     heads = ''.join(f'''<article class="story"><div class="no">头条 {CN_NUM[i]}</div>
 <h2><a href="{e(h["url"])}" target="_blank" rel="noopener">{e(h["title"])}</a></h2>
-<p>{e(h["body"])}</p><p class="why">{e(h["why"])}</p><div class="src">来源：{e(h["source"])}</div></article>''' for i, h in enumerate(d['headlines']))
+{fig(h)}<p>{e(h["body"])}</p><p class="why">{e(h["why"])}</p><div class="src">来源：{e(h["source"])}</div></article>''' for i, h in enumerate(d['headlines']))
     topics = ''
     for t in d.get('topics', []):
         items = ''.join(f'''<div class="item"><h3><a href="{e(it["url"])}" target="_blank" rel="noopener">{e(it["title"])}</a></h3>
@@ -117,6 +125,10 @@ def wechat_html(d, linked=False):
     for i, h in enumerate(d['headlines']):
         o.append(f'<p style="margin:22px 0 4px;font-size:13px;font-weight:bold;color:{RED};{SERIF}">头条 {CN_NUM[i]}</p>')
         o.append(f'<p style="margin:0 0 10px;{SERIF}font-size:18px;font-weight:bold;line-height:1.55;letter-spacing:.5px;color:{INK};">{e(h["title"])}</p>')
+        if h.get('image'):
+            src = f'{PAGES}/reports/{d["date"]}/{h["image"]["file"]}'
+            o.append(f'<section style="margin:4px 0 16px;"><img src="{src}" style="display:block;width:100%;height:auto;" alt="">'
+                     f'<p style="margin:6px 0 0;font-size:12px;color:{MUTE};">图片来源：{e(h["image"]["credit"])}</p></section>')
         o.append(f'<p style="{P}">{e(h["body"])}</p>')
         o.append(f'<p style="margin:0 0 6px;padding-left:12px;border-left:2px solid {RED};font-size:15px;line-height:1.8;letter-spacing:1px;color:{INK};">{e(h["why"])}</p>')
         o.append(f'<p style="margin:0 0 8px;font-size:12px;color:{MUTE};">来源：{e(h["source"])}</p>')
@@ -151,7 +163,7 @@ def wechat_html(d, linked=False):
         o.extend(f'<p style="margin:0;padding:2px 0;font-size:11px;line-height:1.6;color:{MUTE};word-break:break-all;"><span style="color:{RED};">[{k}]</span> {html.escape(u)}</p>' for k, u in enumerate(refs, 1))
     o.append(f'<p style="margin-top:20px;padding-top:10px;border-top:1px solid {RULE};font-size:12px;line-height:1.8;color:{MUTE};">本期参考：{e(source_names(d))}。标注“据报道”“社区声称”的内容尚未得到官方证实。</p></section>')
     body = '\n'.join(o)
-    return f'<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>{e(d["title"])}</title></head><body style="margin:0;padding:16px;background:#fff;">\n<!-- 电脑浏览器打开 → 全选复制 → 粘贴到公众号编辑器。发布时把「原文链接」设为 {web} -->\n{body}\n</body></html>'
+    return f'<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>{e(d["title"])}</title></head><body style="margin:0;padding:16px;background:#fff;">\n<!-- 电脑浏览器打开网页版里的这份文件（{web}wechat/wechat.html）→ 全选复制 → 粘贴到公众号编辑器，配图会随之转存；若有图没带过去，用 wechat/img/ 里的同名图手动插入。发布时把「原文链接」设为 {web} -->\n{body}\n</body></html>'
 
 # ---------------------------------------------------------------- xiaohongshu
 def xhs_md(d):

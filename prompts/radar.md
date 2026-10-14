@@ -15,7 +15,8 @@
   - Lobsters：https://lobste.rs/hottest.json
 - 每条写：中文标题、原标题、热度、原链接、发布时间、一句话发生了什么。
 - 另列 6–8 个头条候选，标出你最看好的 3 个，并给出一手出处链接。
-- 输出写入 work/DATE/radar.json（{"sections":[...], "candidates":[...]}），sections 格式照 data/ 往期。
+- 每个头条候选尽量给出带配图的一手页面（官方博客、发布页、原报道），配图要能说明这件事，不要只有站点 logo 的页面。
+- 输出必须写入 work/DATE/radar.json（不能只放在临时脚本里），9 个来源都要有条目（{"sections":[...], "candidates":[...]}），sections 格式照 data/ 往期。
 
 ## 什么算做得好
 - 每条都能追到原链接；转述的转述不算出处。

@@ -1,0 +1,537 @@
+{
+ "date": "2026-10-15",
+ "weekday": "周四",
+ "issue": 4,
+ "title": "刹车没人踩，只好别人来装",
+ "subtitle": "8 州起诉 OpenAI、黄仁勋拒绝放缓、YouTube 给 AI 歌曲贴标签",
+ "lead": "美国 8 个州同一天起诉 OpenAI，黄仁勋在伦敦说不安全的客户可以断供、但行业不该放缓，YouTube Music 则开始给 AI 歌曲贴标签。实验室自己不愿踩刹车，律师、供应商和平台正在各装一道。",
+ "headlines": [
+  {
+   "title": "8 州分别起诉 OpenAI，称 ChatGPT 对儿童不安全",
+   "body": "艾奥瓦、堪萨斯、内布拉斯加、西弗吉尼亚、阿肯色、亚利桑那、爱达荷、蒙大拿 8 州，14 日分别起诉 OpenAI，称其为利润牺牲安全、违反消费者保护法。据 IT之家转述路透社，这是各州对 AI 公司迄今最大规模的协调诉讼。",
+   "why": "过去是一个个家庭告，现在是州政府成批告。诉求包括让法院责令改变 ChatGPT 的运行方式，比罚款更伤。",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
+   "image": {
+    "file": "wechat/img/h1.jpg",
+    "src_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25462005/STK155_OPEN_AI_CVirginia_B.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "credit": "The Verge",
+    "w": 1200,
+    "h": 624
+   }
+  },
+  {
+   "title": "黄仁勋：不安全的客户可断供，但行业不该放缓",
+   "body": "黄仁勋在伦敦接受彭博社采访时说，若客户被认定开发不安全的 AI，英伟达会停止供货，但这目前只是“假设性问题”，会先沟通。他拒绝 Anthropic 等高管提出的全行业放缓，并称五年内向英国 AI 安全研究提供 2.5 亿美元算力。",
+   "why": "同一天，一边是州政府要求刹车，一边是卖铲子的人说只管加速、用 AI 监控 AI。这笔算力捐赠，也是他对“放缓”的回答。",
+   "source": "IT之家（转述彭博社）",
+   "url": "https://www.ithome.com/1/013/164.htm",
+   "image_skip": "IT之家原文只有占位图，没有与事件相关的配图"
+  },
+  {
+   "title": "YouTube Music 给 AI 参与的歌曲加标签",
+   "body": "YouTube Music 周三起推出标签，AI 参与作曲或人声的歌曲会在播放页标注，点开可看 AI 的具体角色。合作方可申报“完全 AI、部分 AI、无 AI”三档，Auto-Tune 修音算无 AI。YouTube 只做披露，不因此取消变现资格。",
+   "why": "Deezer 做的是降权和过滤，YouTube 选的是只披露。同一个问题，平台各有各的答案。听歌的人从此多一个能看的信号。",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
+   "image": {
+    "file": "wechat/img/h3.jpg",
+    "src_url": "https://techcrunch.com/wp-content/uploads/2026/10/youtube-music-gen-ai-labels.png?w=1080",
+    "credit": "TechCrunch",
+    "w": 1080,
+    "h": 1080
+   }
+  }
+ ],
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "前沿实验室漏了安全基础，AI 才“失控”",
+     "en": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+     "metric": "814 分 · 437 评论",
+     "url": "https://news.ycombinator.com/item?id=50091788"
+    },
+    {
+     "title": "亚马逊如何把全网价格推高",
+     "en": "How Amazon pushes up prices all across the Internet",
+     "metric": "692 分 · 586 评论",
+     "url": "https://news.ycombinator.com/item?id=50084757"
+    },
+    {
+     "title": "Passkeys 不是陷阱",
+     "en": "Passkeys are not a trap",
+     "metric": "431 分 · 603 评论",
+     "url": "https://news.ycombinator.com/item?id=50088935"
+    },
+    {
+     "title": "谷歌被指悄悄把手机号关联到所有已登录账号",
+     "en": "Google is silently linking your phone number across all signed-in accounts",
+     "metric": "347 分 · 92 评论",
+     "url": "https://news.ycombinator.com/item?id=50090349"
+    },
+    {
+     "title": "OpenCode 2.0",
+     "en": "OpenCode 2.0",
+     "metric": "220 分 · 83 评论",
+     "url": "https://news.ycombinator.com/item?id=50094994"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "AI 社区热帖",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "怎么快速判断对面是不是机器人",
+     "en": "r/singularity",
+     "metric": "1177 赞 · 97 评论",
+     "url": "https://www.reddit.com/r/singularity/comments/1x3d76y/does_this_still_works_for_bots_or_is_it_over/"
+    },
+    {
+     "title": "什么时候能在普通电脑上本地跑 Sonnet 级模型",
+     "en": "r/ClaudeAI",
+     "metric": "889 赞 · 303 评论",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x35dqe/the_day_we_can_run_sonnetlevel_ai_locally_on_a/"
+    },
+    {
+     "title": "OpenAI 社区投票：取消 5 小时限额、周额度不变",
+     "en": "r/OpenAI",
+     "metric": "485 赞 · 250 评论",
+     "url": "https://www.reddit.com/r/OpenAI/comments/1x3d4z1/thank_god/"
+    },
+    {
+     "title": "Claude 项目功能将改版，Max 用户抗议",
+     "en": "r/ClaudeAI",
+     "metric": "358 赞 · 143 评论",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x33na4/new_projects_rolling_out_for_chat_and_cowork_oh/"
+    },
+    {
+     "title": "10–16GB 显存能跑的模型排名",
+     "en": "r/LocalLLaMA",
+     "metric": "347 赞 · 85 评论",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3gpyi/every_model_that_can_be_run_on_1016gb_vram_ranked/"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X / Twitter",
+   "tag": "科技圈刷屏",
+   "color": "#111111",
+   "url": "https://agentflare.org/social/tech/index.html",
+   "short": "X",
+   "items": [
+    {
+     "title": "Grok、Cursor、X Premium 合并为“X 订阅”",
+     "en": "@SpaceXSI",
+     "metric": "1.6 万赞 · 500 万浏览",
+     "url": "https://x.com/SpaceXSI/status/2109783335296008414"
+    },
+    {
+     "title": "苹果 HomeView 官宣 299 美元",
+     "en": "@MKBHD",
+     "metric": "1.2 万赞 · 95.8 万浏览",
+     "url": "https://x.com/MKBHD/status/2109993038407696722"
+    },
+    {
+     "title": "Jio 计划 1600 颗卫星、23 个地面站",
+     "en": "@moneycontrolcom",
+     "metric": "8.3K 赞 · 62.8 万浏览",
+     "url": "https://x.com/moneycontrolcom/status/2108180884742615492"
+    },
+    {
+     "title": "马斯克：把你最难的任务交给 Grok @Bot",
+     "en": "@elonmusk",
+     "metric": "5.9K 赞 · 160 万浏览",
+     "url": "https://x.com/elonmusk/status/2109811974804852962"
+    },
+    {
+     "title": "Benji Taylor：看不出“品味”是 LLM 越不过的边界",
+     "en": "@benjitaylor",
+     "metric": "4.5K 赞 · 32.4 万浏览",
+     "url": "https://x.com/benjitaylor/status/2110039872472010775"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "今日爆火仓库",
+   "color": "#24292f",
+   "url": "https://github.com/trending",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "morluto/rea",
+     "en": "morluto/rea",
+     "metric": "今日 +41,187 星",
+     "url": "https://github.com/morluto/rea"
+    },
+    {
+     "title": "debpalash/VoiceStudio",
+     "en": "debpalash/VoiceStudio",
+     "metric": "今日 +3,547 星",
+     "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+     "title": "ifixai-ai/iFixAi",
+     "en": "ifixai-ai/iFixAi",
+     "metric": "今日 +2,143 星",
+     "url": "https://github.com/ifixai-ai/iFixAi"
+    },
+    {
+     "title": "xtool-org/xtool",
+     "en": "xtool-org/xtool",
+     "metric": "今日 +1,510 星",
+     "url": "https://github.com/xtool-org/xtool"
+    },
+    {
+     "title": "vxcontrol/pentagi",
+     "en": "vxcontrol/pentagi",
+     "metric": "今日 +1,070 星",
+     "url": "https://github.com/vxcontrol/pentagi"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "今日热门论文",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "Pristine Models",
+     "en": "Pristine Models",
+     "metric": "12 赞",
+     "url": "https://huggingface.co/papers/2610.14091"
+    },
+    {
+     "title": "Beyond the Verdict：可验证反馈的代码评审智能体",
+     "en": "Beyond the Verdict: Agentic Code Judging with Verifiable Feedback",
+     "metric": "4 赞",
+     "url": "https://huggingface.co/papers/2610.18760"
+    },
+    {
+     "title": "为长程工作智能体扩展可验证环境",
+     "en": "Scaling Verifiable Environments for Long-horizon Work Agents",
+     "metric": "1 赞",
+     "url": "https://huggingface.co/papers/2610.04906"
+    },
+    {
+     "title": "评审要对照参考：工具调用参数验证的推导缺口",
+     "en": "Judges Follow the Reference: The Derivation Gap in Verifying Tool-Call Arguments",
+     "metric": "0 赞",
+     "url": "https://huggingface.co/papers/2610.18497"
+    },
+    {
+     "title": "Words to World：LLM 在交互式物理环境中的基准",
+     "en": "Words to World: Benchmarking LLMs in Interactive Physical Environments",
+     "metric": "0 赞",
+     "url": "https://huggingface.co/papers/2610.15228"
+    }
+   ]
+  },
+  {
+   "key": "media",
+   "name": "The Verge · TechCrunch",
+   "tag": "海外科技媒体",
+   "color": "#5200ff",
+   "url": "https://www.theverge.com/",
+   "short": "外媒",
+   "items": [
+    {
+     "title": "8 州起诉 OpenAI，称 ChatGPT 对儿童不安全",
+     "en": "Eight states sue OpenAI, saying ChatGPT isn’t safe for kids",
+     "metric": "The Verge · 10月14日",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety"
+    },
+    {
+     "title": "Character.AI 破产，用户数据去哪",
+     "en": "Now that Character.AI is going bankrupt, what happens to all of its users’ data?",
+     "metric": "The Verge · 10月14日",
+     "url": "https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy"
+    },
+    {
+     "title": "YouTube Music 给 AI 歌曲贴标签",
+     "en": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
+     "metric": "TechCrunch · 10月14日",
+     "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/"
+    },
+    {
+     "title": "Deezer 将允许过滤 AI 音乐",
+     "en": "Deezer will soon let you filter out AI-generated music",
+     "metric": "TechCrunch · 10月14日",
+     "url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/"
+    },
+    {
+     "title": "OpenAI 称前员工带走 100 多份文件见苹果高层",
+     "en": "OpenAI claims an ex-employee took its product plans and presented them to Apple",
+     "metric": "The Verge · 10月14日",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans"
+    }
+   ]
+  },
+  {
+   "key": "qbit",
+   "name": "量子位",
+   "tag": "国内 AI 圈",
+   "color": "#2f6bff",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "阶跃终端首款“Agent 手机”STEPX Neo 发布",
+     "en": "阶跃终端首款「Agent手机」STEPX Neo正式发布，创客先行",
+     "metric": "10月14日",
+     "url": "https://www.qbitai.com/2026/10/503244.html"
+    },
+    {
+     "title": "APUS AI 开源 Reflex Agent，称响应比 Claude Code 快 3 倍",
+     "en": "响应速度比Claude Code快3倍，实现真正无限上下文！APUS AI开源Reflex Agent",
+     "metric": "10月14日",
+     "url": "https://www.qbitai.com/2026/10/503165.html"
+    },
+    {
+     "title": "MemSilicon 完成 1Gb RRAM 芯片流片",
+     "en": "MemSilicon完成国际首款高密度、大容量1T4R 1Gb RRAM芯片流片",
+     "metric": "10月14日",
+     "url": "https://www.qbitai.com/2026/10/503198.html"
+    },
+    {
+     "title": "LibTV 下场“造星”，AI 版 MrBeast 爆火",
+     "en": "《变形计》综艺赛博复活，AI版MrBeast爆火，LibTV下场「造星」了",
+     "metric": "10月14日",
+     "url": "https://www.qbitai.com/2026/10/503211.html"
+    },
+    {
+     "title": "商汤大装置助力上海量子城市首批智能体落地",
+     "en": "调度效率提升80%！商汤大装置助力上海量子城市首批智能体落地",
+     "metric": "10月14日",
+     "url": "https://www.qbitai.com/2026/10/503173.html"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "国内科技数码",
+   "color": "#d4222a",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "黄仁勋：客户开发不安全 AI，极端情况可断供芯片",
+     "en": "英伟达黄仁勋：若客户开发不安全 AI 软件，极端措施可断供芯片",
+     "metric": "10月15日",
+     "url": "https://www.ithome.com/1/013/164.htm"
+    },
+    {
+     "title": "美国 8 州起诉 OpenAI",
+     "en": "美国 8 州起诉 OpenAI，指控 ChatGPT 指导青少年如何自伤或伤害他人",
+     "metric": "10月15日",
+     "url": "https://www.ithome.com/1/013/160.htm"
+    },
+    {
+     "title": "苹果收盘市值首超 5 万亿美元（IT早报）",
+     "en": "IT早报 1015",
+     "metric": "10月15日",
+     "url": "https://www.ithome.com/1/013/163.htm"
+    },
+    {
+     "title": "SpaceXAI 发布 Grok Voice 3.0，称延迟低于 1 秒",
+     "en": "SpaceXAI 发布 Grok Voice 3.0",
+     "metric": "10月15日",
+     "url": "https://www.ithome.com/1/013/159.htm"
+    },
+    {
+     "title": "OpenAI 基础设施负责人卡蒂离职",
+     "en": "入职约 1 年：OpenAI 基础设施与 AI 算力负责人卡蒂离职",
+     "metric": "10月15日",
+     "url": "https://www.ithome.com/1/013/158.htm"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "程序员圈",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "Anthropic 的 Scion 深受《幽灵公主》启发",
+     "en": "Anthropic's Scion is heavily inspired by Mononoke",
+     "metric": "36 分",
+     "url": "https://lobste.rs/s/plcgps/anthropic_s_scion_is_heavily_inspired_by"
+    },
+    {
+     "title": "Firefox 推出企业版",
+     "en": "Introducing Firefox Enterprise",
+     "metric": "101 分",
+     "url": "https://lobste.rs/s/7xg9rm/introducing_firefox_enterprise"
+    },
+    {
+     "title": "KDE Plasma 6.8 发布（KDE 30 岁）",
+     "en": "Plasma 6.8 released",
+     "metric": "57 分",
+     "url": "https://lobste.rs/s/d1c8zn/plasma_6_8_released_kde_s_30th_birthday"
+    },
+    {
+     "title": "花式 curl 网站合集",
+     "en": "Fancy Curl Sites",
+     "metric": "48 分",
+     "url": "https://lobste.rs/s/zitobg/fancy_curl_sites"
+    },
+    {
+     "title": "GitLab 警告正则引擎最高危远程执行漏洞",
+     "en": "GitLab warns of max severity code execution vulnerability",
+     "metric": "19 分",
+     "url": "https://lobste.rs/s/tehays/gitlab_warns_max_severity_code_execution"
+    }
+   ]
+  }
+ ],
+ "topics": [
+  {
+   "name": "谁该为失控的 AI 负责",
+   "kicker": "LIABILITY",
+   "items": [
+    {
+     "title": "CSO：智能体没“造反”，是实验室漏了安全基础",
+     "note": "多位专家称隔离与监控缺位；OpenAI、Anthropic 未回应。",
+     "src": "CSO Online",
+     "metric": "HN 814 分",
+     "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html"
+    },
+    {
+     "title": "40 位州检察长盯上 Character.AI 的破产出售",
+     "note": "要求出售时保护用户数据，纽约州检察长牵头披露调查。",
+     "src": "The Verge",
+     "metric": "10月14日",
+     "url": "https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy"
+    },
+    {
+     "title": "OpenAI 称前员工带着 100 多份文件见苹果高层",
+     "note": "OpenAI 一方指控，苹果案仍在审理。",
+     "src": "The Verge",
+     "metric": "10月14日",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans"
+    },
+    {
+     "title": "赛力斯起诉男子 AI 造谣，索赔百万",
+     "note": "仅见 IT早报标题，案情细节待核。",
+     "src": "IT之家",
+     "metric": "10月15日",
+     "url": "https://www.ithome.com/1/013/163.htm"
+    }
+   ]
+  },
+  {
+   "name": "平台先给 AI 内容贴标签",
+   "kicker": "LABEL",
+   "items": [
+    {
+     "title": "Deezer 将让用户过滤掉纯 AI 音乐",
+     "note": "7 月称每天收到近 9 万首完全 AI 曲目。",
+     "src": "TechCrunch",
+     "metric": "10月14日",
+     "url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/"
+    },
+    {
+     "title": "安卓用 Gemini 在短信里识别慢热型诈骗",
+     "note": "“增强保护”未来几周推出，走云端分析。",
+     "src": "The Verge",
+     "metric": "10月14日",
+     "url": "https://www.theverge.com/tech/1010928/android-scam-protection-enhanced-protection-google-messages"
+    },
+    {
+     "title": "Apate 派 AI 智能体假扮受害者，诱骗骗子",
+     "note": "用来收集诈骗情报，思路是以骗治骗。",
+     "src": "TechCrunch",
+     "metric": "10月14日",
+     "url": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/"
+    },
+    {
+     "title": "Flock 称麦克风只识别枪声，官网说法不同",
+     "note": "监控公司的隐私争议还在发酵。",
+     "src": "TechCrunch",
+     "metric": "10月14日",
+     "url": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/"
+    }
+   ]
+  },
+  {
+   "name": "钱与岗位的另一面",
+   "kicker": "MONEY",
+   "items": [
+    {
+     "title": "银行急着转手 AI 数据中心债务",
+     "note": "据 FT、彭博转述，380 亿美元债卖了半年；稿件 10 月 11 日发。",
+     "src": "Startup Fortune",
+     "metric": "HN 248 分",
+     "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/"
+    },
+    {
+     "title": "苹果收盘市值首超 5 万亿美元",
+     "note": "IT早报条目，同期苹果在与 OpenAI 打官司。",
+     "src": "IT之家",
+     "metric": "10月15日",
+     "url": "https://www.ithome.com/1/013/163.htm"
+    },
+    {
+     "title": "OpenAI 基础设施负责人卡蒂离职",
+     "note": "入职约一年，曾主导“星际之门”。",
+     "src": "IT之家",
+     "metric": "10月15日",
+     "url": "https://www.ithome.com/1/013/158.htm"
+    },
+    {
+     "title": "麦肯锡面试：先和 AI 客户对谈 10 分钟",
+     "note": "AI 不打分，由真人评估；仅部分办公室试点。",
+     "src": "The Verge",
+     "metric": "10月14日",
+     "url": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview"
+    }
+   ]
+  }
+ ],
+ "comments": [
+  "8 州诉讼最该看的不是罚款，而是要求法院改 ChatGPT 的运行方式。",
+  "黄仁勋说“假设性问题”，等于没承诺。真正的约束仍在法院和平台手里。",
+  "YouTube 只披露、Deezer 过滤降权。要不要听 AI 歌，现在多了个依据。"
+ ],
+ "xhs": {
+  "title": "没人踩刹车，别人来装了",
+  "cover": "刹车没人踩\n别人来装",
+  "deck": "8 州诉讼与平台标签",
+  "intro": "美国 8 个州同一天起诉 OpenAI；黄仁勋说客户不安全可以断供，但行业不该放缓；YouTube Music 开始给 AI 歌曲贴标签。",
+  "oneliner": "实验室不愿自己踩刹车，法院、供应商和平台各装了一道。",
+  "closing": "如果歌单里的 AI 歌能一键过滤，你会打开吗？",
+  "tags": [
+   "AI",
+   "人工智能",
+   "科技新闻",
+   "AI日报",
+   "OpenAI",
+   "ChatGPT",
+   "英伟达",
+   "黄仁勋",
+   "YouTube",
+   "AI安全"
+  ]
+ }
+}

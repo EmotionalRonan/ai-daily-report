@@ -11,43 +11,21 @@
    "body": "谷歌 DeepMind 发布 Gemini 4 Argon，先向 Google AI Pro 与 Ultra 订阅用户开放。官方对比中 DeepSWE 77.9%、Vals Index 68.9% 居首，但 FrontierSWE v2、Terminal-bench 4.0 落后于 GPT-6 Astra 或 Opus 5.5。",
    "why": "成绩单是谷歌自己挑的，赢多输少；Chrome 六百万行代码重构这类案例，比分数更值得看。独立评测出来前，不必急着换模型。",
    "source": "Google DeepMind",
-   "url": "https://deepmind.google/models/gemini/",
-   "image_url": "https://lh3.googleusercontent.com/ZEK-7uBMLbE9a6OOOK0bpdDik-Qe0w-BwApEesf9NFpKR2pBETsk--rpxH31X93x0HRHa8vJiKdSNH9LiNLt-DRnEZNX-t9cYw8II_mrYDhMQaNKGDs=w1440-h810-n-nu",
-   "image": {
-    "file": "wechat/img/h1.jpg",
-    "src_url": "https://lh3.googleusercontent.com/ZEK-7uBMLbE9a6OOOK0bpdDik-Qe0w-BwApEesf9NFpKR2pBETsk--rpxH31X93x0HRHa8vJiKdSNH9LiNLt-DRnEZNX-t9cYw8II_mrYDhMQaNKGDs=w1440-h810-n-nu",
-    "credit": "Google DeepMind",
-    "w": 1280,
-    "h": 720
-   }
+   "url": "https://deepmind.google/models/gemini/"
   },
   {
    "title": "Anthropic 自研 Scion 取代 git：日合并量一年内涨十倍",
    "body": "Anthropic 工程博客称，内部日合并代码改动从 5 月约 2,500 个增至 9 月超 3 万个，git 成了瓶颈。7 人团队用 5 个月自研版本控制系统 Scion，迁走整个 monorepo，CPU 与内存规模降到原镜像方案的 1/200。",
    "why": "写代码不再是瓶颈，合并、测试、审核才是。同时他们也明说：Scion 只适合超大 monorepo，不是 git 的通用替代。",
    "source": "Anthropic Engineering",
-   "url": "https://www.anthropic.com/engineering/redesigning-source-control",
-   "image": {
-    "file": "wechat/img/h2.jpg",
-    "src_url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1e2a750dba61db4a76b72eec5b0cf50b8a7f878c-3840x2160.png&w=3840&q=75",
-    "credit": "Anthropic Engineering",
-    "w": 1600,
-    "h": 900
-   }
+   "url": "https://www.anthropic.com/engineering/redesigning-source-control"
   },
   {
    "title": "Character.ai 启动 Chapter 11，平台暂时照常运行",
    "body": "Character.ai 宣布自愿启动 Chapter 11 破产程序，通过法院监督出售公司。官方称平台暂时照常运行，订阅与计费不变，预计 11 月底或 12 月初完成出售；若没有可行报价，平台将被关停。用户可导出数据或删除账号。",
    "why": "这是应用层的风险提示：模型越来越强，不等于靠模型做产品的公司都活得下来。在用的人，先把聊天记录导出来。",
    "source": "Character.ai 官方博客",
-   "url": "https://blog.character.ai/an-update-on-character-ai/",
-   "image": {
-    "file": "wechat/img/h3.jpg",
-    "src_url": "https://storage.ghost.io/c/ad/34/ad34888f-5b63-4d5f-a358-18cf16489b83/content/images/size/w1200/2026/10/oct-blog-header.jpg",
-    "credit": "Character.ai 官方博客",
-    "w": 1200,
-    "h": 673
-   }
+   "url": "https://blog.character.ai/an-update-on-character-ai/"
   }
  ],
  "sections": [

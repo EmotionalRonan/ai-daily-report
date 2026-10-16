@@ -10,7 +10,7 @@
 
 ## 最新一期
 
-- **2026-10-15｜刹车没人踩，别人来装** — [网页](reports/2026-10-15/index.html) · [公众号](reports/2026-10-15/wechat/wechat.html) · [小红书](reports/2026-10-15/xhs/xiaohongshu.md)
+- **2026-10-16｜模型交到你手上，审计员请进屋里** — [网页](reports/2026-10-16/index.html) · [公众号](reports/2026-10-16/wechat/wechat.html) · [小红书](reports/2026-10-16/xhs/xiaohongshu.md)
 
 网页版（GitHub Pages）：https://emotionalronan.github.io/ai-daily-report/
 

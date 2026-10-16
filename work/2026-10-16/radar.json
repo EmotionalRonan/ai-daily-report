@@ -1,0 +1,505 @@
+{
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "Meta 发布 Muse Spark Open",
+     "en": "Muse Spark Open",
+     "metric": "576 分 · 326 评论",
+     "url": "https://news.ycombinator.com/item?id=50107379",
+     "time": "10-15",
+     "what": "Meta 开放 8160 亿参数模型权重，官方称可在两台 Mac Studio 上本地运行"
+    },
+    {
+     "title": "神经网络其实很“干净”",
+     "en": "Neural networks are clean",
+     "metric": "466 分 · 178 评论",
+     "url": "https://news.ycombinator.com/item?id=50105647",
+     "time": "10-15",
+     "what": "Goodfire 的可解释性长文"
+    },
+    {
+     "title": "定向广告成了零点击间谍软件的通道",
+     "en": "AdFection: Targeted ads turned into a pipeline for zero-click mercenary spyware",
+     "metric": "364 分 · 531 评论",
+     "url": "https://news.ycombinator.com/item?id=50101813",
+     "time": "10-15",
+     "what": "Citizen Lab 调查报告"
+    },
+    {
+     "title": "想下载个 ISO，结果写出了内核提权漏洞",
+     "en": "Wanted to download an ISO, ended up writing a kernel exploit",
+     "metric": "344 分 · 169 评论",
+     "url": "https://news.ycombinator.com/item?id=50070625",
+     "time": "10-15",
+     "what": "路由器固件安全分析，非 AI"
+    },
+    {
+     "title": "Steam 客户端已比 Epic 新的“vibe coded”启动器快",
+     "en": "Steam Client is now faster than Epic's new vibe coded launcher",
+     "metric": "269 分 · 270 评论",
+     "url": "https://news.ycombinator.com/item?id=50105635",
+     "time": "10-15",
+     "what": "AI 写代码的另一面，来源待核"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "AI 社区热帖",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "Opus 5.5 把 SNES 老游戏移植到桌面",
+     "en": "r/ClaudeAI",
+     "metric": "656 赞 · 232 评论",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/",
+     "time": "10-15",
+     "what": "发帖人事后承认“反编译”说法不准，更像模拟器加静态重编译"
+    },
+    {
+     "title": "Karpathy：LLM 能力差距在拉大",
+     "en": "r/singularity",
+     "metric": "790 赞 · 200 评论",
+     "url": "https://www.reddit.com/r/singularity/comments/1x3gsc4/andrej_karpathy_breaks_down_the_capability_gap/",
+     "time": "10-15",
+     "what": "转发 X 长帖截图，此前已上榜"
+    },
+    {
+     "title": "GTA 5、使命召唤等游戏被 AI 逆向后移植到浏览器",
+     "en": "r/singularity",
+     "metric": "820 赞 · 126 评论",
+     "url": "https://www.reddit.com/r/singularity/comments/1x38qz0/gta_5_modern_warfare_2_halo_and_many_other_games/",
+     "time": "10-14",
+     "what": "Destructoid 报道"
+    },
+    {
+     "title": "免费 Adobe 克隆作者开源 Office 复刻",
+     "en": "r/singularity",
+     "metric": "1481 赞 · 332 评论",
+     "url": "https://www.reddit.com/r/singularity/comments/1x3daf9/shock_and_awe_creator_of_free_adobe_clones/",
+     "time": "10-14",
+     "what": "Tom's Hardware 报道，已多日在榜"
+    },
+    {
+     "title": "Claude 项目改版，Max 用户要求可选",
+     "en": "r/ClaudeAI",
+     "metric": "358 赞 · 143 评论",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x33na4/new_projects_rolling_out_for_chat_and_cowork_oh/",
+     "time": "10-14",
+     "what": "社区反馈帖"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X / Twitter",
+   "tag": "科技圈刷屏",
+   "color": "#111111",
+   "url": "https://agentflare.org/social/tech/index.html",
+   "short": "X",
+   "items": [
+    {
+     "title": "马斯克：Grok Bot 像雇了个聪明员工",
+     "en": "@elonmusk",
+     "metric": "7.7K 赞 · 340 万浏览",
+     "url": "https://x.com/elonmusk/status/2109955246923641259",
+     "time": "10-13",
+     "what": "原帖一句话"
+    },
+    {
+     "title": "马斯克：Grok Bot 代买乐高，到货后自动停止查物流",
+     "en": "@elonmusk",
+     "metric": "9.9K 赞 · 190 万浏览",
+     "url": "https://x.com/elonmusk/status/2110138164811833534",
+     "time": "10-13",
+     "what": "原帖，自述"
+    },
+    {
+     "title": "Matthew Berman：“任何东西都能逆向，软件完了”",
+     "en": "@MatthewBerman",
+     "metric": "3.87 万赞 · 370 万浏览",
+     "url": "https://x.com/MatthewBerman/status/2108245653843509415",
+     "time": "10-08",
+     "what": "观点帖"
+    },
+    {
+     "title": "Grok Voice 3.0 称“全球领先对话语音模型”",
+     "en": "@elonmusk",
+     "metric": "5.0K 赞 · 78.7 万浏览",
+     "url": "https://x.com/elonmusk/status/2110483960312799675",
+     "time": "10-14",
+     "what": "厂商自评，未经第三方核实"
+    },
+    {
+     "title": "Polymarket：贝佐斯称 AI 可让美国人每周只工作 3 天",
+     "en": "@Polymarket",
+     "metric": "7.4K 赞 · 58.9 万浏览",
+     "url": "https://x.com/Polymarket/status/2108190299830771725",
+     "time": "10-08",
+     "what": "转述，待核"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "今日爆火仓库",
+   "color": "#24292f",
+   "url": "https://github.com/trending",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "morluto/rea",
+     "en": "morluto/rea",
+     "metric": "今日 +32,314 星",
+     "url": "https://github.com/morluto/rea",
+     "time": "10-16",
+     "what": "“用智能体逆向一切”，榜首且增速异常，来源待核"
+    },
+    {
+     "title": "debpalash/VoiceStudio",
+     "en": "debpalash/VoiceStudio",
+     "metric": "今日 +3,024 星",
+     "url": "https://github.com/debpalash/VoiceStudio",
+     "time": "10-16",
+     "what": "开源、完全本地的语音工作室"
+    },
+    {
+     "title": "NationalSecurityAgency/ghidra",
+     "en": "NationalSecurityAgency/ghidra",
+     "metric": "今日 +1,369 星",
+     "url": "https://github.com/NationalSecurityAgency/ghidra",
+     "time": "10-16",
+     "what": "NSA 的逆向工程框架，随“逆向”热重回榜单"
+    },
+    {
+     "title": "K-Dense-AI/scientific-agent-skills",
+     "en": "K-Dense-AI/scientific-agent-skills",
+     "metric": "今日 +1,091 星",
+     "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+     "time": "10-16",
+     "what": "给智能体装科研技能"
+    },
+    {
+     "title": "affaan-m/ECC",
+     "en": "affaan-m/ECC",
+     "metric": "今日 +1,013 星",
+     "url": "https://github.com/affaan-m/ECC",
+     "time": "10-16",
+     "what": "智能体 harness 性能优化"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "今日热门论文",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "CLASHarness：测量电脑操作中的多智能体冲突",
+     "en": "CLASHarness: Benchmarking Multi-Agent Conflict in Computer Use",
+     "metric": "25 赞",
+     "url": "https://huggingface.co/papers/2610.19128",
+     "time": "10-15",
+     "what": "可控、可验证的多智能体冲突基准"
+    },
+    {
+     "title": "APEX-Harm：共享办公空间里的智能体安全评测",
+     "en": "APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces",
+     "metric": "12 赞",
+     "url": "https://huggingface.co/papers/2610.13623",
+     "time": "10-15",
+     "what": "职场场景下的智能体安全"
+    },
+    {
+     "title": "线性注意力的长上下文能力",
+     "en": "History Replays Itself: Unleashing Long-Context Capability in Linear Attention",
+     "metric": "9 赞",
+     "url": "https://huggingface.co/papers/2610.15715",
+     "time": "10-15",
+     "what": "让线性注意力吃下长上下文"
+    },
+    {
+     "title": "PreciseCoder：超越单测奖励的调试",
+     "en": "PreciseCoder: Faithful and Generalizable Debugging Beyond Unit-Test Rewards",
+     "metric": "4 赞",
+     "url": "https://huggingface.co/papers/2610.18755",
+     "time": "10-15",
+     "what": "代码调试训练"
+    },
+    {
+     "title": "FreeSolo：线性时间稀疏注意力",
+     "en": "FreeSolo: Linear-time Sparse Attention with Zero-Shot Length Extrapolation",
+     "metric": "3 赞",
+     "url": "https://huggingface.co/papers/2610.17191",
+     "time": "10-15",
+     "what": "零样本长度外推"
+    }
+   ]
+  },
+  {
+   "key": "media",
+   "name": "The Verge · TechCrunch",
+   "tag": "海外科技媒体",
+   "color": "#5200ff",
+   "url": "https://www.theverge.com/",
+   "short": "外媒",
+   "items": [
+    {
+     "title": "Anthropic 让 METR 研究员以员工权限入驻",
+     "en": "Anthropic is letting METR researchers look under the hood with employee-level access",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+     "time": "10-15",
+     "what": "6 名研究员，Anthropic 放弃否决发布的权利"
+    },
+    {
+     "title": "谷歌 Universal Cart 在美国上线",
+     "en": "Google's Universal Cart shopping tool launches in the US",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+     "time": "10-15",
+     "what": "搜索和 Gemini 里的跨商家购物车"
+    },
+    {
+     "title": "亚马逊 Bee 推出两款 AI 录音设备，75 美元起",
+     "en": "Amazon's Bee launches two new personal AI devices, starting at $75",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+     "time": "10-15",
+     "what": "Frontier 74.99 美元、Eclipse 99.99 美元"
+    },
+    {
+     "title": "Meta 与苹果合作，让 Muse 模型在 Mac 上跑得更好",
+     "en": "Meta and Apple team up to make Muse AI models run better on Macs",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
+     "time": "10-16",
+     "what": "MLX 适配"
+    },
+    {
+     "title": "ChatGPT 现在能看你的 Chrome 标签页",
+     "en": "ChatGPT can peek at your Chrome tabs now",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
+     "time": "10-16",
+     "what": "仅见标题，细节待核"
+    }
+   ]
+  },
+  {
+   "key": "qbit",
+   "name": "量子位",
+   "tag": "国内 AI 圈",
+   "color": "#2f6bff",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "阶跃发布首款 Agent 手机 STEPX Neo",
+     "en": "阶跃终端首款「Agent手机」STEPX Neo正式发布",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/10/503244.html",
+     "time": "10-14",
+     "what": "大模型原生智能体手机"
+    },
+    {
+     "title": "APUS 开源 Reflex Agent，称响应比 Claude Code 快 3 倍",
+     "en": "APUS AI开源Reflex Agent",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/10/503165.html",
+     "time": "10-14",
+     "what": "厂商自述，未经第三方测试"
+    },
+    {
+     "title": "《变形计》赛博复活，LibTV 下场“造星”",
+     "en": "LibTV",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/10/503211.html",
+     "time": "10-14",
+     "what": "AI 视频内容"
+    },
+    {
+     "title": "MemSilicon 完成 1Gb RRAM 芯片流片",
+     "en": "MemSilicon",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/10/503198.html",
+     "time": "10-14",
+     "what": "称国际首款高密度大容量"
+    },
+    {
+     "title": "千问办公电商版：几百元开店",
+     "en": "千问",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/10/503303.html",
+     "time": "10-15",
+     "what": "偏推广稿"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "国内科技数码",
+   "color": "#d4222a",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "宣称“美国最强开源 AI 模型”：Meta 发布 Muse Spark Open",
+     "en": "Muse Spark Open",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/013/706.htm",
+     "time": "10-16",
+     "what": "国内跟进"
+    },
+    {
+     "title": "亚马逊 Bee 推出 Frontier 与 Eclipse，74.99 美元起",
+     "en": "Bee",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/013/702.htm",
+     "time": "10-16",
+     "what": "AI 录音可穿戴"
+    },
+    {
+     "title": "库克称苹果智能月底在华测试",
+     "en": "Apple Intelligence",
+     "metric": "IT早报",
+     "url": "https://www.ithome.com/1/013/710.htm",
+     "time": "10-16",
+     "what": "IT早报条目，细节待核"
+    },
+    {
+     "title": "DeepSeek 宕机 5 小时补偿公布",
+     "en": "DeepSeek",
+     "metric": "IT早报",
+     "url": "https://www.ithome.com/1/013/710.htm",
+     "time": "10-16",
+     "what": "IT早报条目，细节待核"
+    },
+    {
+     "title": "谷歌安卓地震预警累计推送超 10 亿次",
+     "en": "Android Earthquake Alerts",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/013/708.htm",
+     "time": "10-16",
+     "what": "覆盖 200 多个国家和地区"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "程序员圈",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "Anthropic 的 Scion 深受 Mononoke 启发",
+     "en": "Anthropic's Scion is heavily inspired by Mononoke",
+     "metric": "138 分 · 48 评论",
+     "url": "https://lobste.rs/s/plcgps/anthropic_s_scion_is_heavily_inspired_by",
+     "time": "10-15",
+     "what": "10-14 期已写过 Scion"
+    },
+    {
+     "title": "Mozilla 推出 Firefox Enterprise",
+     "en": "Introducing Firefox Enterprise",
+     "metric": "128 分 · 35 评论",
+     "url": "https://lobste.rs/s/7xg9rm/introducing_firefox_enterprise",
+     "time": "10-15",
+     "what": "企业版浏览器"
+    },
+    {
+     "title": "我自托管了什么",
+     "en": "What I Self-Host",
+     "metric": "80 分 · 44 评论",
+     "url": "https://lobste.rs/s/j4tlzg/what_i_self_host",
+     "time": "10-15",
+     "what": "个人清单"
+    },
+    {
+     "title": "decomp.dev 停止服务",
+     "en": "Sunsetting decomp.dev",
+     "metric": "55 分 · 11 评论",
+     "url": "https://lobste.rs/s/kaerns/sunsetting_decomp_dev",
+     "time": "10-15",
+     "what": "反编译社区站点"
+    },
+    {
+     "title": "JPEG XL 与 AVIF 在网页场景对比",
+     "en": "JPEG XL vs AVIF for web use-cases",
+     "metric": "40 分 · 14 评论",
+     "url": "https://lobste.rs/s/uejdwj/jpeg_xl_vs_avif_for_web_use_cases",
+     "time": "10-15",
+     "what": "图像格式评测"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Meta 开放 Muse Spark Open 权重",
+   "url": "https://research.meta.ai/blog/muse-spark-open",
+   "why": "HN 576 分，Meta 官方页、TC、Verge、IT之家同日跟进，有配图",
+   "pick": true,
+   "status": "已核（Meta 官方页全文）"
+  },
+  {
+   "title": "Anthropic 让 METR 以员工权限入驻",
+   "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+   "why": "TC 全文，承接 9 月“放缓前沿”主张，与这期主线契合",
+   "pick": true,
+   "status": "已核（TC 全文）"
+  },
+  {
+   "title": "谷歌 Universal Cart 在美国上线",
+   "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+   "why": "TC 全文，智能体结账走 UCP 协议",
+   "pick": true,
+   "status": "已核（TC 全文）"
+  },
+  {
+   "title": "亚马逊 Bee 两款新设备",
+   "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+   "why": "TC 全文，价格与订阅明确",
+   "pick": false,
+   "status": "已核（TC 全文）"
+  },
+  {
+   "title": "Opus 5.5 移植 SNES 游戏",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/",
+   "why": "Reddit 热帖，但发帖人自承术语不准，二手来源",
+   "pick": false,
+   "status": "待核"
+  },
+  {
+   "title": "morluto/rea 登顶 GitHub Trending",
+   "url": "https://github.com/morluto/rea",
+   "why": "今日 +32,314 星，增速异常，缺一手解释",
+   "pick": false,
+   "status": "待核"
+  },
+  {
+   "title": "Steam 比 Epic 的 vibe coded 启动器快",
+   "url": "https://news.ycombinator.com/item?id=50105635",
+   "why": "HN 269 分，单一来源",
+   "pick": false,
+   "status": "待核"
+  }
+ ]
+}

@@ -54,6 +54,10 @@ def main(dpath):
     log = []; cand_log = {}
     for i, h in enumerate(D['headlines'], 1):
         h.pop('image', None)
+        if h.get('image_skip') and not h.get('image_url'):
+            old=os.path.join(out, f'h{i}.jpg')
+            if os.path.exists(old): os.remove(old)
+            print(f'头条{i} 跳过配图：{h["image_skip"]}'); continue
         try:
             allc = candidates(h['url']) if not h.get('image_url') else [h['image_url']]
             cand_log[f'h{i}'] = allc if not h.get('image_url') else candidates(h['url'])

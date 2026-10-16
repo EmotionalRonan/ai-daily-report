@@ -1,0 +1,537 @@
+{
+ "date": "2026-10-16",
+ "weekday": "周五",
+ "issue": 5,
+ "title": "模型交到你手上，审计员请进屋里",
+ "subtitle": "Meta 开放 Muse Spark Open、Anthropic 引入 METR、谷歌购物车上线",
+ "lead": "Meta 放出 8160 亿参数的开放权重模型，称两台 Mac Studio 就能在桌面跑；Anthropic 让 METR 研究员带着员工权限入驻；谷歌的 Universal Cart 在美国上线。能力在往外放，监督在往里走。",
+ "headlines": [
+  {
+   "title": "Meta 开放 Muse Spark Open，称两台 Mac Studio 可本地运行",
+   "body": "Meta 15 日放出 Muse Spark Open 权重：816B 总参数、42B 激活、1M 上下文，面向编程与智能体任务。官方称它是目前最强的美国开放权重模型，可用两台 M5 Ultra Mac Studio 在桌面运行，采用有限商用条款的 Muse 许可证。",
+   "why": "“最强”是 Meta 自己的说法，完整评测报告还没放出。能不能在家里跑，才是它和前几代开放模型真正拉开的地方。",
+   "source": "Meta AI Research",
+   "url": "https://research.meta.ai/blog/muse-spark-open",
+   "image": {
+    "file": "wechat/img/h1.jpg",
+    "src_url": "https://research.meta.ai/articles/muse-spark-open/social/muse-spark-1-2-open-weights-social-v2.webp",
+    "credit": "Meta AI Research",
+    "w": 1200,
+    "h": 630
+   }
+  },
+  {
+   "title": "Anthropic 让 METR 研究员以员工权限入驻，放弃否决发布权",
+   "body": "Anthropic 向非营利评测机构 METR 的 6 名研究员开放员工级权限：公司笔记本、办公室和接近内部风险团队的工具。METR 将自行发布对其风险与事故的评估，Anthropic 不能否决，只能要求涂黑客户数据等几类信息。",
+   "why": "这兑现了 Dario Amodei 9 月提出的“让外部评估者进实验室”。比银行驻场检查员更进一步的是，涂黑本身也可以被公开评论。",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+   "image_skip": "原文页只有 Anthropic 标志的通用图库照片，与事件无关"
+  },
+  {
+   "title": "谷歌 Universal Cart 在美国上线，智能体可直接结账",
+   "body": "Universal Cart 15 日在美国上线，覆盖谷歌搜索和 Gemini 应用。它能跨商家收集商品，降价或补货时提醒，还会结合信用卡权益推荐付款方式、找优惠码。结账走谷歌今年推出的开放标准 UCP，让智能体与零售商对接。",
+   "why": "谷歌 5 月在 I/O 上预告过这个功能。购物车是入口，真正的争夺点是 UCP：谁的协议成为智能体下单的默认路径。",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+   "image": {
+    "file": "wechat/img/h3.jpg",
+    "src_url": "https://techcrunch.com/wp-content/uploads/2026/10/Google-UniversalCart.png?w=1200",
+    "credit": "TechCrunch",
+    "w": 1200,
+    "h": 675
+   }
+  }
+ ],
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "Meta 发布 Muse Spark Open",
+     "en": "Muse Spark Open",
+     "metric": "576 分 · 326 评论",
+     "url": "https://news.ycombinator.com/item?id=50107379"
+    },
+    {
+     "title": "神经网络其实很“干净”",
+     "en": "Neural networks are clean",
+     "metric": "466 分 · 178 评论",
+     "url": "https://news.ycombinator.com/item?id=50105647"
+    },
+    {
+     "title": "定向广告成了零点击间谍软件的通道",
+     "en": "AdFection: Targeted ads turned into a pipeline for zero-click mercenary spyware",
+     "metric": "364 分 · 531 评论",
+     "url": "https://news.ycombinator.com/item?id=50101813"
+    },
+    {
+     "title": "想下载个 ISO，结果写出了内核提权漏洞",
+     "en": "Wanted to download an ISO, ended up writing a kernel exploit",
+     "metric": "344 分 · 169 评论",
+     "url": "https://news.ycombinator.com/item?id=50070625"
+    },
+    {
+     "title": "Steam 客户端已比 Epic 新的“vibe coded”启动器快",
+     "en": "Steam Client is now faster than Epic's new vibe coded launcher",
+     "metric": "269 分 · 270 评论",
+     "url": "https://news.ycombinator.com/item?id=50105635"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "AI 社区热帖",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "Opus 5.5 把 SNES 老游戏移植到桌面",
+     "en": "r/ClaudeAI",
+     "metric": "656 赞 · 232 评论",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/"
+    },
+    {
+     "title": "Karpathy：LLM 能力差距在拉大",
+     "en": "r/singularity",
+     "metric": "790 赞 · 200 评论",
+     "url": "https://www.reddit.com/r/singularity/comments/1x3gsc4/andrej_karpathy_breaks_down_the_capability_gap/"
+    },
+    {
+     "title": "GTA 5、使命召唤等游戏被 AI 逆向后移植到浏览器",
+     "en": "r/singularity",
+     "metric": "820 赞 · 126 评论",
+     "url": "https://www.reddit.com/r/singularity/comments/1x38qz0/gta_5_modern_warfare_2_halo_and_many_other_games/"
+    },
+    {
+     "title": "免费 Adobe 克隆作者开源 Office 复刻",
+     "en": "r/singularity",
+     "metric": "1481 赞 · 332 评论",
+     "url": "https://www.reddit.com/r/singularity/comments/1x3daf9/shock_and_awe_creator_of_free_adobe_clones/"
+    },
+    {
+     "title": "Claude 项目改版，Max 用户要求可选",
+     "en": "r/ClaudeAI",
+     "metric": "358 赞 · 143 评论",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x33na4/new_projects_rolling_out_for_chat_and_cowork_oh/"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X / Twitter",
+   "tag": "科技圈刷屏",
+   "color": "#111111",
+   "url": "https://agentflare.org/social/tech/index.html",
+   "short": "X",
+   "items": [
+    {
+     "title": "马斯克：Grok Bot 像雇了个聪明员工",
+     "en": "@elonmusk",
+     "metric": "7.7K 赞 · 340 万浏览",
+     "url": "https://x.com/elonmusk/status/2109955246923641259"
+    },
+    {
+     "title": "马斯克：Grok Bot 代买乐高，到货后自动停止查物流",
+     "en": "@elonmusk",
+     "metric": "9.9K 赞 · 190 万浏览",
+     "url": "https://x.com/elonmusk/status/2110138164811833534"
+    },
+    {
+     "title": "Matthew Berman：“任何东西都能逆向，软件完了”",
+     "en": "@MatthewBerman",
+     "metric": "3.87 万赞 · 370 万浏览",
+     "url": "https://x.com/MatthewBerman/status/2108245653843509415"
+    },
+    {
+     "title": "Grok Voice 3.0 称“全球领先对话语音模型”",
+     "en": "@elonmusk",
+     "metric": "5.0K 赞 · 78.7 万浏览",
+     "url": "https://x.com/elonmusk/status/2110483960312799675"
+    },
+    {
+     "title": "Polymarket：贝佐斯称 AI 可让美国人每周只工作 3 天",
+     "en": "@Polymarket",
+     "metric": "7.4K 赞 · 58.9 万浏览",
+     "url": "https://x.com/Polymarket/status/2108190299830771725"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "今日爆火仓库",
+   "color": "#24292f",
+   "url": "https://github.com/trending",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "morluto/rea",
+     "en": "morluto/rea",
+     "metric": "今日 +32,314 星",
+     "url": "https://github.com/morluto/rea"
+    },
+    {
+     "title": "debpalash/VoiceStudio",
+     "en": "debpalash/VoiceStudio",
+     "metric": "今日 +3,024 星",
+     "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+     "title": "NationalSecurityAgency/ghidra",
+     "en": "NationalSecurityAgency/ghidra",
+     "metric": "今日 +1,369 星",
+     "url": "https://github.com/NationalSecurityAgency/ghidra"
+    },
+    {
+     "title": "K-Dense-AI/scientific-agent-skills",
+     "en": "K-Dense-AI/scientific-agent-skills",
+     "metric": "今日 +1,091 星",
+     "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    {
+     "title": "affaan-m/ECC",
+     "en": "affaan-m/ECC",
+     "metric": "今日 +1,013 星",
+     "url": "https://github.com/affaan-m/ECC"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "今日热门论文",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "CLASHarness：测量电脑操作中的多智能体冲突",
+     "en": "CLASHarness: Benchmarking Multi-Agent Conflict in Computer Use",
+     "metric": "25 赞",
+     "url": "https://huggingface.co/papers/2610.19128"
+    },
+    {
+     "title": "APEX-Harm：共享办公空间里的智能体安全评测",
+     "en": "APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces",
+     "metric": "12 赞",
+     "url": "https://huggingface.co/papers/2610.13623"
+    },
+    {
+     "title": "线性注意力的长上下文能力",
+     "en": "History Replays Itself: Unleashing Long-Context Capability in Linear Attention",
+     "metric": "9 赞",
+     "url": "https://huggingface.co/papers/2610.15715"
+    },
+    {
+     "title": "PreciseCoder：超越单测奖励的调试",
+     "en": "PreciseCoder: Faithful and Generalizable Debugging Beyond Unit-Test Rewards",
+     "metric": "4 赞",
+     "url": "https://huggingface.co/papers/2610.18755"
+    },
+    {
+     "title": "FreeSolo：线性时间稀疏注意力",
+     "en": "FreeSolo: Linear-time Sparse Attention with Zero-Shot Length Extrapolation",
+     "metric": "3 赞",
+     "url": "https://huggingface.co/papers/2610.17191"
+    }
+   ]
+  },
+  {
+   "key": "media",
+   "name": "The Verge · TechCrunch",
+   "tag": "海外科技媒体",
+   "color": "#5200ff",
+   "url": "https://www.theverge.com/",
+   "short": "外媒",
+   "items": [
+    {
+     "title": "Anthropic 让 METR 研究员以员工权限入驻",
+     "en": "Anthropic is letting METR researchers look under the hood with employee-level access",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/"
+    },
+    {
+     "title": "谷歌 Universal Cart 在美国上线",
+     "en": "Google's Universal Cart shopping tool launches in the US",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/"
+    },
+    {
+     "title": "亚马逊 Bee 推出两款 AI 录音设备，75 美元起",
+     "en": "Amazon's Bee launches two new personal AI devices, starting at $75",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/"
+    },
+    {
+     "title": "Meta 与苹果合作，让 Muse 模型在 Mac 上跑得更好",
+     "en": "Meta and Apple team up to make Muse AI models run better on Macs",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx"
+    },
+    {
+     "title": "ChatGPT 现在能看你的 Chrome 标签页",
+     "en": "ChatGPT can peek at your Chrome tabs now",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs"
+    }
+   ]
+  },
+  {
+   "key": "qbit",
+   "name": "量子位",
+   "tag": "国内 AI 圈",
+   "color": "#2f6bff",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "阶跃发布首款 Agent 手机 STEPX Neo",
+     "en": "阶跃终端首款「Agent手机」STEPX Neo正式发布",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/10/503244.html"
+    },
+    {
+     "title": "APUS 开源 Reflex Agent，称响应比 Claude Code 快 3 倍",
+     "en": "APUS AI开源Reflex Agent",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/10/503165.html"
+    },
+    {
+     "title": "《变形计》赛博复活，LibTV 下场“造星”",
+     "en": "LibTV",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/10/503211.html"
+    },
+    {
+     "title": "MemSilicon 完成 1Gb RRAM 芯片流片",
+     "en": "MemSilicon",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/10/503198.html"
+    },
+    {
+     "title": "千问办公电商版：几百元开店",
+     "en": "千问",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/10/503303.html"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "国内科技数码",
+   "color": "#d4222a",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "宣称“美国最强开源 AI 模型”：Meta 发布 Muse Spark Open",
+     "en": "Muse Spark Open",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/013/706.htm"
+    },
+    {
+     "title": "亚马逊 Bee 推出 Frontier 与 Eclipse，74.99 美元起",
+     "en": "Bee",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/013/702.htm"
+    },
+    {
+     "title": "库克称苹果智能月底在华测试",
+     "en": "Apple Intelligence",
+     "metric": "IT早报",
+     "url": "https://www.ithome.com/1/013/710.htm"
+    },
+    {
+     "title": "DeepSeek 宕机 5 小时补偿公布",
+     "en": "DeepSeek",
+     "metric": "IT早报",
+     "url": "https://www.ithome.com/1/013/710.htm"
+    },
+    {
+     "title": "谷歌安卓地震预警累计推送超 10 亿次",
+     "en": "Android Earthquake Alerts",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/013/708.htm"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "程序员圈",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "Anthropic 的 Scion 深受 Mononoke 启发",
+     "en": "Anthropic's Scion is heavily inspired by Mononoke",
+     "metric": "138 分 · 48 评论",
+     "url": "https://lobste.rs/s/plcgps/anthropic_s_scion_is_heavily_inspired_by"
+    },
+    {
+     "title": "Mozilla 推出 Firefox Enterprise",
+     "en": "Introducing Firefox Enterprise",
+     "metric": "128 分 · 35 评论",
+     "url": "https://lobste.rs/s/7xg9rm/introducing_firefox_enterprise"
+    },
+    {
+     "title": "我自托管了什么",
+     "en": "What I Self-Host",
+     "metric": "80 分 · 44 评论",
+     "url": "https://lobste.rs/s/j4tlzg/what_i_self_host"
+    },
+    {
+     "title": "decomp.dev 停止服务",
+     "en": "Sunsetting decomp.dev",
+     "metric": "55 分 · 11 评论",
+     "url": "https://lobste.rs/s/kaerns/sunsetting_decomp_dev"
+    },
+    {
+     "title": "JPEG XL 与 AVIF 在网页场景对比",
+     "en": "JPEG XL vs AVIF for web use-cases",
+     "metric": "40 分 · 14 评论",
+     "url": "https://lobste.rs/s/uejdwj/jpeg_xl_vs_avif_for_web_use_cases"
+    }
+   ]
+  }
+ ],
+ "topics": [
+  {
+   "name": "能力往外放",
+   "kicker": "OPEN",
+   "items": [
+    {
+     "title": "Meta 与苹果合作，优化 Muse 模型在 Mac 上运行",
+     "note": "与 Meta 官方页同日，MLX 是关键。",
+     "src": "The Verge",
+     "metric": "10月16日",
+     "url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx"
+    },
+    {
+     "title": "Opus 5.5 把 SNES 老游戏移植到桌面",
+     "note": "发帖人自承“反编译”说法不准。",
+     "src": "Reddit",
+     "metric": "656 赞",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/"
+    },
+    {
+     "title": "VoiceStudio：完全本地运行的开源语音工作室",
+     "note": "今日涨星第二，本地化是卖点。",
+     "src": "GitHub",
+     "metric": "+3,024 星",
+     "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+     "title": "APUS 开源 Reflex Agent，称更快",
+     "note": "厂商自述，暂无第三方测试。",
+     "src": "量子位",
+     "metric": "10月14日",
+     "url": "https://www.qbitai.com/2026/10/503165.html"
+    }
+   ]
+  },
+  {
+   "name": "监督往里走",
+   "kicker": "OVERSIGHT",
+   "items": [
+    {
+     "title": "CLASHarness：测量电脑操作中的多智能体冲突",
+     "note": "今日 HF 论文榜首，基准可验证。",
+     "src": "Hugging Face",
+     "metric": "25 赞",
+     "url": "https://huggingface.co/papers/2610.19128"
+    },
+    {
+     "title": "APEX-Harm：共享职场空间里的智能体安全评测",
+     "note": "把风险放进真实办公场景。",
+     "src": "Hugging Face",
+     "metric": "12 赞",
+     "url": "https://huggingface.co/papers/2610.13623"
+    },
+    {
+     "title": "Citizen Lab：定向广告成了零点击间谍软件通道",
+     "note": "调查报告，HN 讨论 531 条。",
+     "src": "Hacker News",
+     "metric": "364 分",
+     "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/"
+    },
+    {
+     "title": "ChatGPT 现在能看你的 Chrome 标签页",
+     "note": "仅见标题，权限细节待核。",
+     "src": "The Verge",
+     "metric": "10月16日",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs"
+    }
+   ]
+  },
+  {
+   "name": "智能体进入日常",
+   "kicker": "DAILY",
+   "items": [
+    {
+     "title": "亚马逊 Bee 推出两款 AI 录音设备，74.99 美元起",
+     "note": "Pro 订阅 11.99 美元/月。",
+     "src": "TechCrunch",
+     "metric": "10月15日",
+     "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/"
+    },
+    {
+     "title": "阶跃发布首款 Agent 手机 STEPX Neo",
+     "note": "大模型原生智能体手机，细节待核。",
+     "src": "量子位",
+     "metric": "10月14日",
+     "url": "https://www.qbitai.com/2026/10/503244.html"
+    },
+    {
+     "title": "Bluesky 的 AI 工具 Attie 可做游戏和应用",
+     "note": "生成后直接在社交上分享。",
+     "src": "The Verge",
+     "metric": "10月16日",
+     "url": "https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps"
+    },
+    {
+     "title": "Rivian 车里要来 AI 智能体",
+     "note": "仅见 TC 标题，细节待核。",
+     "src": "TechCrunch",
+     "metric": "10月15日",
+     "url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/"
+    }
+   ]
+  }
+ ],
+ "comments": [
+  "“最强开放模型”是 Meta 的自评，完整评测报告要等后续放出。",
+  "METR 能公开评论涂黑是否合理，这比“允许独立评估”更有约束力。",
+  "购物车只是入口，UCP 才是谷歌想让智能体默认走的路。"
+ ],
+ "xhs": {
+  "title": "模型进桌面，审计员进屋",
+  "cover": "模型进桌面\n审计员进屋",
+  "deck": "Meta、Anthropic、谷歌",
+  "intro": "Meta 开放 8160 亿参数模型权重，称两台 Mac Studio 就能本地跑；Anthropic 让 METR 研究员以员工权限入驻；谷歌 Universal Cart 在美国上线。",
+  "oneliner": "能力在往外放，监督在往里走。",
+  "closing": "如果模型能在家里跑，你会想自己试试吗？",
+  "tags": [
+   "AI",
+   "人工智能",
+   "科技新闻",
+   "AI日报",
+   "Meta",
+   "Anthropic",
+   "谷歌",
+   "开源模型",
+   "AI安全",
+   "智能体"
+  ]
+ }
+}

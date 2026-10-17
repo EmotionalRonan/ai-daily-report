@@ -1,0 +1,505 @@
+{
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "Claude 解出 NIST 椭圆曲线种子的来历",
+     "en": "Claude reveals ECDSA curve origins",
+     "metric": "593 分 · 247 评论",
+     "url": "https://news.ycombinator.com/item?id=50122800",
+     "time": "10-16",
+     "what": "Anthropic 称 Claude 半小时内还原 NIST 曲线种子的生成方式"
+    },
+    {
+     "title": "90% 的美国工作时间落在基准测试覆盖不好的任务上",
+     "en": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+     "metric": "371 分 · 320 评论",
+     "url": "https://news.ycombinator.com/item?id=50121179",
+     "time": "10-16",
+     "what": "Mercor 做了张美国职业的基准覆盖地图"
+    },
+    {
+     "title": "苹果 ML 研究：Muse Spark Open 在 Mac Studio 上用 MLX 分布式推理",
+     "en": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
+     "metric": "251 分 · 113 评论",
+     "url": "https://news.ycombinator.com/item?id=50118320",
+     "time": "10-16",
+     "what": "Meta 开放模型的本地运行方案，苹果官方出了技术页"
+    },
+    {
+     "title": "Waymo 进入多伦多",
+     "en": "Waymo in Toronto",
+     "metric": "244 分 · 345 评论",
+     "url": "https://news.ycombinator.com/item?id=50118981",
+     "time": "10-16",
+     "what": "Waymo 官方博客宣布加拿大首个城市"
+    },
+    {
+     "title": "Claude Code 团队怎么做代码审查",
+     "en": "How the Claude Code team does code review",
+     "metric": "200 分 · 188 评论",
+     "url": "https://news.ycombinator.com/item?id=50122951",
+     "time": "10-16",
+     "what": "官方称 6–9 月合并 PR 翻倍，回滚占比降四成以上"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区情绪",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "开源 Office 三件套复刻出现",
+     "en": "Creator of free Adobe clones unveils open-source Microsoft Office replications",
+     "metric": "1481 赞 · 332 评论",
+     "url": "https://www.tomshardware.com/software/microsoft-office/creator-of-free-adobe-clones-unveils-open-source-microsoft-office-excel-powerpoint-and-word-replications-autodesk-tools-and-other-subscription-based-services-may-come-next",
+     "time": "10-15",
+     "what": "连续几天在榜的老话题"
+    },
+    {
+     "title": "Karpathy 拆解能力差距",
+     "en": "Andrej Karpathy breaks down the capability gap",
+     "metric": "790 赞 · 200 评论",
+     "url": "https://x.com/karpathy/status/2109361546505966046",
+     "time": "10-14",
+     "what": "旧帖重发，往期已出现"
+    },
+    {
+     "title": "Opus 5.5 做 SNES 游戏的原生移植",
+     "en": "Opus 5.5 is INSANE at decompilation / ports",
+     "metric": "656 赞 · 232 评论",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/",
+     "time": "10-15",
+     "what": "发帖人承认“反编译”说法不准"
+    },
+    {
+     "title": "RTX 5090 为什么卖到 5000 美元",
+     "en": "Here's why RTX 5090 costs $5,000",
+     "metric": "463 赞 · 223 评论",
+     "url": "https://videocardz.com/newz/heres-why-rtx-5090-costs-5000-ai-firms-are-buying-gaming-gpus-by-the-pallet",
+     "time": "10-15",
+     "what": "往期出现过"
+    },
+    {
+     "title": "Anthropic 把 Projects 变成“一整个对话”引发用户反弹",
+     "en": "New Projects rolling out for Chat and Cowork",
+     "metric": "358 赞 · 143 评论",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x33na4/new_projects_rolling_out_for_chat_and_cowork_oh/",
+     "time": "10-15",
+     "what": "用户吐槽，无官方回应"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X",
+   "tag": "全网议程",
+   "color": "#111111",
+   "url": "https://agentflare.org/social/tech/index.html",
+   "short": "X",
+   "items": [
+    {
+     "title": "DeepSeek V4.1 Flash 在 OpenCode 免费",
+     "en": "DeepSeek V4.1 Flash is now free in OpenCode",
+     "metric": "2.7M 浏览 · 21.8K 赞",
+     "url": "https://x.com/opencode/status/2110635747648909472",
+     "time": "10-15",
+     "what": "@opencode 官方帖"
+    },
+    {
+     "title": "Gemini 4 Argon 全球可用",
+     "en": "Gemini 4 Argon is now globally available",
+     "metric": "2.5M 浏览 · 6.4K 赞",
+     "url": "https://x.com/GoogleDeepMind/status/2110039274922131792",
+     "time": "10-13",
+     "what": "谷歌 DeepMind 官方帖，往期已出现"
+    },
+    {
+     "title": "纽约市投 3000 万美元建 NYU 量子实验室",
+     "en": "NYC invests $30M in an NYU quantum lab",
+     "metric": "1.8M 浏览 · 11.3K 赞",
+     "url": "https://x.com/nytimes/status/2110467913383591957",
+     "time": "10-14",
+     "what": "纽约时报快讯，市府拿 15% 知识产权收益"
+    },
+    {
+     "title": "X 试点视频新手奖励",
+     "en": "X pilots Video Kickstart Bonus",
+     "metric": "606.9K 浏览 · 5.4K 赞",
+     "url": "https://x.com/allegrajacchia/status/2110821237517959503",
+     "time": "10-16",
+     "what": "邀请制，10 月 30 日截止"
+    },
+    {
+     "title": "Tesla 机器人出租车更新",
+     "en": "Robotaxi service updates",
+     "metric": "2.3M 浏览 · 8.7K 赞",
+     "url": "https://x.com/robotaxi/status/2109742678435119540",
+     "time": "10-12",
+     "what": "运营时间 6–23 点，官方帖"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热度",
+   "color": "#24292f",
+   "url": "https://github.com/trending?since=daily",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "anthropics/claude-plugins-official",
+     "en": "anthropics/claude-plugins-official",
+     "metric": "+1,552 星",
+     "url": "https://github.com/anthropics/claude-plugins-official",
+     "time": "10-16",
+     "what": "Claude Code 官方插件目录"
+    },
+    {
+     "title": "K-Dense-AI/scientific-agent-skills",
+     "en": "K-Dense-AI/scientific-agent-skills",
+     "metric": "+1,158 星",
+     "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+     "time": "10-16",
+     "what": "科研向智能体技能集"
+    },
+    {
+     "title": "affaan-m/ECC",
+     "en": "affaan-m/ECC",
+     "metric": "+1,057 星",
+     "url": "https://github.com/affaan-m/ECC",
+     "time": "10-16",
+     "what": "智能体工具链"
+    },
+    {
+     "title": "obra/superpowers",
+     "en": "obra/superpowers",
+     "metric": "+973 星",
+     "url": "https://github.com/obra/superpowers",
+     "time": "10-16",
+     "what": "编码智能体技能框架"
+    },
+    {
+     "title": "ruvnet/ruflo",
+     "en": "ruvnet/ruflo",
+     "metric": "+672 星",
+     "url": "https://github.com/ruvnet/ruflo",
+     "time": "10-16",
+     "what": "多智能体编排"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "学术前沿",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "LEASH：电脑操作智能体的不确定性监督",
+     "en": "LEASH: Uncertainty-Aware Weak-to-Strong Escalation and Oversight for Computer-Use Agents",
+     "metric": "4 赞",
+     "url": "https://huggingface.co/papers/2610.22280",
+     "time": "10-16",
+     "what": "弱到强的升级与监督"
+    },
+    {
+     "title": "LeanPRM：用 Lean 做证明过程监督",
+     "en": "LeanPRM: Lean-Grounded Process Supervision",
+     "metric": "4 赞",
+     "url": "https://huggingface.co/papers/2610.17697",
+     "time": "10-16",
+     "what": "自然语言证明验证"
+    },
+    {
+     "title": "复制粘贴语言模型",
+     "en": "Copy-Paste Language Models",
+     "metric": "4 赞",
+     "url": "https://huggingface.co/papers/2610.19247",
+     "time": "10-16",
+     "what": "新型语言模型结构"
+    },
+    {
+     "title": "Gen4P：视频生成器是 4D 感知器",
+     "en": "Gen4P: Video Generators are 4D Perceivers",
+     "metric": "4 赞",
+     "url": "https://huggingface.co/papers/2610.22371",
+     "time": "10-16",
+     "what": "视频生成做 4D 感知"
+    },
+    {
+     "title": "稀疏自编码器表征的行为组合性",
+     "en": "Behavioral Compositionality of Sparse Autoencoder Representations",
+     "metric": "3 赞",
+     "url": "https://huggingface.co/papers/2610.21261",
+     "time": "10-16",
+     "what": "可解释性研究"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#7c3aed",
+   "url": "https://techcrunch.com/category/artificial-intelligence/",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "Replit 称不再与 Anthropic 合作，知情人士称仍在合作",
+     "en": "Replit is no longer working with Anthropic, CEO says",
+     "metric": "TechCrunch · 10-16",
+     "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+     "time": "10-16",
+     "what": "CEO 在 Disrupt 上说，理由含成本；报道称有人否认"
+    },
+    {
+     "title": "印度成为又一个报告流氓 AI 智能体的国家",
+     "en": "India becomes the latest country to report rogue AI agent activity",
+     "metric": "TechCrunch · 10-16",
+     "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+     "time": "10-16",
+     "what": "CERT-In 称多家模型厂商的智能体进入印度机构实网"
+    },
+    {
+     "title": "Meta 新条款可能允许其免费抓取新闻站训练 AI",
+     "en": "Meta's new terms may allow it to train AI on news sites for free",
+     "metric": "The Verge · 10-16",
+     "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+     "time": "10-16",
+     "what": "10 月 30 日生效，Meta 称只是合并条款"
+    },
+    {
+     "title": "ChatGPT Chrome 扩展可读取你已开的标签页",
+     "en": "ChatGPT can peek at your Chrome tabs now",
+     "metric": "The Verge · 10-16",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
+     "time": "10-16",
+     "what": "Atlas 浏览器已下线，改做扩展"
+    },
+    {
+     "title": "Jev 成为 Vercel 上采用最快的模型",
+     "en": "Jev is Vercel's fastest-adopted AI model ever",
+     "metric": "TechCrunch · 10-16",
+     "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+     "time": "10-16",
+     "what": "两周内 35% 付费团队使用"
+    }
+   ]
+  },
+  {
+   "key": "qbit",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#2563eb",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "库克：苹果智能接入阿里千问，10 月底在中国发测试版",
+     "en": "",
+     "metric": "量子位 · 10-15",
+     "url": "https://www.qbitai.com/2026/10/503640.html",
+     "time": "10-15",
+     "what": "量子位源 RSS 最近更新停在 10-15"
+    },
+    {
+     "title": "量子位智库发布 Agent 落地报告",
+     "en": "",
+     "metric": "量子位 · 10-15",
+     "url": "https://www.qbitai.com/2026/10/503614.html",
+     "time": "10-15",
+     "what": "拆解企业智能化六大断点"
+    },
+    {
+     "title": "京东 11.11 首日下单用户同比双位数增长",
+     "en": "",
+     "metric": "量子位 · 10-15",
+     "url": "https://www.qbitai.com/2026/10/503645.html",
+     "time": "10-15",
+     "what": "合作稿，不入选"
+    },
+    {
+     "title": "百灵新模型主打双十一场景",
+     "en": "",
+     "metric": "量子位 · 10-15",
+     "url": "https://www.qbitai.com/2026/10/503532.html",
+     "time": "10-15",
+     "what": "合作稿，不入选"
+    },
+    {
+     "title": "基元律动宣布开发者入驻超 30 万",
+     "en": "",
+     "metric": "量子位 · 10-15",
+     "url": "https://www.qbitai.com/2026/10/503501.html",
+     "time": "10-15",
+     "what": "厂商自述"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "国内数码",
+   "color": "#d9232d",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "Anthropic 内部调查：多数员工相信 2030 年前 AI 能完成至少八成工作",
+     "en": "",
+     "metric": "IT之家 · 10-17",
+     "url": "https://www.ithome.com/1/014/205.htm",
+     "time": "10-17",
+     "what": "内部调查，样本口径待看原文"
+    },
+    {
+     "title": "苹果 App Store 新规落地，AI 深度伪造迎来最严审核",
+     "en": "",
+     "metric": "IT之家 · 10-17",
+     "url": "https://www.ithome.com/1/014/209.htm",
+     "time": "10-17",
+     "what": "App Store 审核规则更新"
+    },
+    {
+     "title": "IT早报 1017：苹果 iPhone Duo 预约火爆、能飞的特斯拉第二代 Roadster 亮相",
+     "en": "",
+     "metric": "IT之家 · 10-17",
+     "url": "https://www.ithome.com/1/014/208.htm",
+     "time": "10-17",
+     "what": "日报合集"
+    },
+    {
+     "title": "蒲得宇预估 2026 全球手机出货量降 14.2%，苹果成唯一增长厂商",
+     "en": "",
+     "metric": "IT之家 · 10-17",
+     "url": "https://www.ithome.com/1/014/204.htm",
+     "time": "10-17",
+     "what": "分析师预测"
+    },
+    {
+     "title": "存储器与 E-Glass 夹击成本，传三星 MX 2027 年手机计划悬而未决",
+     "en": "",
+     "metric": "IT之家 · 10-17",
+     "url": "https://www.ithome.com/1/014/210.htm",
+     "time": "10-17",
+     "what": "传闻"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "工程师社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "陶哲轩：我们到底为什么要做这一切",
+     "en": "Why are we even doing all this?",
+     "metric": "88 分",
+     "url": "https://terrytao.wordpress.com/2026/10/15/why-are-we-even-doing-all-this/",
+     "time": "10-15",
+     "what": "陶哲轩博客"
+    },
+    {
+     "title": "Linus Torvalds 谈 AI 辅助的内核贡献",
+     "en": "Linus Torvalds on AI-assisted kernel contributions",
+     "metric": "83 分",
+     "url": "https://lore.kernel.org/lkml/CAHk-=whTs09_ozN+e09GU68N1wPP56MUzDjrg9rnKxQUa0A_4Q@mail.gmail.com/",
+     "time": "10-16",
+     "what": "内核邮件列表原帖"
+    },
+    {
+     "title": "iroh 1.0 之路",
+     "en": "The road to iroh 1.0",
+     "metric": "41 分",
+     "url": "https://www.iroh.computer/blog/the-road-to-iroh-1-0",
+     "time": "10-16",
+     "what": "P2P 库发布路线"
+    },
+    {
+     "title": "NIST 椭圆曲线种子悬赏已被领取",
+     "en": "The NIST Elliptic Curves Seeds Bounty Has Been Claimed",
+     "metric": "39 分",
+     "url": "https://words.filippo.io/seeds-solved/",
+     "time": "10-16",
+     "what": "悬赏发起人 Filippo Valsorda 的确认"
+    },
+    {
+     "title": "去相干陷阱：AI 垃圾淹没信号",
+     "en": "The Decoherence Trap",
+     "metric": "14 分",
+     "url": "https://maevyn.codes/decoherence",
+     "time": "10-16",
+     "what": "观点文"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Claude 还原 NIST 椭圆曲线种子来历",
+   "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+   "why": "HN 593 分；悬赏发起人 Filippo 博客独立确认并复现；官方页有图",
+   "pick": true,
+   "status": "已核（Anthropic 全文 + Filippo 全文）"
+  },
+  {
+   "title": "Replit 称不再与 Anthropic 合作",
+   "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+   "why": "CEO 公开说法与知情人士相左，涉及模型厂商格局",
+   "pick": true,
+   "status": "已核（TC 全文；双方说法不一，须写“称”）"
+  },
+  {
+   "title": "印度 CERT-In：多家厂商的智能体闯入实网",
+   "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+   "why": "首次多厂商同案，接续 7–9 月的流氓智能体事件",
+   "pick": true,
+   "status": "已核（TC 全文，CERT-In 原文未见）"
+  },
+  {
+   "title": "Mercor：90% 工作时间缺基准覆盖",
+   "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+   "why": "HN 371 分，数据和方法写清了，但自家榜单有商业动机",
+   "pick": false,
+   "status": "已核；进专题"
+  },
+  {
+   "title": "Meta 新条款或允许抓取新闻站训练 AI",
+   "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+   "why": "Nieman Lab 首报，Meta 称只是合并条款",
+   "pick": false,
+   "status": "已核；进专题"
+  },
+  {
+   "title": "Claude Code 团队的代码审查做法",
+   "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+   "why": "HN 200 分，一手数据，但属自述",
+   "pick": false,
+   "status": "已核；进专题"
+  },
+  {
+   "title": "Anthropic 6 月被评最高级别垃圾债信用",
+   "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+   "why": "FT 付费墙，无法核对",
+   "pick": false,
+   "status": "待核"
+  }
+ ]
+}

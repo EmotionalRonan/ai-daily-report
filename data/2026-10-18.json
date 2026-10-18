@@ -1,0 +1,532 @@
+{
+ "date": "2026-10-18",
+ "weekday": "周日",
+ "issue": 7,
+ "title": "钥匙会丢，注意力也不够用",
+ "subtitle": "OpenCode 密钥事件、DeepSeek V4.1 Flash 更新、Anthropic 用工报告",
+ "lead": "OpenCode 称遭遇大规模攻击，据报道用户绑定的模型密钥可能外泄；DeepSeek 发布更快更省的 V4.1 Flash 更新；Anthropic 自己说，Claude 干得越多，人的注意力越成瓶颈。",
+ "headlines": [
+  {
+   "title": "OpenCode 称遭“蒸馏攻击”，1.4% Console 用户受影响",
+   "body": "OpenCode 17 日在 X 上称，前一晚发生与“大规模蒸馏攻击”有关的安全事件，影响 1.4% 的 Console 用户，已邮件通知。据报道，受影响的是绑定了外部模型服务的用户，OpenAI、Anthropic、Google 的密钥可能外泄，有人称账单已涨。",
+   "why": "官方没说攻击怎么进来、泄了什么，入口说法来自转述，待官方复盘。凡把密钥存在第三方控制台的人，现在都该换一遍。",
+   "source": "OpenCode（X）",
+   "url": "https://x.com/opencode/status/2111519637049319818",
+   "image_skip": "原文是 X 帖，页面只有账号头像，没有能说明事件的配图"
+  },
+  {
+   "title": "DeepSeek 发布 V4.1 Flash-1017：更快、更短、更便宜",
+   "body": "DeepSeek 在 Hugging Face 放出 V4.1 Flash-1017，称是 V4.1 Flash 的小更新。官方自报：Terminal-Bench 4.0 从 31.2 升到 42.3，DeepSWE 从 74.2 升到 77.0，输出更短、执行更快。MIT 许可，上下文 1M。",
+   "why": "数字是 DeepSeek 自己报的，没有第三方复测；在它列出的榜里，Opus 5 仍在多项领先。看点是“省时省钱”这条线。",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "image_skip": "HF 模型页只有标题卡（渐变底+模型名），不是能说明事件的配图"
+  },
+  {
+   "title": "Anthropic：初级员工只剩 14%，开会更多",
+   "body": "Anthropic 16 日发布用工报告：技术部门初级员工占比从 21% 降到 14%，初级技术岗招聘占比从 27% 降到 9%；人均会议时间同比增 20%。报告称员工在做的事情正从“做活”转向“管理 Claude”，“人的注意力”成了瓶颈。",
+   "why": "这是公司对自家数据的自述；它也写了“更多代码不等于更好”。对想招初级工程师的人，这是一个冷数据。",
+   "source": "Anthropic",
+   "url": "https://www.anthropic.com/research/employment-at-anthropic",
+   "image_url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe5dc89d3bceb2fcb9509ec35aa22f11131a9d8eb-1920x1080.png&w=1920&q=75",
+   "image": {
+    "file": "wechat/img/h3.jpg",
+    "src_url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe5dc89d3bceb2fcb9509ec35aa22f11131a9d8eb-1920x1080.png&w=1920&q=75",
+    "credit": "Anthropic",
+    "w": 1600,
+    "h": 900
+   }
+  }
+ ],
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "OpenCode 称遭大规模“蒸馏攻击”，用户凭证外泄",
+     "en": "OpenCode Hacked: User credentials leaked",
+     "metric": "694 分 · 120 评论",
+     "url": "https://news.ycombinator.com/item?id=50133401"
+    },
+    {
+     "title": "DeepSeek 发布 V4.1 Flash-1017 更新",
+     "en": "DeepSeek-v4.1-Flash-1017",
+     "metric": "667 分 · 562 评论",
+     "url": "https://news.ycombinator.com/item?id=50129045"
+    },
+    {
+     "title": "你本可以凭联想记忆自己发明 Transformer",
+     "en": "You could have invented transformers from memory",
+     "metric": "489 分 · 115 评论",
+     "url": "https://news.ycombinator.com/item?id=50122878"
+    },
+    {
+     "title": "全球太阳能发电量首次超过核电",
+     "en": "Solar surpasses nuclear power globally for first time",
+     "metric": "453 分 · 300 评论",
+     "url": "https://news.ycombinator.com/item?id=50131256"
+    },
+    {
+     "title": "Llmspeed：买硬件前先感受本地大模型的速度",
+     "en": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+     "metric": "237 分 · 76 评论",
+     "url": "https://news.ycombinator.com/item?id=50127979"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区情绪",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "自由开源的“Adobe 复刻”作者推出 Office 开源复刻",
+     "en": "Creator of free Adobe clones unveils open-source Office replications",
+     "metric": "1,481 赞 · 332 评论（10-12 前后，缓存）",
+     "url": "https://www.tomshardware.com/software/microsoft-office/creator-of-free-adobe-clones-unveils-open-source-microsoft-office-excel-powerpoint-and-word-replications-autodesk-tools-and-other-subscription-based-services-may-come-next"
+    },
+    {
+     "title": "Karpathy 拆解对 LLM 能力的认知落差",
+     "en": "Andrej Karpathy breaks down the capability gap",
+     "metric": "790 赞 · 200 评论（缓存）",
+     "url": "https://x.com/karpathy/status/2109361546505966046"
+    },
+    {
+     "title": "Opus 5.5 把 SNES 老游戏移植到桌面",
+     "en": "Opus 5.5 is INSANE at decompilation / ports",
+     "metric": "656 赞 · 232 评论（缓存）",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/"
+    },
+    {
+     "title": "OpenAI 订阅限额投票：取消 5 小时限制的方案领先",
+     "en": "Thank god (OpenAI usage-limit vote)",
+     "metric": "485 赞 · 250 评论（缓存）",
+     "url": "https://www.reddit.com/r/OpenAI/comments/1x3d4z1/thank_god/"
+    },
+    {
+     "title": "RTX 5090 为何卖到 5000 美元：AI 公司成托盘采购游戏卡",
+     "en": "Here's why RTX 5090 costs $5,000",
+     "metric": "463 赞 · 223 评论（缓存）",
+     "url": "https://videocardz.com/newz/heres-why-rtx-5090-costs-5000-ai-firms-are-buying-gaming-gpus-by-the-pallet"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X",
+   "tag": "全网议程",
+   "color": "#111111",
+   "url": "https://agentflare.org/social/tech/index.html",
+   "short": "X",
+   "items": [
+    {
+     "title": "OpenCode：DeepSeek V4.1 Flash 在 OpenCode 免费",
+     "en": "DeepSeek V4.1 Flash is now free in OpenCode",
+     "metric": "21.8K 赞 · 2.7M 浏览",
+     "url": "https://x.com/opencode/status/2110635747648909472"
+    },
+    {
+     "title": "OpenCode 通报安全事件，称影响 1.4% Console 用户",
+     "en": "We had a security breach last night…",
+     "metric": "24.2K 浏览（发布数小时内）",
+     "url": "https://x.com/opencode/status/2111519637049319818"
+    },
+    {
+     "title": "Google DeepMind：Gemini 4 Argon 全球可用",
+     "en": "Gemini 4 Argon is now globally available",
+     "metric": "6.4K 赞 · 2.5M 浏览",
+     "url": "https://x.com/GoogleDeepMind/status/2110039274922131792"
+    },
+    {
+     "title": "纽约时报：纽约市出资 3000 万美元建 NYU 量子实验室",
+     "en": "NYC to invest $30M in NYU quantum lab",
+     "metric": "11.3K 赞 · 1.8M 浏览",
+     "url": "https://x.com/nytimes/status/2110467913383591957"
+    },
+    {
+     "title": "X 试点“视频启动奖金”，10 月 30 日截止报名",
+     "en": "Video Kickstart Bonus pilot",
+     "metric": "5.4K 赞 · 607K 浏览",
+     "url": "https://x.com/allegrajacchia/status/2110821237517959503"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热度",
+   "color": "#24292f",
+   "url": "https://github.com/trending?since=daily",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "anthropics/claude-plugins-official",
+     "en": "anthropics/claude-plugins-official",
+     "metric": "+1,397 星",
+     "url": "https://github.com/anthropics/claude-plugins-official"
+    },
+    {
+     "title": "MadsLorentzen/ai-job-search",
+     "en": "MadsLorentzen/ai-job-search",
+     "metric": "+1,365 星",
+     "url": "https://github.com/MadsLorentzen/ai-job-search"
+    },
+    {
+     "title": "affaan-m/ECC",
+     "en": "affaan-m/ECC",
+     "metric": "+1,145 星",
+     "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+     "title": "K-Dense-AI/scientific-agent-skills",
+     "en": "K-Dense-AI/scientific-agent-skills",
+     "metric": "+878 星",
+     "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    {
+     "title": "stablyai/orca",
+     "en": "stablyai/orca",
+     "metric": "+830 星",
+     "url": "https://github.com/stablyai/orca"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "学术前沿",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "稀疏自编码器表征的行为组合性",
+     "en": "Behavioral Compositionality of Sparse Autoencoder Representations",
+     "metric": "105 赞",
+     "url": "https://huggingface.co/papers/2610.21261"
+    },
+    {
+     "title": "LLM 强化学习：嵌入空间定向探索",
+     "en": "Beyond Policy Rollouts: Embedding-Space Directional Exploration with Anchored Noise for LLM RLVR",
+     "metric": "8 赞",
+     "url": "https://huggingface.co/papers/2610.16105"
+    },
+    {
+     "title": "LEASH：为电脑操作智能体做不确定性感知的升级监督",
+     "en": "LEASH: Uncertainty-Aware Weak-to-Strong Escalation and Oversight for Computer-Use Agents",
+     "metric": "6 赞",
+     "url": "https://huggingface.co/papers/2610.22280"
+    },
+    {
+     "title": "挖掘、采样、渲染：生成模型的测试时多样性对齐",
+     "en": "Mine, Sample, Render: Test-Time Diversity Alignment Of Generative Models",
+     "metric": "5 赞",
+     "url": "https://huggingface.co/papers/2610.21185"
+    },
+    {
+     "title": "Gen4P：视频生成器是 4D 感知器",
+     "en": "Gen4P: Video Generators are 4D Perceivers",
+     "metric": "5 赞",
+     "url": "https://huggingface.co/papers/2610.22371"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#7c3aed",
+   "url": "https://techcrunch.com/category/artificial-intelligence/",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "Meta 删除可能允许抓取新闻站点的条款",
+     "en": "Meta removes language that may have allowed it to scrape news sites",
+     "metric": "The Verge · 10-17",
+     "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites"
+    },
+    {
+     "title": "越来越多网站对 AI 智能体关门",
+     "en": "Websites are closing their doors to AI agents",
+     "metric": "The Verge · 10-17",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+    },
+    {
+     "title": "Anthropic：员工构成更少初级、会议更多",
+     "en": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+     "metric": "TechCrunch · 10-17",
+     "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/"
+    },
+    {
+     "title": "ChatGPT 现在能看你的 Chrome 标签页",
+     "en": "ChatGPT can peek at your Chrome tabs now",
+     "metric": "The Verge · 10-16",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs"
+    },
+    {
+     "title": "Elorian 首个模型想“用图像推理”而不只是“对图像推理”",
+     "en": "Elorian's first AI model wants to reason with images",
+     "metric": "TechCrunch · 10-16",
+     "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/"
+    }
+   ]
+  },
+  {
+   "key": "qbit",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#2563eb",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "DeepSeek 新模型发布，主打性价比",
+     "en": "",
+     "metric": "量子位 · 10-17",
+     "url": "https://www.qbitai.com/2026/10/504067.html"
+    },
+    {
+     "title": "智谱新模型：懂法方面全球第一",
+     "en": "",
+     "metric": "量子位 · 10-17",
+     "url": "https://www.qbitai.com/2026/10/503965.html"
+    },
+    {
+     "title": "清华开源智能体操作系统：任务成本降 83%，AI 记忆可查可改",
+     "en": "",
+     "metric": "量子位 · 10-17",
+     "url": "https://www.qbitai.com/2026/10/503935.html"
+    },
+    {
+     "title": "Claude 半小时解开密码学悬案",
+     "en": "",
+     "metric": "量子位 · 10-17",
+     "url": "https://www.qbitai.com/2026/10/503910.html"
+    },
+    {
+     "title": "清华特奖得主 AI 创业：GeoPT 一作入局物理世界模型",
+     "en": "",
+     "metric": "量子位 · 10-16",
+     "url": "https://www.qbitai.com/2026/10/503880.html"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "国内数码",
+   "color": "#d9232d",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "Meta 修改商业服务条款引“训练 AI”争议，现已删除相关表述",
+     "en": "",
+     "metric": "IT之家 · 10-18",
+     "url": "https://www.ithome.com/1/014/429.htm"
+    },
+    {
+     "title": "IT 早报：DeepSeek V4.1 Flash-1017 发布，英伟达否认 RTX 5090 停产",
+     "en": "",
+     "metric": "IT之家 · 10-18",
+     "url": "https://www.ithome.com/1/014/427.htm"
+    },
+    {
+     "title": "曝华为 Pura X Max 阔折叠手机销量破百万",
+     "en": "",
+     "metric": "IT之家 · 10-17",
+     "url": "https://www.ithome.com/1/014/428.htm"
+    },
+    {
+     "title": "微软 Edge 商业版水印保护功能年底全面上线",
+     "en": "",
+     "metric": "IT之家 · 10-17",
+     "url": "https://www.ithome.com/1/014/425.htm"
+    },
+    {
+     "title": "台积电日本合资厂 JASM 二厂转产 3nm 获批",
+     "en": "",
+     "metric": "IT之家 · 10-17",
+     "url": "https://www.ithome.com/1/014/423.htm"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "工程师社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "NIST 椭圆曲线种子悬赏已被认领",
+     "en": "The NIST Elliptic Curves Seeds Bounty Has Been Claimed",
+     "metric": "99 分",
+     "url": "https://words.filippo.io/seeds-solved/"
+    },
+    {
+     "title": "iroh 1.0 之路",
+     "en": "The road to iroh 1.0",
+     "metric": "63 分",
+     "url": "https://www.iroh.computer/blog/the-road-to-iroh-1-0"
+    },
+    {
+     "title": "退相干陷阱：AI 噪音淹没信号",
+     "en": "The Decoherence Trap: When AI slop drowns out the signal",
+     "metric": "45 分",
+     "url": "https://maevyn.codes/decoherence"
+    },
+    {
+     "title": "gopls 的交互式重构",
+     "en": "Interactive refactoring in gopls",
+     "metric": "22 分",
+     "url": "https://go.dev/blog/interactive-refactoring"
+    },
+    {
+     "title": "任何语言里的直观并发编程（Lingua Franca）",
+     "en": "Intuitive concurrent programming in any language",
+     "metric": "18 分",
+     "url": "https://www.lf-lang.org/"
+    }
+   ]
+  }
+ ],
+ "topics": [
+  {
+   "name": "门禁与数据",
+   "kicker": "GATE",
+   "items": [
+    {
+     "title": "Meta 删除可能允许抓取新闻站点的条款",
+     "note": "Verge 称条款曾引发训练 AI 的担忧。",
+     "src": "The Verge",
+     "metric": "10-17",
+     "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites"
+    },
+    {
+     "title": "越来越多网站对 AI 智能体关门",
+     "note": "门禁话题连日未退，值得继续盯。",
+     "src": "The Verge",
+     "metric": "10-17",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+    },
+    {
+     "title": "ChatGPT 现在能看你的 Chrome 标签页",
+     "note": "方便与权限，又是同一道题。",
+     "src": "The Verge",
+     "metric": "10-16",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs"
+    },
+    {
+     "title": "清华开源智能体操作系统，AI 记忆可查可改",
+     "note": "记忆可审计，是“能管住”的前提。",
+     "src": "量子位",
+     "metric": "10-17",
+     "url": "https://www.qbitai.com/2026/10/503935.html"
+    }
+   ]
+  },
+  {
+   "name": "模型与价格",
+   "kicker": "PRICE",
+   "items": [
+    {
+     "title": "DeepSeek V4.1 Flash 在 OpenCode 免费",
+     "note": "OpenCode 官方帖，2.7M 浏览。",
+     "src": "X",
+     "metric": "21.8K 赞",
+     "url": "https://x.com/opencode/status/2110635747648909472"
+    },
+    {
+     "title": "智谱新模型：懂法方面全球第一",
+     "note": "“第一”出自量子位报道，待独立复测。",
+     "src": "量子位",
+     "metric": "10-17",
+     "url": "https://www.qbitai.com/2026/10/503965.html"
+    },
+    {
+     "title": "Elorian 首个模型要“用图像推理”",
+     "note": "新团队的新路线，先看它的演示。",
+     "src": "TechCrunch",
+     "metric": "10-16",
+     "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/"
+    },
+    {
+     "title": "稀疏自编码器表征的行为组合性",
+     "note": "今日 HF 论文榜首，105 赞。",
+     "src": "Hugging Face",
+     "metric": "105 赞",
+     "url": "https://huggingface.co/papers/2610.21261"
+    }
+   ]
+  },
+  {
+   "name": "开发者手边",
+   "kicker": "TOOLS",
+   "items": [
+    {
+     "title": "claude-plugins-official 登上趋势榜",
+     "note": "Claude Code 官方插件目录。",
+     "src": "GitHub",
+     "metric": "+1,397 星",
+     "url": "https://github.com/anthropics/claude-plugins-official"
+    },
+    {
+     "title": "你本可以凭联想记忆自己发明 Transformer",
+     "note": "长文讲机制，HN 489 分。",
+     "src": "HN",
+     "metric": "489 分",
+     "url": "https://alexwang.ai/posts/associative-memory/"
+    },
+    {
+     "title": "Llmspeed：买硬件前先感受本地模型速度",
+     "note": "买卡前先看速度，省钱的小工具。",
+     "src": "HN",
+     "metric": "237 分",
+     "url": "https://llmspeed.dev/"
+    },
+    {
+     "title": "iroh 1.0 之路",
+     "note": "点对点网络库，工程师社区在看。",
+     "src": "Lobsters",
+     "metric": "63 分",
+     "url": "https://www.iroh.computer/blog/the-road-to-iroh-1-0"
+    }
+   ]
+  }
+ ],
+ "comments": [
+  "密钥放在别人的控制台里，方便是真的，风险也是真的。",
+  "DeepSeek 的数字是自报的，等第三方复测再下结论。",
+  "Anthropic 自己都说注意力是瓶颈，那别的公司更该先算算会议账。"
+ ],
+ "xhs": {
+  "title": "密钥外泄与 DeepSeek 更新",
+  "cover": "钥匙会丢\n注意力不够",
+  "deck": "三条今日要闻",
+  "intro": "OpenCode 称遭遇大规模攻击，据报道用户绑定的 OpenAI、Anthropic、Google 密钥可能外泄；DeepSeek 发布 V4.1 Flash-1017；Anthropic 报告称初级员工占比降到 14%。",
+  "oneliner": "AI 越能干，钥匙和注意力越稀缺。",
+  "closing": "你把模型密钥存在第三方控制台里吗？上次换是什么时候？",
+  "tags": [
+   "AI",
+   "人工智能",
+   "科技新闻",
+   "AI日报",
+   "OpenCode",
+   "DeepSeek",
+   "Anthropic",
+   "AI安全",
+   "Claude",
+   "大模型"
+  ]
+ }
+}

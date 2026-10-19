@@ -1,0 +1,531 @@
+{
+ "date": "2026-10-19",
+ "weekday": "周一",
+ "issue": 8,
+ "title": "网页的门，开始收费上锁",
+ "subtitle": "DeepSeek 搜索 API 计费、网站拦截 AI 智能体、Meta 删条款",
+ "lead": "DeepSeek 把联网搜索做成按次计费的 API；Yelp、达美、银行等网站在拦或收费放行 AI 智能体；Meta 在批评之后删掉了可能允许抓取新闻站点的条款。",
+ "headlines": [
+  {
+   "title": "DeepSeek 开放搜索 API，千次 0.75 美元",
+   "body": "DeepSeek 官方文档显示，搜索 API 与抓取 API 面向所有人开放，各按每千次成功请求 0.75 美元计费，限速每秒 5 次。通过 DeepSeek Harness、Claude Code、Codex 的服务端工具调用目前免费，计费从 10 月 31 日 16:00 UTC 开始。",
+   "why": "模型公司把“联网”做成了按次收费的产品；免费期只到月底，依赖它做 agent 的人该开始算账了。",
+   "source": "DeepSeek API 文档",
+   "url": "https://api-docs.deepseek.com/guides/search/",
+   "image_skip": "原文是纯文档页，没有说明事件的配图，页面只有站点图标"
+  },
+  {
+   "title": "网站正在对 AI 智能体关门：Yelp 收费放行，银行直接拦",
+   "body": "The Verge 报道，用户反映 Meta Muse、Grok、OpenAI Dots 等智能体在多家网站被拦。Yelp 称只放行付费数据授权的智能体，达美航空阻止代订机票，摩根大通、嘉信理财因安全顾虑拦截账户访问；Meta 则与沃尔玛、Gap 等零售商合作放行 Muse。",
+   "why": "Cars.com、Amtrak 被用户称“不再能用”，属用户反映，网站未证实。智能体好不好用，现在取决于谈成了几扇门。",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+   "image_skip": "Verge 原文只有编辑部示意插画（Cath Virginia），与具体事件无关"
+  },
+  {
+   "title": "Meta 删除可能允许其抓取新闻站点训练 AI 的条款",
+   "body": "Meta 近日更新商业条款，称可使用商业账号所属域名、网页内容来“开发、改进、研究、训练”其产品，Nieman Lab 采访的法律专家认为这可能允许抓取新闻网站。遭批评后，Meta 删除该句，称合并的抓取条款只适用于广告和商业产品，不改变其网络爬虫的使用方式。",
+   "why": "Meta 的说法是它自己的解释，尚无独立验证；但一句话被删，说明“网页内容能不能拿来训练”仍是敏感点。",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+   "image": {
+    "file": "wechat/img/h3.jpg",
+    "src_url": "https://techcrunch.com/wp-content/uploads/2026/05/meta-ai-GettyImages-2264943773.jpg?w=1024",
+    "credit": "TechCrunch",
+    "w": 1024,
+    "h": 683
+   }
+  }
+ ],
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "DeepSeek 开放搜索与抓取 API，每千次 0.75 美元",
+     "en": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+     "metric": "530 分 · 252 评论",
+     "url": "https://news.ycombinator.com/item?id=50138531"
+    },
+    {
+     "title": "Namecheap 一次性冻结了我所有域名",
+     "en": "Namecheap just seized and disabled all my domains",
+     "metric": "385 分 · 185 评论",
+     "url": "https://news.ycombinator.com/item?id=50142866"
+    },
+    {
+     "title": "Sphinx：推送前先就 AI 写的代码向你提问的 Git 钩子",
+     "en": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
+     "metric": "238 分 · 81 评论",
+     "url": "https://news.ycombinator.com/item?id=50137950"
+    },
+    {
+     "title": "混合推理智能体：在隐空间思考、用文字行动",
+     "en": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+     "metric": "153 分 · 90 评论",
+     "url": "https://news.ycombinator.com/item?id=50145337"
+    },
+    {
+     "title": "软件背后得有个人",
+     "en": "Someone behind the software",
+     "metric": "277 分 · 116 评论",
+     "url": "https://news.ycombinator.com/item?id=50142573"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区情绪",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "开源 Office 复刻作者发布 Excel/PowerPoint/Word 复刻",
+     "en": "Creator of free Adobe clones unveils open-source Microsoft Office replications",
+     "metric": "1,481 赞 · 332 评论（缓存，约 10-12）",
+     "url": "https://www.tomshardware.com/software/microsoft-office/creator-of-free-adobe-clones-unveils-open-source-microsoft-office-excel-powerpoint-and-word-replications-autodesk-tools-and-other-subscription-based-services-may-come-next"
+    },
+    {
+     "title": "Opus 5.5 把星际火狐、索尼克 CD 移植到桌面",
+     "en": "Opus 5.5 is INSANE at decompilation / ports",
+     "metric": "656 赞 · 232 评论",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/"
+    },
+    {
+     "title": "RTX 5090 卖到 5000 美元：AI 公司成托盘买游戏显卡",
+     "en": "Here’s why RTX 5090 costs $5,000",
+     "metric": "463 赞 · 223 评论",
+     "url": "https://videocardz.com/newz/heres-why-rtx-5090-costs-5000-ai-firms-are-buying-gaming-gpus-by-the-pallet"
+    },
+    {
+     "title": "Claude 项目功能向聊天和 Cowork 推广，Max 用户抗议",
+     "en": "New Projects rolling out for Chat and Cowork",
+     "metric": "358 赞 · 143 评论",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x33na4/new_projects_rolling_out_for_chat_and_cowork_oh/"
+    },
+    {
+     "title": "10–16GB 显存能跑的模型排名",
+     "en": "Every Model That Can Be Run On 10-16GB VRAM Ranked",
+     "metric": "347 赞 · 85 评论",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3gpyi/every_model_that_can_be_run_on_1016gb_vram_ranked/"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X",
+   "tag": "热帖",
+   "color": "#111111",
+   "url": "https://agentflare.org/social/tech/index.html",
+   "short": "X",
+   "items": [
+    {
+     "title": "OpenCode：DeepSeek V4.1 Flash 现在免费",
+     "en": "DeepSeek V4.1 Flash is now free in OpenCode",
+     "metric": "2.18 万赞 · 270 万浏览",
+     "url": "https://x.com/opencode/status/2110635747648909472"
+    },
+    {
+     "title": "纽约时报：纽约市出资 3000 万美元建 NYU 量子实验室，分 15% 知识产权收益",
+     "en": "NYT: $30M NYU quantum lab",
+     "metric": "1.13 万赞 · 180 万浏览",
+     "url": "https://x.com/nytimes/status/2110467913383591957"
+    },
+    {
+     "title": "Google DeepMind：Gemini 4 Argon 全球可用",
+     "en": "Gemini 4 Argon is now globally available",
+     "metric": "6.4K 赞 · 250 万浏览",
+     "url": "https://x.com/GoogleDeepMind/status/2110039274922131792"
+    },
+    {
+     "title": "X 试点“视频启动奖金”，10 月 30 日截止报名",
+     "en": "X Video Kickstart Bonus",
+     "metric": "5.4K 赞 · 60.7 万浏览",
+     "url": "https://x.com/allegrajacchia/status/2110821237517959503"
+    },
+    {
+     "title": "Robotaxi 更新：营业 6–23 点，Cybercab 内上线 Grok",
+     "en": "Robotaxi service updates",
+     "metric": "8.7K 赞 · 230 万浏览",
+     "url": "https://x.com/robotaxi/status/2109742678435119540"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热度",
+   "color": "#24292f",
+   "url": "https://github.com/trending?since=daily",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "anthropics/claude-plugins-official",
+     "en": "anthropics/claude-plugins-official",
+     "metric": "今日 +1,397 星",
+     "url": "https://github.com/anthropics/claude-plugins-official"
+    },
+    {
+     "title": "MadsLorentzen/ai-job-search",
+     "en": "MadsLorentzen/ai-job-search",
+     "metric": "今日 +1,365 星",
+     "url": "https://github.com/MadsLorentzen/ai-job-search"
+    },
+    {
+     "title": "affaan-m/ECC",
+     "en": "affaan-m/ECC",
+     "metric": "今日 +1,145 星",
+     "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+     "title": "K-Dense-AI/scientific-agent-skills",
+     "en": "K-Dense-AI/scientific-agent-skills",
+     "metric": "今日 +878 星",
+     "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    {
+     "title": "HKUDS/CLI-Anything",
+     "en": "HKUDS/CLI-Anything",
+     "metric": "今日 +574 星",
+     "url": "https://github.com/HKUDS/CLI-Anything"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文热度",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "稀疏自编码器表示的行为组合性",
+     "en": "Behavioral Compositionality of Sparse Autoencoder Representations",
+     "metric": "105 赞",
+     "url": "https://huggingface.co/papers/2610.21261"
+    },
+    {
+     "title": "超越策略采样：RLVR 的嵌入空间定向探索",
+     "en": "Beyond Policy Rollouts: Embedding-Space Directional Exploration with Anchored Noise for LLM RLVR",
+     "metric": "8 赞",
+     "url": "https://huggingface.co/papers/2610.16105"
+    },
+    {
+     "title": "LEASH：为电脑使用智能体做不确定性感知的升级与监督",
+     "en": "LEASH: Uncertainty-Aware Weak-to-Strong Escalation and Oversight for Computer-Use Agents",
+     "metric": "6 赞",
+     "url": "https://huggingface.co/papers/2610.22280"
+    },
+    {
+     "title": "测试时多样性对齐：挖掘、采样、渲染",
+     "en": "Mine, Sample, Render",
+     "metric": "5 赞",
+     "url": "https://huggingface.co/papers/2610.21185"
+    },
+    {
+     "title": "视频生成器是 4D 感知器",
+     "en": "Gen4P: Video Generators are 4D Perceivers",
+     "metric": "5 赞",
+     "url": "https://huggingface.co/papers/2610.22371"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#e5127d",
+   "url": "https://www.theverge.com/ai-artificial-intelligence",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "网站正在对 AI 智能体关门",
+     "en": "Websites are closing their doors to AI agents",
+     "metric": "Verge · 10-17",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+    },
+    {
+     "title": "Meta 删除可能允许其抓取新闻站点的条款",
+     "en": "Meta removes language that may have allowed it to scrape news sites",
+     "metric": "Verge · 10-17",
+     "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites"
+    },
+    {
+     "title": "ChatGPT 的 Chrome 扩展现在能看你已打开的标签页",
+     "en": "ChatGPT can peek at your Chrome tabs now",
+     "metric": "Verge · 10-16",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs"
+    },
+    {
+     "title": "Replit 称 OpenAI 成为默认模型，Anthropic 不再默认",
+     "en": "Replit makes OpenAI its default over Anthropic",
+     "metric": "TC · 10-17",
+     "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/"
+    },
+    {
+     "title": "Anthropic：员工变得不那么初级，会议更多",
+     "en": "Anthropic says its workforce has become less junior",
+     "metric": "TC · 10-17",
+     "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/"
+    }
+   ]
+  },
+  {
+   "key": "qbitai",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#2b6cb0",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "阶跃发布首款 Agent 手机 STEPX Neo",
+     "en": "阶跃终端首款「Agent手机」STEPX Neo正式发布",
+     "metric": "10-14",
+     "url": "https://www.qbitai.com/2026/10/503244.html"
+    },
+    {
+     "title": "用千问办公电商版，7 天几百元开一家店",
+     "en": "7天几百元开一家店！用千问办公电商版",
+     "metric": "10-15",
+     "url": "https://www.qbitai.com/2026/10/503303.html"
+    },
+    {
+     "title": "全球开发者先锋大会暨具身智能技能大赛十大亮点",
+     "en": "抢先盘点2026全球开发者先锋大会暨国际具身智能技能大赛十大亮点！",
+     "metric": "10-14",
+     "url": "https://www.qbitai.com/2026/10/503294.html"
+    },
+    {
+     "title": "LibTV 下场“造星”：AI 版 MrBeast 爆火",
+     "en": "《变形计》综艺赛博复活，AI版MrBeast爆火，LibTV下场「造星」了",
+     "metric": "10-14",
+     "url": "https://www.qbitai.com/2026/10/503211.html"
+    },
+    {
+     "title": "MemSilicon 完成 1Gb RRAM 芯片流片",
+     "en": "MemSilicon完成国际首款高密度、大容量1T4R 1Gb RRAM芯片流片",
+     "metric": "10-14",
+     "url": "https://www.qbitai.com/2026/10/503198.html"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "国内数码",
+   "color": "#d9232d",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "Meta 改商业条款引“用于训练 AI”争议，现已删除",
+     "en": "Meta 修改商业服务条款引发“用于训练 AI”争议，现已删除相关表述",
+     "metric": "10-18",
+     "url": "https://www.ithome.com/1/014/429.htm"
+    },
+    {
+     "title": "IT 早报 1018：DeepSeek V4.1 Flash-1017 发布；英伟达否认 RTX 5090 停产",
+     "en": "IT早报 1018",
+     "metric": "10-18",
+     "url": "https://www.ithome.com/1/014/427.htm"
+    },
+    {
+     "title": "华为 Pura X Max 阔折叠销量据曝已破百万",
+     "en": "曝华为 Pura X Max 阔折叠手机销量已破百万台",
+     "metric": "10-18",
+     "url": "https://www.ithome.com/1/014/428.htm"
+    },
+    {
+     "title": "微软 Edge 商业版水印保护年底全面上线",
+     "en": "防敏感内容外泄，微软 Edge 浏览器商业版水印保护功能年底全面上线",
+     "metric": "10-18",
+     "url": "https://www.ithome.com/1/014/425.htm"
+    },
+    {
+     "title": "丰田拟在华首次采用自研一体化压铸造电动车",
+     "en": "丰田拟在华首次采用自研一体化压铸技术造电动车",
+     "metric": "10-18",
+     "url": "https://www.ithome.com/1/014/424.htm"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "工程师社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "NIST 椭圆曲线种子悬赏已被领取",
+     "en": "The NIST Elliptic Curves Seeds Bounty Has Been Claimed",
+     "metric": "99 分 · 18 评论",
+     "url": "https://lobste.rs/s/ddtqtn/nist_elliptic_curves_seeds_bounty_has"
+    },
+    {
+     "title": "“退相干陷阱”：AI 垃圾淹没信号",
+     "en": "The Decoherence Trap",
+     "metric": "45 分 · 18 评论",
+     "url": "https://lobste.rs/s/vjmn84/decoherence_trap_when_ai_slop_drowns_out"
+    },
+    {
+     "title": "通往 iroh 1.0 之路",
+     "en": "The road to iroh 1.0",
+     "metric": "63 分 · 15 评论",
+     "url": "https://lobste.rs/s/6laoto/road_iroh_1_0"
+    },
+    {
+     "title": "gopls 的交互式重构",
+     "en": "Interactive refactoring in gopls",
+     "metric": "22 分 · 7 评论",
+     "url": "https://lobste.rs/s/wn293o/interactive_refactoring_gopls"
+    },
+    {
+     "title": "任何语言里的直观并发编程",
+     "en": "Intuitive concurrent programming in any language",
+     "metric": "18 分 · 8 评论",
+     "url": "https://lobste.rs/s/srao9u/intuitive_concurrent_programming_any"
+    }
+   ]
+  }
+ ],
+ "topics": [
+  {
+   "name": "门与钥匙",
+   "kicker": "GATE",
+   "items": [
+    {
+     "title": "ChatGPT 的 Chrome 扩展能看你已打开的标签页",
+     "note": "方便的同时，也把你的浏览内容交了出去。",
+     "src": "The Verge",
+     "metric": "10-16",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs"
+    },
+    {
+     "title": "Sphinx：推送前先问你是否看懂 AI 写的代码",
+     "note": "agent 能写，人得先答对题再上线。",
+     "src": "HN",
+     "metric": "238 分",
+     "url": "https://sphinx-six-theta.vercel.app/"
+    },
+    {
+     "title": "微软 Edge 商业版水印保护年底全面上线",
+     "note": "防敏感内容外泄，也是一道门。",
+     "src": "IT之家",
+     "metric": "10-18",
+     "url": "https://www.ithome.com/1/014/425.htm"
+    },
+    {
+     "title": "LEASH：给电脑使用智能体加监督与升级机制",
+     "note": "管住 agent 的论文开始多起来。",
+     "src": "Hugging Face",
+     "metric": "6 赞",
+     "url": "https://huggingface.co/papers/2610.22280"
+    }
+   ]
+  },
+  {
+   "name": "模型与价格",
+   "kicker": "PRICE",
+   "items": [
+    {
+     "title": "OpenCode：DeepSeek V4.1 Flash 免费用",
+     "note": "官方帖只说“现在免费”，没写期限。",
+     "src": "X",
+     "metric": "2.18 万赞",
+     "url": "https://x.com/opencode/status/2110635747648909472"
+    },
+    {
+     "title": "RTX 5090 卖到 5000 美元，AI 公司成托盘买卡",
+     "note": "VideoCardz 的说法，英伟达另否认停产传闻。",
+     "src": "Reddit",
+     "metric": "463 赞",
+     "url": "https://videocardz.com/newz/heres-why-rtx-5090-costs-5000-ai-firms-are-buying-gaming-gpus-by-the-pallet"
+    },
+    {
+     "title": "IT 早报：英伟达否认 RTX 5090 停产传闻",
+     "note": "传闻与辟谣同日出现。",
+     "src": "IT之家",
+     "metric": "10-18",
+     "url": "https://www.ithome.com/1/014/427.htm"
+    },
+    {
+     "title": "10–16GB 显存能跑的模型排名",
+     "note": "社区个人评测，仅供参考。",
+     "src": "Reddit",
+     "metric": "347 赞",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3gpyi/every_model_that_can_be_run_on_1016gb_vram_ranked/"
+    }
+   ]
+  },
+  {
+   "name": "开发者手边",
+   "kicker": "TOOLS",
+   "items": [
+    {
+     "title": "claude-plugins-official 再上趋势榜",
+     "note": "Claude 官方插件目录，连续热门。",
+     "src": "GitHub",
+     "metric": "+1,397 星",
+     "url": "https://github.com/anthropics/claude-plugins-official"
+    },
+    {
+     "title": "通往 iroh 1.0 之路",
+     "note": "点对点网络库，工程师社区在看。",
+     "src": "Lobsters",
+     "metric": "63 分",
+     "url": "https://lobste.rs/s/6laoto/road_iroh_1_0"
+    },
+    {
+     "title": "gopls 的交互式重构",
+     "note": "Go 官方博客，实用向。",
+     "src": "Lobsters",
+     "metric": "22 分",
+     "url": "https://lobste.rs/s/wn293o/interactive_refactoring_gopls"
+    },
+    {
+     "title": "“退相干陷阱”：AI 垃圾淹没信号",
+     "note": "一篇关于 AI 低质内容的评论文章。",
+     "src": "Lobsters",
+     "metric": "45 分",
+     "url": "https://lobste.rs/s/vjmn84/decoherence_trap_when_ai_slop_drowns_out"
+    }
+   ]
+  }
+ ],
+ "comments": [
+  "联网不再是白送的，agent 的成本表里要多一行。",
+  "门一扇扇关上，谈成合作的才跑得通。",
+  "一句条款说删就删，说明谁都知道这句话不好解释。"
+ ],
+ "xhs": {
+  "title": "网页的门开始收费上锁",
+  "cover": "网页的门\n开始上锁",
+  "deck": "AI 要先付钱再进门",
+  "intro": "DeepSeek 开放搜索与抓取 API，每千次 0.75 美元；Yelp、达美、银行等网站在拦或收费放行 AI 智能体；Meta 删掉了可能允许抓取新闻站点的条款。",
+  "oneliner": "AI 想进网页，得先付钱、先被查证件。",
+  "closing": "你会为 AI 帮你上网付费吗？每月愿意付多少？",
+  "tags": [
+   "AI",
+   "人工智能",
+   "科技新闻",
+   "AI日报",
+   "DeepSeek",
+   "AI智能体",
+   "Meta",
+   "数据抓取",
+   "大模型",
+   "科技"
+  ]
+ }
+}

@@ -23,5 +23,8 @@ VERDICT: REVISE
 - data 中三条头条已写 image_skip；正文未动，事实核对结论不变。
 - 配图：三条均明确跳过，符合“不用无关装饰图”的要求。
 
-VERDICT: PASS
+
+
 总编复核：手记 2 与原文不符（原写几百字加几天），已改为据路透口径。
+
+VERDICT: PASS

@@ -10,7 +10,7 @@
 
 ## 最新一期
 
-- **2026-10-19｜网页的门，开始收费上锁** — [网页](reports/2026-10-19/index.html) · [公众号](reports/2026-10-19/wechat/wechat.html) · [小红书](reports/2026-10-19/xhs/xiaohongshu.md)
+- **2026-10-20｜该由谁来盯着智能体** — [网页](reports/2026-10-20/index.html) · [公众号](reports/2026-10-20/wechat/wechat.html) · [小红书](reports/2026-10-20/xhs/xiaohongshu.md)
 
 网页版（GitHub Pages）：https://emotionalronan.github.io/ai-daily-report/
 

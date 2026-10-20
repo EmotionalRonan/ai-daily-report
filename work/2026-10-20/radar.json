@@ -1,0 +1,505 @@
+{
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "Mistral 发布时间序列基础模型 Timestral",
+     "en": "Timestral: Mistral's time-series foundation models",
+     "metric": "531 分 · 98 评论",
+     "url": "https://mistral.ai/news/timestral/",
+     "time": "10-15",
+     "what": "209M 参数登顶三大预测榜，CPU 可跑"
+    },
+    {
+     "title": "Wine 移植到 OpenBSD",
+     "en": "Wine ported to OpenBSD",
+     "metric": "484 分 · 162 评论",
+     "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
+     "time": "10-19",
+     "what": "非 AI，系统软件"
+    },
+    {
+     "title": "MiniMax 发布 M3.1 Flash",
+     "en": "MiniMax M3.1 Flash",
+     "metric": "346 分 · 151 评论",
+     "url": "https://www.minimax.io/blog/minimax-m31f",
+     "time": "10-19",
+     "what": "MiniMax 官方博客"
+    },
+    {
+     "title": "CERN 与 Mistral 签署战略合作意向书",
+     "en": "CERN and Mistral sign a statement of intent",
+     "metric": "309 分 · 57 评论",
+     "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
+     "time": "10-19",
+     "what": "用 AI 加速科学研究"
+    },
+    {
+     "title": "Mercury 3：大规模扩散语言模型",
+     "en": "Mercury 3: Diffusion at scale",
+     "metric": "212 分 · 83 评论",
+     "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+     "time": "10-19",
+     "what": "Inception Labs 发布"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区情绪",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "开源 Office 复刻作者发布 Excel/PowerPoint/Word 复刻",
+     "en": "Creator of free Adobe clones unveils open-source Microsoft Office replications",
+     "metric": "1,481 赞 · 332 评论（缓存，约 10-11）",
+     "url": "https://www.tomshardware.com/software/microsoft-office/creator-of-free-adobe-clones-unveils-open-source-microsoft-office-excel-powerpoint-and-word-replications-autodesk-tools-and-other-subscription-based-services-may-come-next",
+     "time": "10-11",
+     "what": "往期已出现"
+    },
+    {
+     "title": "Opus 5.5 把星际火狐、索尼克 CD 移植到桌面",
+     "en": "Opus 5.5 is INSANE at decompilation / ports",
+     "metric": "656 赞 · 232 评论（缓存）",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/",
+     "time": "10-11",
+     "what": "作者自己更正：更像游戏专用模拟器"
+    },
+    {
+     "title": "GTA 5、COD 等游戏被 AI 逆向后移植到浏览器",
+     "en": "GTA 5, Modern Warfare 2, Halo ported to browser via AI reverse-engineering",
+     "metric": "820 赞 · 126 评论（缓存）",
+     "url": "https://www.destructoid.com/vibe-coded-games-in-browsers/",
+     "time": "10-11",
+     "what": "Destructoid 报道"
+    },
+    {
+     "title": "Claude 项目功能向 Chat 与 Cowork 推广，用户抗议",
+     "en": "New Projects rolling out for Chat and Cowork, please don't",
+     "metric": "358 赞 · 143 评论（缓存）",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x33na4/new_projects_rolling_out_for_chat_and_cowork_oh/",
+     "time": "10-11",
+     "what": "社区反馈"
+    },
+    {
+     "title": "RTX 5090 为何卖到 5000 美元",
+     "en": "Here's why RTX 5090 costs $5,000",
+     "metric": "463 赞 · 223 评论（缓存）",
+     "url": "https://videocardz.com/newz/heres-why-rtx-5090-costs-5000-ai-firms-are-buying-gaming-gpus-by-the-pallet",
+     "time": "10-11",
+     "what": "往期已出现"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X",
+   "tag": "热帖",
+   "color": "#111111",
+   "url": "https://agentflare.org/social/tech/index.html",
+   "short": "X",
+   "items": [
+    {
+     "title": "Anthropic 宣布公益基金，承诺 5% 股份",
+     "en": "Anthropic Public Benefit Fund: committing 5% of shares",
+     "metric": "14,706 赞 · 1,479 回复（X 官方帖）",
+     "url": "https://www.anthropic.com/news/public-benefit-fund",
+     "time": "10-18",
+     "what": "官方博客一手出处"
+    },
+    {
+     "title": "马斯克回应：直接把股份给公众",
+     "en": "Musk: I recommend giving the shares directly to the public",
+     "metric": "1,635,473 浏览 · 18,802 赞",
+     "url": "https://x.com/elonmusk/status/2111980598084698114",
+     "time": "10-19",
+     "what": "BBC 称他随后宣布明年给每个美国孩子一股 SpaceX 股票"
+    },
+    {
+     "title": "马斯克：Grok Bot 值得雇",
+     "en": "Hire Grok @Bot today",
+     "metric": "556.1K 浏览（转帖）",
+     "url": "https://elonmuskarchive.org/posts/2112083685872644421",
+     "time": "10-19",
+     "what": "存档站转录，当线索"
+    },
+    {
+     "title": "OpenCode 称 48 小时持续遭攻击",
+     "en": "OpenCode: 48 hours of continuous attacks",
+     "metric": "7.8k 赞 · 1M+ 浏览",
+     "url": "https://code-echo.pages.dev/2026/10/19/ai-twitter-hots-en",
+     "time": "10-18",
+     "what": "二手汇总，原帖待核"
+    },
+    {
+     "title": "OpenAI 工程师 Tibo 重置额度后登顶 X",
+     "en": "OpenAI engineer Tibo tops X after quota reset",
+     "metric": "",
+     "url": "https://eu.36kr.com/en/p/4032413985821063",
+     "time": "10-19",
+     "what": "新智元转述，待核"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热度",
+   "color": "#24292f",
+   "url": "https://github.com/trending?since=daily",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "MadsLorentzen/ai-job-search",
+     "en": "",
+     "metric": "+3,856 stars today",
+     "url": "https://github.com/MadsLorentzen/ai-job-search",
+     "time": "10-20",
+     "what": "基于 Claude Code 的求职框架"
+    },
+    {
+     "title": "stablyai/orca",
+     "en": "",
+     "metric": "+1,590 stars today",
+     "url": "https://github.com/stablyai/orca",
+     "time": "10-20",
+     "what": "多智能体并行工作台"
+    },
+    {
+     "title": "anomalyco/opencode",
+     "en": "",
+     "metric": "+1,311 stars today",
+     "url": "https://github.com/anomalyco/opencode",
+     "time": "10-20",
+     "what": "开源编程智能体，近日遭攻击"
+    },
+    {
+     "title": "Comfy-Org/ComfyUI",
+     "en": "",
+     "metric": "+1,011 stars today",
+     "url": "https://github.com/Comfy-Org/ComfyUI",
+     "time": "10-20",
+     "what": "扩散模型节点式界面"
+    },
+    {
+     "title": "akitaonrails/ai-memory",
+     "en": "",
+     "metric": "+666 stars today",
+     "url": "https://github.com/akitaonrails/ai-memory",
+     "time": "10-20",
+     "what": "编程 CLI 的长期记忆"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文热度",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "OmniXRef：多模态多参考视频编辑统一框架",
+     "en": "OmniXRef: Unified Framework for Multimodal Multi-Reference Video Editing",
+     "metric": "14 upvotes",
+     "url": "https://huggingface.co/papers/2610.22744",
+     "time": "10-20",
+     "what": "视频编辑"
+    },
+    {
+     "title": "EvoWeb：面向演进中网页应用的编程智能体基准",
+     "en": "EvoWeb: A Benchmark for Coding Agents on Evolving Web Applications",
+     "metric": "7 upvotes",
+     "url": "https://huggingface.co/papers/2610.16402",
+     "time": "10-20",
+     "what": "基准"
+    },
+    {
+     "title": "BRACE：力与地形感知的人形机器人全身动作跟踪",
+     "en": "BRACE: Whole-Body References for Force and Terrain Aware Humanoid Motion Tracking",
+     "metric": "3 upvotes",
+     "url": "https://huggingface.co/papers/2610.07052",
+     "time": "10-20",
+     "what": "机器人"
+    },
+    {
+     "title": "Librarian Agents：训练 LLM 整理长上下文工作区",
+     "en": "Librarian Agents: Training LLMs to Curate Long-Context Workspaces",
+     "metric": "3 upvotes",
+     "url": "https://huggingface.co/papers/2610.22273",
+     "time": "10-20",
+     "what": "长上下文"
+    },
+    {
+     "title": "Lean4AgenticRL：可验证的多层级过程奖励",
+     "en": "Lean4AgenticRL: Verifiable Multi-level Process Rewards",
+     "metric": "2 upvotes",
+     "url": "https://huggingface.co/papers/2610.22448",
+     "time": "10-20",
+     "what": "智能体强化学习"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#e5127d",
+   "url": "https://www.theverge.com/ai-artificial-intelligence",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "Microsoft 称 AI 智能体像内部威胁：前沿模型不可信",
+     "en": "Microsoft says AI agents are like insider threats",
+     "metric": "TechCrunch 10-19",
+     "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+     "time": "10-19",
+     "what": "推出 Guardian Agents"
+    },
+    {
+     "title": "黑客用一群 AI 智能体入侵 John Deere、SharkNinja",
+     "en": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
+     "metric": "Verge 10-19",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+     "time": "10-19",
+     "what": "Norforge 报告、路透跟进"
+    },
+    {
+     "title": "Nscale 与 Anthropic 据报再谈 450 亿美元算力交易",
+     "en": "Nscale and Anthropic reportedly in talks for another $45B compute deal",
+     "metric": "TechCrunch 10-19",
+     "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+     "time": "10-19",
+     "what": "据报道，未证实"
+    },
+    {
+     "title": "CoreWeave 的债务正变成整个 AI 行业的问题",
+     "en": "CoreWeave's debt is becoming the whole AI industry's problem",
+     "metric": "Verge 10-20",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai",
+     "time": "10-20",
+     "what": "融资成本"
+    },
+    {
+     "title": "Tenstorrent 估值 62 亿美元，扩产开放权重 AI 芯片",
+     "en": "Tenstorrent hits $6.2B valuation",
+     "metric": "TechCrunch 10-19",
+     "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
+     "time": "10-19",
+     "what": "融资"
+    }
+   ]
+  },
+  {
+   "key": "qbitai",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#2b6cb0",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "VAST 开源实时世界模型 EdenLive",
+     "en": "",
+     "metric": "量子位 10-18",
+     "url": "https://www.qbitai.com/2026/10/504136.html",
+     "time": "10-18",
+     "what": "单消费级显卡 720P 超 24FPS"
+    },
+    {
+     "title": "DeepSeek 新模型 V4.1-Flash-1017 发布",
+     "en": "",
+     "metric": "量子位 10-17",
+     "url": "https://www.qbitai.com/2026/10/504067.html",
+     "time": "10-17",
+     "what": "往期已出现"
+    },
+    {
+     "title": "智谱新模型，懂法方面全球第一",
+     "en": "",
+     "metric": "量子位 10-17",
+     "url": "https://www.qbitai.com/2026/10/503965.html",
+     "time": "10-17",
+     "what": "法律领域"
+    },
+    {
+     "title": "清华开源智能体操作系统，任务成本降 83%",
+     "en": "",
+     "metric": "量子位 10-17",
+     "url": "https://www.qbitai.com/2026/10/503935.html",
+     "time": "10-17",
+     "what": "原生支持 MCP"
+    },
+    {
+     "title": "Claude 半小时解开密码学悬案",
+     "en": "",
+     "metric": "量子位 10-17",
+     "url": "https://www.qbitai.com/2026/10/503910.html",
+     "time": "10-17",
+     "what": "往期已出现"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "国内数码",
+   "color": "#d9232d",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "OpenAI 加速新一轮融资，估值或超 1.4 万亿美元",
+     "en": "",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/015/078.htm",
+     "time": "10-20",
+     "what": "消息称"
+    },
+    {
+     "title": "施密特持有 Anthropic 1% 股份",
+     "en": "",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/015/077.htm",
+     "time": "10-20",
+     "what": "消息称"
+    },
+    {
+     "title": "苹果折叠 iPhone Duo 供货现缓解信号",
+     "en": "",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/015/076.htm",
+     "time": "10-20",
+     "what": "消息称"
+    },
+    {
+     "title": "英伟达：量子容错模拟所需物理比特减少 90%",
+     "en": "",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/015/071.htm",
+     "time": "10-20",
+     "what": "英伟达官宣"
+    },
+    {
+     "title": "Steam 新品节充斥低质 AI 游戏，玩家呼吁加筛选",
+     "en": "",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/015/072.htm",
+     "time": "10-20",
+     "what": "玩家反馈"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "工程师社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "站点规则与 AI/LLM 标签更新",
+     "en": "Updates to site guidelines and AI/LLM tags",
+     "metric": "313 分 · 270 评论",
+     "url": "https://lobste.rs/s/h0eate/updates_site_guidelines_ai_llm_tags",
+     "time": "10-19",
+     "what": "社区治理"
+    },
+    {
+     "title": "Wine 移植到 OpenBSD",
+     "en": "Wine ported to OpenBSD",
+     "metric": "79 分 · 12 评论",
+     "url": "https://lobste.rs/s/gqepzd/wine_ported_openbsd",
+     "time": "10-19",
+     "what": "非 AI"
+    },
+    {
+     "title": "单哈希布隆过滤器",
+     "en": "One Hash Bloom Filters",
+     "metric": "38 分 · 6 评论",
+     "url": "https://lobste.rs/s/mpytbn/one_hash_bloom_filters",
+     "time": "10-19",
+     "what": "数据结构"
+    },
+    {
+     "title": "为修一个 0.0…542% 的 bug 让所有除法变慢",
+     "en": "Making all divisions slower to fix a bug",
+     "metric": "24 分 · 2 评论",
+     "url": "https://lobste.rs/s/a9f6z1/making_all_divisions_slower_fix_bug_0",
+     "time": "10-19",
+     "what": "工程取舍"
+    },
+    {
+     "title": "Ende：社区版 Deno 分叉诞生",
+     "en": "Beginning of the Ende (a community Deno fork)",
+     "metric": "28 分 · 20 评论",
+     "url": "https://lobste.rs/s/8ejwsp/beginning_ende_community_deno_fork",
+     "time": "10-19",
+     "what": "开源"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Microsoft 推出 Guardian Agents，称前沿模型不可信",
+   "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+   "why": "微软把「智能体=内部人」写进产品；与 Nadella 本月博客同向",
+   "pick": true,
+   "status": "已核（TC 原文）"
+  },
+  {
+   "title": "黑客用 AI 智能体群入侵 100 多个网站",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+   "why": "Norforge 报告 + 路透跟进；受害公司回应各异",
+   "pick": true,
+   "status": "已核（Verge 原文）"
+  },
+  {
+   "title": "Anthropic 公益基金承诺 5% 股份",
+   "url": "https://www.anthropic.com/news/public-benefit-fund",
+   "why": "官方博客 + 马斯克回应 1.6M 浏览；IPO 前夜",
+   "pick": true,
+   "status": "已核（官方博客）"
+  },
+  {
+   "title": "Mistral Timestral 时间序列模型",
+   "url": "https://mistral.ai/news/timestral/",
+   "why": "HN 第一，209M 参数登顶三大榜；官方博客",
+   "pick": false,
+   "status": "已核"
+  },
+  {
+   "title": "Nscale 与 Anthropic 再谈 450 亿美元算力",
+   "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+   "why": "据报道，未证实",
+   "pick": false,
+   "status": "待核"
+  },
+  {
+   "title": "OpenAI 加速融资，估值或超 1.4 万亿美元",
+   "url": "https://www.ithome.com/1/015/078.htm",
+   "why": "IT之家转述，无一手出处",
+   "pick": false,
+   "status": "待核"
+  },
+  {
+   "title": "CERN 与 Mistral 战略合作意向书",
+   "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
+   "why": "官方页面，意向书层面",
+   "pick": false,
+   "status": "已核"
+  }
+ ]
+}

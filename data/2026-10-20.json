@@ -1,0 +1,525 @@
+{
+ "date": "2026-10-20",
+ "weekday": "周二",
+ "issue": 9,
+ "title": "该由谁来盯着智能体",
+ "subtitle": "微软卖监管、黑客用智能体群攻网站、Anthropic 拿股份换信任",
+ "lead": "微软把智能体当成“内部威胁”，推出独立的监控产品；一名黑客用智能体群入侵了 100 多个网站；Anthropic 则在上市前夜承诺把 5% 股份划给公益基金。",
+ "headlines": [
+  {
+   "title": "微软推出 Guardian Agents，称前沿模型不可信",
+   "body": "微软 10 月 19 日发布新的智能体安全功能，核心是监控企业内智能体的 Guardian Agents；Defender 还能识别员工带进公司的最多 60 类智能体，包括 Claude Code、Codex、OpenClaw。微软安全业务负责人称，前沿模型“无论来源都不可信”，原因是行为不可预测。",
+   "why": "微软同时投资了 OpenAI 和 Anthropic，却建议企业把监管和供应方分开；TechCrunch 也指出，这对微软卖安全产品有利。",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+   "image_skip": "TechCrunch 原文只有 AI 生成的蜂群示意图，与事件无关"
+  },
+  {
+   "title": "黑客用一群 AI 智能体，攻进 100 多个网站",
+   "body": "安全公司 Norforge 称，一名黑客借开源平台 Cairn 调度 AI 智能体，入侵了 100 多个网站，多数时间无需人工操作。路透称受害者含 John Deere、SharkNinja、Cummins；John Deere 称无迹象显示敏感信息被访问，SharkNinja 称受影响的是独立的产品支持站点。",
+   "why": "据路透，攻击策略不到 100 个汉字，成功入侵约 23 小时；Cairn 作者称滥用是人的决定，不是工具的功能。",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+   "image_skip": "Verge 原文只有通用“黑客”示意插画，与具体事件无关"
+  },
+  {
+   "title": "Anthropic 设公益基金，先承诺 5% 的股份",
+   "body": "Anthropic 10 月 18 日宣布成立全资 LLC 形式的公益基金，经股东批准后先承诺 5% 股份；公司估值每涨 50%，董事会可酌情再加 2%，这些股份不得用于游说或政治捐款。加上联合创始人 80% 股权捐赠与员工配捐，约 20% 股份将用于公益。",
+   "why": "Anthropic 正筹备最快 11 月的 IPO（美联社）；马斯克随即回应，称应“直接把股份给公众”。",
+   "source": "Anthropic 官方博客",
+   "url": "https://www.anthropic.com/news/public-benefit-fund",
+   "image_skip": "Anthropic 官方页只有抽象拼贴图，与公益基金无关"
+  }
+ ],
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "Mistral 发布时间序列基础模型 Timestral",
+     "en": "Timestral: Mistral's time-series foundation models",
+     "metric": "531 分 · 98 评论",
+     "url": "https://mistral.ai/news/timestral/"
+    },
+    {
+     "title": "Wine 移植到 OpenBSD",
+     "en": "Wine ported to OpenBSD",
+     "metric": "484 分 · 162 评论",
+     "url": "https://marc.info/?l=openbsd-ports&m=179236125692175"
+    },
+    {
+     "title": "MiniMax 发布 M3.1 Flash",
+     "en": "MiniMax M3.1 Flash",
+     "metric": "346 分 · 151 评论",
+     "url": "https://www.minimax.io/blog/minimax-m31f"
+    },
+    {
+     "title": "CERN 与 Mistral 签署战略合作意向书",
+     "en": "CERN and Mistral sign a statement of intent",
+     "metric": "309 分 · 57 评论",
+     "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/"
+    },
+    {
+     "title": "Mercury 3：大规模扩散语言模型",
+     "en": "Mercury 3: Diffusion at scale",
+     "metric": "212 分 · 83 评论",
+     "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区情绪",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "开源 Office 复刻作者发布 Excel/PowerPoint/Word 复刻",
+     "en": "Creator of free Adobe clones unveils open-source Microsoft Office replications",
+     "metric": "1,481 赞 · 332 评论（缓存，约 10-11）",
+     "url": "https://www.tomshardware.com/software/microsoft-office/creator-of-free-adobe-clones-unveils-open-source-microsoft-office-excel-powerpoint-and-word-replications-autodesk-tools-and-other-subscription-based-services-may-come-next"
+    },
+    {
+     "title": "Opus 5.5 把星际火狐、索尼克 CD 移植到桌面",
+     "en": "Opus 5.5 is INSANE at decompilation / ports",
+     "metric": "656 赞 · 232 评论（缓存）",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/"
+    },
+    {
+     "title": "GTA 5、COD 等游戏被 AI 逆向后移植到浏览器",
+     "en": "GTA 5, Modern Warfare 2, Halo ported to browser via AI reverse-engineering",
+     "metric": "820 赞 · 126 评论（缓存）",
+     "url": "https://www.destructoid.com/vibe-coded-games-in-browsers/"
+    },
+    {
+     "title": "Claude 项目功能向 Chat 与 Cowork 推广，用户抗议",
+     "en": "New Projects rolling out for Chat and Cowork, please don't",
+     "metric": "358 赞 · 143 评论（缓存）",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x33na4/new_projects_rolling_out_for_chat_and_cowork_oh/"
+    },
+    {
+     "title": "RTX 5090 为何卖到 5000 美元",
+     "en": "Here's why RTX 5090 costs $5,000",
+     "metric": "463 赞 · 223 评论（缓存）",
+     "url": "https://videocardz.com/newz/heres-why-rtx-5090-costs-5000-ai-firms-are-buying-gaming-gpus-by-the-pallet"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X",
+   "tag": "热帖",
+   "color": "#111111",
+   "url": "https://agentflare.org/social/tech/index.html",
+   "short": "X",
+   "items": [
+    {
+     "title": "Anthropic 宣布公益基金，承诺 5% 股份",
+     "en": "Anthropic Public Benefit Fund: committing 5% of shares",
+     "metric": "14,706 赞 · 1,479 回复（X 官方帖）",
+     "url": "https://www.anthropic.com/news/public-benefit-fund"
+    },
+    {
+     "title": "马斯克回应：直接把股份给公众",
+     "en": "Musk: I recommend giving the shares directly to the public",
+     "metric": "1,635,473 浏览 · 18,802 赞",
+     "url": "https://x.com/elonmusk/status/2111980598084698114"
+    },
+    {
+     "title": "马斯克：Grok Bot 值得雇",
+     "en": "Hire Grok @Bot today",
+     "metric": "556.1K 浏览（转帖）",
+     "url": "https://elonmuskarchive.org/posts/2112083685872644421"
+    },
+    {
+     "title": "OpenCode 称 48 小时持续遭攻击",
+     "en": "OpenCode: 48 hours of continuous attacks",
+     "metric": "7.8k 赞 · 1M+ 浏览",
+     "url": "https://code-echo.pages.dev/2026/10/19/ai-twitter-hots-en"
+    },
+    {
+     "title": "OpenAI 工程师 Tibo 重置额度后登顶 X",
+     "en": "OpenAI engineer Tibo tops X after quota reset",
+     "metric": "",
+     "url": "https://eu.36kr.com/en/p/4032413985821063"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热度",
+   "color": "#24292f",
+   "url": "https://github.com/trending?since=daily",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "MadsLorentzen/ai-job-search",
+     "en": "",
+     "metric": "+3,856 stars today",
+     "url": "https://github.com/MadsLorentzen/ai-job-search"
+    },
+    {
+     "title": "stablyai/orca",
+     "en": "",
+     "metric": "+1,590 stars today",
+     "url": "https://github.com/stablyai/orca"
+    },
+    {
+     "title": "anomalyco/opencode",
+     "en": "",
+     "metric": "+1,311 stars today",
+     "url": "https://github.com/anomalyco/opencode"
+    },
+    {
+     "title": "Comfy-Org/ComfyUI",
+     "en": "",
+     "metric": "+1,011 stars today",
+     "url": "https://github.com/Comfy-Org/ComfyUI"
+    },
+    {
+     "title": "akitaonrails/ai-memory",
+     "en": "",
+     "metric": "+666 stars today",
+     "url": "https://github.com/akitaonrails/ai-memory"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文热度",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "OmniXRef：多模态多参考视频编辑统一框架",
+     "en": "OmniXRef: Unified Framework for Multimodal Multi-Reference Video Editing",
+     "metric": "14 upvotes",
+     "url": "https://huggingface.co/papers/2610.22744"
+    },
+    {
+     "title": "EvoWeb：面向演进中网页应用的编程智能体基准",
+     "en": "EvoWeb: A Benchmark for Coding Agents on Evolving Web Applications",
+     "metric": "7 upvotes",
+     "url": "https://huggingface.co/papers/2610.16402"
+    },
+    {
+     "title": "BRACE：力与地形感知的人形机器人全身动作跟踪",
+     "en": "BRACE: Whole-Body References for Force and Terrain Aware Humanoid Motion Tracking",
+     "metric": "3 upvotes",
+     "url": "https://huggingface.co/papers/2610.07052"
+    },
+    {
+     "title": "Librarian Agents：训练 LLM 整理长上下文工作区",
+     "en": "Librarian Agents: Training LLMs to Curate Long-Context Workspaces",
+     "metric": "3 upvotes",
+     "url": "https://huggingface.co/papers/2610.22273"
+    },
+    {
+     "title": "Lean4AgenticRL：可验证的多层级过程奖励",
+     "en": "Lean4AgenticRL: Verifiable Multi-level Process Rewards",
+     "metric": "2 upvotes",
+     "url": "https://huggingface.co/papers/2610.22448"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#e5127d",
+   "url": "https://www.theverge.com/ai-artificial-intelligence",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "Microsoft 称 AI 智能体像内部威胁：前沿模型不可信",
+     "en": "Microsoft says AI agents are like insider threats",
+     "metric": "TechCrunch 10-19",
+     "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/"
+    },
+    {
+     "title": "黑客用一群 AI 智能体入侵 John Deere、SharkNinja",
+     "en": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
+     "metric": "Verge 10-19",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins"
+    },
+    {
+     "title": "Nscale 与 Anthropic 据报再谈 450 亿美元算力交易",
+     "en": "Nscale and Anthropic reportedly in talks for another $45B compute deal",
+     "metric": "TechCrunch 10-19",
+     "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/"
+    },
+    {
+     "title": "CoreWeave 的债务正变成整个 AI 行业的问题",
+     "en": "CoreWeave's debt is becoming the whole AI industry's problem",
+     "metric": "Verge 10-20",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai"
+    },
+    {
+     "title": "Tenstorrent 估值 62 亿美元，扩产开放权重 AI 芯片",
+     "en": "Tenstorrent hits $6.2B valuation",
+     "metric": "TechCrunch 10-19",
+     "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/"
+    }
+   ]
+  },
+  {
+   "key": "qbitai",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#2b6cb0",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "VAST 开源实时世界模型 EdenLive",
+     "en": "",
+     "metric": "量子位 10-18",
+     "url": "https://www.qbitai.com/2026/10/504136.html"
+    },
+    {
+     "title": "DeepSeek 新模型 V4.1-Flash-1017 发布",
+     "en": "",
+     "metric": "量子位 10-17",
+     "url": "https://www.qbitai.com/2026/10/504067.html"
+    },
+    {
+     "title": "智谱新模型，懂法方面全球第一",
+     "en": "",
+     "metric": "量子位 10-17",
+     "url": "https://www.qbitai.com/2026/10/503965.html"
+    },
+    {
+     "title": "清华开源智能体操作系统，任务成本降 83%",
+     "en": "",
+     "metric": "量子位 10-17",
+     "url": "https://www.qbitai.com/2026/10/503935.html"
+    },
+    {
+     "title": "Claude 半小时解开密码学悬案",
+     "en": "",
+     "metric": "量子位 10-17",
+     "url": "https://www.qbitai.com/2026/10/503910.html"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "国内数码",
+   "color": "#d9232d",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "OpenAI 加速新一轮融资，估值或超 1.4 万亿美元",
+     "en": "",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/015/078.htm"
+    },
+    {
+     "title": "施密特持有 Anthropic 1% 股份",
+     "en": "",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/015/077.htm"
+    },
+    {
+     "title": "苹果折叠 iPhone Duo 供货现缓解信号",
+     "en": "",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/015/076.htm"
+    },
+    {
+     "title": "英伟达：量子容错模拟所需物理比特减少 90%",
+     "en": "",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/015/071.htm"
+    },
+    {
+     "title": "Steam 新品节充斥低质 AI 游戏，玩家呼吁加筛选",
+     "en": "",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/015/072.htm"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "工程师社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "站点规则与 AI/LLM 标签更新",
+     "en": "Updates to site guidelines and AI/LLM tags",
+     "metric": "313 分 · 270 评论",
+     "url": "https://lobste.rs/s/h0eate/updates_site_guidelines_ai_llm_tags"
+    },
+    {
+     "title": "Wine 移植到 OpenBSD",
+     "en": "Wine ported to OpenBSD",
+     "metric": "79 分 · 12 评论",
+     "url": "https://lobste.rs/s/gqepzd/wine_ported_openbsd"
+    },
+    {
+     "title": "单哈希布隆过滤器",
+     "en": "One Hash Bloom Filters",
+     "metric": "38 分 · 6 评论",
+     "url": "https://lobste.rs/s/mpytbn/one_hash_bloom_filters"
+    },
+    {
+     "title": "为修一个 0.0…542% 的 bug 让所有除法变慢",
+     "en": "Making all divisions slower to fix a bug",
+     "metric": "24 分 · 2 评论",
+     "url": "https://lobste.rs/s/a9f6z1/making_all_divisions_slower_fix_bug_0"
+    },
+    {
+     "title": "Ende：社区版 Deno 分叉诞生",
+     "en": "Beginning of the Ende (a community Deno fork)",
+     "metric": "28 分 · 20 评论",
+     "url": "https://lobste.rs/s/8ejwsp/beginning_ende_community_deno_fork"
+    }
+   ]
+  }
+ ],
+ "topics": [
+  {
+   "name": "盯着智能体",
+   "kicker": "WATCH",
+   "items": [
+    {
+     "title": "Ask HN：上线自己看不懂的 AI 代码怎么办",
+     "note": "评论数是点赞的 1.6 倍，分歧很大。",
+     "src": "HN",
+     "metric": "224 分 · 366 评论",
+     "url": "https://news.ycombinator.com/item?id=50151036"
+    },
+    {
+     "title": "Nvidia 开放智能体安全平台获 100 多家支持",
+     "note": "据 TechCrunch，OpenAI 不在其中。",
+     "src": "TechCrunch",
+     "metric": "9-29",
+     "url": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/"
+    },
+    {
+     "title": "Lobsters 更新站点规则与 AI/LLM 标签",
+     "note": "工程师社区开始给 AI 内容单独分类。",
+     "src": "Lobsters",
+     "metric": "313 分",
+     "url": "https://lobste.rs/s/h0eate/updates_site_guidelines_ai_llm_tags"
+    },
+    {
+     "title": "Orca：同时管一队编程智能体的工作台",
+     "note": "并行跑多个 agent，监督成了刚需。",
+     "src": "GitHub",
+     "metric": "+1,590 星",
+     "url": "https://github.com/stablyai/orca"
+    }
+   ]
+  },
+  {
+   "name": "钱与算力",
+   "kicker": "MONEY",
+   "items": [
+    {
+     "title": "Nscale 与 Anthropic 据报再谈 450 亿算力",
+     "note": "据报道，尚无官方确认。",
+     "src": "TechCrunch",
+     "metric": "10-19",
+     "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/"
+    },
+    {
+     "title": "CoreWeave 的债务，成了整个 AI 行业的问题",
+     "note": "算力越买越贵，账要有人还。",
+     "src": "The Verge",
+     "metric": "10-20",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai"
+    },
+    {
+     "title": "消息称 OpenAI 加速融资，赶在 Anthropic 上市前",
+     "note": "IT之家转述消息，无一手出处。",
+     "src": "IT之家",
+     "metric": "10-20",
+     "url": "https://www.ithome.com/1/015/078.htm"
+    },
+    {
+     "title": "Tenstorrent 估值 62 亿美元，主打开放权重芯片",
+     "note": "英伟达之外的算力选择在融资。",
+     "src": "TechCrunch",
+     "metric": "10-19",
+     "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/"
+    }
+   ]
+  },
+  {
+   "name": "模型与合作",
+   "kicker": "MODEL",
+   "items": [
+    {
+     "title": "Mistral 发布时间序列模型 Timestral",
+     "note": "209M 参数，称在三大预测榜排第一。",
+     "src": "Mistral",
+     "metric": "531 分",
+     "url": "https://mistral.ai/news/timestral/"
+    },
+    {
+     "title": "MiniMax 发布 M3.1 Flash",
+     "note": "官方博客发布，细节待看技术报告。",
+     "src": "HN",
+     "metric": "346 分",
+     "url": "https://www.minimax.io/blog/minimax-m31f"
+    },
+    {
+     "title": "Inception 发布扩散语言模型 Mercury 3",
+     "note": "扩散路线继续往大规模推。",
+     "src": "HN",
+     "metric": "212 分",
+     "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+    },
+    {
+     "title": "CERN 与 Mistral 签署战略合作意向书",
+     "note": "目前只是意向，落地内容未公布。",
+     "src": "HN",
+     "metric": "309 分",
+     "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/"
+    }
+   ]
+  }
+ ],
+ "comments": [
+  "监管和供应方分开，听上去对，但卖监管的也是供应方。",
+  "智能体攻击的门槛，已经低到几百个字加几天时间。",
+  "把股份给基金还是直接给公众，这场争论才刚开始。"
+ ],
+ "xhs": {
+  "title": "该由谁来盯着智能体",
+  "cover": "谁来盯着\nAI 智能体",
+  "deck": "微软、黑客、Anthropic",
+  "intro": "微软推出 Guardian Agents，称前沿模型不可信；黑客用智能体群入侵 100 多个网站；Anthropic 宣布把 5% 股份划给公益基金。",
+  "oneliner": "智能体越能干，盯着它的人越重要。",
+  "closing": "如果公司让智能体替你干活，你希望谁来监督它？",
+  "tags": [
+   "AI",
+   "人工智能",
+   "科技新闻",
+   "AI日报",
+   "AI智能体",
+   "Anthropic",
+   "微软",
+   "网络安全",
+   "大模型",
+   "科技"
+  ]
+ }
+}

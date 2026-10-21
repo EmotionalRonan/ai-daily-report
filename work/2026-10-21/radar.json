@@ -1,0 +1,505 @@
+{
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "DeepSeek 开源推理框架 DeepInfer",
+     "en": "DeepInfer: High-performance inference framework for DeepSeek models",
+     "metric": "2,097 分",
+     "url": "https://github.com/deepseek-ai/DeepInfer",
+     "time": "10-20",
+     "what": "支撑 DeepSeek 线上服务的推理框架，Apache-2.0，首批支持 V4.1 Flash"
+    },
+    {
+     "title": "eMudhra 中间证书私钥泄露",
+     "en": "EMudhra Intermediate CA Compromise",
+     "metric": "585 分",
+     "url": "https://emudhra.we-have-a-problem.com/",
+     "time": "10-20",
+     "what": "8 张中间证书私钥被报告泄露"
+    },
+    {
+     "title": "Mistral 发布 Voxtral 3",
+     "en": "Voxtral 3",
+     "metric": "488 分",
+     "url": "https://mistral.ai/news/voxtral-3/",
+     "time": "10-20",
+     "what": "语音转写、合成与语音智能体 SDK"
+    },
+    {
+     "title": "Cloudflare 把 TypeScript 移植到 Rust",
+     "en": "Tsrs: A Port of TypeScript to Rust",
+     "metric": "335 分",
+     "url": "https://blog.cloudflare.com/typescript-rust-port/",
+     "time": "10-20",
+     "what": "TypeScript 编译器的 Rust 移植"
+    },
+    {
+     "title": "Google Cloud 故障波及欧洲多家银行",
+     "en": "Google Cloud outage affects banking in Europe",
+     "metric": "319 分",
+     "url": "https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/",
+     "time": "10-20",
+     "what": "HSBC、Revolut 等受影响"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区情绪",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "开源 Office 复刻发布 Excel/PowerPoint/Word 复刻",
+     "en": "Creator of free Adobe clones unveils open-source Office replications",
+     "metric": "1,481 赞 · 332 评论（缓存，约 10-12）",
+     "url": "https://www.tomshardware.com/software/microsoft-office/creator-of-free-adobe-clones-unveils-open-source-microsoft-office-excel-powerpoint-and-word-replications-autodesk-tools-and-other-subscription-based-services-may-come-next",
+     "time": "10-12",
+     "what": "缓存数据"
+    },
+    {
+     "title": "Karpathy 谈能力认知差",
+     "en": "Andrej Karpathy breaks down the capability gap",
+     "metric": "790 赞 · 200 评论（缓存）",
+     "url": "https://x.com/karpathy/status/2109361546505966046",
+     "time": "10-12",
+     "what": "缓存数据"
+    },
+    {
+     "title": "Opus 5.5 把老游戏移植到桌面",
+     "en": "Opus 5.5 is INSANE at decompilation / ports",
+     "metric": "656 赞 · 232 评论（缓存）",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/",
+     "time": "10-12",
+     "what": "缓存数据"
+    },
+    {
+     "title": "GTA 5 等游戏被逆向后移植到浏览器",
+     "en": "GTA 5, MW2, Halo ported to browser via AI reverse-engineering",
+     "metric": "820 赞 · 126 评论（缓存）",
+     "url": "https://www.destructoid.com/vibe-coded-games-in-browsers/",
+     "time": "10-12",
+     "what": "缓存数据"
+    },
+    {
+     "title": "RTX 5090 为何卖到 5000 美元",
+     "en": "Why RTX 5090 costs $5,000",
+     "metric": "463 赞 · 223 评论（缓存）",
+     "url": "https://videocardz.com/newz/heres-why-rtx-5090-costs-5000-ai-firms-are-buying-gaming-gpus-by-the-pallet",
+     "time": "10-12",
+     "what": "缓存数据"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X",
+   "tag": "热帖",
+   "color": "#111111",
+   "url": "https://agentflare.org/social/tech/index.html",
+   "short": "X",
+   "items": [
+    {
+     "title": "Hugging Face CEO：Netflix 纪录片「full doomer mode」",
+     "en": "Delangue on Netflix \"AI Gone Rogue\"",
+     "metric": "X 原帖（据 TechCrunch）",
+     "url": "https://x.com/ClementDelangue/status/2112534057879765260",
+     "time": "10-20",
+     "what": "指责影片过度拟人化，未提封闭模型拦截防御"
+    },
+    {
+     "title": "OpenCode：DeepSeek V4.1 Flash 免费开放",
+     "en": "DeepSeek V4.1 Flash is now free in OpenCode",
+     "metric": "21.8K 赞 · 2.7M 浏览（聚合页缓存）",
+     "url": "https://x.com/opencode/status/2110635747648909472",
+     "time": "10-15",
+     "what": "聚合页缓存"
+    },
+    {
+     "title": "Google DeepMind：Gemini 4 Argon 全球可用",
+     "en": "Gemini 4 Argon is now globally available",
+     "metric": "6.4K 赞 · 2.5M 浏览（聚合页缓存）",
+     "url": "https://x.com/GoogleDeepMind/status/2110039274922131792",
+     "time": "10-13",
+     "what": "聚合页缓存"
+    },
+    {
+     "title": "纽约市出资 3000 万美元建 NYU 量子实验室",
+     "en": "NYC $30M NYU quantum lab",
+     "metric": "11.3K 赞 · 1.8M 浏览（聚合页缓存）",
+     "url": "https://x.com/nytimes/status/2110467913383591957",
+     "time": "10-14",
+     "what": "聚合页缓存"
+    },
+    {
+     "title": "X 试点视频创作者奖励",
+     "en": "X Video Kickstart Bonus",
+     "metric": "5.4K 赞 · 606.9K 浏览（聚合页缓存）",
+     "url": "https://x.com/allegrajacchia/status/2110821237517959503",
+     "time": "10-16",
+     "what": "聚合页缓存"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热榜",
+   "color": "#24292f",
+   "url": "https://github.com/trending",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "MadsLorentzen/ai-job-search",
+     "en": "ai-job-search",
+     "metric": "+3,861 星",
+     "url": "https://github.com/MadsLorentzen/ai-job-search",
+     "time": "10-21",
+     "what": "AI 求职工具"
+    },
+    {
+     "title": "cloudflare/security-audit-skill",
+     "en": "security-audit-skill",
+     "metric": "+1,712 星",
+     "url": "https://github.com/cloudflare/security-audit-skill",
+     "time": "10-21",
+     "what": "Cloudflare 的安全审计技能"
+    },
+    {
+     "title": "stablyai/orca",
+     "en": "orca",
+     "metric": "+1,565 星",
+     "url": "https://github.com/stablyai/orca",
+     "time": "10-21",
+     "what": "并行编程智能体工作台"
+    },
+    {
+     "title": "DietrichGebert/ponytail",
+     "en": "ponytail",
+     "metric": "+1,208 星",
+     "url": "https://github.com/DietrichGebert/ponytail",
+     "time": "10-21",
+     "what": "趋势项目"
+    },
+    {
+     "title": "Comfy-Org/ComfyUI",
+     "en": "ComfyUI",
+     "metric": "+1,206 星",
+     "url": "https://github.com/Comfy-Org/ComfyUI",
+     "time": "10-21",
+     "what": "图像生成工作流"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文热度",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "StopLoss：让智能体预测失败并提前停止",
+     "en": "StopLoss: Teaching Agents to Predict Failure and Stop Early",
+     "metric": "6 赞",
+     "url": "https://huggingface.co/papers/2610.25525",
+     "time": "10-20",
+     "what": "智能体早停"
+    },
+    {
+     "title": "小模型智能体的进度感知蒸馏",
+     "en": "Progress-Aware Distillation for Small Language Model Agents",
+     "metric": "6 赞",
+     "url": "https://huggingface.co/papers/2610.19439",
+     "time": "10-20",
+     "what": "缓解停滞"
+    },
+    {
+     "title": "预测特权信息在自蒸馏中的效果",
+     "en": "Predicting Privileged Information Effectiveness for On-Policy Self-Distillation",
+     "metric": "5 赞",
+     "url": "https://huggingface.co/papers/2610.22512",
+     "time": "10-20",
+     "what": "自蒸馏"
+    },
+    {
+     "title": "异构智能体协同进化",
+     "en": "Heterogeneous Agentic Coevolution",
+     "metric": "3 赞",
+     "url": "https://huggingface.co/papers/2610.16078",
+     "time": "10-20",
+     "what": "智能体"
+    },
+    {
+     "title": "HERA：可靠的智能体弃权",
+     "en": "HERA: Harness-Environment Co-Evolution for Reliable Agentic Abstention",
+     "metric": "3 赞",
+     "url": "https://huggingface.co/papers/2610.06563",
+     "time": "10-20",
+     "what": "智能体弃权"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#e5127d",
+   "url": "https://techcrunch.com/category/artificial-intelligence/",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "Anthropic 推联邦 AI 安全法案草案",
+     "en": "Anthropic pitches AI safety bill",
+     "metric": "10-20",
+     "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+     "time": "10-20",
+     "what": "TechCrunch"
+    },
+    {
+     "title": "Hugging Face CEO 质疑 Netflix 纪录片",
+     "en": "Hugging Face CEO warns Netflix doc isn't accurate",
+     "metric": "10-20",
+     "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+     "time": "10-20",
+     "what": "TechCrunch"
+    },
+    {
+     "title": "Meta 因 AI 对话被搜到暂停 Muse 分享",
+     "en": "Meta pauses Muse sharing",
+     "metric": "10-21",
+     "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+     "time": "10-21",
+     "what": "The Verge"
+    },
+    {
+     "title": "Spotify 从推荐中清除 5000 万条垃圾 AI 曲目",
+     "en": "Spotify pulled 50 million AI slop tracks",
+     "metric": "10-20",
+     "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
+     "time": "10-20",
+     "what": "The Verge"
+    },
+    {
+     "title": "OpenAI 收购 Orchestra Bio",
+     "en": "OpenAI acquires Orchestra Bio",
+     "metric": "10-20",
+     "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
+     "time": "10-20",
+     "what": "TechCrunch"
+    }
+   ]
+  },
+  {
+   "key": "qbitai",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#1a73e8",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "Claude 新模型曝光，能跳出思维定势修 Bug",
+     "en": "Claude 新模型曝光",
+     "metric": "10-20",
+     "url": "https://www.qbitai.com/2026/10/504314.html",
+     "time": "10-20",
+     "what": "量子位"
+    },
+    {
+     "title": "通研院孵化团队也盯上 RSI",
+     "en": "RSI",
+     "metric": "10-19",
+     "url": "https://www.qbitai.com/2026/10/504294.html",
+     "time": "10-19",
+     "what": "量子位"
+    },
+    {
+     "title": "国产高端互连芯片全栈自研",
+     "en": "互连芯片",
+     "metric": "10-19",
+     "url": "https://www.qbitai.com/2026/10/504225.html",
+     "time": "10-19",
+     "what": "量子位"
+    },
+    {
+     "title": "AI 开始挑战最复杂的系统：生命",
+     "en": "AI 与生命",
+     "metric": "10-19",
+     "url": "https://www.qbitai.com/2026/10/504242.html",
+     "time": "10-19",
+     "what": "量子位"
+    },
+    {
+     "title": "商汤大装置日均 6 万亿 Token 的推理效能",
+     "en": "商汤大装置",
+     "metric": "10-19",
+     "url": "https://www.qbitai.com/2026/10/504188.html",
+     "time": "10-19",
+     "what": "量子位"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "中文数码",
+   "color": "#d32f2f",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "Hugging Face CEO 吐槽 Netflix《AI 失控》",
+     "en": "HF CEO vs Netflix",
+     "metric": "10-21",
+     "url": "https://www.ithome.com/1/015/637.htm",
+     "time": "10-21",
+     "what": "IT之家"
+    },
+    {
+     "title": "OpenAI 增强冷门语言能力，COBOL 迁移准确率 97.9%",
+     "en": "OpenAI COBOL",
+     "metric": "10-21",
+     "url": "https://www.ithome.com/1/015/633.htm",
+     "time": "10-21",
+     "what": "IT之家"
+    },
+    {
+     "title": "Meta AI 助手 Muse 40 天美国下载破千万",
+     "en": "Meta Muse",
+     "metric": "10-21",
+     "url": "https://www.ithome.com/1/015/631.htm",
+     "time": "10-21",
+     "what": "IT之家"
+    },
+    {
+     "title": "OpenAI 为 ChatGPT 推出聊天上锁",
+     "en": "ChatGPT lock",
+     "metric": "10-21",
+     "url": "https://www.ithome.com/1/015/629.htm",
+     "time": "10-21",
+     "what": "IT之家"
+    },
+    {
+     "title": "谷歌开源 TorchTPU，挑战英伟达生态",
+     "en": "TorchTPU",
+     "metric": "10-21",
+     "url": "https://www.ithome.com/1/015/626.htm",
+     "time": "10-21",
+     "what": "IT之家"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "工程师社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "Mozilla：保护 Firefox 用户免受 eMudhra 证书泄露影响",
+     "en": "Protecting Firefox users following eMudhra compromise",
+     "metric": "114 分",
+     "url": "https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/",
+     "time": "10-20",
+     "what": "Mozilla"
+    },
+    {
+     "title": "站点规则与 AI/LLM 标签更新",
+     "en": "Updates to site guidelines and AI/LLM tags",
+     "metric": "354 分",
+     "url": "https://lobste.rs/",
+     "time": "10-20",
+     "what": "Lobsters"
+    },
+    {
+     "title": "OpenBSD 8.0 发布",
+     "en": "OpenBSD 8.0",
+     "metric": "96 分",
+     "url": "https://www.openbsd.org/80.html",
+     "time": "10-20",
+     "what": "OpenBSD"
+    },
+    {
+     "title": "macOS 上用 Touch ID 配 SSH 密钥",
+     "en": "Setting up SSH keys on macOS with Touch ID",
+     "metric": "51 分",
+     "url": "https://nmattia.com/posts/2026-10-19-setting-up-ssh-keys-touch-id/",
+     "time": "10-19",
+     "what": "博客"
+    },
+    {
+     "title": "NixOS 让我少一点害怕",
+     "en": "NixOS is making me less afraid",
+     "metric": "38 分",
+     "url": "https://entropicthoughts.com/nixos-is-making-me-less-afraid",
+     "time": "10-20",
+     "what": "博客"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Anthropic 向国会推 AI 安全法案草案",
+   "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+   "why": "要停模型发布须先经法官；评估员可由实验室付费",
+   "pick": true,
+   "status": "已核（TC 原文，引 Politico）"
+  },
+  {
+   "title": "Hugging Face CEO 称 Netflix 纪录片过度拟人化",
+   "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+   "why": "封闭模型安全规则拒绝协助防御，团队改用开源模型",
+   "pick": true,
+   "status": "已核（TC 原文，CEO 为 X 原帖）"
+  },
+  {
+   "title": "DeepSeek 开源推理框架 DeepInfer",
+   "url": "https://github.com/deepseek-ai/DeepInfer",
+   "why": "HN 2097 分；V4.1 Flash 首批支持，KV 缓存等未开源",
+   "pick": true,
+   "status": "已核（仓库 README）"
+  },
+  {
+   "title": "eMudhra 中间证书私钥泄露",
+   "url": "https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/",
+   "why": "Mozilla 3 小时内经 OneCRL 屏蔽",
+   "pick": false,
+   "status": "已核（Mozilla 博客）"
+  },
+  {
+   "title": "Mistral Voxtral 3",
+   "url": "https://mistral.ai/news/voxtral-3/",
+   "why": "语音智能体 SDK，产品发布",
+   "pick": false,
+   "status": "已核（官方博客）"
+  },
+  {
+   "title": "Google 开源 TorchTPU",
+   "url": "https://github.com/google-pytorch/torch_tpu",
+   "why": "HN 241 分，与 Nvidia 生态之争",
+   "pick": false,
+   "status": "待核（仅标题）"
+  },
+  {
+   "title": "Meta 暂停 Muse 分享",
+   "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+   "why": "隐私，来源 Verge，正文未读",
+   "pick": false,
+   "status": "待核"
+  }
+ ]
+}

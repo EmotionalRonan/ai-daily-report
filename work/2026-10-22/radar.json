@@ -1,0 +1,505 @@
+{
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "PHP 发布 8.2.35 安全版本",
+     "en": "PHP 8.2.35",
+     "metric": "955 分",
+     "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
+     "time": "10-21",
+     "what": "修复两个可远程执行代码的严重漏洞"
+    },
+    {
+     "title": "eMudhra 的 CA 密钥被毫秒级破解",
+     "en": "Eight Bits of Trust: eMudhra's CA keys cracked in milliseconds",
+     "metric": "821 分",
+     "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+     "time": "10-21",
+     "what": "证书密钥强度不足"
+    },
+    {
+     "title": "PHP 基金会解释本次安全发布",
+     "en": "Today's PHP security release",
+     "metric": "639 分",
+     "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+     "time": "10-21",
+     "what": "漏洞如何被发现、为何拖了数月"
+    },
+    {
+     "title": "EA 关闭 BioWare",
+     "en": "EA is shutting down BioWare",
+     "metric": "481 分",
+     "url": "https://www.theverge.com/games/1015647/ea-is-shutting-down-bioware",
+     "time": "10-22",
+     "what": "游戏业新闻"
+    },
+    {
+     "title": "LiteLLM 1.107.0 被投毒，装凭据窃取后门",
+     "en": "Compromised LiteLLM 1.107.0 on PyPI",
+     "metric": "412 分",
+     "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+     "time": "10-21",
+     "what": "AI 网关库的供应链攻击"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区情绪",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "开源 Office 复刻",
+     "en": "Creator of free Adobe clones unveils open-source Office replications",
+     "metric": "1,481 赞（缓存，约 10-12）",
+     "url": "https://www.tomshardware.com/software/microsoft-office/creator-of-free-adobe-clones-unveils-open-source-microsoft-office-excel-powerpoint-and-word-replications-autodesk-tools-and-other-subscription-based-services-may-come-next",
+     "time": "10-11",
+     "what": "往期已报"
+    },
+    {
+     "title": "Karpathy 谈能力认知差",
+     "en": "Andrej Karpathy breaks down the capability gap",
+     "metric": "790 赞（缓存）",
+     "url": "https://x.com/karpathy/status/2109361546505966046",
+     "time": "10-11",
+     "what": "往期已报"
+    },
+    {
+     "title": "Opus 5.5 把老游戏移植到桌面",
+     "en": "Opus 5.5 is INSANE at decompilation / ports",
+     "metric": "656 赞（缓存）",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/",
+     "time": "10-12",
+     "what": "作者后来承认更像模拟器加静态重编译"
+    },
+    {
+     "title": "RTX 5090 卖到 5000 美元",
+     "en": "Here's why RTX 5090 costs $5,000",
+     "metric": "463 赞（缓存）",
+     "url": "https://videocardz.com/newz/heres-why-rtx-5090-costs-5000-ai-firms-are-buying-gaming-gpus-by-the-pallet",
+     "time": "10-11",
+     "what": "往期已报"
+    },
+    {
+     "title": "Claude 新版项目功能引发用户反对",
+     "en": "New Projects rolling out for Chat and Cowork",
+     "metric": "358 赞（缓存）",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x33na4/new_projects_rolling_out_for_chat_and_cowork_oh/",
+     "time": "10-11",
+     "what": "用户要求改成可选"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X",
+   "tag": "热帖",
+   "color": "#111111",
+   "url": "https://agentflare.org/social/tech/index.html",
+   "short": "X",
+   "items": [
+    {
+     "title": "DeepSeek V4.1 Flash 在 OpenCode 免费",
+     "en": "DeepSeek V4.1 Flash is now free in OpenCode",
+     "metric": "2.7M 浏览 · 21.8K 赞（聚合页停在 10-16）",
+     "url": "https://x.com/opencode/status/2110635747648909472",
+     "time": "10-15",
+     "what": "二手聚合，仅作线索"
+    },
+    {
+     "title": "Google 称 Gemini 4 Argon 全球可用",
+     "en": "Gemini 4 Argon is now globally available",
+     "metric": "2.5M 浏览（聚合页停在 10-16）",
+     "url": "https://x.com/GoogleDeepMind/status/2110039274922131792",
+     "time": "10-13",
+     "what": "往期已报"
+    },
+    {
+     "title": "纽约市拨 3000 万美元建 NYU 量子实验室",
+     "en": "NYC $30M NYU quantum lab",
+     "metric": "1.8M 浏览（聚合页停在 10-16）",
+     "url": "https://x.com/nytimes/status/2110467913383591957",
+     "time": "10-14",
+     "what": "城市占知识产权收益 15%"
+    },
+    {
+     "title": "Tesla 称纯摄像头自动驾驶方案将至",
+     "en": "Musk on pure-AI FSD",
+     "metric": "31.0M 浏览（聚合页停在 10-16）",
+     "url": "https://x.com/elonmusk/status/1911777434976002384",
+     "time": "2025-04",
+     "what": "旧帖被重新聚合"
+    },
+    {
+     "title": "X 试点视频激励计划",
+     "en": "Video Kickstart Bonus",
+     "metric": "606.9K 浏览（聚合页停在 10-16）",
+     "url": "https://x.com/allegrajacchia/status/2110821237517959503",
+     "time": "10-15",
+     "what": "报名截至 10-30"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热榜",
+   "color": "#24292f",
+   "url": "https://github.com/trending",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "Cloudflare 安全审计技能",
+     "en": "cloudflare/security-audit-skill",
+     "metric": "+2,012 星",
+     "url": "https://github.com/cloudflare/security-audit-skill",
+     "time": "10-22",
+     "what": "日榜第一"
+    },
+    {
+     "title": "ponytail",
+     "en": "DietrichGebert/ponytail",
+     "metric": "+2,079 星",
+     "url": "https://github.com/DietrichGebert/ponytail",
+     "time": "10-22",
+     "what": "日榜新进"
+    },
+    {
+     "title": "Orca 编程智能体工作台",
+     "en": "stablyai/orca",
+     "metric": "+1,541 星",
+     "url": "https://github.com/stablyai/orca",
+     "time": "10-22",
+     "what": "往期已报"
+    },
+    {
+     "title": "ComfyUI",
+     "en": "Comfy-Org/ComfyUI",
+     "metric": "+939 星",
+     "url": "https://github.com/Comfy-Org/ComfyUI",
+     "time": "10-22",
+     "what": "图像生成工作流"
+    },
+    {
+     "title": "headroom",
+     "en": "headroomlabs-ai/headroom",
+     "metric": "+474 星",
+     "url": "https://github.com/headroomlabs-ai/headroom",
+     "time": "10-22",
+     "what": "日榜新进"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文热度",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "EAU：环境、智能体、用户共同演化训练",
+     "en": "EAU: Environment-Agent-User Co-evolution for Training User-Centric Agents",
+     "metric": "9 赞",
+     "url": "https://huggingface.co/papers/2610.16523",
+     "time": "10-22",
+     "what": "训练以用户为中心的智能体"
+    },
+    {
+     "title": "任务组合下的脆弱性",
+     "en": "On the Fragility of Tasks under Composition",
+     "metric": "7 赞",
+     "url": "https://huggingface.co/papers/2610.27190",
+     "time": "10-22",
+     "what": "语言模型隐式预算"
+    },
+    {
+     "title": "整个智能体一起训练",
+     "en": "Training the Whole Agent, Not Just the Model",
+     "metric": "4 赞",
+     "url": "https://huggingface.co/papers/2610.28069",
+     "time": "10-22",
+     "what": "智能体强化学习"
+    },
+    {
+     "title": "Self-Credit：长程智能体强化学习的信用分配",
+     "en": "Self-Credit",
+     "metric": "4 赞",
+     "url": "https://huggingface.co/papers/2610.28388",
+     "time": "10-22",
+     "what": "组内重缩放"
+    },
+    {
+     "title": "OverSeer：超越智能体视野的多智能体世界模型",
+     "en": "OverSeer",
+     "metric": "4 赞",
+     "url": "https://huggingface.co/papers/2610.28554",
+     "time": "10-22",
+     "what": "世界模型"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#e5127d",
+   "url": "https://techcrunch.com/category/artificial-intelligence/",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "AI 参与找出 PHP 两个远古漏洞，NSA 警告",
+     "en": "PHP Armageddon: OpenAI, Google's Wiz find ancient holes",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
+     "time": "10-21",
+     "what": "NSA 称无法立即打补丁就先下线"
+    },
+    {
+     "title": "OpenAI 称智能体关闭监控后撒谎",
+     "en": "OpenAI says an AI agent lied about disabling its safety monitoring system",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems",
+     "time": "10-21",
+     "what": "两起内部事故"
+    },
+    {
+     "title": "Anthropic 推出智能体 Claude Duet",
+     "en": "Anthropic takes on Muse with Claude Duet",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
+     "time": "10-22",
+     "what": "研究预览，对标 Meta Muse"
+    },
+    {
+     "title": "Meta 为 AI 投入新设一类股",
+     "en": "Meta to create a new class of shares to fund AI push",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings",
+     "time": "10-22",
+     "what": "资本开支预期 1350–1450 亿美元"
+    },
+    {
+     "title": "Walmart 邀请 AI 智能体代购",
+     "en": "Walmart is inviting AI agents to shop for you",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1015715/walmart-ai-shopping-agents",
+     "time": "10-22",
+     "what": "与 Amazon 拦截智能体相反"
+    }
+   ]
+  },
+  {
+   "key": "qbitai",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#1a73e8",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "MiniMax 称 Flash 模型国模 Agent 第一",
+     "en": "国模Agent第一！MiniMax爆改Flash战力",
+     "metric": "量子位 10-20",
+     "url": "https://www.qbitai.com/2026/10/504517.html",
+     "time": "10-20",
+     "what": "称号为厂商口径，待核"
+    },
+    {
+     "title": "MemT 1.0 从模型层补「记忆」",
+     "en": "RSI三块关键拼图，MemT 1.0",
+     "metric": "量子位 10-20",
+     "url": "https://www.qbitai.com/2026/10/504456.html",
+     "time": "10-20",
+     "what": "稿件偏企业宣传"
+    },
+    {
+     "title": "Meshy Edit：一句话局部编辑 3D 模型",
+     "en": "Meshy推出Meshy Edit",
+     "metric": "量子位 10-20",
+     "url": "https://www.qbitai.com/2026/10/504415.html",
+     "time": "10-20",
+     "what": "自研模型"
+    },
+    {
+     "title": "是石科技集群调度降首 Token 延迟 32.4%",
+     "en": "首Token延迟降低32.4%",
+     "metric": "量子位 10-20",
+     "url": "https://www.qbitai.com/2026/10/504421.html",
+     "time": "10-20",
+     "what": "厂商口径"
+    },
+    {
+     "title": "理想：电池自燃报废赔新车",
+     "en": "理想宣布：电池自燃报废赔新车",
+     "metric": "量子位 10-21",
+     "url": "https://www.qbitai.com/2026/10/504551.html",
+     "time": "10-21",
+     "what": "汽车"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "中文数码",
+   "color": "#d32f2f",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "IT早报 1022：iPhone Duo、马斯克暗示 SpaceX 与特斯拉合并",
+     "en": "IT早报 1022",
+     "metric": "10-22",
+     "url": "https://www.ithome.com/1/016/181.htm",
+     "time": "10-22",
+     "what": "早报合集"
+    },
+    {
+     "title": "Meta 向扎克伯格配发 C 类无投票权股份",
+     "en": "Meta C 类股",
+     "metric": "10-22",
+     "url": "https://www.ithome.com/1/016/178.htm",
+     "time": "10-22",
+     "what": "换其扎根加州 8 年承诺"
+    },
+    {
+     "title": "Meta 第三财季归母净利润 98.6 亿美元，同比增 264%",
+     "en": "Meta Q3",
+     "metric": "10-22",
+     "url": "https://www.ithome.com/1/016/163.htm",
+     "time": "10-22",
+     "what": "财报"
+    },
+    {
+     "title": "通用安吉星引入 AI 助手",
+     "en": "GM OnStar AI assistant",
+     "metric": "10-22",
+     "url": "https://www.ithome.com/1/016/175.htm",
+     "time": "10-22",
+     "what": "可控车、排障"
+    },
+    {
+     "title": "苹果折叠 iPhone Duo 屏下摄像头评价",
+     "en": "iPhone Duo under-display camera",
+     "metric": "10-22",
+     "url": "https://www.ithome.com/1/016/179.htm",
+     "time": "10-22",
+     "what": "画质没跟上"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "工程师社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "PHP 关键安全版本预告",
+     "en": "Upcoming Critical PHP Security Release",
+     "metric": "175 分",
+     "url": "https://www.php.net/archive/2026.php#2026-10-20-1",
+     "time": "10-20",
+     "what": "发布前预告"
+    },
+    {
+     "title": "Firefox 本地模式",
+     "en": "Firefox Local Mode",
+     "metric": "64 分",
+     "url": "https://firefox-source-docs.mozilla.org/devtools-user/local_mode/index.html",
+     "time": "10-21",
+     "what": "开发者工具"
+    },
+    {
+     "title": "Unikernels in OCaml",
+     "en": "Unikernels in OCaml",
+     "metric": "56 分",
+     "url": "https://uniker.nl/",
+     "time": "10-21",
+     "what": "系统"
+    },
+    {
+     "title": "zls 0.17.0",
+     "en": "zls 0.17.0",
+     "metric": "50 分",
+     "url": "https://zigtools.org/zls/releases/0.17.0/",
+     "time": "10-21",
+     "what": "Zig 语言服务器"
+    },
+    {
+     "title": "eMudhra CA 密钥毫秒被破",
+     "en": "Eight Bits of Trust",
+     "metric": "39 分",
+     "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+     "time": "10-21",
+     "what": "与 HN 同"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "title": "AI 参与找出 PHP 两个漏洞，修补竞赛开始",
+   "url": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
+   "why": "HN 前三、Lobsters 热帖、NSA 警告；AI 既找出漏洞又降低利用门槛",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "OpenAI 披露智能体关闭安全监控并撒谎",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems",
+   "why": "当事公司主动披露，安全话题延续",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "Anthropic 推出主动型智能体 Claude Duet",
+   "url": "https://claude.com/product/claude-duet",
+   "why": "HN 288 分；与 Meta Muse、OpenAI Dots 同台",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "Meta 新设一类无投票权股份融资 AI",
+   "url": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings",
+   "why": "资本开支再上调",
+   "pick": false,
+   "status": "已核"
+  },
+  {
+   "title": "LiteLLM 1.107.0 在 PyPI 被投毒",
+   "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+   "why": "AI 基础设施供应链攻击，但仅一家安全公司出处",
+   "pick": false,
+   "status": "待核"
+  },
+  {
+   "title": "Walmart 邀请 AI 智能体购物",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1015715/walmart-ai-shopping-agents",
+   "why": "与 Amazon 拦截形成对照",
+   "pick": false,
+   "status": "已核"
+  },
+  {
+   "title": "Meta 因剑桥分析案在新墨西哥被判 250 亿美元罚款",
+   "url": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
+   "why": "HN 313 分，但与 AI 关系弱",
+   "pick": false,
+   "status": "待核"
+  }
+ ]
+}

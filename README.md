@@ -10,7 +10,7 @@
 
 ## 最新一期
 
-- **2026-10-22｜AI 找出老漏洞，也学会躲监控** — [网页](reports/2026-10-22/index.html) · [公众号](reports/2026-10-22/wechat/wechat.html) · [小红书](reports/2026-10-22/xhs/xiaohongshu.md)
+- **2026-10-23｜AI 要更快，也要被上锁** — [网页](reports/2026-10-23/index.html) · [公众号](reports/2026-10-23/wechat/wechat.html) · [小红书](reports/2026-10-23/xhs/xiaohongshu.md)
 
 网页版（GitHub Pages）：https://emotionalronan.github.io/ai-daily-report/
 

@@ -1,0 +1,512 @@
+{
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "Quad9 将退出法国",
+     "en": "Quad9 (DNS Resolver) to Exit France",
+     "metric": "949 分",
+     "url": "https://quad9.net/news/blog/au-revoir-france/",
+     "time": "10-22",
+     "what": "公共 DNS 服务商宣布撤出法国"
+    },
+    {
+     "title": "eMudhra 退出全球 SSL/TLS 证书业务",
+     "en": "eMudhra to exit global SSL/TLS certificate business",
+     "metric": "905 分",
+     "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+     "time": "10-22",
+     "what": "此前其 CA 密钥被曝可毫秒级破解"
+    },
+    {
+     "title": "Switch 2 越狱",
+     "en": "Jailbreaking the Switch 2",
+     "metric": "693 分",
+     "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
+     "time": "10-22",
+     "what": "研究者公开 Switch 2 越狱过程"
+    },
+    {
+     "title": "女子因从未开过的 Cash App 账户面临六年监禁",
+     "en": "Woman faces six years in prison over Cash App account she never opened",
+     "metric": "440 分",
+     "url": "https://www.techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html",
+     "time": "10-22",
+     "what": "身份冒用引发刑事指控"
+    },
+    {
+     "title": "NVIDIA OpenShell：给自主智能体用的安全运行时",
+     "en": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+     "metric": "275 分",
+     "url": "https://github.com/NVIDIA/OpenShell",
+     "time": "10-22",
+     "what": "按策略限制智能体能碰的文件、系统调用和网络"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区情绪",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "Opus 5.5 把星际火狐等老游戏移植到桌面",
+     "en": "Opus 5.5 is INSANE at decompilation / ports",
+     "metric": "656 赞（缓存，约 10-11）",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/",
+     "time": "10-11",
+     "what": "作者后来自己更正：更像静态重编译加模拟器"
+    },
+    {
+     "title": "OpenAI 用户投票：取消 5 小时限额还是保留周限额",
+     "en": "Thank god (OpenAI usage-limit vote)",
+     "metric": "485 赞（缓存）",
+     "url": "https://www.reddit.com/r/OpenAI/comments/1x3d4z1/thank_god/",
+     "time": "10-11",
+     "what": "用量规则成了社区关心的事"
+    },
+    {
+     "title": "RTX 5090 为何卖到 5000 美元",
+     "en": "Here’s why RTX 5090 costs $5,000",
+     "metric": "463 赞（缓存）",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x37tg6/heres_why_rtx_5090_costs_5000_ai_firms_are_buying/",
+     "time": "10-11",
+     "what": "AI 公司按托盘买游戏显卡（往期出现过）"
+    },
+    {
+     "title": "Claude 新项目功能引发 Max 用户抗议",
+     "en": "New Projects rolling out for Chat and Cowork",
+     "metric": "358 赞（缓存）",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x33na4/new_projects_rolling_out_for_chat_and_cowork_oh/",
+     "time": "10-11",
+     "what": "担心项目内对话互通"
+    },
+    {
+     "title": "10–16GB 显存可跑模型排名",
+     "en": "Every Model That Can Be Run On 10-16GB VRAM Ranked",
+     "metric": "347 赞（缓存）",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3gpyi/every_model_that_can_be_run_on_1016gb_vram_ranked/",
+     "time": "10-11",
+     "what": "个人测评，偏角色扮演用途"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X",
+   "tag": "热帖",
+   "color": "#111111",
+   "url": "https://x.com/search?q=AI&f=top",
+   "short": "X",
+   "items": [
+    {
+     "title": "OpenAI：模型与 Codex 进入 Google Cloud Model Garden",
+     "en": "OpenAI models are coming to Google Cloud",
+     "metric": "36.9 万浏览",
+     "url": "https://x.com/OpenAI/status/2112988118471295323",
+     "time": "10-21",
+     "what": "OpenAI 官方账号"
+    },
+    {
+     "title": "Claude Duet 研究预览（据聚合页：约 420 万浏览）",
+     "en": "Claude Duet research preview",
+     "metric": "聚合页称 4.2M 浏览 · 3.7 万赞（待核）",
+     "url": "https://claude.com/resources/articles/claude-duet",
+     "time": "10-22",
+     "what": "Anthropic 官方，往期已写"
+    },
+    {
+     "title": "黄仁勋“我怕变穷”语录走红，原帖无出处",
+     "en": "Jensen Huang quote “I’m afraid of being poor”",
+     "metric": "6.13 万浏览 · 3.9K 赞",
+     "url": "https://x.com/AGTPinsights/status/2113128736518541421",
+     "time": "10-22",
+     "what": "转述帖，称语录无来源，不采信"
+    },
+    {
+     "title": "Altman：OpenAI 内部模型远超公开模型",
+     "en": "Sam Altman: internal models way ahead of public",
+     "metric": "2.2 万+ 浏览",
+     "url": "https://x.com/MatthewBerman/status/2113302574053134553",
+     "time": "10-22",
+     "what": "二手转述，待核"
+    },
+    {
+     "title": "马斯克转发 Grok Bot 办理亚马逊退货演示",
+     "en": "Grok Bot completes an Amazon return",
+     "metric": "据聚合站",
+     "url": "https://agihunt.info/en/p/1a15f448984129efc1639765429",
+     "time": "10-22",
+     "what": "聚合站转述，待核"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热榜",
+   "color": "#24292f",
+   "url": "https://github.com/trending",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "Cloudflare 安全审计技能",
+     "en": "cloudflare/security-audit-skill",
+     "metric": "+2,979 星",
+     "url": "https://github.com/cloudflare/security-audit-skill",
+     "time": "10-22",
+     "what": "给编码智能体用的安全审计技能"
+    },
+    {
+     "title": "ponytail",
+     "en": "DietrichGebert/ponytail",
+     "metric": "+1,948 星",
+     "url": "https://github.com/DietrichGebert/ponytail",
+     "time": "10-22",
+     "what": "今日新晋"
+    },
+    {
+     "title": "Graphify",
+     "en": "Graphify-Labs/graphify",
+     "metric": "+1,408 星",
+     "url": "https://github.com/Graphify-Labs/graphify",
+     "time": "10-22",
+     "what": "今日新晋"
+    },
+    {
+     "title": "Supabase",
+     "en": "supabase/supabase",
+     "metric": "+693 星",
+     "url": "https://github.com/supabase/supabase",
+     "time": "10-22",
+     "what": "长期热门"
+    },
+    {
+     "title": "Anthropic 知识工作插件",
+     "en": "anthropics/knowledge-work-plugins",
+     "metric": "+303 星",
+     "url": "https://github.com/anthropics/knowledge-work-plugins",
+     "time": "10-22",
+     "what": "官方插件合集"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文热度",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "Quant-Arena：量化研究智能体基准",
+     "en": "Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research",
+     "metric": "21 赞",
+     "url": "https://huggingface.co/papers/2610.30113",
+     "time": "10-22",
+     "what": "HF 每日论文"
+    },
+    {
+     "title": "StyleStream 2.0：流式语音风格转换",
+     "en": "StyleStream 2.0: Fast and Controllable Streaming Voice Style Conversion",
+     "metric": "9 赞",
+     "url": "https://huggingface.co/papers/2610.28940",
+     "time": "10-22",
+     "what": "HF 每日论文"
+    },
+    {
+     "title": "扩散语言模型智能体之间的隐藏信息",
+     "en": "Hidden Messages Between Diffusion Language Model Agents",
+     "metric": "7 赞",
+     "url": "https://huggingface.co/papers/2610.28905",
+     "time": "10-22",
+     "what": "HF 每日论文"
+    },
+    {
+     "title": "ToM2Vec：多智能体协作的心智理论词元",
+     "en": "ToM2Vec: Continuous Theory-of-Mind Tokens for Multi-Agent Coordination",
+     "metric": "7 赞",
+     "url": "https://huggingface.co/papers/2610.29934",
+     "time": "10-22",
+     "what": "HF 每日论文"
+    },
+    {
+     "title": "DiffResearch：用扩散语言模型加速深度研究",
+     "en": "DiffResearch: Accelerating Deep Research with Diffusion Language Models",
+     "metric": "6 赞",
+     "url": "https://huggingface.co/papers/2610.28909",
+     "time": "10-22",
+     "what": "HF 每日论文"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#e5127d",
+   "url": "https://techcrunch.com/category/artificial-intelligence/",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "OpenAI 将决策模型 Decisions API 向所有人开放",
+     "en": "OpenAI makes its Jev competitor widely available",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+     "time": "10-22",
+     "what": "延迟从秒级压到约 100 毫秒"
+    },
+    {
+     "title": "OpenAI 据报道正筹 300 亿美元，估值 1.25 万亿",
+     "en": "OpenAI working on new $30B raise at $1.25T valuation",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+     "time": "10-22",
+     "what": "CNBC 援引知情人士"
+    },
+    {
+     "title": "1Password 让智能体代你登录却看不到密码",
+     "en": "1Password launches a way for AI agents to log in on your behalf",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+     "time": "10-22",
+     "what": "登录前要用户确认"
+    },
+    {
+     "title": "Uber 让 3 万名员工用上 ChatGPT Work",
+     "en": "Uber puts all 30,000 employees on ChatGPT Work",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+     "time": "10-22",
+     "what": "从 1000 人试点扩到全员"
+    },
+    {
+     "title": "Canva 发布首个自研图像模型",
+     "en": "Canva’s first AI image model plans designs before generating them",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+     "time": "10-23",
+     "what": "先规划版面再生成"
+    }
+   ]
+  },
+  {
+   "key": "qbitai",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#1a73e8",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "特斯拉利润腰斩，马斯克称 FSD 在中国也会领先",
+     "en": "特斯拉利润腰斩，一夜跌没“通用汽车”！",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/10/504841.html",
+     "time": "10-23",
+     "what": "特斯拉三季度财报"
+    },
+    {
+     "title": "星辰意图理解模型 Xing4.0-29B-Intent 发布",
+     "en": "星辰意图理解模型Xing4.0-29B-Intent发布",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/10/504832.html",
+     "time": "10-23",
+     "what": "意图理解模型"
+    },
+    {
+     "title": "谁在给 OpenAI 供应具身数据？",
+     "en": "谁在给OpenAI供应具身数据？",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/10/504800.html",
+     "time": "10-23",
+     "what": "具身数据供应链"
+    },
+    {
+     "title": "清华 AIR 孵化：医生 AI 分身坐诊医院",
+     "en": "多智能体协同重构医疗AI！",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/10/504734.html",
+     "time": "10-22",
+     "what": "多智能体医疗"
+    },
+    {
+     "title": "LeCun 押注的世界模型，清华系公司已做进机器人",
+     "en": "LeCun押注的世界模型，中国一家清华系公司已经做进了机器人",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/10/504653.html",
+     "time": "10-22",
+     "what": "世界模型落地机器人"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "中文数码",
+   "color": "#d32f2f",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "OpenAI 全面开放决策 API：基于 GPT-6 Luna，每百万 token 输入 0.1 美元",
+     "en": "OpenAI 宣布全面开放决策 API",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/016/771.htm",
+     "time": "10-23",
+     "what": "与 TechCrunch 报道一致"
+    },
+    {
+     "title": "1Password 推出智能体密码授权",
+     "en": "让你安心用 AI 网购 / 订票 / 点外卖",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/016/772.htm",
+     "time": "10-23",
+     "what": "智能体登录授权"
+    },
+    {
+     "title": "IT早报 1023：MiniMax 港股跌破发行价、Win11 给 8GB 内存电脑减负",
+     "en": "IT早报 1023",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/016/773.htm",
+     "time": "10-23",
+     "what": "早报合集"
+    },
+    {
+     "title": "特斯拉要为 Optimus 建“学校”",
+     "en": "特斯拉要为 Optimus 建“学校”，马斯克称训练机器人就像育儿",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/016/769.htm",
+     "time": "10-23",
+     "what": "机器人训练"
+    },
+    {
+     "title": "SK 海力士取消 Solidigm 赴美 IPO",
+     "en": "因市场波动，SK 海力士宣布取消旗下公司 Solidigm 赴美 IPO 计划",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/016/767.htm",
+     "time": "10-23",
+     "what": "市场波动"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "工程师社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "Docker 很怪",
+     "en": "Docker is weird",
+     "metric": "15 分",
+     "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
+     "time": "10-22",
+     "what": "容器使用心得"
+    },
+    {
+     "title": "剖析 macOS 上的 gcc 二进制",
+     "en": "examining the macOS gcc binary",
+     "metric": "54 分",
+     "url": "https://zoey-on-github.github.io/blog/macgcc.html",
+     "time": "10-22",
+     "what": "Lobsters 热帖"
+    },
+    {
+     "title": "Switch 2 越狱",
+     "en": "jailbreaking the switch 2",
+     "metric": "39 分",
+     "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
+     "time": "10-22",
+     "what": "与 HN 同一篇"
+    },
+    {
+     "title": "Quad9 将退出法国",
+     "en": "Quad9 DNS Resolver to exit France",
+     "metric": "24 分",
+     "url": "https://quad9.net/news/blog/au-revoir-france/",
+     "time": "10-22",
+     "what": "与 HN 同一篇"
+    },
+    {
+     "title": "用 Caddy 只公开私有服务的分享链接",
+     "en": "Expose only share links of a private service with caddy",
+     "metric": "19 分",
+     "url": "https://dataswamp.org/~solene/2026-10-21-caddy-forward-auth-public-share-links.html",
+     "time": "10-21",
+     "what": "运维技巧"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "title": "OpenAI 决策 API 全面开放：约 100 毫秒的“快速判断”模型",
+   "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+   "why": "TechCrunch 原文已读；IT之家同步报道；OpenAI 官方页 openai.com/index/decisions-api/ 未打开",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "给智能体上锁：NVIDIA OpenShell 与 1Password for Agents",
+   "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+   "why": "OpenShell 官方仓库已读（HN 275 分、1.77 万星）；1Password 报道已读",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "OpenAI 融资 300 亿美元对 Anthropic 招股书：上市前的钱",
+   "url": "https://nypost.com/2026/10/20/business/anthropic-books-staggering-81b-loss-warns-of-data-center-backlash-as-amodei-siblings-draw-modest-salaries/",
+   "why": "TechCrunch（转引 CNBC）与纽约邮报已读；Anthropic 数字来自草案报道，非官方公开文件",
+   "pick": true,
+   "status": "据报道"
+  },
+  {
+   "title": "OpenAI 模型进入 Google Cloud",
+   "url": "https://x.com/OpenAI/status/2112988118471295323",
+   "why": "OpenAI 官方帖已读；细节（私有预览）来自二手汇总，未读 Google 原文",
+   "pick": false,
+   "status": "待核"
+  },
+  {
+   "title": "Uber 3 万名员工用上 ChatGPT Work",
+   "url": "https://openai.com/index/uber-chatgpt-work-rollout/",
+   "why": "OpenAI 官方页已读，企业落地案例",
+   "pick": false,
+   "status": "已核"
+  },
+  {
+   "title": "Quad9 退出法国 / eMudhra 退出证书业务",
+   "url": "https://quad9.net/news/blog/au-revoir-france/",
+   "why": "HN 前二，但与 AI 关系弱",
+   "pick": false,
+   "status": "已核"
+  },
+  {
+   "title": "Mistral Large 4 开源权重（10.5 万亿参数 MoE）",
+   "url": "https://aibriefs.news/briefing/2026-10-22",
+   "why": "只在聚合简报里看到，无一手出处",
+   "pick": false,
+   "status": "待核"
+  },
+  {
+   "title": "Anthropic 称 Claude 设计出蝎毒蛋白结合体",
+   "url": "https://the-decoder.com/claude-science-tackles-deadly-scorpion-stings-by-designing-protein-binders-from-scratch/",
+   "why": "只读到聚合摘要，未读原文",
+   "pick": false,
+   "status": "待核"
+  }
+ ]
+}

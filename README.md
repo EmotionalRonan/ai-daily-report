@@ -10,7 +10,7 @@
 
 ## 最新一期
 
-- **2026-10-23｜AI 要更快，也要被上锁** — [网页](reports/2026-10-23/index.html) · [公众号](reports/2026-10-23/wechat/wechat.html) · [小红书](reports/2026-10-23/xhs/xiaohongshu.md)
+- **2026-10-24｜给模型断网，给能力设限，给数据开口** — [网页](reports/2026-10-24/index.html) · [公众号](reports/2026-10-24/wechat/wechat.html) · [小红书](reports/2026-10-24/xhs/xiaohongshu.md)
 
 网页版（GitHub Pages）：https://emotionalronan.github.io/ai-daily-report/
 

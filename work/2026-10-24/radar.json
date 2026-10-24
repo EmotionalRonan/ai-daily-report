@@ -1,0 +1,505 @@
+{
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "本地维基：只收步行半小时内的地方",
+     "en": "Local Wikipedia",
+     "metric": "1198 分",
+     "url": "https://edjefferson.com/localwiki/",
+     "time": "10-23",
+     "what": "个人项目"
+    },
+    {
+     "title": "Calif 在 Hexacon 演示 iPhone 攻击",
+     "en": "Today, we hacked what we set out to hack: the iPhone",
+     "metric": "706 分",
+     "url": "https://blog.calif.io/p/iphone",
+     "time": "10-16",
+     "what": "演示视频，细节称日后公布"
+    },
+    {
+     "title": "Kimi K3.1 Pro 与 Highspeed 发布",
+     "en": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+     "metric": "656 分",
+     "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+     "time": "10-23",
+     "what": "开放权重模型，权重 11 月 4 日前放出"
+    },
+    {
+     "title": "加拿大 C-22 监控法案：EFF 呼吁反对",
+     "en": "Canadians are running out of time to oppose Bill C-22",
+     "metric": "291 分",
+     "url": "https://www.eff.org/deeplinks/2026/10/canadians-are-running-out-time-oppose-dangerous-c-22-surveillance-bill",
+     "time": "10-23",
+     "what": "监控法案"
+    },
+    {
+     "title": "Google 称可能用 Gmail 与相册数据定向广告",
+     "en": "Now Google says it might use your Gmail and Google Photos data to target ads",
+     "metric": "223 分",
+     "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+     "time": "10-23",
+     "what": "隐私政策新增例外"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区情绪",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "互联网太疯狂了",
+     "en": "The Internet is wild",
+     "metric": "2106 赞（缓存，约 10-11）",
+     "url": "https://www.reddit.com/r/artificial/comments/1x36tu3/the_internet_is_wild/",
+     "time": "10-11",
+     "what": "图片帖"
+    },
+    {
+     "title": "开源复刻 Office 三件套",
+     "en": "Creator of free Adobe clones unveils open-source Office replications",
+     "metric": "1481 赞（缓存）",
+     "url": "https://www.reddit.com/r/singularity/comments/1x3daf9/shock_and_awe_creator_of_free_adobe_clones/",
+     "time": "10-11",
+     "what": "Tom's Hardware 报道"
+    },
+    {
+     "title": "AI 逆向把 GTA 5 等游戏移植进浏览器",
+     "en": "GTA 5, MW2, Halo ported to browser via AI reverse-engineering",
+     "metric": "820 赞（缓存）",
+     "url": "https://www.reddit.com/r/singularity/comments/1x38qz0/gta_5_modern_warfare_2_halo_and_many_other_games/",
+     "time": "10-11",
+     "what": "Destructoid 报道"
+    },
+    {
+     "title": "Karpathy 谈能力差距",
+     "en": "Andrej Karpathy breaks down the capability gap",
+     "metric": "790 赞（缓存）",
+     "url": "https://www.reddit.com/r/singularity/comments/1x3gsc4/andrej_karpathy_breaks_down_the_capability_gap/",
+     "time": "10-11",
+     "what": "截图帖"
+    },
+    {
+     "title": "Opus 5.5 移植星际火狐等老游戏",
+     "en": "Opus 5.5 is INSANE at decompilation / ports",
+     "metric": "656 赞（缓存）",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/",
+     "time": "10-11",
+     "what": "作者自己更正：更像静态重编译"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X",
+   "tag": "热帖",
+   "color": "#111111",
+   "url": "https://x.com/search?q=AI&f=top",
+   "short": "X",
+   "items": [
+    {
+     "title": "Berman：“软件已死”",
+     "en": "Reverse Engineer Anything. Software is done.",
+     "metric": "390 万浏览 · 3.9 万赞",
+     "url": "https://x.com/MatthewBerman/status/2108245653843509415",
+     "time": "10-08",
+     "what": "聚合页榜首，帖子较早"
+    },
+    {
+     "title": "Claude 下周起网页/桌面/手机默认自动模式",
+     "en": "Claude auto mode by default on Pro, Max, Team",
+     "metric": "62.5 万浏览 · 1.06 万赞",
+     "url": "https://x.com/claudeai/status/2113360845409583307",
+     "time": "10-22",
+     "what": "用自动检查拦截高风险操作"
+    },
+    {
+     "title": "Anthropic 把 Agent Skills 捐给 Agentic AI Foundation",
+     "en": "Donating Agent Skills to the Agentic AI Foundation",
+     "metric": "44.9 万浏览 · 5.9 千赞",
+     "url": "https://x.com/ClaudeDevs/status/2113328526413996100",
+     "time": "10-22",
+     "what": "称 70+ 平台已集成"
+    },
+    {
+     "title": "Nous：黄仁勋 GTC Berlin 压轴演示 Hermes Agent",
+     "en": "Jensen closed GTC Berlin 2026 with a Hermes Agent demo",
+     "metric": "89.4 万浏览 · 9.2 千赞",
+     "url": "https://x.com/NousResearch/status/2113010017645244623",
+     "time": "10-21",
+     "what": "训练 Microduck 机器人"
+    },
+    {
+     "title": "Claude API 发布 2026-10-21 版本",
+     "en": "API version 2026-10-21",
+     "metric": "41.2 万浏览 · 5 千赞",
+     "url": "https://x.com/ClaudeDevs/status/2113013247209021918",
+     "time": "10-21",
+     "what": "2023 年以来首个正式版本"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热榜",
+   "color": "#24292f",
+   "url": "https://github.com/trending",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "Cloudflare 安全审计技能",
+     "en": "cloudflare/security-audit-skill",
+     "metric": "+2,716 星",
+     "url": "https://github.com/cloudflare/security-audit-skill",
+     "time": "今日",
+     "what": "连续上榜"
+    },
+    {
+     "title": "NVIDIA OpenShell",
+     "en": "NVIDIA/OpenShell",
+     "metric": "+1,119 星",
+     "url": "https://github.com/NVIDIA/OpenShell",
+     "time": "今日",
+     "what": "智能体安全运行时"
+    },
+    {
+     "title": "PHP 源码",
+     "en": "php/php-src",
+     "metric": "+716 星",
+     "url": "https://github.com/php/php-src",
+     "time": "今日",
+     "what": "PHP 语言仓库"
+    },
+    {
+     "title": "Anthropic 知识工作插件",
+     "en": "anthropics/knowledge-work-plugins",
+     "metric": "+635 星",
+     "url": "https://github.com/anthropics/knowledge-work-plugins",
+     "time": "今日",
+     "what": "Claude 插件集"
+    },
+    {
+     "title": "紫微斗数",
+     "en": "Renhuai123/ziwei-doushu",
+     "metric": "+546 星",
+     "url": "https://github.com/Renhuai123/ziwei-doushu",
+     "time": "今日",
+     "what": "命理应用"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文热榜",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "FilmFlow：3D 虚拟电影摄影的智能体系统",
+     "en": "FilmFlow: Agentic System for 3D Virtual Film Cinematography",
+     "metric": "13 赞",
+     "url": "https://huggingface.co/papers/2610.30753",
+     "time": "今日",
+     "what": "论文"
+    },
+    {
+     "title": "RTAformer：视频场景图生成",
+     "en": "RTAformer: Relation-Transition-Aware Transformer for Video Scene Graph Generation",
+     "metric": "12 赞",
+     "url": "https://huggingface.co/papers/2610.20091",
+     "time": "今日",
+     "what": "论文"
+    },
+    {
+     "title": "Agent Mosaic：识别智能体系统的保密泄露",
+     "en": "Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems",
+     "metric": "11 赞",
+     "url": "https://huggingface.co/papers/2610.30418",
+     "time": "今日",
+     "what": "论文"
+    },
+    {
+     "title": "RIDAR：自主研究智能体的研究诚信防护",
+     "en": "RIDAR: Safeguarding Research Integrity in Autonomous Research Agents",
+     "metric": "6 赞",
+     "url": "https://huggingface.co/papers/2610.31372",
+     "time": "今日",
+     "what": "论文"
+    },
+    {
+     "title": "时间步任务感知量化：扩散语言模型",
+     "en": "Temporal Task-Aware Quantization for Diffusion Language Models",
+     "metric": "4 赞",
+     "url": "https://huggingface.co/papers/2610.31198",
+     "time": "今日",
+     "what": "论文"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#e5127d",
+   "url": "https://techcrunch.com/category/artificial-intelligence/",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "OpenAI 不再在实时互联网上训练模型",
+     "en": "OpenAI says it will no longer train its AI models on the live internet",
+     "metric": "10-23",
+     "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+     "time": "10-23",
+     "what": "TechCrunch"
+    },
+    {
+     "title": "黄仁勋玩 Microduck，预订破 2 万台",
+     "en": "Nvidia CEO plays with Microduck robots, 20,000 sell",
+     "metric": "10-23",
+     "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+     "time": "10-23",
+     "what": "TechCrunch"
+    },
+    {
+     "title": "智能体无事可做时开始“玩耍”",
+     "en": "Left alone with nothing to do, AI agents started playing",
+     "metric": "10-22",
+     "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+     "time": "10-22",
+     "what": "MIT 研究，arXiv 预印本"
+    },
+    {
+     "title": "inDrive 拟 2027 年在中亚测试 Robotaxi",
+     "en": "inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
+     "metric": "10-22",
+     "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+     "time": "10-22",
+     "what": "TechCrunch"
+    },
+    {
+     "title": "Google 或用 Gmail 与相册数据定向广告",
+     "en": "Now Google says it might use your Gmail and Google Photos data to target ads",
+     "metric": "10-23",
+     "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+     "time": "10-23",
+     "what": "The Verge"
+    }
+   ]
+  },
+  {
+   "key": "qbitai",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#1a73e8",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "又一国产决策模型发布，准确率超过微软和 Jev",
+     "en": "又一国产决策模型发布！",
+     "metric": "10-22",
+     "url": "https://www.qbitai.com/2026/10/504879.html",
+     "time": "10-22",
+     "what": "决策模型"
+    },
+    {
+     "title": "特斯拉利润腰斩，马斯克称 FSD 在中国也会领先",
+     "en": "特斯拉利润腰斩",
+     "metric": "10-22",
+     "url": "https://www.qbitai.com/2026/10/504841.html",
+     "time": "10-22",
+     "what": "量子位"
+    },
+    {
+     "title": "星辰意图理解模型 Xing4.0-29B-Intent 发布",
+     "en": "星辰意图理解模型发布",
+     "metric": "10-22",
+     "url": "https://www.qbitai.com/2026/10/504832.html",
+     "time": "10-22",
+     "what": "量子位"
+    },
+    {
+     "title": "谁在给 OpenAI 供应具身数据",
+     "en": "谁在给OpenAI供应具身数据？",
+     "metric": "10-22",
+     "url": "https://www.qbitai.com/2026/10/504800.html",
+     "time": "10-22",
+     "what": "量子位"
+    },
+    {
+     "title": "清华 AIR 孵化：医生 AI 分身“坐诊”医院",
+     "en": "多智能体协同重构医疗AI",
+     "metric": "10-21",
+     "url": "https://www.qbitai.com/2026/10/504734.html",
+     "time": "10-21",
+     "what": "量子位"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "中文数码资讯",
+   "color": "#d9230f",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "月之暗面发布 Kimi K3.1 Pro（IT早报 1024）",
+     "en": "IT早报 1024",
+     "metric": "10-24",
+     "url": "https://www.ithome.com/1/017/291.htm",
+     "time": "10-24",
+     "what": "早报"
+    },
+    {
+     "title": "OpenAI 为前沿训练/评估开启“断网闭关”",
+     "en": "OpenAI 断网训练",
+     "metric": "10-24",
+     "url": "https://www.ithome.com/1/017/289.htm",
+     "time": "10-24",
+     "what": "IT之家"
+    },
+    {
+     "title": "皮查伊：离 AI 自我改进的最终形态还很远",
+     "en": "Pichai on recursive self-improvement",
+     "metric": "10-24",
+     "url": "https://www.ithome.com/1/017/290.htm",
+     "time": "10-24",
+     "what": "转引商业内幕"
+    },
+    {
+     "title": "苹果推送 iOS 27.1，折叠 iPhone Duo 独享",
+     "en": "iOS 27.1",
+     "metric": "10-24",
+     "url": "https://www.ithome.com/1/017/292.htm",
+     "time": "10-24",
+     "what": "IT之家"
+    },
+    {
+     "title": "曝微软曾向 Netflix 开价 8 亿美元求 Xbox 改编权",
+     "en": "Microsoft Netflix Xbox",
+     "metric": "10-24",
+     "url": "https://www.ithome.com/1/017/293.htm",
+     "time": "10-24",
+     "what": "爆料，待核"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "工程师社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "Docker 很奇怪",
+     "en": "Docker is weird",
+     "metric": "94",
+     "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
+     "time": "10-22",
+     "what": "博客"
+    },
+    {
+     "title": "请别乱改链接",
+     "en": "Please don't mess with links",
+     "metric": "87",
+     "url": "https://maurycyz.com/misc/real_links/",
+     "time": "10-22",
+     "what": "博客"
+    },
+    {
+     "title": "UUIDv7 没有你以为的那些性质",
+     "en": "UUIDv7 doesn't have the properties you think it does",
+     "metric": "41",
+     "url": "https://alexsci.com/blog/uuidv7-is-weird/",
+     "time": "10-22",
+     "what": "博客"
+    },
+    {
+     "title": "XKCD 随机数的 Zig 内建函数",
+     "en": "The glorious @xkcdRandom Zig builtin",
+     "metric": "39",
+     "url": "https://ochagavia.nl/blog/the-glorious-@xkcdrandom-zig-builtin/",
+     "time": "10-22",
+     "what": "博客"
+    },
+    {
+     "title": "纯函数式编程能逼近 C 多近",
+     "en": "How close can pure FP get to C?",
+     "metric": "35",
+     "url": "https://rtfeldman.com/fp-vs-c",
+     "time": "10-22",
+     "what": "博客"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "title": "OpenAI 不再在实时互联网上训练",
+   "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+   "why": "TechCrunch 原文已读；IT之家同步",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "Kimi K3.1 Pro",
+   "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+   "why": "官方博客已读，HN 656",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "Google 隐私政策与定向广告",
+   "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+   "why": "Verge 已读，HN 223",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "Microduck 预订破 2 万",
+   "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+   "why": "TC 已读，有实拍图",
+   "pick": false,
+   "status": "已核"
+  },
+  {
+   "title": "Claude 默认自动模式",
+   "url": "https://x.com/claudeai/status/2113360845409583307",
+   "why": "仅官方帖，无博客原文",
+   "pick": false,
+   "status": "待核"
+  },
+  {
+   "title": "Calif 演示 iPhone 攻击",
+   "url": "https://blog.calif.io/p/iphone",
+   "why": "只有演示预告，细节未公开",
+   "pick": false,
+   "status": "待核"
+  },
+  {
+   "title": "MIT：智能体会“玩耍”",
+   "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+   "why": "TC 已读，预印本未评审",
+   "pick": false,
+   "status": "已核"
+  }
+ ]
+}

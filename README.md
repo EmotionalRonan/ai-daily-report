@@ -10,7 +10,7 @@
 
 ## 最新一期
 
-- **2026-10-24｜给模型断网，给能力设限，给数据开口** — [网页](reports/2026-10-24/index.html) · [公众号](reports/2026-10-24/wechat/wechat.html) · [小红书](reports/2026-10-24/xhs/xiaohongshu.md)
+- **2026-10-25｜用量翻了几倍，钥匙和账本都没跟上**（LiteLLM 投毒复盘、信通院词元报告、Apollo 的 AI 回报判断）
 
 网页版（GitHub Pages）：https://emotionalronan.github.io/ai-daily-report/
 

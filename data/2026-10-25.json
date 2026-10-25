@@ -1,0 +1,532 @@
+{
+ "date": "2026-10-25",
+ "weekday": "周日",
+ "issue": 14,
+ "title": "用量翻了几倍，钥匙和账本都没跟上",
+ "subtitle": "LiteLLM 投毒复盘、信通院词元报告、Apollo 的 AI 回报判断",
+ "lead": "LiteLLM 官方公布 1.107.0 投毒的完整经过，起点是一把五个月前泄露、始终没吊销的密钥；中国信通院称国内词元日均消耗约 500 万亿，价格近翻倍；Apollo 首席经济学家则说，科技业之外还没看到 AI 的回报。",
+ "headlines": [
+  {
+   "title": "LiteLLM 投毒复盘：一把没吊销的密钥，走到了发布权限",
+   "body": "LiteLLM 官方公布 1.107.0 事件经过：5 月 27 日，一份配置文件把内部智能体平台的主密钥误提交到公开仓库，密钥未吊销；10 月 10 日攻击者用它取出组织所有者的 GitHub 令牌，10 月 21 日改发布流程，带后门的版本上线约两小时。",
+   "why": "公司称发布审批本周早些时候放宽为任意两名工程师即可，攻击者借此用两枚被盗令牌完成触发与批准。据 StepSecurity，这是 LiteLLM 今年第二次在 PyPI 被投毒。",
+   "source": "LiteLLM 官方博客",
+   "url": "https://docs.litellm.ai/blog/security-incident-oct-21-2026-attack-chain",
+   "image_skip": "原文配图是 LiteLLM 通用站点图，与事件无关"
+  },
+  {
+   "title": "信通院：国内词元日均消耗约 500 万亿，价格近翻倍",
+   "body": "中国信通院发布《大模型词元服务性能监测报告（2026 年）》：6 月国内词元日均消耗约 500 万亿，是 2025 年 12 月的近 4 倍。经历两年价格战后，国内归一化均价从去年下半年的 6.8 元升到今年的 13.46 元，涨幅接近一倍。",
+   "why": "8 月国内平均输出速度 78.23 词元/秒，比 2025 年翻倍，仍低于国外的 112.82。用量越大，降价补贴的时期越像已经过去。",
+   "source": "IT之家（转述信通院报告）",
+   "url": "https://www.ithome.com/1/017/518.htm",
+   "image_skip": "原文配图为占位图"
+  },
+  {
+   "title": "Apollo：科技业之外，看不到 AI 回报",
+   "body": "Apollo 首席经济学家 Torsten Slok 称，AI 对科技业以外的美国企业“零财务回报”：Mag 7 的人均收入和利润率在升，标普其余 493 家持平，生产率增速也未见提升。他说主流企业开始把词元支出当成压低利润率的成本。",
+   "why": "这是一位经济学家的判断，图表数据来自彭博、Ramp 等，并非普查。与上一条并读：用得更多，但还没人证明挣得更多。",
+   "source": "Apollo Daily Spark",
+   "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+   "image_url": "https://www.apollo.com/content/dam/apolloaem/images/daily-spark/2026/oct/24/Oct24_Chart1.png",
+   "image": {
+    "file": "wechat/img/h3.jpg",
+    "src_url": "https://www.apollo.com/content/dam/apolloaem/images/daily-spark/2026/oct/24/Oct24_Chart1.png",
+    "credit": "Apollo Daily Spark",
+    "w": 1600,
+    "h": 900
+   }
+  }
+ ],
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "本地维基：只收步行半小时内的地方",
+     "en": "Local Wikipedia",
+     "metric": "1543 分",
+     "url": "https://edjefferson.com/localwiki/"
+    },
+    {
+     "title": "Apollo 首席经济学家：科技业之外看不到 AI 回报",
+     "en": "No signs of AI payoff outside the tech sector",
+     "metric": "430 分",
+     "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector"
+    },
+    {
+     "title": "十二年的分布式 SQLite",
+     "en": "Twelve years of distributed SQLite",
+     "metric": "359 分",
+     "url": "https://philipotoole.com/twelve-years-of-distributed-sqlite/"
+    },
+    {
+     "title": "uv 与 ty 合并",
+     "en": "Bringing uv and ty together",
+     "metric": "297 分",
+     "url": "https://astral.sh/blog/uv-ty-integration"
+    },
+    {
+     "title": "Node2Shell 升级为 HTTP2Shell",
+     "en": "Node2Shell evolves to HTTP2Shell",
+     "metric": "268 分",
+     "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区情绪",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "Opus 5.5 把 StarFox、Sonic CD 移植到桌面",
+     "en": "Opus 5.5 is INSANE at decompilation / ports",
+     "metric": "656 赞",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/"
+    },
+    {
+     "title": "GTA 5、MW2 等被 AI 逆向后搬进浏览器",
+     "en": "GTA 5, Modern Warfare 2, Halo ... ported to browser",
+     "metric": "820 赞",
+     "url": "https://www.destructoid.com/vibe-coded-games-in-browsers/"
+    },
+    {
+     "title": "Karpathy 谈能力差距",
+     "en": "Andrej Karpathy breaks down the capability gap",
+     "metric": "790 赞",
+     "url": "https://x.com/karpathy/status/2109361546505966046"
+    },
+    {
+     "title": "RTX 5090 为何卖到 5000 美元",
+     "en": "Why RTX 5090 costs $5,000",
+     "metric": "463 赞",
+     "url": "https://videocardz.com/newz/heres-why-rtx-5090-costs-5000-ai-firms-are-buying-gaming-gpus-by-the-pallet"
+    },
+    {
+     "title": "Claude 新版 Projects 引发 Max 用户抗议",
+     "en": "New Projects rolling out for Chat and Cowork",
+     "metric": "358 赞",
+     "url": "https://www.reddit.com/gallery/1x33na4"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X",
+   "tag": "热帖",
+   "color": "#111111",
+   "url": "https://x.com/search?q=AI&f=top",
+   "short": "X",
+   "items": [
+    {
+     "title": "Claude 下周起默认自动模式",
+     "en": "@claudeai auto mode by default",
+     "metric": "1.97 万赞 / 230 万浏览",
+     "url": "https://x.com/claudeai/status/2113360845409583307"
+    },
+    {
+     "title": "Flapping Airplanes 融资 10 亿美元 A 轮",
+     "en": "@flappyairplanes $1B Series A",
+     "metric": "3.8K 赞 / 82 万浏览",
+     "url": "https://x.com/flappyairplanes/status/2112955212612919318"
+    },
+    {
+     "title": "kepano 发布 Mermaid 兼容渲染库 Pele",
+     "en": "@kepano Pele",
+     "metric": "1.15 万赞 / 67 万浏览",
+     "url": "https://x.com/kepano/status/2111472054293913749"
+    },
+    {
+     "title": "特斯拉 FSD 日均新增订阅 2800",
+     "en": "@SawyerMerritt FSD subscribers",
+     "metric": "8.3K 赞",
+     "url": "https://x.com/SawyerMerritt/status/2113312976463601893"
+    },
+    {
+     "title": "一天内多起安全事件：PHP、LiteLLM、eMudhra 等",
+     "en": "@Mudit__Gupta nightmare day",
+     "metric": "3.7K 赞 / 45 万浏览",
+     "url": "https://x.com/Mudit__Gupta/status/2112938784392163779"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热榜",
+   "color": "#24292f",
+   "url": "https://github.com/trending",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "cloudflare/security-audit-skill",
+     "en": "cloudflare/security-audit-skill",
+     "metric": "+2,271 星",
+     "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+     "title": "NVIDIA/OpenShell",
+     "en": "NVIDIA/OpenShell",
+     "metric": "+893 星",
+     "url": "https://github.com/NVIDIA/OpenShell"
+    },
+    {
+     "title": "pbakaus/impeccable",
+     "en": "pbakaus/impeccable",
+     "metric": "+733 星",
+     "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+     "title": "Nutlope/hallmark",
+     "en": "Nutlope/hallmark",
+     "metric": "+570 星",
+     "url": "https://github.com/Nutlope/hallmark"
+    },
+    {
+     "title": "luongnv89/claude-howto",
+     "en": "luongnv89/claude-howto",
+     "metric": "+442 星",
+     "url": "https://github.com/luongnv89/claude-howto"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文热榜",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "FilmFlow：3D 虚拟电影摄影的智能体系统",
+     "en": "FilmFlow",
+     "metric": "26 赞",
+     "url": "https://huggingface.co/papers/2610.30753"
+    },
+    {
+     "title": "Agent Mosaic：识别智能体系统里的保密泄露",
+     "en": "Agent Mosaic",
+     "metric": "16 赞",
+     "url": "https://huggingface.co/papers/2610.30418"
+    },
+    {
+     "title": "扩散语言模型的任务感知时间步量化",
+     "en": "Temporal Task-Aware Quantization for Diffusion LMs",
+     "metric": "15 赞",
+     "url": "https://huggingface.co/papers/2610.31198"
+    },
+    {
+     "title": "RIDAR：自主研究智能体的研究诚信防护",
+     "en": "RIDAR",
+     "metric": "8 赞",
+     "url": "https://huggingface.co/papers/2610.31372"
+    },
+    {
+     "title": "BrickWright：智能体搭出可实现的积木",
+     "en": "BrickWright",
+     "metric": "7 赞",
+     "url": "https://huggingface.co/papers/2610.31651"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#e5127d",
+   "url": "https://techcrunch.com/category/artificial-intelligence/",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "Block 新语音模型听起来“异常像人”",
+     "en": "Block’s new voice model sounds eerily human",
+     "metric": "TC 10-24",
+     "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/"
+    },
+    {
+     "title": "被迫二选一：Grok 选共和党，OpenAI 选民主党",
+     "en": "Forced to pick, Grok’s AI model chooses Republicans",
+     "metric": "TC 10-24",
+     "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/"
+    },
+    {
+     "title": "能住进短信里的 AI 智能体盘点",
+     "en": "Top AI agents that can live in your text messages",
+     "metric": "TC 10-24",
+     "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/"
+    },
+    {
+     "title": "AI 墓地：没活下来的项目与创业公司清单",
+     "en": "The AI graveyard",
+     "metric": "TC 10-24",
+     "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
+    },
+    {
+     "title": "DeepSeek 据称在美国限制后融资 150 亿美元",
+     "en": "DeepSeek reportedly raises $15B",
+     "metric": "TC 10-22",
+     "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/"
+    }
+   ]
+  },
+  {
+   "key": "qbitai",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#1a73e8",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "百度世界 2026 前瞻",
+     "en": "百度世界2026前瞻",
+     "metric": "10-23",
+     "url": "https://www.qbitai.com/2026/10/504901.html"
+    },
+    {
+     "title": "又一国产决策模型发布，称准确率超微软与 Jev",
+     "en": "又一国产决策模型发布",
+     "metric": "10-22",
+     "url": "https://www.qbitai.com/2026/10/504879.html"
+    },
+    {
+     "title": "特斯拉利润腰斩，马斯克称 FSD 在中国也会领先",
+     "en": "特斯拉利润腰斩",
+     "metric": "10-22",
+     "url": "https://www.qbitai.com/2026/10/504841.html"
+    },
+    {
+     "title": "星辰意图理解模型 Xing4.0-29B-Intent 发布",
+     "en": "Xing4.0-29B-Intent",
+     "metric": "10-22",
+     "url": "https://www.qbitai.com/2026/10/504832.html"
+    },
+    {
+     "title": "谁在给 OpenAI 供应具身数据？",
+     "en": "谁在给OpenAI供应具身数据",
+     "metric": "10-22",
+     "url": "https://www.qbitai.com/2026/10/504800.html"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "中文数码资讯",
+   "color": "#d9230f",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "中国信通院：6 月国内词元日均消耗约 500 万亿",
+     "en": "中国信通院词元服务监测报告",
+     "metric": "10-24",
+     "url": "https://www.ithome.com/1/017/518.htm"
+    },
+    {
+     "title": "Muse 聊天分享链接经 DNS 数据库被检索到，Meta 已暂停分享",
+     "en": "Muse 分享链接",
+     "metric": "10-24",
+     "url": "https://www.ithome.com/1/017/517.htm"
+    },
+    {
+     "title": "Claude 付款页新增中国及港澳台选项，支持银联卡",
+     "en": "Claude 银联支付",
+     "metric": "10-24",
+     "url": "https://www.ithome.com/1/017/490.htm"
+    },
+    {
+     "title": "Counterpoint：三季度全球 PC 出货 5700 万台，同比降 21%",
+     "en": "Counterpoint PC 出货",
+     "metric": "10-24",
+     "url": "https://www.ithome.com/1/017/508.htm"
+    },
+    {
+     "title": "字节 AI 短剧产品整合：小云雀并入即梦",
+     "en": "小云雀并入即梦",
+     "metric": "10-24",
+     "url": "https://www.ithome.com/1/017/480.htm"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "工程师社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "我要回我的周三",
+     "en": "I want my Wednesday back",
+     "metric": "93 分",
+     "url": "https://blog.luitjes.it/posts/i-want-my-wednesday-back/"
+    },
+    {
+     "title": "印度政府网站仍在用被吊销的 eMudhra 证书",
+     "en": "Indian government sites serving revoked eMudhra certificates",
+     "metric": "57 分",
+     "url": "https://captnemo.in/blog/2026/10/23/emsign-revoked-gov-in/"
+    },
+    {
+     "title": "留意日志里有什么",
+     "en": "Be Aware of What’s in Your Logs",
+     "metric": "28 分",
+     "url": "https://fireborn.mataroa.blog/blog/be-aware-of-whats-in-your-logs/"
+    },
+    {
+     "title": "uv 与 ty 合并",
+     "en": "Bringing uv and ty together",
+     "metric": "27 分",
+     "url": "https://astral.sh/blog/uv-ty-integration"
+    },
+    {
+     "title": "Wild 链接器 0.11.0 发布",
+     "en": "Wild version 0.11.0 released",
+     "metric": "26 分",
+     "url": "https://github.com/wild-linker/wild/releases/tag/0.11.0"
+    }
+   ]
+  }
+ ],
+ "topics": [
+  {
+   "name": "智能体与工具",
+   "kicker": "TOOLS",
+   "items": [
+    {
+     "title": "Opus 5.5 把 StarFox 移植到桌面",
+     "note": "作者更正：更像游戏专用模拟器，非干净反编译。",
+     "src": "Reddit r/ClaudeAI",
+     "metric": "656 赞",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/"
+    },
+    {
+     "title": "kepano 发布 Mermaid 兼容渲染库 Pele",
+     "note": "自称快 100–500 倍、MIT 协议，数字是自述。",
+     "src": "X",
+     "metric": "1.15 万赞",
+     "url": "https://x.com/kepano/status/2111472054293913749"
+    },
+    {
+     "title": "uv 与 ty 合并",
+     "note": "Astral 官方博文，包管理接上类型检查。",
+     "src": "Astral",
+     "metric": "HN 297 分",
+     "url": "https://astral.sh/blog/uv-ty-integration"
+    },
+    {
+     "title": "Claude 付款页新增银联选项",
+     "note": "仅见 IT之家，官方说明未找到，待核。",
+     "src": "IT之家",
+     "metric": "10-24",
+     "url": "https://www.ithome.com/1/017/490.htm"
+    }
+   ]
+  },
+  {
+   "name": "安全与隐私",
+   "kicker": "TRUST",
+   "items": [
+    {
+     "title": "Muse 分享链接被 DNS 记录检索到",
+     "note": "据 Claroc 经 IT之家转述；Meta 已暂停分享。",
+     "src": "IT之家",
+     "metric": "10-24",
+     "url": "https://www.ithome.com/1/017/517.htm"
+    },
+    {
+     "title": "印度政府网站仍用被吊销的证书",
+     "note": "博主称仍有政府站点用 eMudhra 证书，上期事件后续。",
+     "src": "captnemo",
+     "metric": "Lobsters 57 分",
+     "url": "https://captnemo.in/blog/2026/10/23/emsign-revoked-gov-in/"
+    },
+    {
+     "title": "Node2Shell 升级为 HTTP2Shell",
+     "note": "Aikido 称 Brotli 相关漏洞影响多个 HTTP 库。",
+     "src": "Aikido",
+     "metric": "HN 268 分",
+     "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497"
+    },
+    {
+     "title": "Cloudflare 安全审计技能连续上榜",
+     "note": "GitHub 日榜首，用途以仓库说明为准。",
+     "src": "GitHub",
+     "metric": "+2,271 星",
+     "url": "https://github.com/cloudflare/security-audit-skill"
+    }
+   ]
+  },
+  {
+   "name": "钱与硬件",
+   "kicker": "MARKET",
+   "items": [
+    {
+     "title": "三季度全球 PC 出货降 21%",
+     "note": "Counterpoint 报告称 5700 万台，据 IT之家。",
+     "src": "IT之家",
+     "metric": "10-24",
+     "url": "https://www.ithome.com/1/017/508.htm"
+    },
+    {
+     "title": "Flapping Airplanes 称融资 10 亿美元",
+     "note": "据其官方 X 帖，Index、Lux 领投，细节待核。",
+     "src": "X",
+     "metric": "82 万浏览",
+     "url": "https://x.com/flappyairplanes/status/2112955212612919318"
+    },
+    {
+     "title": "字节 AI 短剧产品整合：小云雀并入即梦",
+     "note": "消息称，小云雀仍保留独立入口。",
+     "src": "IT之家",
+     "metric": "10-24",
+     "url": "https://www.ithome.com/1/017/480.htm"
+    },
+    {
+     "title": "GPU Unlock 称能释放 RTX 30 隐藏算力",
+     "note": "开源项目自称最高提升 60%，未经独立验证。",
+     "src": "IT之家",
+     "metric": "10-24",
+     "url": "https://www.ithome.com/1/017/525.htm"
+    }
+   ]
+  }
+ ],
+ "comments": [
+  "密钥泄露五个月，攻击十天后才变成发布权限：慢性问题最后总是急性发作。",
+  "价格涨了、用量翻了，缺的是一个能把词元换成利润的证据。",
+  "信通院的数是供给侧，Apollo 的判断是需求侧，两者现在对不上。"
+ ],
+ "xhs": {
+  "title": "词元翻倍，回报在哪",
+  "cover": "词元翻了几倍\n回报在哪",
+  "deck": "LiteLLM、信通院、Apollo",
+  "intro": "LiteLLM 公布投毒完整经过，起点是一把五个月没吊销的密钥；信通院称国内词元日均消耗约 500 万亿，价格近翻倍；Apollo 经济学家说，科技业之外还没看到 AI 回报。",
+  "oneliner": "用量在涨，钥匙和账本都还没跟上。",
+  "closing": "你们公司的 AI 支出，算得出回报吗？",
+  "tags": [
+   "AI",
+   "人工智能",
+   "科技新闻",
+   "AI日报",
+   "LiteLLM",
+   "大模型",
+   "词元",
+   "信息安全",
+   "AI投资",
+   "科技"
+  ]
+ }
+}

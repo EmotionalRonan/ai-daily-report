@@ -10,7 +10,7 @@
 
 ## 最新一期
 
-- **2026-10-25｜用量翻了几倍，钥匙和账本都没跟上**（LiteLLM 投毒复盘、信通院词元报告、Apollo 的 AI 回报判断）
+- **2026-10-26｜补丁没发版，诊断会出错，官司找上门**（Brotli 漏洞、皮肤癌 CNN 对比、猫王版权诉讼）
 
 网页版（GitHub Pages）：https://emotionalronan.github.io/ai-daily-report/
 

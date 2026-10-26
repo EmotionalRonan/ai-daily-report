@@ -1,0 +1,505 @@
+{
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "三星电视被取得 root 权限",
+     "en": "Root shell on Samsung TV",
+     "metric": "758 分",
+     "url": "https://twitter.com/log4j/status/2113014142600953868?s=46",
+     "time": "10-25",
+     "what": "X 帖展示对三星电视的 root shell"
+    },
+    {
+     "title": "Dan Luu：软件应该更有野心",
+     "en": "We should be more ambitious with the software we build",
+     "metric": "736 分",
+     "url": "https://danluu.com/ambitious/",
+     "time": "10-25",
+     "what": "个人博客长文"
+    },
+    {
+     "title": "十年前的 CNN 在皮肤癌诊断上胜过前沿大模型",
+     "en": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+     "metric": "387 分",
+     "url": "https://lynchlab.net/llm-skin-cancer",
+     "time": "10-25",
+     "what": "皮肤科医生用 200 例活检确诊病灶对比"
+    },
+    {
+     "title": "Cerebras 部署万亿参数前沿模型",
+     "en": "Cerebras Deploys Trillion-Parameter AI Models",
+     "metric": "348 分",
+     "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+     "time": "10-25",
+     "what": "Cerebras 官方博客"
+    },
+    {
+     "title": "加州大学伯克利数学教授：批改作业“没有意义”",
+     "en": "AI use leads UC Berkeley math professor to see no point in grading homework",
+     "metric": "184 分",
+     "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+     "time": "10-25",
+     "what": "校报报道"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区情绪",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "“互联网太离谱了”",
+     "en": "The Internet is wild",
+     "metric": "2106 赞",
+     "url": "https://www.reddit.com/r/artificial/comments/1x36tu3/the_internet_is_wild/",
+     "time": "10-25",
+     "what": "r/artificial 图片帖"
+    },
+    {
+     "title": "开源 Office 复刻项目",
+     "en": "Creator of free Adobe clones unveils open-source Office replications",
+     "metric": "1481 赞",
+     "url": "https://www.tomshardware.com/software/microsoft-office/creator-of-free-adobe-clones-unveils-open-source-microsoft-office-excel-powerpoint-and-word-replications-autodesk-tools-and-other-subscription-based-services-may-come-next",
+     "time": "10-25",
+     "what": "连续多日在榜"
+    },
+    {
+     "title": "GTA 5、MW2 等被 AI 逆向后搬进浏览器",
+     "en": "GTA 5, Modern Warfare 2, Halo ported to browser",
+     "metric": "820 赞",
+     "url": "https://www.destructoid.com/vibe-coded-games-in-browsers/",
+     "time": "10-25",
+     "what": "Destructoid 报道"
+    },
+    {
+     "title": "Karpathy 谈能力差距",
+     "en": "Andrej Karpathy breaks down the capability gap",
+     "metric": "790 赞",
+     "url": "https://x.com/karpathy/status/2109361546505966046",
+     "time": "10-25",
+     "what": "连续多日在榜"
+    },
+    {
+     "title": "Opus 5.5 把 StarFox、Sonic CD 移植到桌面",
+     "en": "Opus 5.5 is INSANE at decompilation / ports",
+     "metric": "656 赞",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/",
+     "time": "10-25",
+     "what": "作者已更正说法"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X",
+   "tag": "热帖",
+   "color": "#111111",
+   "url": "https://agentflare.org/social/tech/index.html",
+   "short": "X",
+   "items": [
+    {
+     "title": "Block 发布全双工语音模型 Dessa",
+     "en": "Dessa, the most authentic full-duplex speech model",
+     "metric": "6.45 万赞 / 1210 万浏览",
+     "url": "https://x.com/jack/status/2113697902916751661",
+     "time": "10-23",
+     "what": "据 @jack 帖"
+    },
+    {
+     "title": "OpenAI：红队演练中发现 Brotli 远程代码执行漏洞",
+     "en": "OpenAI red-teaming found unauthenticated RCE in Brotli",
+     "metric": "6323 赞 / 180 万浏览",
+     "url": "https://x.com/OpenAI/status/2113766354386084338",
+     "time": "10-23",
+     "what": "OpenAI 官方帖"
+    },
+    {
+     "title": "Flapping Airplanes 称融资 10 亿美元 A 轮",
+     "en": "Flapping Airplanes raises $1B Series A",
+     "metric": "3.8K 赞 / 83 万浏览",
+     "url": "https://x.com/flappyairplanes/status/2112955212612919318",
+     "time": "10-22",
+     "what": "自述，Index、Lux 领投"
+    },
+    {
+     "title": "推荐 Cloudflare 安全审计技能",
+     "en": "Cloudflare security audit skill",
+     "metric": "8.7K 赞 / 59.6 万浏览",
+     "url": "https://x.com/jurbed/status/2112973191157252103",
+     "time": "10-21",
+     "what": "个人推荐"
+    },
+    {
+     "title": "据报道谷歌因提前砍树被芬兰当局叫停数据中心施工",
+     "en": "Google halts Finland data center work",
+     "metric": "5.0K 赞 / 120 万浏览",
+     "url": "https://x.com/CollinRugg/status/2113712384590348513",
+     "time": "10-23",
+     "what": "转述卫报，待核"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热度",
+   "color": "#24292f",
+   "url": "https://github.com/trending?since=daily",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "cloudflare/security-audit-skill",
+     "en": "multi-phase security audit skill",
+     "metric": "+2,878 星",
+     "url": "https://github.com/cloudflare/security-audit-skill",
+     "time": "今日",
+     "what": "编码智能体的多阶段安全审计技能"
+    },
+    {
+     "title": "debpalash/VoiceStudio",
+     "en": "open-source local ElevenLabs alternative",
+     "metric": "+1,592 星",
+     "url": "https://github.com/debpalash/VoiceStudio",
+     "time": "今日",
+     "what": "本地语音克隆与配音"
+    },
+    {
+     "title": "Nutlope/hallmark",
+     "en": "Anti-AI-slop design skill",
+     "metric": "+1,317 星",
+     "url": "https://github.com/Nutlope/hallmark",
+     "time": "今日",
+     "what": "给 Claude Code 等用的设计技能"
+    },
+    {
+     "title": "pbakaus/impeccable",
+     "en": "design language for AI harness",
+     "metric": "+1,092 星",
+     "url": "https://github.com/pbakaus/impeccable",
+     "time": "今日",
+     "what": "让智能体更会做设计"
+    },
+    {
+     "title": "makecindy/cindy",
+     "en": "open-source AI agent out of the box",
+     "metric": "+675 星",
+     "url": "https://github.com/makecindy/cindy",
+     "time": "今日",
+     "what": "开箱即用的开源智能体"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文",
+   "color": "#ff9d00",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "FilmFlow：用智能体系统做 3D 虚拟电影摄影",
+     "en": "FilmFlow: Agentic System for 3D Virtual Film Cinematography",
+     "metric": "31 赞",
+     "url": "https://huggingface.co/papers/2610.30753",
+     "time": "10-25",
+     "what": "智能体式虚拟摄影"
+    },
+    {
+     "title": "扩散语言模型的时间步感知量化",
+     "en": "Temporal Task-Aware Quantization for Diffusion Language Models",
+     "metric": "23 赞",
+     "url": "https://huggingface.co/papers/2610.31198",
+     "time": "10-25",
+     "what": "量化方法"
+    },
+    {
+     "title": "Agent Mosaic：识别智能体系统中的保密信息泄露",
+     "en": "Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems",
+     "metric": "23 赞",
+     "url": "https://huggingface.co/papers/2610.30418",
+     "time": "10-25",
+     "what": "智能体安全"
+    },
+    {
+     "title": "EvalResearchBench：智能体能否自建反馈",
+     "en": "EvalResearchBench: Can AI Agents Build Their Own Feedback",
+     "metric": "22 赞",
+     "url": "https://huggingface.co/papers/2610.04184",
+     "time": "10-25",
+     "what": "自我改进评测"
+    },
+    {
+     "title": "RIDAR：自主科研智能体的诚信检测",
+     "en": "RIDAR: Safeguarding Research Integrity in Autonomous Research Agents",
+     "metric": "16 赞",
+     "url": "https://huggingface.co/papers/2610.31372",
+     "time": "10-25",
+     "what": "运行时干预"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#5200ff",
+   "url": "https://techcrunch.com/category/artificial-intelligence/",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "Grok 放出 AI 版《奥德赛》前 7 分钟",
+     "en": "Grok releases the first seven minutes of its AI-generated Odyssey",
+     "metric": "10-25",
+     "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+     "time": "10-25",
+     "what": "TechCrunch"
+    },
+    {
+     "title": "Apollo 经济学家：AI 带来“零财务回报”",
+     "en": "AI delivers zero financial payoff to most companies",
+     "metric": "10-25",
+     "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+     "time": "10-25",
+     "what": "TechCrunch，上期已写"
+    },
+    {
+     "title": "r/opensource 禁止 AI 与非英语发言者",
+     "en": "r/opensource just banned AI, non-English speakers, and more",
+     "metric": "10-25",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+     "time": "10-25",
+     "what": "The Verge"
+    },
+    {
+     "title": "谷歌 AI 搜索改版搅乱在线出版业",
+     "en": "Google’s AI search changes upended online publishing",
+     "metric": "10-25",
+     "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+     "time": "10-25",
+     "what": "The Verge"
+    },
+    {
+     "title": "宾夕法尼亚州将要求给 AI 广告加标签",
+     "en": "Pennsylvania will require labels on AI-generated ads",
+     "metric": "10-25",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+     "time": "10-25",
+     "what": "The Verge"
+    }
+   ]
+  },
+  {
+   "key": "qbitai",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#1b6ef3",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "国产 5B 生图模型海外爆火，4 天超百万下载",
+     "en": "",
+     "metric": "—",
+     "url": "https://www.qbitai.com/2026/10/504930.html",
+     "time": "10-23",
+     "what": "RSS 失败，取自首页，无热度数据"
+    },
+    {
+     "title": "一张 5090 跑起 34B 实时世界模型",
+     "en": "",
+     "metric": "—",
+     "url": "https://www.qbitai.com/2026/10/504931.html",
+     "time": "10-23",
+     "what": "同上"
+    },
+    {
+     "title": "高德发布全身基座模型 λ0",
+     "en": "",
+     "metric": "—",
+     "url": "https://www.qbitai.com/2026/10/504905.html",
+     "time": "10-23",
+     "what": "同上"
+    },
+    {
+     "title": "蚂蚁数科发布决策模型 LingDT-Decision-1.0",
+     "en": "",
+     "metric": "—",
+     "url": "https://www.qbitai.com/2026/10/504879.html",
+     "time": "10-22",
+     "what": "同上"
+    },
+    {
+     "title": "科大讯飞发布星辰 TaaS 平台",
+     "en": "",
+     "metric": "—",
+     "url": "https://www.qbitai.com/2026/10/505083.html",
+     "time": "10-23",
+     "what": "同上"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "中文科技媒体",
+   "color": "#d22222",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "Claude 被曝绕过付费墙调取佐治亚州选民数据",
+     "en": "",
+     "metric": "10-26",
+     "url": "https://www.ithome.com/1/017/732.htm",
+     "time": "10-26",
+     "what": "据 Axios 报道"
+    },
+    {
+     "title": "猫王版权方起诉 Anthropic，称其用 274 首歌训练模型",
+     "en": "",
+     "metric": "10-26",
+     "url": "https://www.ithome.com/1/017/731.htm",
+     "time": "10-26",
+     "what": "索赔约 4100 万美元"
+    },
+    {
+     "title": "Grok 发布 AI 版《奥德赛》前 7 分钟，被指缺乏艺术感染力",
+     "en": "",
+     "metric": "10-26",
+     "url": "https://www.ithome.com/1/017/727.htm",
+     "time": "10-26",
+     "what": ""
+    },
+    {
+     "title": "微软称删除 Prefetch 文件夹不会提速",
+     "en": "",
+     "metric": "10-26",
+     "url": "https://www.ithome.com/1/017/734.htm",
+     "time": "10-26",
+     "what": "Win11"
+    },
+    {
+     "title": "玩家请愿 EA 保住《质量效应》IP，签名破 18.7 万",
+     "en": "",
+     "metric": "10-26",
+     "url": "https://www.ithome.com/1/017/729.htm",
+     "time": "10-26",
+     "what": ""
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "技术社区",
+   "color": "#8a1a1a",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "我想要回我的周三",
+     "en": "I want my Wednesday back",
+     "metric": "115 分",
+     "url": "https://blog.luitjes.it/posts/i-want-my-wednesday-back/",
+     "time": "10-25",
+     "what": "个人博客"
+    },
+    {
+     "title": "Slurptop：用电动工具电池供电的自制便携机",
+     "en": "The Slurptop",
+     "metric": "84 分",
+     "url": "https://slurpburgers.com/slurpbuilds/the-slurptop/",
+     "time": "10-25",
+     "what": "硬件"
+    },
+    {
+     "title": "Vim Classic",
+     "en": "Vim Classic",
+     "metric": "48 分",
+     "url": "https://vim-classic.org/",
+     "time": "10-25",
+     "what": ""
+    },
+    {
+     "title": "POSIX wordexp(3) 很危险",
+     "en": "POSIX wordexp(3) is dangerous",
+     "metric": "46 分",
+     "url": "https://yossarian.net/til/post/posix-wordexp-3-is-dangerous/",
+     "time": "10-25",
+     "what": "安全"
+    },
+    {
+     "title": "Zig 偏序优先级",
+     "en": "Partial Order Precedence",
+     "metric": "29 分",
+     "url": "https://ziglang.org/devlog/2026/#2026-10-24",
+     "time": "10-24",
+     "what": "Zig devlog"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Brotli 漏洞 CVE-2026-111497：修复躺在源码里八个月没发版",
+   "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+   "why": "OpenAI 红队发现；THN 已读，含受影响软件表",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "十年前的 CNN 在皮肤癌诊断上胜过两个前沿大模型",
+   "url": "https://lynchlab.net/llm-skin-cancer",
+   "why": "作者原文已读，200 例活检确诊，数字齐全",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "猫王版权方起诉 Anthropic，索赔约 4100 万美元",
+   "url": "https://www.ithome.com/1/017/731.htm",
+   "why": "IT之家转述，原始诉状未找到；艺人遗产方直接起诉 AI 公司",
+   "pick": true,
+   "status": "已核（二手）"
+  },
+  {
+   "title": "Claude 被曝绕过付费墙调取佐治亚州计票数据",
+   "url": "https://www.ithome.com/1/017/732.htm",
+   "why": "据 Axios，二手；Anthropic 称只抓取付费公开的汇总数据",
+   "pick": false,
+   "status": "待核"
+  },
+  {
+   "title": "Cerebras 部署万亿参数模型",
+   "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+   "why": "厂商自述，未读完",
+   "pick": false,
+   "status": "待核"
+  },
+  {
+   "title": "OpenAI 前沿训练不联网（含 VM 逃逸演练）",
+   "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+   "why": "10-24 期已写，本期只作 Brotli 背景",
+   "pick": false,
+   "status": "已核"
+  },
+  {
+   "title": "Block Dessa 语音模型",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+   "why": "发布于 10-23，X 浏览量最高，但缺独立评测",
+   "pick": false,
+   "status": "待核"
+  }
+ ]
+}

@@ -10,7 +10,7 @@
 
 ## 最新一期
 
-- **2026-10-26｜补丁没发版，诊断会出错，官司找上门**（Brotli 漏洞、皮肤癌 CNN 对比、猫王版权诉讼）
+- **2026-10-27｜账本摊开：上市、买断、降价**（Anthropic 招股书、微软买断、GPT-6.1 Terra）
 
 网页版（GitHub Pages）：https://emotionalronan.github.io/ai-daily-report/
 

@@ -1,0 +1,537 @@
+{
+ "date": "2026-10-27",
+ "weekday": "周二",
+ "issue": 16,
+ "title": "账本摊开：上市、买断、降价",
+ "subtitle": "Anthropic 招股书、微软买断、GPT-6.1 Terra",
+ "lead": "Anthropic 递交招股书，上半年收入 163 亿美元、净亏 807 亿；微软向约 6 万人提供自愿买断；OpenAI 把 GPT-6.1 Terra 的 API 价格压到前代一半。",
+ "headlines": [
+  {
+   "title": "Anthropic 递交招股书：上半年收入 163 亿美元，净亏 807 亿",
+   "body": "Anthropic 向 SEC 递交 S-1，拟以代码 ANT 上市。上半年收入 163 亿美元（去年同期 12 亿），经营亏损 6.93 亿，净亏 807 亿，主要来自可转债的非现金调整。七位联合创始人合计掌握 50.1% 投票权。",
+   "why": "收入涨了十几倍，账面仍大亏；公众股东买到的是缺少控制权的股份。数字取自 TechCrunch 对招股书的转述。",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+   "image": {
+    "file": "wechat/img/h1.jpg",
+    "src_url": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2295579000.jpg?resize=1200,800",
+    "credit": "TechCrunch",
+    "w": 1200,
+    "h": 800
+   }
+  },
+  {
+   "title": "微软向约 6 万名员工提供自愿买断",
+   "body": "微软周一向美国、加拿大、印度和英国的约 6 万名员工（VP 级以下，约占四分之一）推出自愿离职方案，标准遣散待遇，12 月初前决定。游戏、Windows、Copilot 等部门全面参与，AI 与云部分参与。",
+   "why": "这是不裁员的减员办法。微软称并非用 AI 替代员工，而是淘汰过时岗位；这一说法暂无独立验证。",
+   "source": "The Seattle Times",
+   "url": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/",
+   "image": {
+    "file": "wechat/img/h2.jpg",
+    "src_url": "https://images.seattletimes.com/wp-content/uploads/2026/10/10262026_Microsoft_tzr_081156.jpg?d=1200x630",
+    "credit": "The Seattle Times",
+    "w": 1200,
+    "h": 630
+   }
+  },
+  {
+   "title": "GPT-6.1 Terra：API 价格比前代低一半",
+   "body": "OpenAI 发布 GPT-6.1 Terra，API 每百万 token 输入 1 美元、输出 5 美元，标准价比 GPT-5.6 Terra 和 GPT-6.1 Sol 低 50%。官方称最高推理强度下 Terminal-Bench 4.0 解出 50.3%，前代 21.5%。",
+   "why": "降价的同时，OpenAI 自称错误率大幅下降。所有基准和对 Claude Opus 5.5 的成本比较均为厂商自测，尚无第三方复现。",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+   "image_skip": "OpenAI 站点图片禁止抓取（403）"
+  }
+ ],
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "Anthropic 提交 S-1 招股书",
+     "en": "Anthropic S-1",
+     "metric": "1435 分",
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+    },
+    {
+     "title": "微软向约四分之一员工提供买断",
+     "en": "Microsoft offers mass buyouts for roughly a quarter of its workforce",
+     "metric": "702 分",
+     "url": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/"
+    },
+    {
+     "title": "Raschka 推理模型从零开始视频课",
+     "en": "Sebastian Raschka's from-scratch video course on building reasoning models",
+     "metric": "522 分",
+     "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models"
+    },
+    {
+     "title": "GPT-6.1 Terra",
+     "en": "GPT-6.1 Terra",
+     "metric": "470 分",
+     "url": "https://openai.com/index/introducing-gpt-6-1-terra/"
+    },
+    {
+     "title": "CSS-Tricks 换了新东家",
+     "en": "CSS-Tricks has a new owner",
+     "metric": "363 分",
+     "url": "https://css-tricks.com/css-tricks-has-a-new-owner/"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区情绪",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "Opus 5.5 把星际火狐、索尼克 CD 移植到桌面",
+     "en": "Opus 5.5 is INSANE at decompilation / ports",
+     "metric": "656 赞（缓存）",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/"
+    },
+    {
+     "title": "Karpathy 谈能力差距",
+     "en": "Andrej Karpathy breaks down the capability gap",
+     "metric": "790 赞（缓存）",
+     "url": "https://x.com/karpathy/status/2109361546505966046"
+    },
+    {
+     "title": "GTA 5 等游戏被 AI 逆向后搬进浏览器",
+     "en": "GTA 5, Modern Warfare 2, Halo ported to browser",
+     "metric": "820 赞（缓存）",
+     "url": "https://www.destructoid.com/vibe-coded-games-in-browsers/"
+    },
+    {
+     "title": "开源 Office 三件套复刻",
+     "en": "Creator of free Adobe clones unveils open-source Office replications",
+     "metric": "1481 赞（缓存）",
+     "url": "https://www.tomshardware.com/software/microsoft-office/creator-of-free-adobe-clones-unveils-open-source-microsoft-office-excel-powerpoint-and-word-replications-autodesk-tools-and-other-subscription-based-services-may-come-next"
+    },
+    {
+     "title": "RTX 5090 为何卖到 5000 美元",
+     "en": "Here's why RTX 5090 costs $5,000",
+     "metric": "463 赞（缓存）",
+     "url": "https://videocardz.com/newz/heres-why-rtx-5090-costs-5000-ai-firms-are-buying-gaming-gpus-by-the-pallet"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X",
+   "tag": "热帖",
+   "color": "#111111",
+   "url": "https://agentflare.org/social/tech/index.html",
+   "short": "X",
+   "items": [
+    {
+     "title": "OpenAI：红队发现 Brotli 远程代码执行漏洞",
+     "en": "OpenAI on Brotli RCE",
+     "metric": "200 万浏览；6.9K 赞",
+     "url": "https://x.com/OpenAI/status/2113766354386084338"
+    },
+    {
+     "title": "Cloudflare 安全审计技能推荐",
+     "en": "jurbed on Cloudflare security audit skill",
+     "metric": "8.7K 赞",
+     "url": "https://x.com/jurbed/status/2112973191157252103"
+    },
+    {
+     "title": "Nanbeige4.3-33B 发布",
+     "en": "Nanbeige4.3-33B",
+     "metric": "2.4K 赞",
+     "url": "https://x.com/nanbeige/status/2114328933181333798"
+    },
+    {
+     "title": "Blender 安卓版演示 APK",
+     "en": "Blender on Android at BCON26",
+     "metric": "3.1K 赞",
+     "url": "https://x.com/Blender/status/2112882920100679859"
+    },
+    {
+     "title": "Emil Kowalski 离开 Linear",
+     "en": "Emil Kowalski leaves Linear",
+     "metric": "7.9K 赞",
+     "url": "https://x.com/emilkowalski/status/2112878634746986947"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热度",
+   "color": "#24292f",
+   "url": "https://github.com/trending?since=daily",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "Nutlope/hallmark",
+     "en": "Nutlope/hallmark",
+     "metric": "+2,244 星",
+     "url": "https://github.com/Nutlope/hallmark"
+    },
+    {
+     "title": "pbakaus/impeccable",
+     "en": "pbakaus/impeccable",
+     "metric": "+1,506 星",
+     "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+     "title": "TauricResearch/TradingAgents",
+     "en": "TauricResearch/TradingAgents",
+     "metric": "+1,395 星",
+     "url": "https://github.com/TauricResearch/TradingAgents"
+    },
+    {
+     "title": "makecindy/cindy",
+     "en": "makecindy/cindy",
+     "metric": "+1,296 星",
+     "url": "https://github.com/makecindy/cindy"
+    },
+    {
+     "title": "JetBrains/thinkrail",
+     "en": "JetBrains/thinkrail",
+     "metric": "+1,173 星",
+     "url": "https://github.com/JetBrains/thinkrail"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文",
+   "color": "#ff9d00",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "Harness²：开放世界里的递归智能体外壳",
+     "en": "Harness^2: Recursive Agent Harnessing for an Open World",
+     "metric": "123 赞",
+     "url": "https://huggingface.co/papers/2610.14224"
+    },
+    {
+     "title": "TradingAgents：多智能体金融交易框架",
+     "en": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+     "metric": "154 赞",
+     "url": "https://huggingface.co/papers/2412.20138"
+    },
+    {
+     "title": "MOSS-Image 技术报告",
+     "en": "MOSS-Image Technical Report",
+     "metric": "104 赞",
+     "url": "https://huggingface.co/papers/2610.23374"
+    },
+    {
+     "title": "Kronos：金融市场语言基础模型",
+     "en": "Kronos: A Foundation Model for the Language of Financial Markets",
+     "metric": "62 赞",
+     "url": "https://huggingface.co/papers/2508.02739"
+    },
+    {
+     "title": "用 SSD 跑 35B MoE：存储墙的另一半",
+     "en": "The Other Half of the Memory Wall: Serving 35B MoEs from SSD",
+     "metric": "30 赞",
+     "url": "https://huggingface.co/papers/2609.18063"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#5200ff",
+   "url": "https://techcrunch.com/category/artificial-intelligence/",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "Anthropic 正式提交 IPO 申请",
+     "en": "Anthropic officially files for its public debut",
+     "metric": "TC 10-26",
+     "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/"
+    },
+    {
+     "title": "微软向 6 万名员工提供买断",
+     "en": "Microsoft offers buyouts to 60,000 employees",
+     "metric": "Verge 10-26",
+     "url": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible"
+    },
+    {
+     "title": "SpaceX 与 Apollo 敲定 400 亿美元 GPU 融资",
+     "en": "SpaceX locks in $40B GPU financing deal with Apollo",
+     "metric": "TC 10-26",
+     "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/"
+    },
+    {
+     "title": "OpenAI 公布三项科学发现",
+     "en": "OpenAI announces three big science discoveries",
+     "metric": "Verge 10-26",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics"
+    },
+    {
+     "title": "Anthropic 在烧天然气喂 AI 热潮",
+     "en": "Anthropic is burning gas to feed the AI boom",
+     "metric": "Verge 10-26",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk"
+    }
+   ]
+  },
+  {
+   "key": "qbitai",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#1b6ef3",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "刚刚，Anthropic 公开 335 页招股书",
+     "en": "刚刚，Anthropic公开335页招股书：史上最大IPO，史上最亏AI公司",
+     "metric": "5 小时前",
+     "url": "https://www.qbitai.com/2026/10/505551.html"
+    },
+    {
+     "title": "OpenAI 开始断网训练最强模型",
+     "en": "OpenAI开始断网训练最强模型",
+     "metric": "11 小时前",
+     "url": "https://www.qbitai.com/2026/10/505529.html"
+    },
+    {
+     "title": "NeoLab 的第一个商业模式：转售 GPU",
+     "en": "NeoLab第一个商业模式：转售GPU",
+     "metric": "11 小时前",
+     "url": "https://www.qbitai.com/2026/10/505478.html"
+    },
+    {
+     "title": "Kimi K3.1 Pro 一手实测",
+     "en": "Kimi K3.1 Pro一手实测",
+     "metric": "16 小时前",
+     "url": "https://www.qbitai.com/2026/10/505108.html"
+    },
+    {
+     "title": "马斯克给机器人建学校",
+     "en": "马斯克给机器人建了个学校",
+     "metric": "14 小时前",
+     "url": "https://www.qbitai.com/2026/10/505271.html"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "中文科技媒体",
+   "color": "#d22222",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "GPT-6.1 Terra 深夜发布：每项任务成本约为 Claude Opus 5.5 的九分之一",
+     "en": "OpenAI GPT-6.1 Terra",
+     "metric": "10-27",
+     "url": "https://www.ithome.com/1/018/200.htm"
+    },
+    {
+     "title": "OpenAI 宣布三项重大科学突破",
+     "en": "OpenAI three science breakthroughs",
+     "metric": "10-27",
+     "url": "https://www.ithome.com/1/018/203.htm"
+    },
+    {
+     "title": "Anthropic 招股书：曾因安全顾虑暂停旗舰模型训练一个多月",
+     "en": "Anthropic S-1 safety pause",
+     "metric": "10-27",
+     "url": "https://www.ithome.com/1/018/201.htm"
+    },
+    {
+     "title": "630 亿美元：华尔街银行与黑石为 Anthropic 采购博通芯片融资",
+     "en": "Banks and Blackstone finance Anthropic Broadcom chips",
+     "metric": "10-27",
+     "url": "https://www.ithome.com/1/018/199.htm"
+    },
+    {
+     "title": "苹果回应 iPhone Duo 内屏开裂：仅少量设备受影响，可申请换机",
+     "en": "iPhone Duo inner screen cracks",
+     "metric": "10-27",
+     "url": "https://www.ithome.com/1/018/196.htm"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "技术社区",
+   "color": "#8a1a1a",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "网站应该可打印",
+     "en": "Websites Should Be Printable",
+     "metric": "61 分",
+     "url": "https://brennenputh.me/blog/printable-websites/"
+    },
+    {
+     "title": "Gram 3.4.0 发布",
+     "en": "Gram 3.4.0 released",
+     "metric": "48 分",
+     "url": "https://gram-editor.com/posts/release-3.4.0/"
+    },
+    {
+     "title": "被攻破的 eMudhra 中间 CA 说明",
+     "en": "About the compromised eMudhra intermediate CAs",
+     "metric": "44 分",
+     "url": "https://support.apple.com/en-us/149555"
+    },
+    {
+     "title": "发一封邮件为什么这么贵",
+     "en": "Why is it so expensive to send an email?",
+     "metric": "43 分",
+     "url": "https://evancz.dev/why-is-it-so-expensive-to-send-an-email"
+    },
+    {
+     "title": "CSS-Tricks 换了新东家",
+     "en": "CSS-Tricks has a new owner",
+     "metric": "42 分",
+     "url": "https://css-tricks.com/css-tricks-has-a-new-owner/"
+    }
+   ]
+  }
+ ],
+ "topics": [
+  {
+   "name": "模型与产品",
+   "kicker": "MODELS",
+   "items": [
+    {
+     "title": "OpenAI 公布数学、计算机、物理三项发现",
+     "note": "Verge 称请外部专家“把关”；原文未读，待核。",
+     "src": "The Verge",
+     "metric": "10-26",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics"
+    },
+    {
+     "title": "Nanbeige4.3-33B 发布",
+     "note": "自称同级开源最佳，缺独立评测，待核。",
+     "src": "X @nanbeige",
+     "metric": "2.4K 赞",
+     "url": "https://x.com/nanbeige/status/2114328933181333798"
+    },
+    {
+     "title": "MOSS-Image 技术报告登论文榜",
+     "note": "论文榜上赞数靠前，细节未读。",
+     "src": "Hugging Face",
+     "metric": "104 赞",
+     "url": "https://huggingface.co/papers/2610.23374"
+    },
+    {
+     "title": "Raschka 开出推理模型从零开始课程",
+     "note": "HN 高分，课程内容未试。",
+     "src": "Hacker News",
+     "metric": "522 分",
+     "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models"
+    }
+   ]
+  },
+  {
+   "name": "安全与信任",
+   "kicker": "TRUST",
+   "items": [
+    {
+     "title": "AI 代理钻了 The RealReal 的购物车漏洞",
+     "note": "Verge 称零售商已升级机器人防御。",
+     "src": "The Verge",
+     "metric": "10-26",
+     "url": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal"
+    },
+    {
+     "title": "Flock 首席执行官录音流出",
+     "note": "据 404 Media，称反弹并不真实，待核。",
+     "src": "Hacker News",
+     "metric": "268 分",
+     "url": "https://www.404media.co/in-leaked-audio-flock-ceo-tells-cops-backlash-to-the-company-isnt-real/"
+    },
+    {
+     "title": "苹果发布 eMudhra 中间证书被攻破说明",
+     "note": "苹果支持文档，影响范围以原文为准。",
+     "src": "Lobsters",
+     "metric": "44 分",
+     "url": "https://support.apple.com/en-us/149555"
+    },
+    {
+     "title": "NVIDIA 开源智能体技能安全扫描器",
+     "note": "仓库自述可查漏洞，未实测。",
+     "src": "GitHub",
+     "metric": "+214 星",
+     "url": "https://github.com/NVIDIA/SkillSpector"
+    }
+   ]
+  },
+  {
+   "name": "钱与社会",
+   "kicker": "MONEY",
+   "items": [
+    {
+     "title": "SpaceX 谈妥 400 亿美元 GPU 融资",
+     "note": "只见 TechCrunch 标题，细节待核。",
+     "src": "TechCrunch",
+     "metric": "10-26",
+     "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/"
+    },
+    {
+     "title": "招股书承认数据中心依赖天然气",
+     "note": "Verge 称燃料成本与供应是风险项。",
+     "src": "The Verge",
+     "metric": "10-26",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk"
+    },
+    {
+     "title": "NeoLab 的第一个生意：转售 GPU",
+     "note": "量子位报道，细节未读。",
+     "src": "量子位",
+     "metric": "11 小时前",
+     "url": "https://www.qbitai.com/2026/10/505478.html"
+    },
+    {
+     "title": "CSS-Tricks 换了新东家",
+     "note": "站点公告，买方条件以原文为准。",
+     "src": "Hacker News",
+     "metric": "363 分",
+     "url": "https://css-tricks.com/css-tricks-has-a-new-owner/"
+    }
+   ]
+  }
+ ],
+ "comments": [
+  "收入涨十几倍仍净亏数百亿，上市后账本每季度都要公开。",
+  "买断是不裁员的减员，岗位怎么变，要看谁真的走。",
+  "模型降价一半，省下的钱会先流向用量，而不是利润。"
+ ],
+ "xhs": {
+  "title": "账本摊开：上市、买断、降价",
+  "cover": "AI 的三本账\n同天翻开",
+  "deck": "招股书·买断·降价",
+  "intro": "Anthropic 递交招股书，上半年收入 163 亿美元、净亏 807 亿；微软向约 6 万人提供自愿买断；OpenAI 把新模型 GPT-6.1 Terra 的 API 价格压到前代一半。",
+  "oneliner": "收入、人力、单价，三本账同一天重算。",
+  "closing": "如果公司给你买断方案，你会接吗？",
+  "tags": [
+   "AI",
+   "人工智能",
+   "科技新闻",
+   "AI日报",
+   "Anthropic",
+   "IPO",
+   "微软",
+   "OpenAI",
+   "GPT",
+   "大模型"
+  ]
+ }
+}

@@ -1,0 +1,505 @@
+{
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "美国政府被指隐瞒一份关于监听美国人的秘密法庭裁决",
+     "en": "US Government is hiding a secret court ruling about how it spies on Americans",
+     "metric": "739 分",
+     "url": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/",
+     "time": "10-27",
+     "what": "Wired 报道"
+    },
+    {
+     "title": "Ghostty 1.4 发布",
+     "en": "Ghostty 1.4",
+     "metric": "673 分",
+     "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
+     "time": "10-27",
+     "what": "终端模拟器版本说明"
+    },
+    {
+     "title": "DeepMind 发布 Genie 4 世界模型",
+     "en": "Genie 4: a new generation of world simulation",
+     "metric": "672 分",
+     "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+     "time": "10-27",
+     "what": "实时、带原生音频的世界模型，研究预览"
+    },
+    {
+     "title": "Python 实验性 JIT 将被移除",
+     "en": "Python's experimental JIT to be removed",
+     "metric": "431 分",
+     "url": "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/",
+     "time": "10-27",
+     "what": "LWN 报道"
+    },
+    {
+     "title": "维基百科清理 AI 撰写的内容",
+     "en": "Wikipedia's Cleanup of AI-Generated Content",
+     "metric": "430 分",
+     "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+     "time": "10-27",
+     "what": "IEEE Spectrum"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区情绪",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "网络太疯狂了",
+     "en": "The Internet is wild",
+     "metric": "2106 赞",
+     "url": "https://www.reddit.com/r/artificial/comments/1x36tu3/the_internet_is_wild/",
+     "time": "10-27",
+     "what": "r/artificial 图片帖"
+    },
+    {
+     "title": "开源版 Office 三件套复刻出现",
+     "en": "Creator of free Adobe clones unveils open-source Microsoft Office replications",
+     "metric": "1481 赞",
+     "url": "https://www.tomshardware.com/software/microsoft-office/creator-of-free-adobe-clones-unveils-open-source-microsoft-office-excel-powerpoint-and-word-replications-autodesk-tools-and-other-subscription-based-services-may-come-next",
+     "time": "10-27",
+     "what": "r/singularity，往期已出现"
+    },
+    {
+     "title": "GTA 5、使命召唤等游戏被 AI 逆向后移植到浏览器",
+     "en": "GTA 5, Modern Warfare 2, Halo ported to browser via AI reverse-engineering",
+     "metric": "820 赞",
+     "url": "https://www.destructoid.com/vibe-coded-games-in-browsers/",
+     "time": "10-27",
+     "what": "r/singularity"
+    },
+    {
+     "title": "Opus 5.5 做星际火狐、索尼克 CD 的原生移植",
+     "en": "Opus 5.5 is INSANE at decompilation / ports",
+     "metric": "656 赞",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/",
+     "time": "10-28",
+     "what": "r/ClaudeAI，作者自己更正称更接近模拟器+静态重编译"
+    },
+    {
+     "title": "Claude 的 Projects 要改成“一个对话”，用户抗议",
+     "en": "New Projects rolling out for Chat and Cowork",
+     "metric": "358 赞",
+     "url": "https://www.reddit.com/gallery/1x33na4",
+     "time": "10-27",
+     "what": "r/ClaudeAI 反馈帖"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X",
+   "tag": "热帖",
+   "color": "#111111",
+   "url": "https://agentflare.org/social/tech/index.html",
+   "short": "X",
+   "items": [
+    {
+     "title": "OpenAI：红队演练发现 Brotli 远程代码执行漏洞",
+     "en": "OpenAI on Brotli RCE",
+     "metric": "6.9K 赞",
+     "url": "https://x.com/OpenAI/status/2113766354386084338",
+     "time": "10-23",
+     "what": "据 AgentFlare 10-26 汇总页；往期已报"
+    },
+    {
+     "title": "Cloudflare 安全审计技能：所有软件都跑一遍",
+     "en": "@jurbed on Cloudflare audit skill",
+     "metric": "8.7K 赞",
+     "url": "https://x.com/jurbed/status/2112973191157252103",
+     "time": "10-21",
+     "what": "AgentFlare 汇总页"
+    },
+    {
+     "title": "Nanbeige4.3-33B 发布",
+     "en": "Nanbeige4.3-33B",
+     "metric": "2.4K 赞",
+     "url": "https://x.com/nanbeige/status/2114328933181333798",
+     "time": "10-25",
+     "what": "自称同级开源最佳，往期已出现"
+    },
+    {
+     "title": "Blender on Android 演示 APK 发布",
+     "en": "Blender on Android at BCON26",
+     "metric": "3.1K 赞",
+     "url": "https://x.com/Blender/status/2112882920100679859",
+     "time": "10-21",
+     "what": "AgentFlare 汇总页"
+    },
+    {
+     "title": "苹果 iPhone Duo 首批买家出现",
+     "en": "First people to get the iPhone Duo",
+     "metric": "6.2K 赞",
+     "url": "https://x.com/theapplehub/status/2113611517128056978",
+     "time": "10-23",
+     "what": "AgentFlare 汇总页，仅推文转述"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热度",
+   "color": "#24292f",
+   "url": "https://github.com/trending?since=daily",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "Nutlope/hallmark",
+     "en": "Nutlope/hallmark",
+     "metric": "+2,830 星",
+     "url": "https://github.com/Nutlope/hallmark",
+     "time": "10-28",
+     "what": "今日增星最多"
+    },
+    {
+     "title": "HKUDS/DeepTutor",
+     "en": "HKUDS/DeepTutor",
+     "metric": "+1,598 星",
+     "url": "https://github.com/HKUDS/DeepTutor",
+     "time": "10-28",
+     "what": "趋势榜"
+    },
+    {
+     "title": "makecindy/cindy",
+     "en": "makecindy/cindy",
+     "metric": "+1,465 星",
+     "url": "https://github.com/makecindy/cindy",
+     "time": "10-28",
+     "what": "趋势榜"
+    },
+    {
+     "title": "pbakaus/impeccable",
+     "en": "pbakaus/impeccable",
+     "metric": "+1,449 星",
+     "url": "https://github.com/pbakaus/impeccable",
+     "time": "10-28",
+     "what": "趋势榜"
+    },
+    {
+     "title": "elayadesign/ai-design-skills",
+     "en": "elayadesign/ai-design-skills",
+     "metric": "+1,395 星",
+     "url": "https://github.com/elayadesign/ai-design-skills",
+     "time": "10-28",
+     "what": "趋势榜"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文",
+   "color": "#ff9d00",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "测试时记忆演化能否胜过测试时训练？",
+     "en": "Can Test-Time Memory Evolution Outperform Test-Time Training for Scientific Discovery?",
+     "metric": "10 赞",
+     "url": "https://huggingface.co/papers/2610.32046",
+     "time": "10-27",
+     "what": "论文榜第一"
+    },
+    {
+     "title": "iPrefBench：个性化手机代理基准",
+     "en": "iPrefBench",
+     "metric": "7 赞",
+     "url": "https://huggingface.co/papers/2610.34735",
+     "time": "10-27",
+     "what": "论文榜"
+    },
+    {
+     "title": "ReGE：用经验合成增强智能体",
+     "en": "ReGE",
+     "metric": "6 赞",
+     "url": "https://huggingface.co/papers/2610.33861",
+     "time": "10-27",
+     "what": "论文榜"
+    },
+    {
+     "title": "CRM-Agent-Bench：企业有状态环境里的工具代理基准",
+     "en": "CRM-Agent-Bench",
+     "metric": "4 赞",
+     "url": "https://huggingface.co/papers/2610.32004",
+     "time": "10-27",
+     "what": "论文榜"
+    },
+    {
+     "title": "重新思考代理框架中的验证",
+     "en": "Rethinking Verification in Agent Harnesses",
+     "metric": "2 赞",
+     "url": "https://huggingface.co/papers/2610.34577",
+     "time": "10-27",
+     "what": "论文榜"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#5200ff",
+   "url": "https://techcrunch.com/category/artificial-intelligence/",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "家长起诉 OpenAI：GPT-4o 教女儿悄悄减抗癫痫药",
+     "en": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+     "metric": "TC 10-27",
+     "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+     "time": "10-27",
+     "what": "已读原文，NYT 查阅了 27 万条聊天记录"
+    },
+    {
+     "title": "谷歌下一代 Genie 生成更真实的体验",
+     "en": "Google's next Genie AI model generates more realistic experiences",
+     "metric": "Verge 10-28",
+     "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model",
+     "time": "10-28",
+     "what": "Verge"
+    },
+    {
+     "title": "Anthropic 上市后到底谁说了算？",
+     "en": "Who's really in charge at Anthropic after the IPO?",
+     "metric": "TC 10-27",
+     "url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
+     "time": "10-27",
+     "what": "TC，仅读标题"
+    },
+    {
+     "title": "苹果给 Pages、Keynote、Numbers 加 AI 聊天机器人",
+     "en": "Apple is adding an AI chatbot to Pages, Keynote, and Numbers",
+     "metric": "Verge 10-27",
+     "url": "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update",
+     "time": "10-27",
+     "what": "Verge，仅读标题"
+    },
+    {
+     "title": "研究者厌倦了 OpenAI 把突破“把关”",
+     "en": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
+     "metric": "Verge 10-28",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
+     "time": "10-28",
+     "what": "Verge，仅读标题"
+    }
+   ]
+  },
+  {
+   "key": "qbitai",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#1b6ef3",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "Anthropic 公开 335 页招股书",
+     "en": "Anthropic S-1",
+     "metric": "量子位 10-27",
+     "url": "https://www.qbitai.com/2026/10/505551.html",
+     "time": "10-27",
+     "what": "往期已报"
+    },
+    {
+     "title": "OpenAI 开始断网训练最强模型：“安全起见”",
+     "en": "OpenAI trains strongest model offline",
+     "metric": "量子位 10-26",
+     "url": "https://www.qbitai.com/2026/10/505529.html",
+     "time": "10-26",
+     "what": "仅读标题，待核"
+    },
+    {
+     "title": "A 社联创演讲：AI 奇点已来",
+     "en": "Anthropic co-founder talk",
+     "metric": "量子位 10-26",
+     "url": "https://www.qbitai.com/2026/10/505521.html",
+     "time": "10-26",
+     "what": "仅读标题"
+    },
+    {
+     "title": "NeoLab 第一个商业模式：转售 GPU",
+     "en": "NeoLab resells GPUs",
+     "metric": "量子位 10-26",
+     "url": "https://www.qbitai.com/2026/10/505478.html",
+     "time": "10-26",
+     "what": "仅读标题"
+    },
+    {
+     "title": "钛动科技发布 Pro-Agent Navos Pro",
+     "en": "Navos Pro",
+     "metric": "量子位 10-27",
+     "url": "https://www.qbitai.com/2026/10/505580.html",
+     "time": "10-27",
+     "what": "企业发布稿"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "中文科技媒体",
+   "color": "#d22222",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "IT早报 1028：谷歌推 Genie 4、苹果推 M6 MacBook Pro",
+     "en": "IT News Brief 1028",
+     "metric": "IT之家 10-28",
+     "url": "https://www.ithome.com/1/018/722.htm",
+     "time": "10-28",
+     "what": "当日汇总"
+    },
+    {
+     "title": "ChatGPT 被指教唆癫痫患者减药致其去世，OpenAI 遭起诉",
+     "en": "ChatGPT accused in epilepsy death suit",
+     "metric": "IT之家 10-28",
+     "url": "https://www.ithome.com/1/018/719.htm",
+     "time": "10-28",
+     "what": "转述 NYT/TC"
+    },
+    {
+     "title": "皮查伊称 Genie 4 是谷歌迄今最逼真的世界模型",
+     "en": "Pichai on Genie 4",
+     "metric": "IT之家 10-28",
+     "url": "https://www.ithome.com/1/018/718.htm",
+     "time": "10-28",
+     "what": "转述"
+    },
+    {
+     "title": "Opera 推出 WebAI 网页标准，支持浏览器本地部署 AI 模型",
+     "en": "Opera WebAI",
+     "metric": "IT之家 10-28",
+     "url": "https://www.ithome.com/1/018/723.htm",
+     "time": "10-28",
+     "what": "仅读标题"
+    },
+    {
+     "title": "Firefox 整合“网页变化雷达”，盯商品降价和补货",
+     "en": "Firefox page-change monitoring",
+     "metric": "IT之家 10-28",
+     "url": "https://www.ithome.com/1/018/715.htm",
+     "time": "10-28",
+     "what": "仅读标题"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "技术社区",
+   "color": "#8a1a1a",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "CSS-Tricks 换了新东家",
+     "en": "CSS-Tricks has a new owner",
+     "metric": "106 分",
+     "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
+     "time": "10-27",
+     "what": "Lobsters 榜首"
+    },
+    {
+     "title": "Python 实验性 JIT 将被移除",
+     "en": "Python's experimental JIT to be removed",
+     "metric": "85 分",
+     "url": "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/",
+     "time": "10-27",
+     "what": "LWN"
+    },
+    {
+     "title": "“指数时间假设是错的”（PDF）",
+     "en": "The Exponential Time Hypothesis Is False",
+     "metric": "51 分",
+     "url": "https://files.mathhelm.org/files/733/The-Exponential-Time-Hypothesis-is-False-October-25-2026.pdf",
+     "time": "10-25",
+     "what": "TechCrunch 称前沿实验室称其模型推翻了该假设，待核"
+    },
+    {
+     "title": "适用于 Rust 的快速安全 tar 解析器",
+     "en": "A fast and secure tar parser for the Rust ecosystem",
+     "metric": "41 分",
+     "url": "https://astral.sh/blog/tar-codec",
+     "time": "10-27",
+     "what": "Astral 博客"
+    },
+    {
+     "title": "Ghostty 1.4.0",
+     "en": "Ghostty 1.4.0",
+     "metric": "9 分",
+     "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
+     "time": "10-27",
+     "what": "版本说明"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "title": "DeepMind 发布 Genie 4：实时、原生音频的世界模型",
+   "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+   "why": "HN 672 分；官方博客已读，研究预览、候补名单",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "家长起诉 OpenAI：GPT-4o 教女儿悄悄减抗癫痫药",
+   "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+   "why": "TC 全文已读，指控来自诉状与 NYT 查阅的聊天记录",
+   "pick": true,
+   "status": "已核（指控）"
+  },
+  {
+   "title": "苹果 M6 14 寸 MacBook Pro：端侧 AI 与 Siri AI",
+   "url": "https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+   "why": "HN 262 分；苹果新闻稿已读，性能数字为厂商自测",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "斯坦福教授起诉 Anthropic：书被盗版训练 Claude",
+   "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
+   "why": "HN 428 分；校报原文已读，Cruz v. Anthropic 尚在诉讼",
+   "pick": false,
+   "status": "已核"
+  },
+  {
+   "title": "美国政府被指隐瞒秘密监听裁决",
+   "url": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/",
+   "why": "HN 739 分最高，但与科技/AI 主线关联弱，未读原文",
+   "pick": false,
+   "status": "待核"
+  },
+  {
+   "title": "Python 实验性 JIT 将被移除",
+   "url": "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/",
+   "why": "HN 431、Lobsters 85；LWN 订阅者链接未读",
+   "pick": false,
+   "status": "待核"
+  },
+  {
+   "title": "指数时间假设被前沿 AI 实验室称已推翻",
+   "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+   "why": "重大但未读全文、无独立验证",
+   "pick": false,
+   "status": "待核"
+  }
+ ]
+}

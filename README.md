@@ -10,7 +10,7 @@
 
 ## 最新一期
 
-- **2026-10-27｜账本摊开：上市、买断、降价**（Anthropic 招股书、微软买断、GPT-6.1 Terra）
+- **2026-10-28｜世界更真，模型更像人，后果也来了**（Genie 4、OpenAI 被诉、苹果 M6）
 
 网页版（GitHub Pages）：https://emotionalronan.github.io/ai-daily-report/
 

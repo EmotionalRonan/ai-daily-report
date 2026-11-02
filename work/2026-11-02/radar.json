@@ -1,0 +1,505 @@
+{
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "Karpathy 用 Opus 5.5 两小时做出 HackerTube",
+     "en": "HackerTube: YouTube built from videos recommended by HN",
+     "metric": "2209 分",
+     "url": "https://karpathy.bearblog.dev/hacker-tube/",
+     "time": "11-01",
+     "what": "Karpathy 博文：从 HN 评论里挑出 6454 个被推荐的视频做成站点"
+    },
+    {
+     "title": "HackerBooks：HN 提到过的书的 HackerTube",
+     "en": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+     "metric": "811 分",
+     "url": "https://hackerbooks.org",
+     "time": "11-01",
+     "what": "同一思路做成书单站"
+    },
+    {
+     "title": "联想“加密”指纹 U 盘被曝只是未加密的 SD 卡",
+     "en": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case",
+     "metric": "366 分",
+     "url": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/",
+     "time": "11-01",
+     "what": "Reddit 帖子，社区拆解"
+    },
+    {
+     "title": "JavaScript 框架的“AI 成本”",
+     "en": "The AI cost of JavaScript frameworks",
+     "metric": "283 分",
+     "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+     "time": "11-01",
+     "what": "Nolan Lawson 博文，仅读标题"
+    },
+    {
+     "title": "陶哲轩博客：数学变了，我们该照此行动",
+     "en": "Mathematics has changed. Let's act like it",
+     "metric": "199 分",
+     "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
+     "time": "11-02",
+     "what": "Frank Calegari 客座文章，讨论 OpenAI 发布 700 余篇论文之后数学界怎么办"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区情绪",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "Heretic 2.0 发布：改模型行为的通用工具",
+     "en": "Heretic 2.0 released: Model modification for everyone",
+     "metric": "日榜前列",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xl2tcm/heretic_20_released_model_modification_for/",
+     "time": "11-01",
+     "what": "作者称项目已有 3.7 万 GitHub 星，新增任意秩消融与插件系统"
+    },
+    {
+     "title": "传 Anthropic Mythos 级模型权重泄露到 Hugging Face",
+     "en": "Anthropic's Mythos-class model allegedly leaked on Hugging Face",
+     "metric": "日榜前列",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xl47f5/anthropics_mythosclass_model_allegedly_leaked_on/",
+     "time": "11-01",
+     "what": "发帖者自称尚无独立验证，待核"
+    },
+    {
+     "title": "让 Claude 接管远程望远镜，每晚自己排观测",
+     "en": "I gave Claude access to remote telescopes. Now she books the sky every night.",
+     "metric": "日榜前列",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xkxsca/i_gave_claude_access_to_remote_telescopes_now_she/",
+     "time": "11-01",
+     "what": "网友自述，称向小行星中心提交了 57 个位置数据"
+    },
+    {
+     "title": "网友称 OpenAI 正测试 GPT-6.2 Astra",
+     "en": "OpenAI is testing GPT-6.2 Astra",
+     "metric": "日榜前列",
+     "url": "https://www.reddit.com/r/singularity/comments/1xl0rs3/openai_is_testing_gpt62_astra/",
+     "time": "11-01",
+     "what": "截图帖，无官方说法，待核"
+    },
+    {
+     "title": "5 个 Qwen3.8-27B 组队在 LiveCodeBench Hard 上超过 Fable 5",
+     "en": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+     "metric": "日榜前列",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkxt7a/memdoor_a_team_of_5_qwen3827b_models_beats_fable/",
+     "time": "11-01",
+     "what": "项目作者自测成绩，待核"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X",
+   "tag": "热帖",
+   "color": "#111111",
+   "url": "https://agentflare.org/social/tech/index.html",
+   "short": "X",
+   "items": [
+    {
+     "title": "Grok Bot 获得操作手机应用的新权限",
+     "en": "Grok Bot just got a very big upgrade on iOS and Android",
+     "metric": "54.4 万浏览",
+     "url": "https://x.com/XFreeze/status/2113396485417267401",
+     "time": "10-24",
+     "what": "据 XFreeze 转述，可读写短信、日历、联系人，二手来源，待核"
+    },
+    {
+     "title": "Ripple 推出企业 7×24 小时 AI 资金管理",
+     "en": "JUST IN: Ripple launches 24/7 AI-powered money management for businesses",
+     "metric": "52.3 万浏览",
+     "url": "https://x.com/WatcherGuru/status/2114755743345725654",
+     "time": "10-26",
+     "what": "Watcher.Guru 帖，待核"
+    },
+    {
+     "title": "工程师要解决多智能体系统的新问题",
+     "en": "software engineers are going to have to tackle a new set of problems...",
+     "metric": "62.9 万浏览",
+     "url": "https://x.com/katelyn_lesse/status/2114542280535318557",
+     "time": "10-26",
+     "what": "观点帖"
+    },
+    {
+     "title": "Dessa：只用语音训练的全双工语音模型",
+     "en": "We made the first AI model you can have a realistic conversation with that was trained entirely on speech",
+     "metric": "450 万浏览",
+     "url": "https://x.com/RagavanThurair/status/2113671324400861645",
+     "time": "10-23",
+     "what": "团队自述，可在消费级 GPU 运行，待核"
+    },
+    {
+     "title": "Marathon Fusion 称汞变金速率超 CERN 纪录 10 倍",
+     "en": "Last month, we demonstrated high-rate alchemy",
+     "metric": "890 万浏览",
+     "url": "https://x.com/MarathonFusion/status/2113001073019662481",
+     "time": "10-21",
+     "what": "公司自述，待核"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热度",
+   "color": "#24292f",
+   "url": "https://github.com/trending?since=daily",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "thedotmack/claude-mem",
+     "en": "thedotmack/claude-mem",
+     "metric": "+1,526 今日",
+     "url": "https://github.com/thedotmack/claude-mem",
+     "time": "11-02",
+     "what": "Claude Code 记忆插件"
+    },
+    {
+     "title": "pingdotgg/t3code",
+     "en": "pingdotgg/t3code",
+     "metric": "+3,094 今日",
+     "url": "https://github.com/pingdotgg/t3code",
+     "time": "11-02",
+     "what": "编码代理的图形界面"
+    },
+    {
+     "title": "Donchitos/Claude-Code-Game-Studios",
+     "en": "Donchitos/Claude-Code-Game-Studios",
+     "metric": "+967 今日",
+     "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+     "time": "11-02",
+     "what": "用 Claude Code 做游戏的工作流"
+    },
+    {
+     "title": "milind-soni/OpenMausBot",
+     "en": "milind-soni/OpenMausBot",
+     "metric": "+922 今日",
+     "url": "https://github.com/milind-soni/OpenMausBot",
+     "time": "11-02",
+     "what": "仅读名称"
+    },
+    {
+     "title": "lightpanda-io/browser",
+     "en": "lightpanda-io/browser",
+     "metric": "+825 今日",
+     "url": "https://github.com/lightpanda-io/browser",
+     "time": "11-02",
+     "what": "面向机器的无头浏览器"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文",
+   "color": "#ff9d00",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "用 JEPA 证明并改进“柏拉图式表征假说”",
+     "en": "Proving and Improving the Platonic Representation Hypothesis with JEPAs",
+     "metric": "64 赞",
+     "url": "https://huggingface.co/papers/2610.39302",
+     "time": "11-01",
+     "what": "论文"
+    },
+    {
+     "title": "用单一算法训练基础模型",
+     "en": "Training Foundation Models with a Single Algorithm",
+     "metric": "8 赞",
+     "url": "https://huggingface.co/papers/2610.40564",
+     "time": "11-01",
+     "what": "论文"
+    },
+    {
+     "title": "MCP 与 CLI 接口：能力相同，行为不同",
+     "en": "Matched Capabilities, Different Behaviors: A Controlled Study of MCP and CLI Interfaces for Language Agents",
+     "metric": "5 赞",
+     "url": "https://huggingface.co/papers/2610.34298",
+     "time": "11-01",
+     "what": "论文"
+    },
+    {
+     "title": "公开模型库里的量化模型“到手即坏”",
+     "en": "Broken on Arrival: Non-Functional Quantized LLM Artifacts in Public Model Registries and How to Catch Them",
+     "metric": "5 赞",
+     "url": "https://huggingface.co/papers/2609.05881",
+     "time": "11-01",
+     "what": "论文"
+    },
+    {
+     "title": "ABF-Bench：区块链取证智能体基准",
+     "en": "ABF-Bench: A Verifiable Benchmark for Agentic Blockchain Forensics",
+     "metric": "3 赞",
+     "url": "https://huggingface.co/papers/2610.23656",
+     "time": "11-01",
+     "what": "论文"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#5200ff",
+   "url": "https://techcrunch.com/category/artificial-intelligence/",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "OpenAI 融资目标下调至 200 亿美元",
+     "en": "OpenAI reportedly lowers funding target for new round",
+     "metric": "TC",
+     "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+     "time": "10-31",
+     "what": "FT 报道，WSJ 称已到位 110 亿美元"
+    },
+    {
+     "title": "Blackstone 预计 Anthropic 上市后信用评级偏“垃圾级”",
+     "en": "Anthropic expected to receive high junk rating from credit agencies following IPO",
+     "metric": "TC",
+     "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+     "time": "10-30",
+     "what": "FT 报道，Blackstone 的预测"
+    },
+    {
+     "title": "OpenAI、谷歌、微软、Anthropic 支持新的抓取退出标准",
+     "en": "The biggest names in AI are backing a new way to opt out of scraping",
+     "metric": "Verge",
+     "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+     "time": "10-31",
+     "what": "robots.txt 内的统一“策略令牌”"
+    },
+    {
+     "title": "苹果智能随 iOS 27.3 进入中国",
+     "en": "Apple Intelligence is finally coming to China with iOS 27.3",
+     "metric": "Verge",
+     "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
+     "time": "10-31",
+     "what": "11 月 4 日出 beta，12 月正式版"
+    },
+    {
+     "title": "谷歌太空 AI 卫星传回首个回答",
+     "en": "Google's satellite AI server transmits its first response to Earth",
+     "metric": "Verge",
+     "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+     "time": "10-31",
+     "what": "星上 Gemma 4 写了一首俳句"
+    }
+   ]
+  },
+  {
+   "key": "qbitai",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#1b6ef3",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "Claude 暗改 Harness，禁止逆向游戏",
+     "en": "Claude紧急叫停！暗改Harness禁止逆向游戏",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/11/507038.html",
+     "time": "11-02",
+     "what": "仅读标题，待核"
+    },
+    {
+     "title": "DeepSeek 开源 Agent 底座架构",
+     "en": "刚刚，DeepSeek重磅开源：Agent底座架构！",
+     "metric": "热门",
+     "url": "https://www.qbitai.com/2026/10/506904.html",
+     "time": "10-31",
+     "what": "仅读标题，待核"
+    },
+    {
+     "title": "清华姚期智团队：代数世界模型",
+     "en": "清华姚期智团队新作：代数世界模型，让AI像牛顿一样思考",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/11/507031.html",
+     "time": "11-01",
+     "what": "仅读标题"
+    },
+    {
+     "title": "Claude 取消 5 小时限制，Ultra 用户先用",
+     "en": "刚刚，Claude宣布取消5小时限制！首批Ultra用户已「解封」",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/10/506855.html",
+     "time": "10-31",
+     "what": "仅读标题，待核"
+    },
+    {
+     "title": "便利店售货机器人折戟",
+     "en": "老牌便利店机器人售货折戟：实验室锤炼上万次，货架前还是摔瓶子",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/11/506990.html",
+     "time": "11-01",
+     "what": "仅读标题"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "中文科技媒体",
+   "color": "#d22222",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "OpenAI、谷歌、微软和 Anthropic 联手推行抓取退出标准",
+     "en": "OpenAI、谷歌、微软和 Anthropic 联手推行 AI 数据抓取退出标准",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/020/837.htm",
+     "time": "11-01",
+     "what": "Anthropic 已采纳，OpenAI 数月内跟进，谷歌微软预计明年"
+    },
+    {
+     "title": "微软苏莱曼：AI 模型没有意识，应确保它永远如此",
+     "en": "微软 AI 负责人苏莱曼：AI 模型没有意识，我们应确保它永远如此",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/020/848.htm",
+     "time": "11-02",
+     "what": "仅读标题"
+    },
+    {
+     "title": "OpenAI 考虑把数据中心改称“AI 算力园区”",
+     "en": "OpenAI 即将启动大规模公关宣传，考虑将数据中心重新包装为“AI 算力园区”",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/020/844.htm",
+     "time": "11-02",
+     "what": "据报道"
+    },
+    {
+     "title": "铠侠：2027 年产能已售罄，2028 年配额锁定超 50%",
+     "en": "铠侠：2027 年芯片产能已售罄，2028 年配额锁定超 50%",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/020/849.htm",
+     "time": "11-02",
+     "what": "仅读标题"
+    },
+    {
+     "title": "工信部赛迪院：我国 AI 推理数据量首超训练数据量",
+     "en": "工信部赛迪研究院：我国人工智能推理数据量首超训练数据量，截至 6 月日均词元调用量超 175 万亿",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/020/809.htm",
+     "time": "11-01",
+     "what": "仅读标题"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "技术社区",
+   "color": "#8a1a1a",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "Jepsen：ParticleDB 1.1.4 分析",
+     "en": "Jepsen: ParticleDB 1.1.4",
+     "metric": "141 分",
+     "url": "https://jepsen.io/analyses/particledb-1.1.4",
+     "time": "11-01",
+     "what": "分布式数据库一致性测试"
+    },
+    {
+     "title": "KDE 新终端模拟器 Kwi",
+     "en": "Introducing Kwi, a new KDE terminal emulator",
+     "metric": "98 分",
+     "url": "https://blogs.kde.org/2026/11/01/introducing-kwi/",
+     "time": "11-01",
+     "what": "项目发布"
+    },
+    {
+     "title": "外行眼中的 Scion 与 Mononoke",
+     "en": "An outsider's perspective on Scion and Mononoke",
+     "metric": "47 分",
+     "url": "https://typesanitizer.com/blog/scion.html",
+     "time": "11-01",
+     "what": "仅读标题"
+    },
+    {
+     "title": "XKCD 与傅里叶",
+     "en": "XKCD and Fourier",
+     "metric": "27 分",
+     "url": "https://leancrew.com/all-this/2026/10/xkcd-and-fourier/",
+     "time": "10-31",
+     "what": "博文"
+    },
+    {
+     "title": "OpenBSD 的 GEFS 文件系统推进",
+     "en": "Work on GEFS (the Good Enough File System) for OpenBSD progresses",
+     "metric": "17 分",
+     "url": "https://www.undeadly.org/cgi?action=article;sid=20261101115637",
+     "time": "11-01",
+     "what": "仅读标题"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Karpathy 用 Opus 5.5 两小时做出 HackerTube",
+   "url": "https://karpathy.bearblog.dev/hacker-tube/",
+   "why": "HN 2209 分；博文已读，有站点截图",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "四大 AI 公司支持统一的抓取退出标准",
+   "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+   "why": "Verge + IT之家互相印证；IT之家全文已读",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "OpenAI 融资目标由 300 亿降到 200 亿美元",
+   "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+   "why": "TC 全文已读，转述 FT 与 WSJ",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "Blackstone 预计 Anthropic 上市后评级偏垃圾级",
+   "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+   "why": "TC 全文已读，仅为一家机构的预测",
+   "pick": false,
+   "status": "已核"
+  },
+  {
+   "title": "陶哲轩博客：OpenAI 700 余篇论文之后数学界怎么办",
+   "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
+   "why": "全文已读，但是观点文，不是新事件",
+   "pick": false,
+   "status": "已核"
+  },
+  {
+   "title": "传 Anthropic Mythos 级权重泄露到 Hugging Face",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1xl47f5/anthropics_mythosclass_model_allegedly_leaked_on/",
+   "why": "只有发帖人自述，无独立验证",
+   "pick": false,
+   "status": "待核"
+  },
+  {
+   "title": "苹果智能随 iOS 27.3 进入中国",
+   "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
+   "why": "Verge 摘要已读，二手引述苹果中国官网",
+   "pick": false,
+   "status": "已核"
+  }
+ ]
+}

@@ -1,0 +1,525 @@
+{
+ "date": "2026-11-03",
+ "weekday": "周二",
+ "issue": 19,
+ "title": "AI 开始自己变强，账单也跟着来了",
+ "subtitle": "Anthropic 招股书、MIT 权重编辑、Grok Bot 限额",
+ "lead": "Anthropic 招股书称可能“即将”触及 AI 加速研发门槛；MIT 让 GPT-6 Astra 直接改写小模型权重；马斯克称 Grok Bot 成本高得不可持续。",
+ "headlines": [
+  {
+   "title": "Anthropic 修订招股书称，可能“即将”达到 AI 加速研发门槛",
+   "body": "Anthropic 周一提交的修订版招股书风险因素写道：公司曾事后才发现研发速度的显著加速，内部估计显示未来模型可能“即将”达到《负责任扩展政策》定义的“AI 带来的显著加速进展”。公司称目前没有模型被认定越线。",
+   "why": "招股书兼具披露与营销功能，已有质疑声。Anthropic 同时说正考虑修改政策，让人类继续留在前沿模型研发的环节里。",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+   "image_skip": "原文页只有一张概念示意插图，与事件无关，不配图"
+  },
+  {
+   "title": "MIT 研究：GPT-6 Astra 不训练，直接改权重让小模型数学分翻了六倍",
+   "body": "MIT CSAIL 研究者发文称，GPT-6 Astra 能直接读写网络权重：只改 Qwen3.5-0.8B 约 0.016% 的权重，MATH-500 从 7.9% 升到 48.1%，IFEval 从 21.0% 升到 62.3%，全程没有梯度训练。",
+   "why": "主要是修掉了模型的思考循环；换成几乎不循环的 Gemma 3 270M，提升不到一个百分点。结果为作者自述，尚无独立复现。",
+   "source": "MIT CSAIL 研究者博客",
+   "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+   "image": {
+    "file": "wechat/img/h2.jpg",
+    "src_url": "https://rikiyat.github.io/images/blog/weight-space-programming.png",
+    "credit": "MIT CSAIL 研究者博客",
+    "w": 1200,
+    "h": 711
+   }
+  },
+  {
+   "title": "马斯克：服务 Grok Bot 的成本相对收入“高得不可持续”",
+   "body": "万圣节周末，部分 Grok Bot 用户发现每周用量一夜拉满，有人从 50% 跳到 100%。马斯克周日回复称这不是故障，服务 Grok Bot 的成本相对收入“高得不可持续”，没有说明之后的额度怎么调整。",
+   "why": "TechCrunch 称 SpaceX 上月文件显示 AI 业务占营收 52%，该部门盈利 4.31 亿美元。有帖子称额度已部分恢复，尚未证实。",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+   "image_skip": "原文页只有手机屏幕上的 Grok 标志图库照，与事件无关，不配图"
+  }
+ ],
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "MIT：GPT-6 Astra 能直接读写神经网络权重",
+     "en": "Astra can read and write weights to improve Qwen",
+     "metric": "1695 分",
+     "url": "https://rikiyat.github.io/blog/weight-space-programming/"
+    },
+    {
+     "title": "WTF Ubuntu？",
+     "en": "WTF Ubuntu?",
+     "metric": "1258 分",
+     "url": "https://chalmovsky.com/posts/wtf-ubuntu"
+    },
+    {
+     "title": "Show HN：Subvocal，不出声地对电脑说话",
+     "en": "Show HN: Subvocal – Talk to your computer without making noise",
+     "metric": "490 分",
+     "url": "https://news.ycombinator.com/item?id=50340088"
+    },
+    {
+     "title": "喜欢的网站，请先备份",
+     "en": "If you love a website, back it up",
+     "metric": "353 分",
+     "url": "https://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/"
+    },
+    {
+     "title": "Ubuntu 内核严重 0day 近三周仍未发补丁",
+     "en": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
+     "metric": "267 分",
+     "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区情绪",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "MIT 研究者称 GPT-6 Astra 改 0.016% 权重把小 Qwen 数学分从 7.9% 提到 48.1%",
+     "en": "MIT researchers say GPT-6 Astra improved a small Qwen model's math score",
+     "metric": "日榜前列",
+     "url": "https://www.reddit.com/r/singularity/comments/1xm89o3/mit_researchers_say_gpt6_astra_improved_a_small/"
+    },
+    {
+     "title": "官方声明：Qwen 将一直开源",
+     "en": "Official Statement: Qwen Models Will Stick to Open Source to the End!",
+     "metric": "日榜前列",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm28e6/official_statement_qwen_models_will_stick_to_open/"
+    },
+    {
+     "title": "Anthropic 确认 Claude Code 新限制以防游戏克隆",
+     "en": "Anthropic confirms new Claude Code limits to prevent game cloning",
+     "metric": "日榜前列",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xm5vdp/anthropic_confirms_new_claude_code_limits_to/"
+    },
+    {
+     "title": "奥特曼：今年初 AI 多半还不如最聪明的科学家，现在多半已超过",
+     "en": "Sam Altman: AI is now mostly smarter than our smartest scientists",
+     "metric": "日榜前列",
+     "url": "https://www.reddit.com/r/singularity/comments/1xm44jm/sam_altman_at_the_start_of_this_year_ai_was/"
+    },
+    {
+     "title": "Opus 5.5 熬过了整个十月的模型发布潮",
+     "en": "Opus 5.5 surviving the entire October AI release cycle",
+     "metric": "日榜前列",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xlkghv/opus_55_surviving_the_entire_october_ai_release/"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X",
+   "tag": "舆论风向",
+   "color": "#111111",
+   "url": "https://x.com/elonmusk/status/2116992258520064397",
+   "short": "X",
+   "items": [
+    {
+     "title": "马斯克：服务 Grok Bot 的成本相对收入高得不可持续",
+     "en": "Elon Musk: The cost of serving Grok Bot was unsustainably high relative to revenue",
+     "metric": "290 万浏览",
+     "url": "https://x.com/elonmusk/status/2116992258520064397"
+    },
+    {
+     "title": "Brian Roemmele：测了所有主流个人 AI 机器人平台",
+     "en": "Brian Roemmele: I tested every major personal AI bot platform",
+     "metric": "搜索结果可见",
+     "url": "https://x.com/BrianRoemmele/status/2116912306819145746"
+    },
+    {
+     "title": "Martin Varsavsky：给 Grok Bot 接入 OpenAI、Anthropic、Gemini 的密钥做多模型辩论",
+     "en": "Martin Varsavsky: added OpenAI, Anthropic and Gemini keys to GrokBot",
+     "metric": "8356 浏览",
+     "url": "https://x.com/martinvars/status/2116875965246664832"
+    },
+    {
+     "title": "X Freeze：Anthropic 一发布，OpenAI 就跟着放模型",
+     "en": "X Freeze: OpenAI's release calendar is probably just Anthropic's launch schedule",
+     "metric": "8678 浏览",
+     "url": "https://x.com/XFreeze/status/2116976310312640965"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热度",
+   "color": "#24292f",
+   "url": "https://github.com/trending?since=daily",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "pingdotgg/t3code",
+     "en": "pingdotgg/t3code",
+     "metric": "3216 星/日",
+     "url": "https://github.com/pingdotgg/t3code"
+    },
+    {
+     "title": "vercel-labs/agent-desktop",
+     "en": "vercel-labs/agent-desktop",
+     "metric": "2243 星/日",
+     "url": "https://github.com/vercel-labs/agent-desktop"
+    },
+    {
+     "title": "thedotmack/claude-mem",
+     "en": "thedotmack/claude-mem",
+     "metric": "1799 星/日",
+     "url": "https://github.com/thedotmack/claude-mem"
+    },
+    {
+     "title": "Donchitos/Claude-Code-Game-Studios",
+     "en": "Donchitos/Claude-Code-Game-Studios",
+     "metric": "1380 星/日",
+     "url": "https://github.com/Donchitos/Claude-Code-Game-Studios"
+    },
+    {
+     "title": "D4Vinci/Scrapling",
+     "en": "D4Vinci/Scrapling",
+     "metric": "858 星/日",
+     "url": "https://github.com/D4Vinci/Scrapling"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文热榜",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "顺着梯度追溯安全性退化的训练数据来源",
+     "en": "Follow the Gradient: Tracing Safety Degradation Back to Training Data",
+     "metric": "25 赞",
+     "url": "https://huggingface.co/papers/2610.37481"
+    },
+    {
+     "title": "OSWAM：一步生成动作的世界动作模型",
+     "en": "OSWAM: An Effective World Action Model with One-Step Action Generation",
+     "metric": "23 赞",
+     "url": "https://huggingface.co/papers/2610.35850"
+    },
+    {
+     "title": "Venus-DefakerOne2：覆盖面更广的视觉取证基础模型",
+     "en": "Venus-DefakerOne2: A Vision-Forensics Foundation Model with Broader Coverage",
+     "metric": "20 赞",
+     "url": "https://huggingface.co/papers/2610.37918"
+    },
+    {
+     "title": "需求相互牵连时：用相互依赖的规格扩展长程编程",
+     "en": "When Requirements Interact: Scaling Long-Horizon Coding via Interdependent Specifications",
+     "metric": "8 赞",
+     "url": "https://huggingface.co/papers/2610.40256"
+    },
+    {
+     "title": "用迭代事后重标注学习质量可控的机器人策略",
+     "en": "Learning Quality-Controllable Robot Policies with Iterative Hindsight Relabeling",
+     "metric": "6 赞",
+     "url": "https://huggingface.co/papers/2610.37393"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "海外科技媒体",
+   "color": "#e5127d",
+   "url": "https://techcrunch.com/category/artificial-intelligence/",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "Anthropic 警告：离“AI 自我构建”能力已很近",
+     "en": "Anthropic warns that it's very close to RSI capability, aka self-building AI",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/"
+    },
+    {
+     "title": "马斯克因成本“高得不可持续”收紧 Grok Bot 额度",
+     "en": "Elon Musk throttles Grok Bot limits due to 'unsustainably high' costs",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/"
+    },
+    {
+     "title": "纽约时报等媒体起诉 Brave 浏览器涉嫌抓取内容",
+     "en": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times"
+    },
+    {
+     "title": "Anthropic 收紧 Claude 的游戏克隆",
+     "en": "Anthropic clamps down on Claude's AI video game clones",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones"
+    },
+    {
+     "title": "Squarespace 裁员 19%",
+     "en": "Web host Squarespace lays off 19% of its employees",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees/"
+    }
+   ]
+  },
+  {
+   "key": "qbitai",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#2a6ef5",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "GPT-6.2 Astra 开启灰测，Claude Mythos 5.5 同日曝光",
+     "en": "GPT-6.2 Astra 开启灰测！Claude Mythos 5.5同日曝光",
+     "metric": "当日更新",
+     "url": "https://www.qbitai.com/2026/11/507082.html"
+    },
+    {
+     "title": "OpenAI 重写大模型法则，第一条：忠于人类",
+     "en": "OpenAI重写大模型法则，第一条：忠于人类！！",
+     "metric": "当日更新",
+     "url": "https://www.qbitai.com/2026/11/507225.html"
+    },
+    {
+     "title": "小米开源 150 元的 AI 小玩意，配件都涨价了",
+     "en": "小米开源了个150元的AI小玩意，火到配件都涨价了",
+     "metric": "当日更新",
+     "url": "https://www.qbitai.com/2026/11/507107.html"
+    },
+    {
+     "title": "央视严选“中国 AI 创业十骏”",
+     "en": "央视严选「中国AI创业十骏」：唯一AI制药公司是清华系",
+     "metric": "当日更新",
+     "url": "https://www.qbitai.com/2026/11/507150.html"
+    },
+    {
+     "title": "顶级 AI 翻车的活儿，被新出的免费国产 AI 接住了",
+     "en": "顶级AI翻车的活儿，被这个新出的免费国产AI接住了！",
+     "metric": "当日更新",
+     "url": "https://www.qbitai.com/2026/11/507277.html"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "国内科技",
+   "color": "#d9230f",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "科技股暴跌拖累 Anthropic IPO，估值预期从 2 万亿降到 1.5 万亿区间",
+     "en": "科技股暴跌拖累 Anthropic“史上最大 IPO”估值",
+     "metric": "当日更新",
+     "url": "https://www.ithome.com/1/021/299.htm"
+    },
+    {
+     "title": "苹果 HomeView OS 探秘",
+     "en": "苹果 HomeView OS 探秘：支持液态玻璃调节",
+     "metric": "当日更新",
+     "url": "https://www.ithome.com/1/021/300.htm"
+    },
+    {
+     "title": "苹果承认 iPhone Duo 折叠屏交货延迟",
+     "en": "苹果承认 iPhone Duo 折叠屏手机交货延迟",
+     "metric": "当日更新",
+     "url": "https://www.ithome.com/1/021/298.htm"
+    },
+    {
+     "title": "MacBook Neo 拿下 17 万台教育订单",
+     "en": "拿下 17 万台订单：MacBook Neo 成为苹果瞄准教育市场的新王牌",
+     "metric": "当日更新",
+     "url": "https://www.ithome.com/1/021/297.htm"
+    },
+    {
+     "title": "宝马高管：纯电卖得好，反而有助于继续生产 V8",
+     "en": "宝马高管：我们的纯电卖的好，反而有助于继续生产 V8 发动机",
+     "metric": "当日更新",
+     "url": "https://www.ithome.com/1/021/301.htm"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "工程师社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "局外人看 Scion 与 Mononoke",
+     "en": "An outsider's perspective on Scion and Mononoke",
+     "metric": "137 分",
+     "url": "https://typesanitizer.com/blog/scion.html"
+    },
+    {
+     "title": "为了改时间，越狱我车里的导航系统",
+     "en": "Jailbreaking my car's navigation system just so I can change the time",
+     "metric": "65 分",
+     "url": "https://blog.nns.ee/2026/11/02/renault-hack/"
+    },
+    {
+     "title": "服务器内存需求只增不减的条件反射",
+     "en": "My reflex of assuming our servers need ever-growing amounts of RAM",
+     "metric": "22 分",
+     "url": "https://utcc.utoronto.ca/~cks/space/blog/sysadmin/ServerRAMGrowthReflex"
+    },
+    {
+     "title": "Polyend 发布 Tracker 固件源码",
+     "en": "Polyend releases the Tracker firmware source code",
+     "metric": "19 分",
+     "url": "https://backstage.polyend.com/t/tracker-the-biggest-update-yet/25120"
+    },
+    {
+     "title": "别再硬编码超时",
+     "en": "Stop Hardcoding Your Timeouts",
+     "metric": "17 分",
+     "url": "https://alfy.blog/2026/04/23/stop-hardcoding-your-timeouts.html"
+    }
+   ]
+  }
+ ],
+ "topics": [
+  {
+   "name": "钱与算力",
+   "kicker": "MONEY",
+   "items": [
+    {
+     "title": "IPO 估值预期从 2 万亿美元降到 1.5–1.6 万亿",
+     "note": "据华尔街日报，尚未最终定价。",
+     "src": "IT之家",
+     "metric": "11-03",
+     "url": "https://www.ithome.com/1/021/299.htm"
+    },
+    {
+     "title": "Squarespace 裁员 19%",
+     "note": "只读标题，原因待核。",
+     "src": "TechCrunch",
+     "metric": "11-02",
+     "url": "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees/"
+    },
+    {
+     "title": "Trajectory 融资 4500 万美元",
+     "note": "主打让非技术专家训练模型，只读标题。",
+     "src": "TechCrunch",
+     "metric": "11-02",
+     "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/"
+    },
+    {
+     "title": "42AI 脱离隐身，融资 6250 万美元",
+     "note": "称模型能“预测人类行为”，待核。",
+     "src": "TechCrunch",
+     "metric": "11-02",
+     "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/"
+    }
+   ]
+  },
+  {
+   "name": "工具与开源",
+   "kicker": "TOOLS",
+   "items": [
+    {
+     "title": "Qwen 负责人称 Qwen 4、5 继续开源",
+     "note": "Reddit 转述，非一手，待核。",
+     "src": "Reddit",
+     "metric": "日榜前列",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm28e6/official_statement_qwen_models_will_stick_to_open/"
+    },
+    {
+     "title": "pingdotgg/t3code 日增 3216 星",
+     "note": "榜单第一，只看了榜单。",
+     "src": "GitHub",
+     "metric": "3216 星/日",
+     "url": "https://github.com/pingdotgg/t3code"
+    },
+    {
+     "title": "agent-desktop 日增 2243 星",
+     "note": "代理桌面端，只看了榜单。",
+     "src": "GitHub",
+     "metric": "2243 星/日",
+     "url": "https://github.com/vercel-labs/agent-desktop"
+    },
+    {
+     "title": "claude-mem 日增 1799 星",
+     "note": "给 Claude 加记忆，只看了榜单。",
+     "src": "GitHub",
+     "metric": "1799 星/日",
+     "url": "https://github.com/thedotmack/claude-mem"
+    }
+   ]
+  },
+  {
+   "name": "规则与安全",
+   "kicker": "RULES",
+   "items": [
+    {
+     "title": "纽约时报等起诉 Brave 浏览器",
+     "note": "指控抓取内容并绕过付费墙，只读标题。",
+     "src": "The Verge",
+     "metric": "11-02",
+     "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times"
+    },
+    {
+     "title": "Anthropic 收紧 Claude 的游戏克隆",
+     "note": "据 Reddit 引述限于 Claude Code 加 Opus 5.5。",
+     "src": "The Verge",
+     "metric": "11-02",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones"
+    },
+    {
+     "title": "Ubuntu 内核 0day 近三周未修",
+     "note": "文章作者称，单一来源，待核。",
+     "src": "Hacker News",
+     "metric": "267 分",
+     "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432"
+    },
+    {
+     "title": "喜欢的网站，请先备份",
+     "note": "个人博客观点文，非新事件。",
+     "src": "Hacker News",
+     "metric": "353 分",
+     "url": "https://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/"
+    }
+   ]
+  }
+ ],
+ "comments": [
+  "Anthropic 一边说模型可能快要自己加速研发，一边承诺人类留在环里；两句话放在同一份招股书里，读者得自己判断哪句是披露、哪句是营销。",
+  "MIT 这篇的亮点其实是失败案例：Gemma 没有提升，说明改权重只能去掉障碍，补不出模型本来没有的能力。",
+  "Grok Bot 的限额和 Anthropic 估值下调放在一起看：能力越强的代理越费钱，定价和估值都在重新算账。"
+ ],
+ "xhs": {
+  "title": "AI 开始自己变强，账单也来了",
+  "cover": "AI 自己变强\n账单也来了",
+  "deck": "招股书·改权重·限额",
+  "intro": "Anthropic 招股书称可能“即将”触及 AI 加速研发门槛；MIT 称 GPT-6 Astra 直接改权重，让小模型数学分从 7.9% 升到 48.1%；马斯克称 Grok Bot 成本高得不可持续。",
+  "oneliner": "模型越来越会改进自己，维持它跑下去的钱却越来越难凑。",
+  "closing": "如果 AI 订阅涨价或限额，你会换工具还是接着用？",
+  "tags": [
+   "AI",
+   "人工智能",
+   "科技新闻",
+   "AI日报",
+   "Anthropic",
+   "Claude",
+   "OpenAI",
+   "Grok",
+   "MIT",
+   "IPO"
+  ]
+ }
+}

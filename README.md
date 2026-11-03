@@ -10,7 +10,7 @@
 
 ## 最新一期
 
-- **2026-11-02｜个人变强了，公司融资却变难**（HackerTube、抓取退出标准、OpenAI 融资）
+- **2026-11-03｜AI 开始自己变强，账单也跟着来了**（Anthropic 招股书、MIT 权重编辑、Grok Bot 限额）
 
 网页版（GitHub Pages）：https://emotionalronan.github.io/ai-daily-report/
 

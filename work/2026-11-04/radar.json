@@ -1,0 +1,498 @@
+{
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "Postman 被指悄悄自动安装 AI 插件并试图共享全部 API 数据",
+     "en": "Postman silently auto-installs AI plugins and attempts to share all API data",
+     "metric": "960 分",
+     "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+     "time": "11-03",
+     "what": "GitHub issue 称桌面版给 Codex/Claude Code 自动装插件并自批钩子；作者称不涉及外传证据"
+    },
+    {
+     "title": "“Astra 能读写权重改进 Qwen”那篇文章有误导",
+     "en": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+     "metric": "869 分",
+     "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+     "time": "11-03",
+     "what": "作者逐项拆解：Qwen 实验用了 Python 并跑了模型，不是“只看原始权重”"
+    },
+    {
+     "title": "破解雷诺车机只为改时间",
+     "en": "Jailbreaking my car's navigation system just so I can change the time",
+     "metric": "570 分",
+     "url": "https://blog.nns.ee/2026/11/02/renault-hack/",
+     "time": "11-02",
+     "what": "车机破解长文，未细读"
+    },
+    {
+     "title": "Qwen 3.8 27B 在笔记本上也能解读模型权重",
+     "en": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+     "metric": "455 分",
+     "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+     "time": "11-03",
+     "what": "Simon Willison 用本地小模型复现权重解读，对 Astra 论文的反证之一"
+    },
+    {
+     "title": "现代国际象棋引擎放到奔腾机上能赢 1996 年的卡斯帕罗夫吗",
+     "en": "Could a modern chess engine on a Pentium have defeated Kasparov in 1996?",
+     "metric": "432 分",
+     "url": "https://nicholas.carlini.com/writing/2026/algorithmic-improvements-chess.html",
+     "time": "11-02",
+     "what": "Carlini 的算法进步实验，未细读"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区情绪",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "Xiaomi 人形机器人首次 8 小时轮班分拣电动车零件",
+     "en": "Xiaomi's humanoid robots spotted doing their first 8-hour shift",
+     "metric": "日榜前列",
+     "url": "https://www.reddit.com/r/singularity/comments/1xn5g1f/xiaomis_humanoid_robots_spotted_doing_their_first/",
+     "time": "11-04",
+     "what": "帖子称约每分钟 1 件，未见一手来源"
+    },
+    {
+     "title": "Revolut 弃用 Claude 改自托管，AI 编码成本降 10 倍",
+     "en": "British fintech Revolut slashes AI coding costs 10x by cutting out Claude and going self-hosted",
+     "metric": "日榜前列",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xn568h/british_fintech_revolut_slashes_ai_coding_costs/",
+     "time": "11-04",
+     "what": "据帖子转述，改用 GLM，Claude Code 与 Codex 只留特例"
+    },
+    {
+     "title": "阿里 Qwen Code 仓库被曝泄露 qwen4-max 等型号",
+     "en": "Alibaba's Qwen Code repo just leaked qwen4-max, qwen4-coder-plus, and qwen4-omni-120b",
+     "metric": "日榜前列",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmitzx/alibabas_qwen_code_repo_just_leaked_qwen4max/",
+     "time": "11-03",
+     "what": "社区发现，未证实"
+    },
+    {
+     "title": "RTX 5090 64GB/96GB 显存版被美国维修技师“确认”",
+     "en": "RTX 5090 with 64GB and 96GB VRAM 'confirmed' by US GPU repair tech",
+     "metric": "日榜前列",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmqq2a/rtx_5090_with_64gb_and_96gb_vram_confirmed_by_us/",
+     "time": "11-03",
+     "what": "传闻，往期出现过"
+    },
+    {
+     "title": "GPT-6 给另一个 AI 做“脑外科手术”让它更聪明",
+     "en": "GPT-6 successfully performed \"brain surgery\" on another AI to make it smarter",
+     "metric": "日榜前列",
+     "url": "https://www.reddit.com/r/OpenAI/comments/1xmt4nj/gpt6_successfully_performed_brain_surgery_on/",
+     "time": "11-03",
+     "what": "对 Astra 实验的转述，已有反驳"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X（Twitter）",
+   "tag": "话题热度",
+   "color": "#111111",
+   "url": "https://x.com/",
+   "short": "X",
+   "items": [
+    {
+     "title": "Takehi 的 Astra 改权重帖获 5.2 万赞，Haseeb Qureshi 等人反驳",
+     "en": "Rikiya Takehi: Weight-Space Programming thread",
+     "metric": "52,436 赞",
+     "url": "https://ailately.com/rn",
+     "time": "11-03",
+     "what": "据 AI Lately，反驳称 Astra 用的是已知编码技巧"
+    },
+    {
+     "title": "SemiAnalysis 发布 GDPx：最强模型仅得 12%",
+     "en": "SemiAnalysis GDPx v1.0",
+     "metric": "聚合页转述",
+     "url": "https://aitimeline.news/en/Daily/2026-11-03-X%E6%97%A5%E6%8A%A5/",
+     "time": "11-02",
+     "what": "206 项长任务，Claude Opus 5.5 12.0%；二手转述，待核"
+    },
+    {
+     "title": "Antigravity 将加入 Gemini Live 与“Chief of Stuff”代理",
+     "en": "Early demo of Gemini Live mode on Antigravity",
+     "metric": "1.89 万浏览",
+     "url": "https://x.com/testingcatalog/status/2117419704373420076",
+     "time": "11-03",
+     "what": "TestingCatalog 的泄露演示，未经官方确认"
+    },
+    {
+     "title": "Anthropic 开放付费 Residency 申请",
+     "en": "Anthropic opens applications for paid Anthropic Residency",
+     "metric": "聚合页转述",
+     "url": "https://cloudflareos.jp/en/news/",
+     "time": "11-03",
+     "what": "聚合页转述，待核"
+    },
+    {
+     "title": "OpenAI 向 Pro/Business 用户发放最多 500 美元月度 API 额度",
+     "en": "OpenAI Developers: up to $500/month API credits",
+     "metric": "聚合页转述",
+     "url": "https://cloudflareos.jp/en/news/",
+     "time": "11-02",
+     "what": "聚合页转述，待核"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热榜",
+   "color": "#24292f",
+   "url": "https://github.com/trending?since=daily",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "claude-mem",
+     "en": "thedotmack/claude-mem",
+     "metric": "1,139 星/日",
+     "url": "https://github.com/thedotmack/claude-mem",
+     "time": "今日",
+     "what": "给 Claude 等代理加跨会话记忆"
+    },
+    {
+     "title": "agent-desktop",
+     "en": "vercel-labs/agent-desktop",
+     "metric": "3,791 星/日",
+     "url": "https://github.com/vercel-labs/agent-desktop",
+     "time": "今日",
+     "what": "面向 AI 代理的电脑操作命令行"
+    },
+    {
+     "title": "worktrunk",
+     "en": "max-sixty/worktrunk",
+     "metric": "438 星/日",
+     "url": "https://github.com/max-sixty/worktrunk",
+     "time": "今日",
+     "what": "为并行代理工作流做的 Git worktree 工具"
+    },
+    {
+     "title": "colibri",
+     "en": "JustVugg/colibri",
+     "metric": "802 星/日",
+     "url": "https://github.com/JustVugg/colibri",
+     "time": "今日",
+     "what": "面向前沿 MoE 的分层推理引擎"
+    },
+    {
+     "title": "Scrapling",
+     "en": "D4Vinci/Scrapling",
+     "metric": "1,658 星/日",
+     "url": "https://github.com/D4Vinci/Scrapling",
+     "time": "今日",
+     "what": "自适应网页抓取框架"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文热度",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "计算机图形学中的代理方法进展",
+     "en": "Advances in Agentic Computer Graphics",
+     "metric": "108 赞",
+     "url": "https://huggingface.co/papers/2611.01860",
+     "time": "11-03",
+     "what": "仅读标题"
+    },
+    {
+     "title": "SWE-Trail：用历史引导轨迹训练编码代理",
+     "en": "SWE-Trail: History-Guided Trajectory Collection for Coding Agent Training",
+     "metric": "34 赞",
+     "url": "https://huggingface.co/papers/2611.02074",
+     "time": "11-03",
+     "what": "仅读标题"
+    },
+    {
+     "title": "PhotoGuider：可解释的构图感知裁剪",
+     "en": "PhotoGuider: Composition-Aware Cropping and 360° View Framing",
+     "metric": "29 赞",
+     "url": "https://huggingface.co/papers/2611.02897",
+     "time": "11-03",
+     "what": "仅读标题"
+    },
+    {
+     "title": "IdeaTaste：大模型有人类研究者的研究品味吗",
+     "en": "IdeaTaste: Do LLMs Share the Research Taste of Human Researchers?",
+     "metric": "25 赞",
+     "url": "https://huggingface.co/papers/2611.03424",
+     "time": "11-03",
+     "what": "仅读标题"
+    },
+    {
+     "title": "仅排序的在线策略蒸馏",
+     "en": "Order-Only On-Policy Distillation",
+     "metric": "25 赞",
+     "url": "https://huggingface.co/papers/2611.02112",
+     "time": "11-03",
+     "what": "仅读标题"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#6b2fd6",
+   "url": "https://techcrunch.com/category/artificial-intelligence/",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "OpenAI：ChatGPT 搜索查询量约为谷歌的 20%",
+     "en": "OpenAI says ChatGPT is catching up to Google in search",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
+     "time": "11-03",
+     "what": "已读原文，数字为 OpenAI 自报"
+    },
+    {
+     "title": "Anthropic 研发验证模型身份的 FlashProve",
+     "en": "Anthropic is working on a system to prove AI models' identity",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+     "time": "11-03",
+     "what": "已读原文，开源、无部署计划"
+    },
+    {
+     "title": "苹果开放 Siri AI 给第三方应用",
+     "en": "Apple starts giving Siri AI access to third-party apps",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps",
+     "time": "11-04",
+     "what": "只读标题"
+    },
+    {
+     "title": "Fal 估值翻倍到 160 亿美元",
+     "en": "AI inference startup Fal doubles its valuation to $16B",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+     "time": "11-03",
+     "what": "只读标题"
+    },
+    {
+     "title": "谷歌允许学校关闭 AI，代价是连搜索一起关",
+     "en": "Google is entirely disabling Search in schools that don't want AI",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
+     "time": "11-04",
+     "what": "只读标题"
+    }
+   ]
+  },
+  {
+   "key": "qbit",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#1e6fff",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "A 社紧急修改招股书！RSI 我们快要控制不住了",
+     "en": "",
+     "metric": "站内首页",
+     "url": "https://www.qbitai.com/2026/11/507382.html",
+     "time": "11-03",
+     "what": "与昨日头条同一事件"
+    },
+    {
+     "title": "纯语音 Personal Agent 来了",
+     "en": "",
+     "metric": "站内首页",
+     "url": "https://www.qbitai.com/2026/11/507419.html",
+     "time": "11-04",
+     "what": "只读标题"
+    },
+    {
+     "title": "小米开源 150 元 AI 小玩意，配件都涨价了",
+     "en": "",
+     "metric": "站内首页",
+     "url": "https://www.qbitai.com/2026/11/507107.html",
+     "time": "11-03",
+     "what": "只读标题"
+    },
+    {
+     "title": "Claude 紧急叫停！暗改 Harness 禁止逆向游戏",
+     "en": "",
+     "metric": "站内首页",
+     "url": "https://www.qbitai.com/2026/11/507038.html",
+     "time": "11-03",
+     "what": "往期已覆盖"
+    },
+    {
+     "title": "清华姚期智团队新作：代数世界模型",
+     "en": "",
+     "metric": "站内首页",
+     "url": "https://www.qbitai.com/2026/11/507031.html",
+     "time": "11-03",
+     "what": "只读标题"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "中文数码",
+   "color": "#d2220c",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "OpenAI 高管会议室发现“窃听”设备，知情人称员工多年反映安全漏洞",
+     "en": "",
+     "metric": "路透援引",
+     "url": "https://www.ithome.com/1/021/892.htm",
+     "time": "11-04",
+     "what": "已读，据路透社援引 5 名知情人士"
+    },
+    {
+     "title": "OpenAI 证实 ChatGPT 搜索查询量已达谷歌 20%",
+     "en": "",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/021/885.htm",
+     "time": "11-04",
+     "what": "已读，援引商业内幕"
+    },
+    {
+     "title": "微软 Win11 AI PC 路线图曝光：4 档硬件",
+     "en": "",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/021/886.htm",
+     "time": "11-04",
+     "what": "只读标题"
+    },
+    {
+     "title": "微软承认 10 月更新再破坏 Excel 复制粘贴",
+     "en": "",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/021/889.htm",
+     "time": "11-04",
+     "what": "只读标题"
+    },
+    {
+     "title": "甲骨文联合创始人埃里森身家一年缩水 1590 亿美元",
+     "en": "",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/021/887.htm",
+     "time": "11-04",
+     "what": "只读标题"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "技术社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "破解雷诺车机只为改时间",
+     "en": "Jailbreaking my car's navigation system just so I can change the time",
+     "metric": "154 分",
+     "url": "https://blog.nns.ee/2026/11/02/renault-hack/",
+     "time": "11-02",
+     "what": "同 HN"
+    },
+    {
+     "title": "十年 Kill Bug",
+     "en": "A Decade of Kill Bugs",
+     "metric": "103 分",
+     "url": "https://alangrow.com/blog/a-decade-of-kill-bugs",
+     "time": "11-03",
+     "what": "只读标题"
+    },
+    {
+     "title": "XSLT 之死",
+     "en": "Death comes for XSLT",
+     "metric": "60 分",
+     "url": "https://dbushell.com/2026/11/03/xslt-rip/",
+     "time": "11-03",
+     "what": "浏览器移除 XSLT 的评论"
+    },
+    {
+     "title": "Ubuntu 26.04 的 Rust 版 sudo 与标准 sudo 不兼容",
+     "en": "The Ubuntu 26.04 Rust sudo is not compatible with standard sudo",
+     "metric": "48 分",
+     "url": "https://utcc.utoronto.ca/~cks/space/blog/linux/Ubuntu2604RustSudoNotCompatible",
+     "time": "11-03",
+     "what": "只读标题"
+    },
+    {
+     "title": "现代象棋引擎能赢 1996 年卡斯帕罗夫吗",
+     "en": "Could a modern chess engine on a Pentium have defeated Kasparov in 1996?",
+     "metric": "32 分",
+     "url": "https://nicholas.carlini.com/writing/2026/algorithmic-improvements-chess.html",
+     "time": "11-02",
+     "what": "同 HN"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "title": "OpenAI：ChatGPT 搜索量约为谷歌 20%",
+   "url": "https://www.qbitai.com/2026/11/507382.html",
+   "why": "Verge 原文已读，OpenAI 自报",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "Postman 被指自动给 Codex/Claude 装插件",
+   "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+   "why": "HN 960 分，issue 原文已读",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "Astra 改权重实验被指表述误导",
+   "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+   "why": "HN 869 分，昨日头条的后续",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "OpenAI 高管会议室被装窃听设备",
+   "url": "https://www.ithome.com/1/021/892.htm",
+   "why": "IT之家援引路透，只有二手",
+   "pick": false,
+   "status": "待核"
+  },
+  {
+   "title": "Anthropic FlashProve 模型身份验证",
+   "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+   "why": "TechCrunch 已读，研究早期",
+   "pick": false,
+   "status": "已核"
+  },
+  {
+   "title": "Revolut 弃用 Claude 改用 GLM",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xn568h/british_fintech_revolut_slashes_ai_coding_costs/",
+   "why": "只有 Reddit 与聚合页转述",
+   "pick": false,
+   "status": "待核"
+  }
+ ]
+}

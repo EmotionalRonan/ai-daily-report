@@ -10,7 +10,7 @@
 
 ## 最新一期
 
-- **2026-11-03｜AI 开始自己变强，账单也跟着来了**（Anthropic 招股书、MIT 权重编辑、Grok Bot 限额）
+- **2026-11-04｜AI 的说法开始被拿去对账**（ChatGPT 搜索量、Postman 自动装插件、Astra 实验被指误导）
 
 网页版（GitHub Pages）：https://emotionalronan.github.io/ai-daily-report/
 

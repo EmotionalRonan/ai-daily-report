@@ -10,7 +10,7 @@
 
 ## 最新一期
 
-- **2026-11-04｜AI 的说法开始被拿去对账**（ChatGPT 搜索量、Postman 自动装插件、Astra 实验被指误导）
+- **2026-11-05｜AI 找漏洞，比人修得快**（Linux 内核 948 个利用、PHP2Shell、Kimi K3.1 Pro 开放权重）
 
 网页版（GitHub Pages）：https://emotionalronan.github.io/ai-daily-report/
 

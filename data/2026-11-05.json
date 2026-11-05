@@ -1,0 +1,531 @@
+{
+ "date": "2026-11-05",
+ "weekday": "周四",
+ "issue": 21,
+ "title": "AI 找漏洞，比人修得快",
+ "subtitle": "Linux 内核 948 个利用、PHP2Shell、Kimi K3.1 Pro 开放权重",
+ "lead": "OpenAI 称一次运行在 Linux 内核里做出 948 个提权利用；PHP2Shell 的旧 bug 被 AI 辅助变成代码执行漏洞；Kimi K3.1 Pro 开放 2.8T 权重，评测含网络安全。",
+ "headlines": [
+  {
+   "title": "OpenAI：一次运行，在 Linux 内核里做出 948 个提权利用",
+   "body": "OpenAI 周三公布，其自动化流水线在 Linux 内核里筛出 2308 个候选问题，复现 1724 个，做出 948 个可让普通用户拿到 root 的利用，API 花费约 121 万美元。据报道已有 61 个在上游修复。",
+   "why": "OpenAI 称 7 月同类测试只有 166 个，三个月内核已加固，数字反而涨了五倍多。以上均为 OpenAI 自报，细节取自其博文与媒体转述。",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+   "image_skip": "openai.com 原文页对抓取返回 403，取不到原页配图，不配图"
+  },
+  {
+   "title": "PHP2Shell：一个被当成“只会崩溃”的旧 bug，成了远程执行漏洞",
+   "body": "IEEE Spectrum 称，PHP2Shell 的底层内存错误 2024 年就报给了 PHP 基金会，因只导致崩溃而搁置；今年安全公司 Calif 借 AI 工具两周内做出代码执行，四位工程师又花了两个月才出补丁。",
+   "why": "文中专家称“找 bug 和修 bug 并不对称”。约翰斯·霍普金斯的马修·格林预计，要等真出大事才有人买单，这是他的判断。",
+   "source": "IEEE Spectrum",
+   "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+   "image": {
+    "file": "wechat/img/h2.jpg",
+    "src_url": "https://spectrum.ieee.org/media-library/image.jpg?id=68544156&width=1200&height=600&coordinates=0%2C312%2C0%2C313",
+    "credit": "IEEE Spectrum",
+    "w": 1200,
+    "h": 600
+   }
+  },
+  {
+   "title": "Kimi K3.1 Pro 开放权重：2.8T 参数，评测含网络安全",
+   "body": "月之暗面在 Hugging Face 放出 Kimi K3.1 Pro 权重：混合专家架构，总参数 2.8T、激活 104B，上下文 100 万 token。模型卡自报 ExploitBench 74.7，表中 GPT-6 Astra 为 100，Claude Opus 5.5 为 91。",
+   "why": "数字全是厂商自报，且许可证对高收入使用方有付费门槛，HN 评论里有人提到。但开放权重模型开始摆出攻击类评测，这是新信号。",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+   "image_skip": "原文页只有带模型名的站点分享卡，说明不了事件，不配图"
+  }
+ ],
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "AI 正在逼我们还清 40 年技术债（PHP2Shell）",
+     "en": "AI is forcing us to pay off 40 years of technical debt",
+     "metric": "1014 分",
+     "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability"
+    },
+    {
+     "title": "Nvidia RTX Spark 加密固件让 Linux 推理速度降到 35%",
+     "en": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+     "metric": "581 分",
+     "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop"
+    },
+    {
+     "title": "白宫网络里检测到住宅代理",
+     "en": "Residential proxies detected on White House network",
+     "metric": "502 分",
+     "url": "https://layer3intel.com/blog/residential-proxies-white-house-network"
+    },
+    {
+     "title": "AMD 预计 Q4 首次出货量超过英特尔",
+     "en": "AMD expects to outsell Intel in Q4 for the first time in history",
+     "metric": "436 分",
+     "url": "https://www.tomshardware.com/pc-components/cpus/amd-expects-to-outsell-intel-in-q4-for-the-first-time-in-history-usd17b-guidance-would-exceed-intels-projections"
+    },
+    {
+     "title": "Kimi K3.1 Pro 权重放出",
+     "en": "Kimi K3.1 Pro model weights are out",
+     "metric": "329 分",
+     "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区情绪",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/LocalLLaMA/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "Kimi-K3.1-Pro 开放权重",
+     "en": "Kimi-K3.1-Pro is now open-weights",
+     "metric": "r/LocalLLaMA 新帖",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnrhvb/kimik31pro_is_now_openweights/"
+    },
+    {
+     "title": "Revolut 弃用 Claude Code，改自托管中国模型，称成本降 90%",
+     "en": "Revolut sidelines Claude Code for a self-hosted Chinese model",
+     "metric": "47 赞（ailately）",
+     "url": "https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345"
+    },
+    {
+     "title": "美国中期选举多地数据中心限建议案通过",
+     "en": "Anti data-center measures pass in midterms",
+     "metric": "91 赞（ailately）",
+     "url": "https://www.theverge.com/policy/1026365/data-centers-midterms-results"
+    },
+    {
+     "title": "腾讯发布 770B Hy4，称将开放权重",
+     "en": "Introducing Hy4 (open weights soon)",
+     "metric": "45 赞（ailately）",
+     "url": "https://thetokentimes.io/topic/open"
+    },
+    {
+     "title": "手掌大小的 Linux AI 盒子用 256 TOPS Axera 芯片",
+     "en": "Pocket-sized Linux AI box runs on 256-TOPS Axera chip",
+     "metric": "r/LocalLLaMA 新帖",
+     "url": "https://www.reddit.com/r/LocalLLaMA/new/"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X（Twitter）",
+   "tag": "话题热度",
+   "color": "#111111",
+   "url": "https://x.com/",
+   "short": "X",
+   "items": [
+    {
+     "title": "OpenAI 在 X 上发布 Linux 内核漏洞流水线串帖",
+     "en": "OpenAI thread on autonomous vuln pipeline",
+     "metric": "官方帖",
+     "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/"
+    },
+    {
+     "title": "Nothing CEO 称首款 AI 原生产品下月发布，没有屏幕",
+     "en": "Carl Pei: our first AI-native product ships next month",
+     "metric": "原帖",
+     "url": "https://x.com/getpeid/status/2117991714879410204"
+    },
+    {
+     "title": "奥特曼改名“Ram Altman”回应内存言论",
+     "en": "Sam Altman: tons of memory for everyone",
+     "metric": "原帖",
+     "url": "https://x.com/sama/status/2117846298472886419"
+    },
+    {
+     "title": "Kimi K3.1 Pro 开源，X 提及约 1.3 万",
+     "en": "Kimi K3.1 Pro open weights",
+     "metric": "X 提及 13k（聚合页）",
+     "url": "https://newsference.com/c/kimi-k3-1-pro-open-weights"
+    },
+    {
+     "title": "agentflare 聚合页停在 10-28",
+     "en": "agentflare tech page stale",
+     "metric": "—",
+     "url": "https://agentflare.org/social/tech/index.html"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热榜",
+   "color": "#24292f",
+   "url": "https://github.com/trending?since=daily",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "vercel-labs/agent-desktop",
+     "en": "vercel-labs/agent-desktop",
+     "metric": "2,463 星/日",
+     "url": "https://github.com/vercel-labs/agent-desktop"
+    },
+    {
+     "title": "NVIDIA/auto-ontology",
+     "en": "NVIDIA/auto-ontology",
+     "metric": "2,053 星/日",
+     "url": "https://github.com/NVIDIA/auto-ontology"
+    },
+    {
+     "title": "mattpocock/skills",
+     "en": "mattpocock/skills",
+     "metric": "1,376 星/日",
+     "url": "https://github.com/mattpocock/skills"
+    },
+    {
+     "title": "thedotmack/claude-mem",
+     "en": "thedotmack/claude-mem",
+     "metric": "1,165 星/日",
+     "url": "https://github.com/thedotmack/claude-mem"
+    },
+    {
+     "title": "floci-io/floci",
+     "en": "floci-io/floci",
+     "metric": "1,082 星/日",
+     "url": "https://github.com/floci-io/floci"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文热度",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "Think Less, Locally：用局部偏好学习压缩推理",
+     "en": "Think Less, Locally: Local Preference Learning for Reasoning Compression",
+     "metric": "65 赞",
+     "url": "https://huggingface.co/papers/2611.04814"
+    },
+    {
+     "title": "组合图像检索的因式分解多模态嵌入",
+     "en": "Factorized MLLM Embeddings for Composed Image Retrieval",
+     "metric": "43 赞",
+     "url": "https://huggingface.co/papers/2611.05193"
+    },
+    {
+     "title": "你不需要长上下文",
+     "en": "You don't need long context",
+     "metric": "9 赞",
+     "url": "https://huggingface.co/papers/2611.05306"
+    },
+    {
+     "title": "多教师自适应在线自蒸馏",
+     "en": "Every Token Needs Its Own Teacher",
+     "metric": "8 赞",
+     "url": "https://huggingface.co/papers/2610.40574"
+    },
+    {
+     "title": "对抗式推测推理改进长程智能体",
+     "en": "Adversarial Speculative Reasoning Improves Long Horizon Agents",
+     "metric": "6 赞",
+     "url": "https://huggingface.co/papers/2611.05345"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "科技媒体",
+   "color": "#e5127d",
+   "url": "https://www.theverge.com/ai-artificial-intelligence",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "Uber 上季度只完成 4 单 AI 代理叫车",
+     "en": "Uber only fulfilled 4 rides from AI agents last quarter",
+     "metric": "Verge",
+     "url": "https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation"
+    },
+    {
+     "title": "数据中心输掉了中期选举",
+     "en": "Data centers lost the midterms",
+     "metric": "Verge",
+     "url": "https://www.theverge.com/policy/1026365/data-centers-midterms-results"
+    },
+    {
+     "title": "Nothing 预告无屏幕 AI 设备",
+     "en": "Nothing teases a screen-free AI device",
+     "metric": "Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei"
+    },
+    {
+     "title": "Anthropic 研发 FlashProve 验证模型身份",
+     "en": "Anthropic is working on a system to prove AI models' identity",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/"
+    },
+    {
+     "title": "Meta 收购 AI 编码创业公司 Conductor",
+     "en": "Meta acquires AI coding startup Conductor",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/"
+    }
+   ]
+  },
+  {
+   "key": "qbit",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#1a73e8",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "百度无人车“黑客帝国”：世界模型实时推演",
+     "en": "百度无人车世界模型",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/11/507647.html"
+    },
+    {
+     "title": "招商局狮子山实验室发布具身推理模型 Lion-ER-35B-A3B",
+     "en": "Lion-ER-35B-A3B",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/11/507586.html"
+    },
+    {
+     "title": "openJiuwen Agent-Memory：视听双流记忆",
+     "en": "openJiuwen Agent-Memory",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/11/507533.html"
+    },
+    {
+     "title": "虎鲸文娱“鲸锐AI”上线，AI 视频单分钟成本省 30%",
+     "en": "鲸锐AI",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/11/507567.html"
+    },
+    {
+     "title": "机器人干活，AI 当厂长：下一代自主智能仓",
+     "en": "自主智能仓",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/11/507507.html"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "国内科技",
+   "color": "#d32f2f",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "OpenAI 扫描 Linux 内核发现 948 个可提权漏洞",
+     "en": "OpenAI Linux 内核扫描",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/022/476.htm"
+    },
+    {
+     "title": "彭博社称苹果收紧员工 AI 使用预算",
+     "en": "苹果收紧 AI 预算",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/022/479.htm"
+    },
+    {
+     "title": "OpenAI 升级 ChatGPT 图片能力，支持生成 GIF",
+     "en": "ChatGPT GIF",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/022/486.htm"
+    },
+    {
+     "title": "陶哲轩警告：把思考交给 AI 的危险可能很快到来",
+     "en": "陶哲轩",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/022/440.htm"
+    },
+    {
+     "title": "字节“扣子”整合企业级产品，现售企业版暂停新售",
+     "en": "扣子",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/022/432.htm"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "工程师社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "我的运营商在劫持 DNS",
+     "en": "So my ISP was hijacking my DNS",
+     "metric": "67 分",
+     "url": "https://karthihegde.dev/posts/dns_tampering"
+    },
+    {
+     "title": "Zig 重写 libc 让 SQLite 慢了 12000 倍",
+     "en": "Shlemiel the Painter Is Back",
+     "metric": "53 分",
+     "url": "https://dennisforbes.ca/blog/microblog/2026/10/the_accidental_12000x_sqlite_slowdown/"
+    },
+    {
+     "title": "你的密码学阴谋论是错的",
+     "en": "Your Cryptography Conspiracy Theory Is Wrong",
+     "metric": "42 分",
+     "url": "https://soatok.blog/2026/10/29/your-cryptography-conspiracy-theory-is-wrong/"
+    },
+    {
+     "title": "WebKit 引入自适应深色模式",
+     "en": "Introducing Adaptive Dark Mode",
+     "metric": "31 分",
+     "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/"
+    },
+    {
+     "title": "C++26 未获通过",
+     "en": "C++26 Disapproved",
+     "metric": "28 分",
+     "url": "https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/"
+    }
+   ]
+  }
+ ],
+ "topics": [
+  {
+   "name": "产品与现实",
+   "kicker": "REALITY",
+   "items": [
+    {
+     "title": "Uber：上季度只有 4 单 AI 代理叫车",
+     "note": "Eats 约 500 单，代理份额极小。",
+     "src": "The Verge",
+     "metric": "11-04",
+     "url": "https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation"
+    },
+    {
+     "title": "ChatGPT 可直接生成并编辑 GIF",
+     "note": "随 Images 2.6 上线，可逐帧改。",
+     "src": "The Verge",
+     "metric": "11-04",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6"
+    },
+    {
+     "title": "Nothing：首款 AI 原生产品下月发布，无屏幕",
+     "note": "只有 CEO 的一条帖子，细节未给。",
+     "src": "The Verge",
+     "metric": "11-04",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei"
+    },
+    {
+     "title": "谷歌搜索收入增速放缓到 12%",
+     "note": "查询量涨得最快，变现没跟上。",
+     "src": "The Verge",
+     "metric": "11-04",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3"
+    }
+   ]
+  },
+  {
+   "name": "基建与钱",
+   "kicker": "INFRA",
+   "items": [
+    {
+     "title": "数据中心输掉了中期选举",
+     "note": "Verge 称多地限建议案通过。",
+     "src": "The Verge",
+     "metric": "11-04",
+     "url": "https://www.theverge.com/policy/1026365/data-centers-midterms-results"
+    },
+    {
+     "title": "高通押注数据中心：2029 年目标 150 亿美元",
+     "note": "手机销量下滑，是公司预期不是已得。",
+     "src": "The Verge",
+     "metric": "11-04",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers"
+    },
+    {
+     "title": "彭博称苹果收紧员工 AI 使用预算",
+     "note": "据彭博转述，部分工程师日额度降 33%。",
+     "src": "IT之家",
+     "metric": "11-05",
+     "url": "https://www.ithome.com/1/022/479.htm"
+    },
+    {
+     "title": "Fal 估值翻倍到 160 亿美元",
+     "note": "推理需求在涨，只读标题。",
+     "src": "TechCrunch",
+     "metric": "11-03",
+     "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/"
+    }
+   ]
+  },
+  {
+   "name": "开源与信任",
+   "kicker": "OPEN",
+   "items": [
+    {
+     "title": "Revolut 据称弃用 Claude，成本降 90%",
+     "note": "媒体转述的口径，待核。",
+     "src": "The Register",
+     "metric": "11-03",
+     "url": "https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345"
+    },
+    {
+     "title": "腾讯 Hy4 称将开放权重",
+     "note": "聚合页转述，规格待核。",
+     "src": "Token Times",
+     "metric": "11-04",
+     "url": "https://thetokentimes.io/topic/open"
+    },
+    {
+     "title": "Meta 收购 AI 编码创业公司 Conductor",
+     "note": "只读标题，金额未见。",
+     "src": "TechCrunch",
+     "metric": "11-04",
+     "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/"
+    },
+    {
+     "title": "Nvidia RTX Spark 固件被指拖慢 Linux",
+     "note": "博客称降到 35%，待核。",
+     "src": "Hacker News",
+     "metric": "581 分",
+     "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop"
+    }
+   ]
+  }
+ ],
+ "comments": [
+  "948 个是 OpenAI 自报，成本约 121 万美元；真正值得看的是每个利用平均约 1279 美元，找漏洞开始按“批量”算价。",
+  "PHP2Shell 的旧 bug 2024 年就有人报。没人修，是因为看起来只会崩溃；AI 把“只会崩溃”的假设拿走了。",
+  "Kimi 的攻击类评测是自报，也低于表里的 GPT-6 Astra。可开放权重意味着任何人都能下载去跑，这点和闭源不同。"
+ ],
+ "xhs": {
+  "title": "AI 找漏洞，比人修得快",
+  "cover": "AI 找漏洞\n比人修得快",
+  "deck": "内核·PHP·Kimi",
+  "intro": "OpenAI 称一次运行在 Linux 内核做出 948 个提权利用；PHP2Shell 的旧 bug 被 AI 辅助变成代码执行漏洞；Kimi K3.1 Pro 开放 2.8T 权重，评测含攻击类。",
+  "oneliner": "找得再快，也得有人去修。",
+  "closing": "如果你维护开源项目，会愿意让 AI 来审计吗？",
+  "tags": [
+   "AI",
+   "人工智能",
+   "科技新闻",
+   "AI日报",
+   "OpenAI",
+   "Linux",
+   "网络安全",
+   "Kimi",
+   "开源模型",
+   "PHP"
+  ]
+ }
+}

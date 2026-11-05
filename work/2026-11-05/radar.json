@@ -1,0 +1,505 @@
+{
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "AI 正在逼我们还清 40 年技术债（PHP2Shell）",
+     "en": "AI is forcing us to pay off 40 years of technical debt",
+     "metric": "1014 分",
+     "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+     "time": "11-04",
+     "what": "IEEE Spectrum 谈 PHP2Shell 漏洞：AI 辅助审计把旧崩溃 bug 变成可执行代码的漏洞"
+    },
+    {
+     "title": "Nvidia RTX Spark 加密固件让 Linux 推理速度降到 35%",
+     "en": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+     "metric": "581 分",
+     "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+     "time": "11-04",
+     "what": "博客称加密固件拖慢 Linux 下推理，待核"
+    },
+    {
+     "title": "白宫网络里检测到住宅代理",
+     "en": "Residential proxies detected on White House network",
+     "metric": "502 分",
+     "url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
+     "time": "11-05",
+     "what": "安全公司博文"
+    },
+    {
+     "title": "AMD 预计 Q4 首次出货量超过英特尔",
+     "en": "AMD expects to outsell Intel in Q4 for the first time in history",
+     "metric": "436 分",
+     "url": "https://www.tomshardware.com/pc-components/cpus/amd-expects-to-outsell-intel-in-q4-for-the-first-time-in-history-usd17b-guidance-would-exceed-intels-projections",
+     "time": "11-04",
+     "what": "Tom's Hardware 报道 170 亿美元指引"
+    },
+    {
+     "title": "Kimi K3.1 Pro 权重放出",
+     "en": "Kimi K3.1 Pro model weights are out",
+     "metric": "329 分",
+     "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+     "time": "11-04",
+     "what": "月之暗面开放 2.8T 参数模型权重"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区情绪",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/LocalLLaMA/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "Kimi-K3.1-Pro 开放权重",
+     "en": "Kimi-K3.1-Pro is now open-weights",
+     "metric": "r/LocalLLaMA 新帖",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnrhvb/kimik31pro_is_now_openweights/",
+     "time": "11-04",
+     "what": "社区同步讨论权重发布"
+    },
+    {
+     "title": "Revolut 弃用 Claude Code，改自托管中国模型，称成本降 90%",
+     "en": "Revolut sidelines Claude Code for a self-hosted Chinese model",
+     "metric": "47 赞（ailately）",
+     "url": "https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345",
+     "time": "11-03",
+     "what": "The Register 报道，口径待核"
+    },
+    {
+     "title": "美国中期选举多地数据中心限建议案通过",
+     "en": "Anti data-center measures pass in midterms",
+     "metric": "91 赞（ailately）",
+     "url": "https://www.theverge.com/policy/1026365/data-centers-midterms-results",
+     "time": "11-04",
+     "what": "Verge 报道的一手出处"
+    },
+    {
+     "title": "腾讯发布 770B Hy4，称将开放权重",
+     "en": "Introducing Hy4 (open weights soon)",
+     "metric": "45 赞（ailately）",
+     "url": "https://thetokentimes.io/topic/open",
+     "time": "11-04",
+     "what": "转述来源，待核"
+    },
+    {
+     "title": "手掌大小的 Linux AI 盒子用 256 TOPS Axera 芯片",
+     "en": "Pocket-sized Linux AI box runs on 256-TOPS Axera chip",
+     "metric": "r/LocalLLaMA 新帖",
+     "url": "https://www.reddit.com/r/LocalLLaMA/new/",
+     "time": "11-04",
+     "what": "仅见标题"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X（Twitter）",
+   "tag": "话题热度",
+   "color": "#111111",
+   "url": "https://x.com/",
+   "short": "X",
+   "items": [
+    {
+     "title": "OpenAI 在 X 上发布 Linux 内核漏洞流水线串帖",
+     "en": "OpenAI thread on autonomous vuln pipeline",
+     "metric": "官方帖",
+     "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+     "time": "11-04",
+     "what": "对应官方博客"
+    },
+    {
+     "title": "Nothing CEO 称首款 AI 原生产品下月发布，没有屏幕",
+     "en": "Carl Pei: our first AI-native product ships next month",
+     "metric": "原帖",
+     "url": "https://x.com/getpeid/status/2117991714879410204",
+     "time": "11-04",
+     "what": "Verge 引用原帖"
+    },
+    {
+     "title": "奥特曼改名“Ram Altman”回应内存言论",
+     "en": "Sam Altman: tons of memory for everyone",
+     "metric": "原帖",
+     "url": "https://x.com/sama/status/2117846298472886419",
+     "time": "11-04",
+     "what": "Verge 引用原帖"
+    },
+    {
+     "title": "Kimi K3.1 Pro 开源，X 提及约 1.3 万",
+     "en": "Kimi K3.1 Pro open weights",
+     "metric": "X 提及 13k（聚合页）",
+     "url": "https://newsference.com/c/kimi-k3-1-pro-open-weights",
+     "time": "11-04",
+     "what": "聚合页数字，待核"
+    },
+    {
+     "title": "agentflare 聚合页停在 10-28",
+     "en": "agentflare tech page stale",
+     "metric": "—",
+     "url": "https://agentflare.org/social/tech/index.html",
+     "time": "10-28",
+     "what": "本期未采用"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热榜",
+   "color": "#24292f",
+   "url": "https://github.com/trending?since=daily",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "vercel-labs/agent-desktop",
+     "en": "vercel-labs/agent-desktop",
+     "metric": "2,463 星/日",
+     "url": "https://github.com/vercel-labs/agent-desktop",
+     "time": "11-05",
+     "what": "连续在榜，昨日已写"
+    },
+    {
+     "title": "NVIDIA/auto-ontology",
+     "en": "NVIDIA/auto-ontology",
+     "metric": "2,053 星/日",
+     "url": "https://github.com/NVIDIA/auto-ontology",
+     "time": "11-05",
+     "what": "仅看榜单"
+    },
+    {
+     "title": "mattpocock/skills",
+     "en": "mattpocock/skills",
+     "metric": "1,376 星/日",
+     "url": "https://github.com/mattpocock/skills",
+     "time": "11-05",
+     "what": "仅看榜单"
+    },
+    {
+     "title": "thedotmack/claude-mem",
+     "en": "thedotmack/claude-mem",
+     "metric": "1,165 星/日",
+     "url": "https://github.com/thedotmack/claude-mem",
+     "time": "11-05",
+     "what": "仅看榜单"
+    },
+    {
+     "title": "floci-io/floci",
+     "en": "floci-io/floci",
+     "metric": "1,082 星/日",
+     "url": "https://github.com/floci-io/floci",
+     "time": "11-05",
+     "what": "仅看榜单"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文热度",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "Think Less, Locally：用局部偏好学习压缩推理",
+     "en": "Think Less, Locally: Local Preference Learning for Reasoning Compression",
+     "metric": "65 赞",
+     "url": "https://huggingface.co/papers/2611.04814",
+     "time": "11-05",
+     "what": "推理压缩"
+    },
+    {
+     "title": "组合图像检索的因式分解多模态嵌入",
+     "en": "Factorized MLLM Embeddings for Composed Image Retrieval",
+     "metric": "43 赞",
+     "url": "https://huggingface.co/papers/2611.05193",
+     "time": "11-05",
+     "what": "检索"
+    },
+    {
+     "title": "你不需要长上下文",
+     "en": "You don't need long context",
+     "metric": "9 赞",
+     "url": "https://huggingface.co/papers/2611.05306",
+     "time": "11-05",
+     "what": "仅看标题"
+    },
+    {
+     "title": "多教师自适应在线自蒸馏",
+     "en": "Every Token Needs Its Own Teacher",
+     "metric": "8 赞",
+     "url": "https://huggingface.co/papers/2610.40574",
+     "time": "11-05",
+     "what": "仅看标题"
+    },
+    {
+     "title": "对抗式推测推理改进长程智能体",
+     "en": "Adversarial Speculative Reasoning Improves Long Horizon Agents",
+     "metric": "6 赞",
+     "url": "https://huggingface.co/papers/2611.05345",
+     "time": "11-05",
+     "what": "仅看标题"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "科技媒体",
+   "color": "#e5127d",
+   "url": "https://www.theverge.com/ai-artificial-intelligence",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "Uber 上季度只完成 4 单 AI 代理叫车",
+     "en": "Uber only fulfilled 4 rides from AI agents last quarter",
+     "metric": "Verge",
+     "url": "https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation",
+     "time": "11-04",
+     "what": "财报会披露，Eats 约 500 单"
+    },
+    {
+     "title": "数据中心输掉了中期选举",
+     "en": "Data centers lost the midterms",
+     "metric": "Verge",
+     "url": "https://www.theverge.com/policy/1026365/data-centers-midterms-results",
+     "time": "11-04",
+     "what": "多地限建议案通过"
+    },
+    {
+     "title": "Nothing 预告无屏幕 AI 设备",
+     "en": "Nothing teases a screen-free AI device",
+     "metric": "Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei",
+     "time": "11-04",
+     "what": "12 月发布"
+    },
+    {
+     "title": "Anthropic 研发 FlashProve 验证模型身份",
+     "en": "Anthropic is working on a system to prove AI models' identity",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+     "time": "11-03",
+     "what": "往期已写"
+    },
+    {
+     "title": "Meta 收购 AI 编码创业公司 Conductor",
+     "en": "Meta acquires AI coding startup Conductor",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+     "time": "11-04",
+     "what": "只读标题"
+    }
+   ]
+  },
+  {
+   "key": "qbit",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#1a73e8",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "百度无人车“黑客帝国”：世界模型实时推演",
+     "en": "百度无人车世界模型",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/11/507647.html",
+     "time": "11-05",
+     "what": "只读标题"
+    },
+    {
+     "title": "招商局狮子山实验室发布具身推理模型 Lion-ER-35B-A3B",
+     "en": "Lion-ER-35B-A3B",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/11/507586.html",
+     "time": "11-04",
+     "what": "只读标题"
+    },
+    {
+     "title": "openJiuwen Agent-Memory：视听双流记忆",
+     "en": "openJiuwen Agent-Memory",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/11/507533.html",
+     "time": "11-04",
+     "what": "只读标题"
+    },
+    {
+     "title": "虎鲸文娱“鲸锐AI”上线，AI 视频单分钟成本省 30%",
+     "en": "鲸锐AI",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/11/507567.html",
+     "time": "11-04",
+     "what": "稿件偏稿源自述"
+    },
+    {
+     "title": "机器人干活，AI 当厂长：下一代自主智能仓",
+     "en": "自主智能仓",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/11/507507.html",
+     "time": "11-03",
+     "what": "只读标题"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "国内科技",
+   "color": "#d32f2f",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "OpenAI 扫描 Linux 内核发现 948 个可提权漏洞",
+     "en": "OpenAI Linux 内核扫描",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/022/476.htm",
+     "time": "11-05",
+     "what": "转述 OpenAI 报告"
+    },
+    {
+     "title": "彭博社称苹果收紧员工 AI 使用预算",
+     "en": "苹果收紧 AI 预算",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/022/479.htm",
+     "time": "11-05",
+     "what": "据彭博，部分工程师日额度降 33%"
+    },
+    {
+     "title": "OpenAI 升级 ChatGPT 图片能力，支持生成 GIF",
+     "en": "ChatGPT GIF",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/022/486.htm",
+     "time": "11-05",
+     "what": "Images 2.6"
+    },
+    {
+     "title": "陶哲轩警告：把思考交给 AI 的危险可能很快到来",
+     "en": "陶哲轩",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/022/440.htm",
+     "time": "11-04",
+     "what": "只读标题"
+    },
+    {
+     "title": "字节“扣子”整合企业级产品，现售企业版暂停新售",
+     "en": "扣子",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/022/432.htm",
+     "time": "11-04",
+     "what": "只读标题"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "工程师社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "我的运营商在劫持 DNS",
+     "en": "So my ISP was hijacking my DNS",
+     "metric": "67 分",
+     "url": "https://karthihegde.dev/posts/dns_tampering",
+     "time": "11-04",
+     "what": "网络"
+    },
+    {
+     "title": "Zig 重写 libc 让 SQLite 慢了 12000 倍",
+     "en": "Shlemiel the Painter Is Back",
+     "metric": "53 分",
+     "url": "https://dennisforbes.ca/blog/microblog/2026/10/the_accidental_12000x_sqlite_slowdown/",
+     "time": "10-31",
+     "what": "性能 bug"
+    },
+    {
+     "title": "你的密码学阴谋论是错的",
+     "en": "Your Cryptography Conspiracy Theory Is Wrong",
+     "metric": "42 分",
+     "url": "https://soatok.blog/2026/10/29/your-cryptography-conspiracy-theory-is-wrong/",
+     "time": "10-29",
+     "what": "密码学"
+    },
+    {
+     "title": "WebKit 引入自适应深色模式",
+     "en": "Introducing Adaptive Dark Mode",
+     "metric": "31 分",
+     "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+     "time": "11-04",
+     "what": "浏览器"
+    },
+    {
+     "title": "C++26 未获通过",
+     "en": "C++26 Disapproved",
+     "metric": "28 分",
+     "url": "https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/",
+     "time": "11-04",
+     "what": "语言标准"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "title": "OpenAI：自动化流水线在 Linux 内核里做出 948 个提权利用",
+   "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+   "why": "一手博文已读，成本与规模数字明确",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "IEEE Spectrum：PHP2Shell 说明 AI 在逼着还旧技术债",
+   "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+   "why": "HN 1014 分，原文已读",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "Kimi K3.1 Pro 开放权重（2.8T，含网络安全评测）",
+   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+   "why": "模型卡已读，评测为厂商自报",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "Uber：上季度 AI 代理只叫成 4 单车",
+   "url": "https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation",
+   "why": "Verge 摘要已读，可进专题",
+   "pick": false,
+   "status": "已核"
+  },
+  {
+   "title": "数据中心输掉中期选举",
+   "url": "https://www.theverge.com/policy/1026365/data-centers-midterms-results",
+   "why": "政策面，非技术头条",
+   "pick": false,
+   "status": "已核"
+  },
+  {
+   "title": "Revolut 弃 Claude 改自托管，成本降 90%",
+   "url": "https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345",
+   "why": "未读原文，口径待核",
+   "pick": false,
+   "status": "待核"
+  },
+  {
+   "title": "Nvidia RTX Spark 加密固件拖慢 Linux 推理",
+   "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+   "why": "博客二手，待核",
+   "pick": false,
+   "status": "待核"
+  }
+ ]
+}

@@ -10,7 +10,7 @@
 
 ## 最新一期
 
-- **2026-11-05｜AI 找漏洞，比人修得快**（Linux 内核 948 个利用、PHP2Shell、Kimi K3.1 Pro 开放权重）
+- **2026-11-06｜AI 会找漏洞，但它有没有全力以赴**（GPT-6 Astra 安全任务少做四成、GPT-6 Cyber、OpenSSH 绕过漏洞）
 
 网页版（GitHub Pages）：https://emotionalronan.github.io/ai-daily-report/
 

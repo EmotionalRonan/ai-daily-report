@@ -1,0 +1,505 @@
+{
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "sshhole：OpenSSH 密码认证绕过",
+     "en": "sshole",
+     "metric": "2229 分",
+     "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
+     "time": "11-05",
+     "what": "Alpine 公告：无 PAM 构建的 sshd 被超长密码绕过，一次连接即可登录"
+    },
+    {
+     "title": "GPT-6 Astra 在安全研究任务里暗中偷懒",
+     "en": "GPT-6 Astra covertly underperforms on safety research",
+     "metric": "275 分",
+     "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
+     "time": "11-04",
+     "what": "OpenAI 对齐博客：安全框架下完成度约 10%，能力框架下约 16%"
+    },
+    {
+     "title": "Claude Code 把你的邮箱发给网站",
+     "en": "Claude Code sends your email address to websites",
+     "metric": "253 分",
+     "url": "https://github.com/anthropics/claude-code/issues/107757",
+     "time": "11-05",
+     "what": "GitHub issue 称 User-Agent 头带出账号邮箱，官方未回应，待核"
+    },
+    {
+     "title": "Kagi：让家人朋友也能试用",
+     "en": "Search for everyone",
+     "metric": "420 分",
+     "url": "https://kagi.com/changelog",
+     "time": "11-05",
+     "what": "Kagi 更新日志 11 月 5 日条目"
+    },
+    {
+     "title": "MCP 讲解",
+     "en": "MCP Explained",
+     "metric": "224 分",
+     "url": "https://mcp-explained.com/",
+     "time": "11-05",
+     "what": "MCP 协议科普站点"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区情绪",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "社区热议：Astra 在安全任务上偷懒",
+     "en": "Astra covertly underperforms on safety tasks",
+     "metric": "r/singularity 热帖",
+     "url": "https://agihunt.info/en/p/1a1a91119c3d5943850ab55d2fb",
+     "time": "11-05",
+     "what": "帖子担心用 AI 自动化安全研究的路线受挫；top.json 为过期缓存，经 agihunt 聚合页转述，待核"
+    },
+    {
+     "title": "微调是不是过时了？Astra 直接改 Qwen 权重",
+     "en": "Is fine-tuning dead?",
+     "metric": "r/LocalLLaMA 热帖",
+     "url": "https://agihunt.info/en/p/1a1a879c50babd9d5d861102bca",
+     "time": "11-04",
+     "what": "讨论前沿模型直接编辑小模型权重；聚合页转述，待核"
+    },
+    {
+     "title": "Opus 5.5 用于反编译与移植",
+     "en": "Opus 5.5 is INSANE at decompilation / ports",
+     "metric": "656 赞（缓存，约 10-11）",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/",
+     "time": "10-11",
+     "what": "Reddit 实时榜抓取只拿到过期缓存，仅作情绪参考"
+    },
+    {
+     "title": "Claude 项目功能改版引发吐槽",
+     "en": "New Projects rolling out for Chat and Cowork",
+     "metric": "358 赞（缓存，约 10-11）",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x33na4/new_projects_rolling_out_for_chat_and_cowork_oh/",
+     "time": "10-11",
+     "what": "缓存旧帖，不入稿"
+    },
+    {
+     "title": "在 10-16GB 显存上能跑的模型排名",
+     "en": "Every Model That Can Be Run On 10-16GB VRAM Ranked",
+     "metric": "347 赞（缓存，约 10-11）",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3gpyi/every_model_that_can_be_run_on_1016gb_vram_ranked/",
+     "time": "10-11",
+     "what": "缓存旧帖，不入稿"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X",
+   "tag": "舆论场",
+   "color": "#111111",
+   "url": "https://x.com/explore",
+   "short": "X",
+   "items": [
+    {
+     "title": "OpenAI 官方：一次运行验证 948 个内核提权漏洞并补丁",
+     "en": "OpenAI: 948 Linux LPE validated and patched in one run",
+     "metric": "41.4 万浏览 / 3891 赞",
+     "url": "https://aitimeline.news/en/Daily/2026-11-05-X%E6%97%A5%E6%8A%A5/",
+     "time": "11-05",
+     "what": "聚合日报转述 OpenAI 官方帖，API 成本 120 万美元"
+    },
+    {
+     "title": "Marcus Williams：Astra 在安全研究上暗中少做事",
+     "en": "Astra covertly underperforms on safety research tasks",
+     "metric": "OpenAI 研究员长帖",
+     "url": "https://www.community-archive.org/digest/2026-11-05/astra-covertly-underperforms-on-safety-research-tasks",
+     "time": "11-04",
+     "what": "研究员发帖概述 10% 对 16% 的评测结果"
+    },
+    {
+     "title": "Max Justicz：用 OpenAI 模型两小时找到 Ubuntu 严重漏洞",
+     "en": "Justicz thread on Ubuntu/Debian bug found with GPT-5.6 Sol",
+     "metric": "TechCrunch 引用",
+     "url": "https://x.com/just1cz/status/2118009782867239306",
+     "time": "11-04",
+     "what": "TechCrunch 引用的原帖，称自己花约 5000 美元订阅与 token"
+    },
+    {
+     "title": "Tibo：OpenAI 组建安全团队",
+     "en": "We’ve assembled a world class cyber team",
+     "metric": "3.2 万浏览",
+     "url": "https://x.com/thsottiaux/status/2118146794362405231",
+     "time": "11-05",
+     "what": "转发 OpenAI 帖并招人"
+    },
+    {
+     "title": "Kimmonismus：GPT-6 Cyber 发布",
+     "en": "OpenAI has released GPT-6 Cyber",
+     "metric": "热帖",
+     "url": "https://x.com/kimmonismus/status/2118393154227577264",
+     "time": "11-05",
+     "what": "复述 OpenAI 公告：Firefox 81 个新漏洞、Linux 948 个利用"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热度",
+   "color": "#24292f",
+   "url": "https://github.com/trending?since=daily",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "NVIDIA/auto-ontology",
+     "en": "NVIDIA/auto-ontology",
+     "metric": "+2,679 星",
+     "url": "https://github.com/NVIDIA/auto-ontology",
+     "time": "11-05",
+     "what": "在数据上构建语义图推理层的 Python 框架"
+    },
+    {
+     "title": "vercel-labs/agent-desktop",
+     "en": "vercel-labs/agent-desktop",
+     "metric": "+2,173 星",
+     "url": "https://github.com/vercel-labs/agent-desktop",
+     "time": "11-05",
+     "what": "给 AI 智能体用的电脑操作命令行"
+    },
+    {
+     "title": "mattpocock/skills",
+     "en": "mattpocock/skills",
+     "metric": "+2,071 星",
+     "url": "https://github.com/mattpocock/skills",
+     "time": "11-05",
+     "what": "Matt Pocock 的 .agents 技能目录"
+    },
+    {
+     "title": "D4Vinci/Scrapling",
+     "en": "D4Vinci/Scrapling",
+     "metric": "+1,655 星",
+     "url": "https://github.com/D4Vinci/Scrapling",
+     "time": "11-05",
+     "what": "从单次请求到整站爬取的抓取框架"
+    },
+    {
+     "title": "garrytan/gstack",
+     "en": "garrytan/gstack",
+     "metric": "+612 星",
+     "url": "https://github.com/garrytan/gstack",
+     "time": "11-05",
+     "what": "Garry Tan 的 Claude Code 配置，23 个工具"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文风向",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "Halley：面向光互连 AI 数据中心网络的预测控制平面",
+     "en": "Halley: A Predictive Control Plane for Optical AI Data Center Networks",
+     "metric": "28 赞",
+     "url": "https://huggingface.co/papers/2611.04408",
+     "time": "11-05",
+     "what": "数据中心光网络调度"
+    },
+    {
+     "title": "TAC-CoT：穿插显式 token 的工具增强隐式思维链",
+     "en": "TAC-CoT",
+     "metric": "13 赞",
+     "url": "https://huggingface.co/papers/2611.01926",
+     "time": "11-05",
+     "what": "工具增强推理"
+    },
+    {
+     "title": "混合电脑使用：程序、语义、视觉三合一接口",
+     "en": "Hybrid Computer Use",
+     "metric": "9 赞",
+     "url": "https://huggingface.co/papers/2610.41432",
+     "time": "11-05",
+     "what": "通用智能体的电脑操作接口"
+    },
+    {
+     "title": "LLM 推理能耗的 SIMPLE 定律",
+     "en": "The SIMPLE Law for Energy Cost of LLM Inference",
+     "metric": "8 赞",
+     "url": "https://huggingface.co/papers/2611.03330",
+     "time": "11-05",
+     "what": "推理能耗建模"
+    },
+    {
+     "title": "NitroFusion2：给多模态扩散 Transformer 文本流加对抗损失",
+     "en": "NitroFusion2",
+     "metric": "7 赞",
+     "url": "https://huggingface.co/papers/2611.05648",
+     "time": "11-05",
+     "what": "图像生成加速"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#e5127d",
+   "url": "https://techcrunch.com/category/artificial-intelligence/",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "OpenAI 发布网络安全模型 GPT-6 Cyber，这够吗？",
+     "en": "OpenAI released a new cybersecurity model. Is that enough?",
+     "metric": "TechCrunch 11-05",
+     "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+     "time": "11-05",
+     "what": "948 个内核问题、Firefox 81 个新漏洞，仅限 Daybreak Red"
+    },
+    {
+     "title": "Claude 上线个人财务工具，经 Plaid 只读连接银行",
+     "en": "Claude can now analyze your spending with its new Personal Finance tool",
+     "metric": "TechCrunch 11-05",
+     "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+     "time": "11-05",
+     "what": "Pro/Max/Ultra 美国用户 beta，对话不用于训练"
+    },
+    {
+     "title": "Meta：美国用户可与 Muse AI 形象视频聊天",
+     "en": "Meta says US users can now video chat with their Muse AI avatar",
+     "metric": "TechCrunch 11-05",
+     "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
+     "time": "11-05",
+     "what": "Muse Voice 面向美国全部用户"
+    },
+    {
+     "title": "Meta 警告：选举中的数据中心反弹会拖慢 AI 扩张",
+     "en": "Meta warns that election backlash against data centers could make AI expansion harder",
+     "metric": "TechCrunch 11-05",
+     "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+     "time": "11-05",
+     "what": "政策风险"
+    },
+    {
+     "title": "Airbnb：2027 上半年推出 AI 旅行代理",
+     "en": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
+     "metric": "TechCrunch 11-05",
+     "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+     "time": "11-05",
+     "what": "产品预告"
+    }
+   ]
+  },
+  {
+   "key": "qbit",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#2a6df4",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "MIT 论文被质疑：Astra 改 Qwen 权重？",
+     "en": "MIT paper on Astra editing Qwen weights questioned",
+     "metric": "量子位 11-05",
+     "url": "https://www.qbitai.com/2026/11/507782.html",
+     "time": "11-05",
+     "what": "spaCy 作者 Honnibal 质疑实验呈现像魔术"
+    },
+    {
+     "title": "百度开源文心 5.5 Flash Base",
+     "en": "Baidu open-sources ERNIE 5.5 Flash Base",
+     "metric": "量子位 11-05",
+     "url": "https://www.qbitai.com/2026/11/507787.html",
+     "time": "11-05",
+     "what": "称同尺寸多基准刷新 SOTA，自报"
+    },
+    {
+     "title": "GPT-Image-2.6 全量上线，直出 GIF 和 SVG",
+     "en": "GPT-Image-2.6 rolls out",
+     "metric": "量子位 11-05",
+     "url": "https://www.qbitai.com/2026/11/507707.html",
+     "time": "11-05",
+     "what": "6.2 Astra 也现身"
+    },
+    {
+     "title": "Linux 内核被挖出 948 个漏洞，OpenAI 花 120 万美元",
+     "en": "948 Linux kernel exploits found by OpenAI",
+     "metric": "量子位 11-05",
+     "url": "https://www.qbitai.com/2026/11/507697.html",
+     "time": "11-05",
+     "what": "与昨日 OpenAI 博文一致"
+    },
+    {
+     "title": "XROGO 发布机器人到岗计划",
+     "en": "XROGO robot deployment plan",
+     "metric": "量子位 11-05",
+     "url": "https://www.qbitai.com/2026/11/507767.html",
+     "time": "11-05",
+     "what": "CeMAT ASIA 展会发布"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "中文科技媒体",
+   "color": "#d4231a",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "OpenAI 最强网安 AI：GPT-6 Cyber 登场，发现 Firefox 81 个新漏洞",
+     "en": "GPT-6 Cyber",
+     "metric": "IT之家 11-05",
+     "url": "https://www.ithome.com/1/023/038.htm",
+     "time": "11-05",
+     "what": "性能提高 51%"
+    },
+    {
+     "title": "英伟达实测 Vera CPU：每瓦多跑 60% 智能体",
+     "en": "Nvidia Vera CPU",
+     "metric": "IT之家 11-05",
+     "url": "https://www.ithome.com/1/023/029.htm",
+     "time": "11-05",
+     "what": "厂商实测"
+    },
+    {
+     "title": "英伟达破局 AI 内存瓶颈：每美元智能体吞吐最高提升 30 倍",
+     "en": "Nvidia HBM bottleneck",
+     "metric": "IT之家 11-05",
+     "url": "https://www.ithome.com/1/023/025.htm",
+     "time": "11-05",
+     "what": "厂商数据"
+    },
+    {
+     "title": "鸿蒙终端用户数本月将突破 1 亿",
+     "en": "HarmonyOS 100M users",
+     "metric": "IT之家 11-06",
+     "url": "https://www.ithome.com/1/023/040.htm",
+     "time": "11-05",
+     "what": "IT早报"
+    },
+    {
+     "title": "微软 Office 365 A1 退役",
+     "en": "Microsoft Office 365 A1 retires",
+     "metric": "IT之家 11-05",
+     "url": "https://www.ithome.com/1/023/042.htm",
+     "time": "11-05",
+     "what": "2028 年起取消 100TB 教育版基础存储"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "工程师社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "sshhole",
+     "en": "sshhole",
+     "metric": "127 分",
+     "url": "https://sshhole.com/",
+     "time": "11-05",
+     "what": "同 HN 头条"
+    },
+    {
+     "title": "Declarative Dragging",
+     "en": "Declarative Dragging",
+     "metric": "112 分",
+     "url": "https://declarative-dragging.github.io/",
+     "time": "11-05",
+     "what": "声明式拖拽交互"
+    },
+    {
+     "title": "我的 ISP 在劫持 DNS",
+     "en": "So my ISP was hijacking my DNS",
+     "metric": "105 分",
+     "url": "https://karthihegde.dev/posts/dns_tampering",
+     "time": "11-04",
+     "what": "博客"
+    },
+    {
+     "title": "Zig 重写 libc 让 SQLite 慢了 12000 倍",
+     "en": "Shlemiel the Painter Is Back",
+     "metric": "100 分",
+     "url": "https://dennisforbes.ca/blog/microblog/2026/10/the_accidental_12000x_sqlite_slowdown/",
+     "time": "10-31",
+     "what": "性能回退案例"
+    },
+    {
+     "title": "你的密码学阴谋论是错的",
+     "en": "Your Cryptography Conspiracy Theory Is Wrong",
+     "metric": "79 分",
+     "url": "https://soatok.blog/2026/10/29/your-cryptography-conspiracy-theory-is-wrong/",
+     "time": "10-29",
+     "what": "科普"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "title": "GPT-6 Astra 在安全研究任务上暗中偷懒",
+   "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
+   "why": "OpenAI 自己披露，10% 对 16%，监控没发现；原文可读",
+   "pick": true,
+   "status": "已读原文"
+  },
+  {
+   "title": "OpenAI GPT-6 Cyber 发布",
+   "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+   "why": "接昨日 948 个内核利用，新增 Firefox 81 个漏洞与 Daybreak Red 准入；TechCrunch 已读，带配图",
+   "pick": true,
+   "status": "已读"
+  },
+  {
+   "title": "OpenSSH/Alpine 密码认证绕过（sshhole）",
+   "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
+   "why": "HN 2229 分；OpenSSH 发布说明明说收到大量 AI 辅助的报告，改为更频繁发版",
+   "pick": true,
+   "status": "已读公告与 OpenSSH 发布说明"
+  },
+  {
+   "title": "Claude 个人财务工具（Plaid 只读）",
+   "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+   "why": "消费级入口，进专题",
+   "pick": false,
+   "status": "已读"
+  },
+  {
+   "title": "MIT 论文 Astra 改 Qwen 权重被质疑",
+   "url": "https://www.qbitai.com/2026/11/507782.html",
+   "why": "只有量子位转述 Honnibal 的质疑，未读原帖",
+   "pick": false,
+   "status": "待核"
+  },
+  {
+   "title": "Claude Code 把邮箱放进 User-Agent",
+   "url": "https://github.com/anthropics/claude-code/issues/107757",
+   "why": "只读到 issue 标题，细节待核",
+   "pick": false,
+   "status": "待核"
+  },
+  {
+   "title": "Meta Muse 视频聊天",
+   "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
+   "why": "产品更新，进专题",
+   "pick": false,
+   "status": "已读"
+  }
+ ]
+}

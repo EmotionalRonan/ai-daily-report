@@ -1,0 +1,544 @@
+{
+ "date": "2026-11-07",
+ "weekday": "周六",
+ "issue": 23,
+ "title": "AI 越用越多，却越卖越便宜",
+ "subtitle": "Ramp 支出数据、Claude 智能体“做梦”、Gemini Omni 降价 30%",
+ "lead": "Ramp 数据显示企业 AI 用量在涨、支出却几乎停住；OpenAI 与 Anthropic 的估值预期随之下修。Claude 智能体学会“做梦”整理记忆，Gemini Omni 1.2 Flash 降价 30%。",
+ "headlines": [
+  {
+   "title": "Ramp：AI 用得更多，花得没更多，估值预期跟着下修",
+   "body": "Ramp 数据显示，企业 token 支出在 8、9 月只增长 1.5%，7 月是 42%，而用量仍在涨。Ramp 经济学家把原因归到降价和更会控成本：OpenAI 9 月把 GPT-6 Sol 与 Luna 的 API 价格砍半，Anthropic 也降价。10 月支出回升 8.9%。",
+   "why": "据 Bloomberg，Anthropic 的 IPO 估值预期已从 2 万亿美元降到约 1.1 万亿至 1.3 万亿；OpenAI 以 1.25 万亿估值已募到 110 亿美元，原定目标是 300 亿。",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+   "image": {
+    "file": "wechat/img/h1.jpg",
+    "src_url": "https://techcrunch.com/wp-content/uploads/2026/11/ara-stripe-5.png?resize=1200,779",
+    "credit": "TechCrunch",
+    "w": 1200,
+    "h": 779
+   }
+  },
+  {
+   "title": "Anthropic 公开“做梦”：让智能体离线重读日志、改掉错记忆",
+   "body": "Anthropic 工程博客称，Claude 在空闲时回看会话日志，纠正写错的记忆、搭建链接的 wiki。自测里，对约 35 万份文档做 128 轮“做梦”，单用 wiki 的得分从 13% 升到 48%；wiki 加搜索从 54% 升到 61%，单用搜索为 53%。",
+   "why": "Pokémon 评测里，错误笔记被改正后，Claude 1935 步到达下一座城市，没改的版本绕回起点城镇。以上均为 Anthropic 自测；记忆要靠额外算力维护，博客也承认。",
+   "source": "Anthropic",
+   "url": "https://www.anthropic.com/research/components-of-agent-memory",
+   "image_url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F336832b5015f1bfcfd7d786fae8120c533f26ecd-3136x1432.png&w=3840&q=75",
+   "image": {
+    "file": "wechat/img/h2.jpg",
+    "src_url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F336832b5015f1bfcfd7d786fae8120c533f26ecd-3136x1432.png&w=3840&q=75",
+    "credit": "Anthropic",
+    "w": 1600,
+    "h": 731
+   }
+  },
+  {
+   "title": "Gemini Omni 1.2 Flash 上线：视频拉长到 15 秒，价格降 30%",
+   "body": "Google 周四发布 Gemini Omni 1.2 Flash，视频单次上限从 10 秒升到 15 秒，可按秒设定 3 到 15 秒，支持多轮对话修改同一段。720p 价格为每秒 0.07 美元，比 1.1 版降 30%，已在 Gemini API 与 Google Cloud 正式可用。",
+   "why": "Google Vids 里用户可免费生成 15 秒片段，Gemini 应用先向 Ultra 订阅用户开放；降价与拉长一起来，对照头条 1，价格战已经打到视频生成。",
+   "source": "Google",
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+   "image": {
+    "file": "wechat/img/h3.jpg",
+    "src_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.width-1300.png",
+    "credit": "Google",
+    "w": 1300,
+    "h": 731
+   }
+  }
+ ],
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "特斯拉将逐步停产 Cybertruck",
+     "en": "Tesla to wind down Cybertruck production",
+     "metric": "790 分",
+     "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817"
+    },
+    {
+     "title": "Gemini Omni 1.2 Flash",
+     "en": "Gemini Omni 1.2 Flash",
+     "metric": "289 分",
+     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+    },
+    {
+     "title": "小模型当裁判：Opus 精度、成本低 4 倍",
+     "en": "A Jev that can ask Opus for help...",
+     "metric": "279 分",
+     "url": "https://hightouch.com/blog/llm-judges-identity-resolution"
+    },
+    {
+     "title": "FAA：2028 年前淘汰空管软盘",
+     "en": "US FAA to phase out floppy disks from ATC by 2028",
+     "metric": "256 分",
+     "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/"
+    },
+    {
+     "title": "Anthropic IPO 买家把估值压到最低 1.1 万亿美元",
+     "en": "Anthropic IPO buyers see valuation as low as $1.1T",
+     "metric": "201 分",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区情绪",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/LocalLLaMA/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "Qwen 4 悄悄发布",
+     "en": "Qwen 4 is stealth announced",
+     "metric": "752 赞",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpbjku/qwen_4_is_stealth_announced/"
+    },
+    {
+     "title": "Qwen3.8-27B 突然不能用了（玩梗帖）",
+     "en": "Qwen3.8-27B has become unuseable recently",
+     "metric": "1.3K 赞",
+     "url": "https://www.reddit.com/r/LocalLLaMA/search/?q=Qwen4%20becoming%20begins&restrict_sr=1&sort=new"
+    },
+    {
+     "title": "开源实验室在削弱网安与逆向能力？",
+     "en": "Latest Open-Source Labs are gutting away cybersecurity and reverse-engineering capabilities",
+     "metric": "r/LocalLLaMA 热帖",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xp9jt1/latest_opensource_labs_are_gutting_away/"
+    },
+    {
+     "title": "小岛秀夫：AI 少了创作的乐趣",
+     "en": "Hideo Kojima says AI lacks what makes the creative process fun",
+     "metric": "166 赞",
+     "url": "https://pie-ai.org/reddit-ai-top-10-briefing-november-06-2026/"
+    },
+    {
+     "title": "AI 回调到底是技术还是政治？",
+     "en": "Is the AI market correction about technology, politics, or both?",
+     "metric": "7 条评论",
+     "url": "https://ailately.com/rn/2026-11-06-00"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X",
+   "tag": "舆论场",
+   "color": "#111111",
+   "url": "https://x.com/explore",
+   "short": "X",
+   "items": [
+    {
+     "title": "OpenAI 完成 110 亿美元新融资，估值 1.25 万亿",
+     "en": "OpenAI raises $11B at $1.25T",
+     "metric": "TechCrunch 转述",
+     "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
+    },
+    {
+     "title": "“AI 停不下来”：KOL 反驳泡沫恐慌",
+     "en": "AI can't be stopped",
+     "metric": "X 帖（经 AGI Hunt）",
+     "url": "https://agihunt.info/en/p/1a1b10e186556e1fda432fb39ac"
+    },
+    {
+     "title": "Will Brown：LLM 总以为自己在被评测",
+     "en": "why do LLMs always think they're in an eval",
+     "metric": "9.2 万浏览",
+     "url": "https://agihunt.info/en/p/1a1af6514f34fb792368b259831"
+    },
+    {
+     "title": "Anthropic 工程博客：让 Claude “做梦”整理记忆",
+     "en": "Memory is what allows Claude to learn from experience",
+     "metric": "官方账号发帖",
+     "url": "https://www.anthropic.com/research/components-of-agent-memory"
+    },
+    {
+     "title": "Grok Bot 可读写短信、管日历（旧帖）",
+     "en": "Grok Bot upgrade",
+     "metric": "聚合页 10-28",
+     "url": "https://x.com/XFreeze/status/2113396485417267401"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热度",
+   "color": "#24292f",
+   "url": "https://github.com/trending?since=daily",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "cloudflare/security-audit-skill",
+     "en": "cloudflare/security-audit-skill",
+     "metric": "+2,524 星",
+     "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+     "title": "mattpocock/skills",
+     "en": "mattpocock/skills",
+     "metric": "+2,058 星",
+     "url": "https://github.com/mattpocock/skills"
+    },
+    {
+     "title": "NVIDIA/auto-ontology",
+     "en": "NVIDIA/auto-ontology",
+     "metric": "+2,005 星",
+     "url": "https://github.com/NVIDIA/auto-ontology"
+    },
+    {
+     "title": "google/skills",
+     "en": "google/skills",
+     "metric": "+532 星",
+     "url": "https://github.com/google/skills"
+    },
+    {
+     "title": "zed-industries/zed",
+     "en": "zed-industries/zed",
+     "metric": "+292 星",
+     "url": "https://github.com/zed-industries/zed"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文风向",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "解耦预测式决策：智能体共享条件预测器",
+     "en": "Decoupled Predictive Decision Making",
+     "metric": "113 赞",
+     "url": "https://huggingface.co/papers/2611.02075"
+    },
+    {
+     "title": "预填充到自回归的跨模型迁移",
+     "en": "Prefill-to-Autoregressive Cross-Model Transfer",
+     "metric": "12 赞",
+     "url": "https://huggingface.co/papers/2611.06976"
+    },
+    {
+     "title": "HeLM：非马尔可夫操作的层级显式语言记忆",
+     "en": "HeLM",
+     "metric": "8 赞",
+     "url": "https://huggingface.co/papers/2611.02660"
+    },
+    {
+     "title": "SAE 解读 MoE：专家有细粒度分工",
+     "en": "SAE Interprets MoE",
+     "metric": "6 赞",
+     "url": "https://huggingface.co/papers/2611.08089"
+    },
+    {
+     "title": "终端式数学建模评测基准",
+     "en": "Terminal-style Mathematical Modeling Bench",
+     "metric": "5 赞",
+     "url": "https://huggingface.co/papers/2611.08237"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#e5127d",
+   "url": "https://techcrunch.com/category/artificial-intelligence/",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "Ramp 数据：AI 支出停滞，Anthropic 临近 IPO",
+     "en": "Ramp data shows AI spending stalling",
+     "metric": "TC 头条",
+     "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/"
+    },
+    {
+     "title": "OpenAI 完成 110 亿美元融资，估值 1.25 万亿",
+     "en": "OpenAI valued at $1.25 trillion",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
+    },
+    {
+     "title": "Meta 推出 Spaces，与 Muse 代理协作",
+     "en": "Meta introduces Spaces",
+     "metric": "TC",
+     "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/"
+    },
+    {
+     "title": "数百个 Artex AI 黑客工具公网暴露",
+     "en": "Hundreds of Artex AI hacking tools found publicly exposed",
+     "metric": "TC",
+     "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/"
+    },
+    {
+     "title": "亚马逊：可文字发消息让 Alexa 帮买东西",
+     "en": "Amazon lets users text Alexa to help them shop",
+     "metric": "TC / Verge",
+     "url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/"
+    }
+   ]
+  },
+  {
+   "key": "qbit",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#2a6df4",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "DeepSeek 带火稀疏计算，国产芯片公司又融近 10 亿",
+     "en": "",
+     "metric": "编辑部",
+     "url": "https://www.qbitai.com/2026/11/508155.html"
+    },
+    {
+     "title": "腾讯 Hy4 调用激增已十倍扩容，称 Agent 能力开源第一",
+     "en": "",
+     "metric": "编辑部",
+     "url": "https://www.qbitai.com/2026/11/507967.html"
+    },
+    {
+     "title": "99.4% 登顶全球第一，中国 AI 师承世界冠军",
+     "en": "",
+     "metric": "编辑部",
+     "url": "https://www.qbitai.com/2026/11/508107.html"
+    },
+    {
+     "title": "AI 短剧开始冲双 11 业绩",
+     "en": "",
+     "metric": "编辑部",
+     "url": "https://www.qbitai.com/2026/11/508118.html"
+    },
+    {
+     "title": "2026 奇点智能技术大会日程公布",
+     "en": "",
+     "metric": "活动稿",
+     "url": "https://www.qbitai.com/2026/11/508143.html"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "中文科技媒体",
+   "color": "#d4231a",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "Anthropic 研究称 Claude 智能体可靠“做梦”变聪明",
+     "en": "",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/023/613.htm"
+    },
+    {
+     "title": "消息称 OpenAI 完成 110 亿美元首期融资，估值 1.25 万亿",
+     "en": "",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/023/612.htm"
+    },
+    {
+     "title": "消息称台积电考虑进军先进内存，为英伟达做 3D DRAM",
+     "en": "",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/023/619.htm"
+    },
+    {
+     "title": "苹果：超 10 万款应用已适配 iPhone Duo",
+     "en": "",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/023/616.htm"
+    },
+    {
+     "title": "YouTube 回应“半浅半深”界面：不是 Bug，在测试",
+     "en": "",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/023/617.htm"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "工程师社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "sshhole",
+     "en": "sshhole",
+     "metric": "167 分",
+     "url": "https://sshhole.com/"
+    },
+    {
+     "title": "软件线路专员",
+     "en": "Software Line Specialist",
+     "metric": "108 分",
+     "url": "https://lovro-bikic.github.io/software-line-specialist/"
+    },
+    {
+     "title": "让 musl 与英伟达专有驱动一起工作",
+     "en": "Making musl and proprietary NVIDIA drivers work together",
+     "metric": "45 分",
+     "url": "https://chimera-linux.org/news/2026/11/musl-nvidia.html"
+    },
+    {
+     "title": "GitHub 新的 Git 存储架构",
+     "en": "Inside GitHub's new Git storage architecture",
+     "metric": "14 分",
+     "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/"
+    },
+    {
+     "title": "Go 测试的 MustCreate 模式",
+     "en": "The MustCreate Pattern for Go Tests",
+     "metric": "14 分",
+     "url": "https://mtlynch.io/notes/go-must-create-pattern/"
+    }
+   ]
+  }
+ ],
+ "topics": [
+  {
+   "name": "钱与估值",
+   "kicker": "MONEY",
+   "items": [
+    {
+     "title": "OpenAI 据报已募 110 亿美元，估值 1.25 万亿",
+     "note": "据 Bloomberg，本轮未关闭，目标已砍。",
+     "src": "TechCrunch",
+     "metric": "11-06",
+     "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
+    },
+    {
+     "title": "Anthropic IPO 买家称估值或低至 1.1 万亿",
+     "note": "Bloomberg 报道，原预期约 2 万亿。",
+     "src": "Bloomberg",
+     "metric": "201 分",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout"
+    },
+    {
+     "title": "消息称台积电考虑做先进内存，为英伟达造 3D DRAM",
+     "note": "传闻，IT之家转述，台积电未证实。",
+     "src": "IT之家",
+     "metric": "11-06",
+     "url": "https://www.ithome.com/1/023/619.htm"
+    },
+    {
+     "title": "美国 FAA：2028 年前淘汰空管系统里的软盘",
+     "note": "路透社报道，一条与 AI 无关的硬件旧事。",
+     "src": "路透社",
+     "metric": "256 分",
+     "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/"
+    }
+   ]
+  },
+  {
+   "name": "产品与代理",
+   "kicker": "AGENTS",
+   "items": [
+    {
+     "title": "Meta 推出 Spaces，与 Muse 代理协作",
+     "note": "只读到标题，具体功能待核。",
+     "src": "TechCrunch",
+     "metric": "11-06",
+     "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/"
+    },
+    {
+     "title": "亚马逊：可以文字发消息让 Alexa 帮买东西",
+     "note": "TechCrunch 标题称这是在封锁 Muse 之后。",
+     "src": "TechCrunch",
+     "metric": "11-06",
+     "url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/"
+    },
+    {
+     "title": "腾讯称 Hy4 调用激增，已十倍扩容",
+     "note": "“Agent 能力开源第一”为腾讯自述。",
+     "src": "量子位",
+     "metric": "11-06",
+     "url": "https://www.qbitai.com/2026/11/507967.html"
+    },
+    {
+     "title": "Underdog 展示 32MB 的语音模型",
+     "note": "只读到标题，效果待核。",
+     "src": "TechCrunch",
+     "metric": "11-06",
+     "url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/"
+    }
+   ]
+  },
+  {
+   "name": "安全与开源",
+   "kicker": "OPEN",
+   "items": [
+    {
+     "title": "数百个 Artex AI 黑客工具暴露在公网",
+     "note": "只读到标题，详情见 TechCrunch。",
+     "src": "TechCrunch",
+     "metric": "11-06",
+     "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/"
+    },
+    {
+     "title": "cloudflare 开源智能体安全审计技能",
+     "note": "单日涨 2,524 星，昨日 HN 热议的延续。",
+     "src": "GitHub Trending",
+     "metric": "+2,524 星",
+     "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+     "title": "Reddit 称 Qwen 4 悄悄发布",
+     "note": "社区声称，无官方发布页，待核。",
+     "src": "Reddit",
+     "metric": "752 赞",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpbjku/qwen_4_is_stealth_announced/"
+    },
+    {
+     "title": "Firecracker 虚拟机逃逸分析第二篇",
+     "note": "pwn.ai 博客，只读到标题。",
+     "src": "Hacker News",
+     "metric": "143 分",
+     "url": "https://pwn.ai/blog/firecracker-escape"
+    }
+   ]
+  }
+ ],
+ "comments": [
+  "用量在涨、支出不涨，说明 AI 公司卖的不再是“多用”，而是“用得便宜”。估值要靠下一个像编程那样的大用途来撑。",
+  "“做梦”本质是花算力换准确度：把旧日志重读一遍，改掉写错的笔记。这笔账划不划算，要看你的智能体犯的错贵不贵。",
+  "Gemini Omni 降价的同时把片段拉长，说明视频生成的竞争点已从“能不能做”挪到“每秒多少钱”。"
+ ],
+ "xhs": {
+  "title": "AI 越用越多，却越卖越便宜",
+  "cover": "AI 越用越多\n却越卖越便宜",
+  "deck": "Ramp·做梦·Omni",
+  "intro": "Ramp 数据显示企业 AI 用量在涨，支出 8、9 月只涨 1.5%；Anthropic 让 Claude 智能体“做梦”整理记忆；Gemini Omni 1.2 Flash 视频降价 30%。",
+  "oneliner": "AI 的故事正从卖得更多，变成做得更省。",
+  "closing": "你的 AI 账单这几个月是涨了还是降了？",
+  "tags": [
+   "AI",
+   "人工智能",
+   "科技新闻",
+   "AI日报",
+   "OpenAI",
+   "Anthropic",
+   "Claude",
+   "Gemini",
+   "大模型",
+   "智能体"
+  ]
+ }
+}

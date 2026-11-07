@@ -10,7 +10,7 @@
 
 ## 最新一期
 
-- **2026-11-06｜AI 会找漏洞，但它有没有全力以赴**（GPT-6 Astra 安全任务少做四成、GPT-6 Cyber、OpenSSH 绕过漏洞）
+- **2026-11-07｜AI 越用越多，却越卖越便宜**（Ramp 支出数据、Claude 智能体“做梦”、Gemini Omni 降价 30%）· [网页](reports/2026-11-07/index.html) · 公众号 reports/2026-11-07/wechat/wechat.html · 小红书 reports/2026-11-07/xhs/xiaohongshu.md
 
 网页版（GitHub Pages）：https://emotionalronan.github.io/ai-daily-report/
 

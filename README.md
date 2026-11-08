@@ -10,7 +10,7 @@
 
 ## 最新一期
 
-- **2026-11-07｜AI 越用越多，却越卖越便宜**（Ramp 支出数据、Claude 智能体“做梦”、Gemini Omni 降价 30%）· [网页](reports/2026-11-07/index.html) · 公众号 reports/2026-11-07/wechat/wechat.html · 小红书 reports/2026-11-07/xhs/xiaohongshu.md
+- **2026-11-08｜AI 给自己提速，证据被涂黑**（METR 评估 Anthropic、Inkling 2 Small、微软 AI Frontiers 解散）· [网页](reports/2026-11-08/index.html) · 公众号 reports/2026-11-08/wechat/wechat.html · 小红书 reports/2026-11-08/xhs/xiaohongshu.md
 
 网页版（GitHub Pages）：https://emotionalronan.github.io/ai-daily-report/
 

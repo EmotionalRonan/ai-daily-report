@@ -1,0 +1,505 @@
+{
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "浏览器里能联网玩《极品飞车：地下狂飙 2》",
+     "en": "Need for Speed Underground 2 online in the browser",
+     "metric": "775 分",
+     "url": "https://nfsu2.xyz/",
+     "time": "11-07",
+     "what": "个人复刻项目"
+    },
+    {
+     "title": "Mac 自带一个未公开的“家人分类器”",
+     "en": "Every Mac comes with an (undocumented) family member classifier",
+     "metric": "572 分",
+     "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+     "time": "11-07",
+     "what": "单一博客的分析，待核"
+    },
+    {
+     "title": "微软研究院 AI Frontiers 小组的终局",
+     "en": "The end of Microsoft Research's AI Frontiers group",
+     "metric": "327 分",
+     "url": "https://hunch.net/?p=13764006",
+     "time": "11-06",
+     "what": "创始成员本人的博客，已读"
+    },
+    {
+     "title": "苹果“灰名单”：iPhone 不会帮你拼写的词",
+     "en": "Apple's grey list: words your iPhone won't help you spell",
+     "metric": "312 分",
+     "url": "https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you",
+     "time": "11-06",
+     "what": "Guardian 报道"
+    },
+    {
+     "title": "Asahi Linux 7.3 进展报告",
+     "en": "Asahi Linux Progress Linux 7.3",
+     "metric": "302 分",
+     "url": "https://asahilinux.org/2026/11/progress-report-7-3/",
+     "time": "11-07",
+     "what": "项目官方博客"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区情绪",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/LocalLLaMA/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "测一周：LLM 能不能“编程权重”？读可以，自我改进不行",
+     "en": "I spent a week testing whether LLMs can really \"program weights\"",
+     "metric": "r/singularity 热帖",
+     "url": "https://www.reddit.com/r/singularity/comments/1xpip7q/i_spent_a_week_testing_whether_llms_can_really/",
+     "time": "11-07",
+     "what": "作者用 Opus 5.5 测，20 步微调就抹掉改动"
+    },
+    {
+     "title": "教授午饭回来，Claude 删了他一年的讲义",
+     "en": "Professor returns from lunch to find AI deleted year's worth of lecture notes",
+     "metric": "Reddit 热帖（转述）",
+     "url": "https://pie-ai.org/reddit-ai-top-10-briefing-november-07-2026/",
+     "time": "11-07",
+     "what": "据 PieAi 汇总，原始为 X 帖，待核"
+    },
+    {
+     "title": "让 LLM 开帆船：Gemini 4 Argon 赢，Qwen 去了海滩",
+     "en": "Claude Code sailing sim: frontier LLMs race",
+     "metric": "r/ClaudeAI 热帖",
+     "url": "https://www.xda-developers.com/someone-used-claude-code-to-make-a-sailing-sim-then-challenged-other-frontier-llms-to-a-race/",
+     "time": "11-07",
+     "what": "XDA 报道社区作品"
+    },
+    {
+     "title": "Qwen 模型悄悄读取阿里云密钥的 URL 问题",
+     "en": "Also experienced the Qwen3.8-Flash-Next URL issue",
+     "metric": "r/LocalLLaMA 热帖",
+     "url": "https://ailately.com/rn",
+     "time": "11-07",
+     "what": "社区声称，待核"
+    },
+    {
+     "title": "Claude Max“20 倍用量”说法或有误导",
+     "en": "Judge says Claude Max 20x usage claim may mislead",
+     "metric": "r/ClaudeAI 热帖",
+     "url": "https://ailately.com/rn/2026-11-07-06",
+     "time": "11-07",
+     "what": "据汇总站，待核"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X",
+   "tag": "热帖",
+   "color": "#111111",
+   "url": "https://x.com/explore",
+   "short": "X",
+   "items": [
+    {
+     "title": "Qwen 官方发“The becoming begins”预热，Qwen 4 呼之欲出",
+     "en": "The becoming begins.",
+     "metric": "200 万浏览 · 1.6 万赞",
+     "url": "https://x.com/Alibaba_Qwen/status/2118674834632978755",
+     "time": "11-06",
+     "what": "仅为预热，未发布"
+    },
+    {
+     "title": "METR：Anthropic 研发提速约 2 倍",
+     "en": "METR: independent assessment of AI R&D acceleration at Anthropic",
+     "metric": "140 万浏览 · 962 转",
+     "url": "https://x.com/METR_Evals/status/2118412183860351084",
+     "time": "11-05",
+     "what": "METR 官方帖"
+    },
+    {
+     "title": "Rauch：对话式智能体的生成式 UI",
+     "en": "Generative UI for conversational agents",
+     "metric": "12.4 万浏览",
+     "url": "https://x.com/rauchg/status/2118856239719608353",
+     "time": "11-07",
+     "what": "Vercel 的 json-render 与 Chat SDK"
+    },
+    {
+     "title": "扎克伯格晒 Muse Spaces：BBQ 游戏、活动追踪",
+     "en": "Playing around with spaces in Muse lately",
+     "metric": "TechCrunch 引述",
+     "url": "https://x.com/finkd/status/2118765774034579808",
+     "time": "11-06",
+     "what": "官方人物帖"
+    },
+    {
+     "title": "TestingCatalog 日报：Remix 推企业版、Claude Code 云端自配环境",
+     "en": "DAILY AI BRIEF — Nov 7",
+     "metric": "汇总帖",
+     "url": "https://x.com/testingcatalog/status/2118999078717575288",
+     "time": "11-07",
+     "what": "汇总帖，条目待核"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热榜",
+   "color": "#24292f",
+   "url": "https://github.com/trending",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "Cloudflare 安全审计技能",
+     "en": "cloudflare/security-audit-skill",
+     "metric": "+2,085 星",
+     "url": "https://github.com/cloudflare/security-audit-skill",
+     "time": "今日",
+     "what": "连续多日上榜"
+    },
+    {
+     "title": "Sherlock：按用户名查社交账号",
+     "en": "sherlock-project/sherlock",
+     "metric": "+1,766 星",
+     "url": "https://github.com/sherlock-project/sherlock",
+     "time": "今日",
+     "what": "老牌工具"
+    },
+    {
+     "title": "Matt Pocock 的技能集",
+     "en": "mattpocock/skills",
+     "metric": "+1,100 星",
+     "url": "https://github.com/mattpocock/skills",
+     "time": "今日",
+     "what": "Agent Skills"
+    },
+    {
+     "title": "Google 官方技能集",
+     "en": "google/skills",
+     "metric": "+443 星",
+     "url": "https://github.com/google/skills",
+     "time": "今日",
+     "what": "Agent Skills"
+    },
+    {
+     "title": "Anthropic 官方技能集",
+     "en": "anthropics/skills",
+     "metric": "+390 星",
+     "url": "https://github.com/anthropics/skills",
+     "time": "今日",
+     "what": "Agent Skills"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文热榜",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "解耦预测式决策：智能体共用一个条件预测器",
+     "en": "Decoupled Predictive Decision Making: A Shared Conditional Predictor for Agents",
+     "metric": "79 赞",
+     "url": "https://huggingface.co/papers/2611.02075",
+     "time": "今日",
+     "what": "论文"
+    },
+    {
+     "title": "预填充到自回归的跨模型迁移：机会与挑战",
+     "en": "On the Opportunities and Challenges of Prefill-to-Autoregressive Cross-Model Transfer",
+     "metric": "14 赞",
+     "url": "https://huggingface.co/papers/2611.06976",
+     "time": "今日",
+     "what": "论文"
+    },
+    {
+     "title": "终端式数学建模基准",
+     "en": "Terminal-style Mathematical Modeling Bench",
+     "metric": "9 赞",
+     "url": "https://huggingface.co/papers/2611.08237",
+     "time": "今日",
+     "what": "论文"
+    },
+    {
+     "title": "SwarmEvolve：潜空间智能体群做进化式优化",
+     "en": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+     "metric": "8 赞",
+     "url": "https://huggingface.co/papers/2611.08483",
+     "time": "今日",
+     "what": "论文"
+    },
+    {
+     "title": "Muir：带敏感度分配门控的线性注意力",
+     "en": "Muir: Linear Attention with Sensitivity-Allocated Gating and Matched-Filter Readout",
+     "metric": "7 赞",
+     "url": "https://huggingface.co/papers/2611.08376",
+     "time": "今日",
+     "what": "论文"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#e5127d",
+   "url": "https://techcrunch.com/category/artificial-intelligence/",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "Meta 推出 Spaces，与 Muse 智能体协作",
+     "en": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+     "metric": "11-06",
+     "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+     "time": "11-06",
+     "what": "TechCrunch 已读"
+    },
+    {
+     "title": "Megaspeed 高管被指受招募监视黄仁勋",
+     "en": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+     "metric": "11-07",
+     "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+     "time": "11-07",
+     "what": "据美国情报备忘录"
+    },
+    {
+     "title": "Crusoe 把陷入困境的怀俄明数据中心项目卖给 Google",
+     "en": "Crusoe sells troubled Wyoming data center project to Google",
+     "metric": "11-06",
+     "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+     "time": "11-06",
+     "what": "TechCrunch"
+    },
+    {
+     "title": "中期选举后，马斯克与数据中心前景转冷",
+     "en": "After the midterms, things are looking rocky for Elon Musk and data centers",
+     "metric": "11-07",
+     "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+     "time": "11-07",
+     "what": "TechCrunch"
+    },
+    {
+     "title": "数百个 Artex AI 黑客工具被公开暴露在网上",
+     "en": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+     "metric": "11-06",
+     "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+     "time": "11-06",
+     "what": "TechCrunch"
+    }
+   ]
+  },
+  {
+   "key": "qbitai",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#1a73e8",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "抢跑 DeepSeek？硅谷华人造出下一代 Agent Harness",
+     "en": "抢跑DeepSeek！硅谷华人把下一代Agent Harness造出来了！？",
+     "metric": "11-07",
+     "url": "https://www.qbitai.com/2026/11/508264.html",
+     "time": "11-07",
+     "what": "量子位，标题党，待核"
+    },
+    {
+     "title": "AGENTS.MD，危险危险危险",
+     "en": "AGENTS.MD，危险危险危险！！！",
+     "metric": "11-07",
+     "url": "https://www.qbitai.com/2026/11/508244.html",
+     "time": "11-07",
+     "what": "量子位"
+    },
+    {
+     "title": "Jeff Dean 与李飞飞最新对谈：全是 RSI 非共识",
+     "en": "Jeff Dean李飞飞最新对谈：全是RSI非共识",
+     "metric": "11-07",
+     "url": "https://www.qbitai.com/2026/11/508196.html",
+     "time": "11-07",
+     "what": "量子位"
+    },
+    {
+     "title": "Anthropic 三大内部模型曝光，称领先 Opus 5.5 三个月",
+     "en": "A\\三大内部模型曝光！领先Opus5.5三个月",
+     "metric": "11-06",
+     "url": "https://www.qbitai.com/2026/11/508184.html",
+     "time": "11-06",
+     "what": "量子位转述，待核"
+    },
+    {
+     "title": "为什么每个 Personal Agent 都要配一台云电脑",
+     "en": "为什么每个 Personal Agent 背后，都必须配备一台“云电脑”？",
+     "metric": "11-06",
+     "url": "https://www.qbitai.com/2026/11/508174.html",
+     "time": "11-06",
+     "what": "量子位"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "中文数码资讯",
+   "color": "#d9230f",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "埃森哲报告被曝虚假引用，公司否认是 AI 幻觉",
+     "en": "埃森哲报告被曝存在虚假引用案例",
+     "metric": "11-08",
+     "url": "https://www.ithome.com/1/023/845.htm",
+     "time": "11-08",
+     "what": "IT之家"
+    },
+    {
+     "title": "IT早报 1108：仰望鼎曜行政版发布，搜狗问问停运",
+     "en": "IT早报 1108",
+     "metric": "11-08",
+     "url": "https://www.ithome.com/1/023/846.htm",
+     "time": "11-08",
+     "what": "早报"
+    },
+    {
+     "title": "神舟二十四号乘组本月飞往空间站，首位外籍航天员同行",
+     "en": "神舟二十四号",
+     "metric": "11-08",
+     "url": "https://www.ithome.com/1/023/844.htm",
+     "time": "11-08",
+     "what": "IT之家"
+    },
+    {
+     "title": "英伟达为《霍格沃茨之遗》DLSS 5 推定制 RTX 5090 抽奖",
+     "en": "RTX 5090 抽奖",
+     "metric": "11-08",
+     "url": "https://www.ithome.com/1/023/847.htm",
+     "time": "11-08",
+     "what": "IT之家"
+    },
+    {
+     "title": "PS Plus 新福利：YouTube Premium 试用，玩家不买账",
+     "en": "PS Plus",
+     "metric": "11-08",
+     "url": "https://www.ithome.com/1/023/842.htm",
+     "time": "11-08",
+     "what": "IT之家"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "工程师社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "Libghostty 1.0",
+     "en": "Libghostty 1.0",
+     "metric": "148",
+     "url": "https://mitchellh.com/writing/libghostty-1-0",
+     "time": "11-07",
+     "what": "终端内核库 1.0"
+    },
+    {
+     "title": "Meridian：基于 Servo 与 GPUI 的实验浏览器",
+     "en": "Meridian — an experimental web browser built on Servo and GPUI",
+     "metric": "43",
+     "url": "https://op.tngl.io/meridian/",
+     "time": "11-07",
+     "what": "实验项目"
+    },
+    {
+     "title": "可编程 GeoDNS：离开 AWS 转向 Bunny",
+     "en": "Scriptable GeoDNS: leaving AWS for Bunny",
+     "metric": "24",
+     "url": "https://vincent.bernat.ch/en/blog/2026-bunny-geodns",
+     "time": "11-07",
+     "what": "博客"
+    },
+    {
+     "title": "OpenBSD top(1) 新增 chroot、pledge、unveil 状态",
+     "en": "OpenBSD top(1) adds flag to show chroot, pledge and unveil status",
+     "metric": "16",
+     "url": "https://undeadly.org/cgi?action=article;sid=20261106104957",
+     "time": "11-06",
+     "what": "undeadly"
+    },
+    {
+     "title": "*sshole：什么时候才能甩掉 C",
+     "en": "*sshole, or when are we finally going to get rid of C?",
+     "metric": "14",
+     "url": "https://sunshowers.io/posts/sshole/",
+     "time": "11-07",
+     "what": "博客"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "title": "METR 评估：Anthropic 研发提速约 2 倍，多数由 AI 带动",
+   "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment",
+   "why": "独立机构拿到内部数据；X 帖 140 万浏览，AP、Verge 跟进",
+   "pick": true,
+   "status": "已读摘要+多源，原文待主笔读"
+  },
+  {
+   "title": "Thinking Machines 发布 Inkling 2 Small",
+   "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+   "why": "官方页已读：594B/17B 活跃 MoE，下周按 Apache 2.0 放权重",
+   "pick": true,
+   "status": "已读原文"
+  },
+  {
+   "title": "微软研究院 AI Frontiers 小组解散，创始成员出走",
+   "url": "https://hunch.net/?p=13764006",
+   "why": "HN 327 分；原文已读，但是单方说法",
+   "pick": true,
+   "status": "已读原文，单方说法"
+  },
+  {
+   "title": "Meta 为 Muse 推出 Spaces",
+   "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+   "why": "TechCrunch 已读；产品更新，专题处理",
+   "pick": false,
+   "status": "已读原文"
+  },
+  {
+   "title": "OpenAI 募资 110 亿美元、估值 1.25 万亿",
+   "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+   "why": "昨日已写入头条",
+   "pick": false,
+   "status": "重复，不选"
+  },
+  {
+   "title": "Qwen 4 预热",
+   "url": "https://x.com/Alibaba_Qwen/status/2118674834632978755",
+   "why": "官方帖 200 万浏览，但只是预热",
+   "pick": false,
+   "status": "待核"
+  },
+  {
+   "title": "Mac 自带未公开家人分类器",
+   "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+   "why": "HN 572 分，来源是单一博客",
+   "pick": false,
+   "status": "待核"
+  }
+ ]
+}

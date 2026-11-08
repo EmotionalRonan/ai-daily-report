@@ -179,19 +179,144 @@ def xhs_md(d):
     return '\n'.join(L) + '\n'
 
 # ---------------------------------------------------------------- archive
+GENERIC_TAGS = {'AI', '人工智能', '科技新闻', 'AI日报', '科技'}
+
+def _issue_cover(d):
+    """First headline photo from the source page; fall back to the issue header."""
+    for h in d.get('headlines', []):
+        im = h.get('image')
+        if im and im.get('file') and os.path.exists(os.path.join(ROOT, 'reports', d['date'], im['file'])):
+            return f'reports/{d["date"]}/{im["file"]}', True
+    return f'reports/{d["date"]}/wechat/header.png', False
+
+def _tags(d):
+    return [t for t in d.get('xhs', {}).get('tags', []) if t not in GENERIC_TAGS]
+
+def _short_date(d):
+    y, m, dd = d['date'].split('-')
+    return f'{int(m)}月{int(dd)}日'
+
+INDEX_CSS = '''
+body{background:var(--paper)}
+.top{position:sticky;top:0;z-index:9;background:color-mix(in srgb,var(--paper) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--rule)}
+.top .in{max-width:1180px;margin:0 auto;padding:0 22px;height:58px;display:flex;align-items:center;gap:28px}
+.logo{font:900 21px/1 "Noto Serif SC","Songti SC",serif;letter-spacing:.12em;display:flex;align-items:center;gap:8px}
+.logo i{width:10px;height:10px;background:var(--red);display:inline-block}
+.nav{display:flex;gap:22px;font-size:14px;color:var(--sub)}
+.nav a.on{color:var(--ink);font-weight:700;box-shadow:inset 0 -2px var(--red)}
+.top .meta{margin-left:auto;font-size:12px;color:var(--mute)}
+.page{max-width:1180px;margin:0 auto;padding:0 22px}
+.strip{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(300px,1fr);gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;padding:26px 0 8px;scrollbar-width:none}
+.strip::-webkit-scrollbar{display:none}
+.slide{scroll-snap-align:start;position:relative;border-radius:10px;overflow:hidden;aspect-ratio:16/10;background:var(--card);border:1px solid var(--rule)}
+.slide img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s}
+.slide:hover img{transform:scale(1.03)}
+.slide .cap{position:absolute;inset:auto 0 0 0;padding:46px 18px 16px;background:linear-gradient(transparent,rgba(0,0,0,.78));color:#fff}
+.slide .cap small{font-size:12px;opacity:.85;letter-spacing:.06em}
+.slide .cap b{display:block;font:700 19px/1.45 "Noto Serif SC","Songti SC",serif;margin-top:4px}
+.slide.text{background:var(--card)}
+.slide.text img{object-fit:contain;background:var(--paper)}
+.slide.text .cap{background:linear-gradient(transparent,rgba(20,20,20,.72))}
+.grid{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:44px;padding:26px 0 0}
+.sec{display:flex;align-items:baseline;gap:12px;margin:8px 0 6px;font:700 18px/1 "Noto Serif SC",serif}
+.sec small{font:400 12px/1 sans-serif;color:var(--mute);letter-spacing:.08em}
+.sec:after{content:"";flex:1;height:1px;background:var(--rule)}
+.filter{font-size:13px;color:var(--mute);margin:10px 0 0;display:none}
+.filter.on{display:block}.filter a{color:var(--red);margin-left:8px}
+.card{display:grid;grid-template-columns:260px minmax(0,1fr);gap:22px;padding:24px 0;border-bottom:1px solid var(--rule)}
+.card .ph{display:block;border-radius:8px;overflow:hidden;aspect-ratio:16/10;background:var(--card);border:1px solid var(--rule)}
+.card .ph img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s}
+.card .ph.text img{object-fit:cover;object-position:left center}
+.card:hover .ph img{transform:scale(1.03)}
+.chips{display:flex;flex-wrap:wrap;gap:6px 10px;font-size:12px;color:var(--red)}
+.chips a:hover{text-decoration:underline}
+.chips a+a:before{content:"·";color:var(--mute);margin-right:10px}
+.card h2{font:700 22px/1.45 "Noto Serif SC","Songti SC",serif;margin:8px 0 8px}
+.card p{margin:0;color:var(--sub);font-size:15px;line-height:1.75;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.card .by{margin-top:12px;font-size:12px;color:var(--mute);display:flex;gap:12px}
+.card .by b{color:var(--ink);font-weight:600}
+aside .box{margin:8px 0 34px}
+.hot{list-style:none;margin:14px 0 0;padding:0}
+.hot li{display:grid;grid-template-columns:minmax(0,1fr) 74px;gap:12px;padding:12px 0;border-bottom:1px dotted var(--rule)}
+.hot li b{display:block;font-size:14px;line-height:1.55;font-weight:600}
+.hot li span{font-size:11px;color:var(--mute)}
+.hot li img{width:74px;height:50px;object-fit:cover;border-radius:4px;border:1px solid var(--rule)}
+.hot li .no{grid-column:1/-1}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.tags a{font-size:13px;padding:5px 11px;border:1px solid var(--rule);border-radius:999px;background:var(--card)}
+.tags a em{font-style:normal;color:var(--mute);font-size:11px;margin-left:5px}
+.tags a:hover{border-color:var(--red)}
+.about{background:var(--card);border:1px solid var(--rule);border-radius:8px;padding:18px 20px;font-size:14px;color:var(--sub);line-height:1.8}
+.about b{color:var(--ink)}
+.about .lk{display:flex;flex-wrap:wrap;gap:6px 16px;margin-top:10px;font-size:13px;color:var(--red)}
+.foot{max-width:1180px;margin:56px auto 0;padding:20px 22px 46px;border-top:3px double var(--ink);font-size:12px;color:var(--mute);display:flex;flex-wrap:wrap;gap:6px 18px;justify-content:space-between}
+@media(max-width:960px){.grid{grid-template-columns:1fr}aside{border-top:3px double var(--ink);padding-top:20px}}
+@media(max-width:640px){.top .meta{display:none}.nav{gap:16px}.strip{grid-auto-columns:84%}.card{grid-template-columns:1fr;gap:14px}.card h2{font-size:20px}}
+'''
+
 def index_html():
-    rows = ''
-    for f in sorted(glob.glob(os.path.join(ROOT, 'data', '*.json')), reverse=True):
-        d = json.load(open(f))
-        rows += f'<a class="it" href="reports/{d["date"]}/index.html"><span>{d["date"]}</span><b>{e(d["title"])}</b><em>{e(d["subtitle"])}</em></a>'
-    return f'''<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 日报 · 往期</title>
+    issues = [json.load(open(f)) for f in sorted(glob.glob(os.path.join(ROOT, 'data', '*.json')), reverse=True)]
+    if not issues: return ''
+    # featured strip: latest 6 issues
+    strip = ''
+    for d in issues[:6]:
+        src, photo = _issue_cover(d)
+        strip += (f'<a class="slide{"" if photo else " text"}" href="reports/{d["date"]}/index.html">'
+                  f'<img src="{src}" alt="{e(d["title"])}" loading="lazy">'
+                  f'<span class="cap"><small>第 {d["issue"]} 期 · {_short_date(d)} {e(d["weekday"])}</small><b>{e(d["title"])}</b></span></a>')
+    # main list
+    cards = ''
+    for d in issues:
+        src, photo = _issue_cover(d)
+        tg = _tags(d)[:3]
+        chips = ''.join(f'<a href="#tag={html.escape(t)}" data-t="{html.escape(t)}">{e(t)}</a>' for t in tg)
+        alltags = '|'.join(html.escape(t) for t in _tags(d))
+        n = len(d.get('headlines', []))
+        cards += (f'<article class="card" data-tags="|{alltags}|">'
+                  f'<a class="ph{"" if photo else " text"}" href="reports/{d["date"]}/index.html"><img src="{src}" alt="{e(d["title"])}" loading="lazy"></a>'
+                  f'<div><div class="chips">{chips}</div>'
+                  f'<h2><a href="reports/{d["date"]}/index.html">{e(d["title"])}</a></h2>'
+                  f'<p>{e(d["subtitle"])}</p>'
+                  f'<div class="by"><b>第 {d["issue"]} 期</b><span>{d["date"]} · {e(d["weekday"])}</span><span>{n} 条头条</span></div></div></article>')
+    # sidebar: headlines from the latest 7 issues
+    hot = ''
+    for d in issues[:7]:
+        h = (d.get('headlines') or [{}])[0]
+        im = h.get('image')
+        img = ''
+        if im and os.path.exists(os.path.join(ROOT, 'reports', d['date'], im['file'])):
+            img = f'<img src="reports/{d["date"]}/{im["file"]}" alt="" loading="lazy">'
+        hot += (f'<li><a href="reports/{d["date"]}/index.html"><b>{e(h.get("title", d["title"]))}</b>'
+                f'<span>{_short_date(d)} · {e(h.get("source", ""))}</span></a>{img}</li>')
+    # tag cloud
+    cnt = {}
+    for d in issues:
+        for t in set(_tags(d)): cnt[t] = cnt.get(t, 0) + 1
+    top = sorted(cnt.items(), key=lambda x: (-x[1], x[0]))[:16]
+    tags = ''.join(f'<a href="#tag={html.escape(t)}" data-t="{html.escape(t)}">{e(t)}<em>{c}</em></a>' for t, c in top)
+    latest = issues[0]
+    js = '''<script>
+function apply(){var m=decodeURIComponent(location.hash).match(/^#tag=(.+)$/),t=m?m[1]:'',n=0;
+document.querySelectorAll('.card').forEach(function(c){var ok=!t||c.dataset.tags.indexOf('|'+t+'|')>=0;c.style.display=ok?'':'none';if(ok)n++});
+var f=document.getElementById('flt');f.className='filter'+(t?' on':'');if(t)f.innerHTML='标签「'+t.replace(/[<>&]/g,'')+'」共 '+n+' 期<a href="#">清除</a>';
+if(t)document.getElementById('list').scrollIntoView({behavior:'smooth'})}
+window.addEventListener('hashchange',apply);apply();</script>'''
+    return f'''<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI 日报 · 每天早上 8 点的科技与 AI 要闻</title>
+<meta name="description" content="每天整理过去 24 小时的科技与 AI 要闻：三条头条、三个专题、各平台热榜。">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@700;900&display=swap" rel="stylesheet">
-<style>{CSS}
-.it{{display:grid;grid-template-columns:110px 1fr;gap:2px 16px;padding:18px 0;border-bottom:1px solid var(--rule)}}
-.it span{{color:var(--mute);font:14px Georgia,serif;padding-top:3px}}.it b{{font:700 19px/1.5 "Noto Serif SC",serif}}.it em{{grid-column:2;color:var(--sub);font-style:normal;font-size:14px}}
-@media(max-width:600px){{.it{{grid-template-columns:1fr}}.it em{{grid-column:1}}}}</style></head>
-<body><div class="wrap"><header class="mast"><div class="name">AI 日报</div><div class="line"><span>往期合集</span><span>每天早上 8 点出刊</span></div></header>
-<div style="margin-top:20px">{rows}</div></div></body></html>'''
+<style>{CSS}{INDEX_CSS}</style></head><body>
+<header class="top"><div class="in"><a class="logo" href="index.html"><i></i>AI 日报</a>
+<nav class="nav"><a class="on" href="index.html">首页</a><a href="reports/{latest["date"]}/index.html">最新一期</a><a href="#tags">标签</a><a href="https://github.com/EmotionalRonan/ai-daily-report" target="_blank" rel="noopener">GitHub</a></nav>
+<span class="meta">已出 {len(issues)} 期 · 每天早上 8 点</span></div></header>
+<main class="page"><section class="strip">{strip}</section>
+<div class="grid"><div id="list"><div class="sec">全部期刊<small>{issues[-1]["date"]} 至 {latest["date"]}</small></div><div class="filter" id="flt"></div>{cards}</div>
+<aside><div class="box"><div class="sec">近 7 期头条</div><ol class="hot">{hot}</ol></div>
+<div class="box" id="tags"><div class="sec">热门标签</div><div class="tags">{tags}</div></div>
+<div class="box about"><b>关于 AI 日报</b><br>每天早上 8 点，从 Hacker News、Reddit、GitHub、Hugging Face、The Verge、量子位、IT之家等平台挑出过去 24 小时最值得读的科技与 AI 新闻。厂商自报的数字和传闻都会标明。
+<div class="lk"><a href="reports/{latest["date"]}/index.html">读最新一期</a><a href="reports/{latest["date"]}/wechat/wechat.html">公众号版</a><a href="https://github.com/EmotionalRonan/ai-daily-report" target="_blank" rel="noopener">源码</a></div></div></aside></div></main>
+<footer class="foot"><span>© 2026 AI 日报 · EmotionalRonan</span><span>标注“据报道”“社区声称”的内容尚未得到官方证实</span></footer>
+{js}</body></html>'''
 
 if __name__ == '__main__':
     ap = argparse.ArgumentParser(); ap.add_argument('data'); a = ap.parse_args()

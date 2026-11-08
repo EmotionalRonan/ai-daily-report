@@ -217,7 +217,9 @@ body{background:var(--paper)}
 .slide.text{background:var(--card)}
 .slide.text img{object-fit:contain;background:var(--paper)}
 .slide.text .cap{background:linear-gradient(transparent,rgba(20,20,20,.72))}
-.grid{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:44px;padding:26px 0 0}
+.grid{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:44px;padding:26px 0 0;align-items:start}
+aside{position:sticky;top:74px}
+#list,#tags{scroll-margin-top:74px}
 .sec{display:flex;align-items:baseline;gap:12px;margin:8px 0 6px;font:700 18px/1 "Noto Serif SC",serif}
 .sec small{font:400 12px/1 sans-serif;color:var(--mute);letter-spacing:.08em}
 .sec:after{content:"";flex:1;height:1px;background:var(--rule)}
@@ -225,7 +227,7 @@ body{background:var(--paper)}
 .filter.on{display:block}.filter a{color:var(--red);margin-left:8px}
 .card{display:grid;grid-template-columns:260px minmax(0,1fr);gap:22px;padding:24px 0;border-bottom:1px solid var(--rule)}
 .card .ph{display:block;border-radius:8px;overflow:hidden;aspect-ratio:16/10;background:var(--card);border:1px solid var(--rule)}
-.card .ph img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s}
+.card .ph img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block;transition:transform .4s}
 .card .ph.text img{object-fit:cover;object-position:left center}
 .card:hover .ph img{transform:scale(1.03)}
 .chips{display:flex;flex-wrap:wrap;gap:6px 10px;font-size:12px;color:var(--red)}
@@ -240,7 +242,8 @@ aside .box{margin:8px 0 34px}
 .hot li{display:grid;grid-template-columns:minmax(0,1fr) 74px;gap:12px;padding:12px 0;border-bottom:1px dotted var(--rule)}
 .hot li b{display:block;font-size:14px;line-height:1.55;font-weight:600}
 .hot li span{font-size:11px;color:var(--mute)}
-.hot li img{width:74px;height:50px;object-fit:cover;border-radius:4px;border:1px solid var(--rule)}
+.hot li img,.hot li .ph0{width:74px;height:50px;object-fit:cover;object-position:center top;border-radius:4px;border:1px solid var(--rule)}
+.hot li .ph0{display:flex;align-items:center;justify-content:center;background:var(--card);color:var(--red);font:900 15px/1 "Noto Serif SC",serif}
 .hot li .no{grid-column:1/-1}
 .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
 .tags a{font-size:13px;padding:5px 11px;border:1px solid var(--rule);border-radius:999px;background:var(--card)}
@@ -250,7 +253,7 @@ aside .box{margin:8px 0 34px}
 .about b{color:var(--ink)}
 .about .lk{display:flex;flex-wrap:wrap;gap:6px 16px;margin-top:10px;font-size:13px;color:var(--red)}
 .foot{max-width:1180px;margin:56px auto 0;padding:20px 22px 46px;border-top:3px double var(--ink);font-size:12px;color:var(--mute);display:flex;flex-wrap:wrap;gap:6px 18px;justify-content:space-between}
-@media(max-width:960px){.grid{grid-template-columns:1fr}aside{border-top:3px double var(--ink);padding-top:20px}}
+@media(max-width:960px){.grid{grid-template-columns:1fr}aside{position:static;border-top:3px double var(--ink);padding-top:20px}}
 @media(max-width:640px){.top .meta{display:none}.nav{gap:16px}.strip{grid-auto-columns:84%}.card{grid-template-columns:1fr;gap:14px}.card h2{font-size:20px}}
 '''
 
@@ -283,7 +286,7 @@ def index_html():
     for d in issues[:7]:
         h = (d.get('headlines') or [{}])[0]
         im = h.get('image')
-        img = ''
+        img = f'<span class="ph0">{int(d["date"][5:7])}.{int(d["date"][8:])}</span>'
         if im and os.path.exists(os.path.join(ROOT, 'reports', d['date'], im['file'])):
             img = f'<img src="reports/{d["date"]}/{im["file"]}" alt="" loading="lazy">'
         hot += (f'<li><a href="reports/{d["date"]}/index.html"><b>{e(h.get("title", d["title"]))}</b>'

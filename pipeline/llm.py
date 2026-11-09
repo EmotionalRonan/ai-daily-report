@@ -8,7 +8,7 @@ from net import post_json, get_json
 PROVIDER = os.environ.get('LLM_PROVIDER', 'gemini')
 KEY = os.environ.get('GEMINI_API_KEY') or os.environ.get('LLM_API_KEY', '')
 G = os.environ.get('GEMINI_BASE', 'https://generativelanguage.googleapis.com/v1beta')
-_model = os.environ.get('LLM_MODEL')
+_model = os.environ.get('LLM_MODEL') or None
 USAGE = {'calls': 0, 'in': 0, 'out': 0}
 
 def _gh():
@@ -40,7 +40,7 @@ def _parse_json(t):
     return json.loads(t[a:b + 1])
 
 def chain():
-    fb = os.environ.get('LLM_FALLBACK_MODELS', 'gemini-3.6-flash,gemini-2.5-flash' if PROVIDER == 'gemini' else '')
+    fb = os.environ.get('LLM_FALLBACK_MODELS') or ('gemini-3.6-flash,gemini-2.5-flash' if PROVIDER == 'gemini' else '')
     return [model()] + [m.strip() for m in fb.split(',') if m.strip() and m.strip() != model()]
 
 def ask(system, user, *, json_out=True, images=(), search=False, temperature=0.4, tries=6):

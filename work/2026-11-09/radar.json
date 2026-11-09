@@ -1,0 +1,505 @@
+{
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "Goodbye Claude, hello Pi 作者换用 Pi 编程智能体",
+     "en": "Goodbye Claude, hello Pi",
+     "metric": "675 分",
+     "url": "https://caleb.software/posts/claude-to-pi.html",
+     "time": "11-08",
+     "what": "个人博客"
+    },
+    {
+     "title": "Claude Code“不再询问”把密码写进 1,122 个公开 GitHub 文件",
+     "en": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+     "metric": "577 分",
+     "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+     "time": "11-07",
+     "what": "Apiiro 研究，已由 The Hacker News 核对"
+    },
+    {
+     "title": "高盛对银行家和交易员停用 Claude Code",
+     "en": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+     "metric": "539 分",
+     "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+     "time": "11-02",
+     "what": "引 Bloomberg，报道发于 11-02"
+    },
+    {
+     "title": "llama-modchip：2840 亿参数 DeepSeek 在 64GB 内存、无 GPU 上运行",
+     "en": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+     "metric": "343 分",
+     "url": "https://github.com/synchopate/llama-modchip",
+     "time": "11-08",
+     "what": "作者自测数据"
+    },
+    {
+     "title": "英伟达董事会调查黄仁勋",
+     "en": "Nvidia Board of Directors Is Investigating Jensen Huang",
+     "metric": "332 分",
+     "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+     "time": "11-08",
+     "what": "官方声明"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区情绪",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/LocalLLaMA/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "Qwen3.8-Flash-Next 在重构 neovim 配置时试图找 API 密钥",
+     "en": "Qwen3.8-Flash-Next hunting for API keys during a neovim refactor",
+     "metric": "87 赞 · 64 评论",
+     "url": "https://mindpattern.ai/f/33336",
+     "time": "11-07",
+     "what": "r/LocalLLaMA，经 MindPattern 转述，待核"
+    },
+    {
+     "title": "Observer：手机变成本地 AI 看门人",
+     "en": "Observer turns your phone into a local AI watchdog",
+     "metric": "450+ 赞",
+     "url": "https://aifrontierpost.com/articles/observer-local-ai-phone-watchdog-demo/",
+     "time": "11-07",
+     "what": "r/LocalLLaMA 演示视频，转述"
+    },
+    {
+     "title": "Apple 研究者用 Mac mini 跑 Qwen 控制 Unitree G1 机器人",
+     "en": "Apple researchers use a Mac mini running Qwen locally to control a Unitree G1",
+     "metric": "r/singularity 热帖",
+     "url": "https://ailately.com/rn",
+     "time": "11-08",
+     "what": "转述，待核"
+    },
+    {
+     "title": "Claude Code 反馈数据保留五年的讨论",
+     "en": "Claude trains on your code and saves your conversation for 5 years",
+     "metric": "35 评论",
+     "url": "https://ailately.com/rn",
+     "time": "11-08",
+     "what": "r/ClaudeAI，转述，待核"
+    },
+    {
+     "title": "教授午饭回来，Claude 删了他一年的讲义",
+     "en": "Professor returns from lunch to find AI deleted year's worth of lecture notes",
+     "metric": "Reddit 热帖（转述）",
+     "url": "https://pie-ai.org/reddit-ai-top-10-briefing-november-08-2026/",
+     "time": "11-08",
+     "what": "原始为 X 帖，Dropbox 已恢复"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X",
+   "tag": "热帖",
+   "color": "#111111",
+   "url": "https://x.com/explore",
+   "short": "X",
+   "items": [
+    {
+     "title": "马斯克：Grok Bot 的修复正在进行，提升 token 效率",
+     "en": "Fix for Grok Bot is in progress",
+     "metric": "2.3 万赞",
+     "url": "https://www.bytenote.net/article/x-24h-round54-grokbot-cursor-evolver",
+     "time": "11-08",
+     "what": "经 ByteNote 转述，待核原帖"
+    },
+    {
+     "title": "马斯克称软银拖欠燃气轮机订单（无证据）",
+     "en": "SoftBank is defaulting on their turbine orders",
+     "metric": "200 万+ 浏览",
+     "url": "https://www.trendingonweibo.com/hotwords/musk-softbank-gas-turbine-default-claim/",
+     "time": "11-07",
+     "what": "转述，待核"
+    },
+    {
+     "title": "OpenCode Browse：智能体接管真实浏览器，关键步骤交还给人",
+     "en": "OpenCode Browse",
+     "metric": "4,812 赞 · 约 24 万浏览",
+     "url": "https://aitimeline.news/en/English-Topics/2026-11-08X%E8%8B%B1%E6%96%87%E7%83%AD%E7%82%B9%E9%80%89%E9%A2%98%E7%AE%80%E6%8A%A5/",
+     "time": "11-07",
+     "what": "经 AI Timeline 转述"
+    },
+    {
+     "title": "Ram-Altman：每天给奥特曼发邮件汇报闲置内存的脚本",
+     "en": "Ram-Altman",
+     "metric": "1.4 万赞 · 40 万浏览",
+     "url": "https://www.talkesport.com/hardware/ram-altman-script-emails-sam-altman-unused-ram/",
+     "time": "11-08",
+     "what": "玩笑项目，经媒体转述"
+    },
+    {
+     "title": "SpaceX：星舰第 15 次试飞最早 11 月 13 日",
+     "en": "Starship is preparing for catch Flight 15",
+     "metric": "约 185 万浏览 · 1.8 万赞",
+     "url": "https://www.observatory-k.com/x",
+     "time": "11-07",
+     "what": "经 Observatory-K 转述"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热榜",
+   "color": "#24292f",
+   "url": "https://github.com/trending",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "Sherlock：按用户名查社交账号",
+     "en": "sherlock-project/sherlock",
+     "metric": "+2,373 星",
+     "url": "https://github.com/sherlock-project/sherlock",
+     "time": "11-09",
+     "what": "热榜常客"
+    },
+    {
+     "title": "OpenMausBot：带虚拟机的开源 Grok Bot 替代",
+     "en": "milind-soni/OpenMausBot",
+     "metric": "+1,439 星",
+     "url": "https://github.com/milind-soni/OpenMausBot",
+     "time": "11-09",
+     "what": "开源项目"
+    },
+    {
+     "title": "Meta astryx：可定制、面向智能体的设计系统",
+     "en": "meta/astryx",
+     "metric": "+875 星",
+     "url": "https://github.com/meta/astryx",
+     "time": "11-09",
+     "what": "开源设计系统"
+    },
+    {
+     "title": "vercel-labs agent-browser：给智能体用的浏览器自动化命令行",
+     "en": "vercel-labs/agent-browser",
+     "metric": "+815 星",
+     "url": "https://github.com/vercel-labs/agent-browser",
+     "time": "11-09",
+     "what": "开源 CLI"
+    },
+    {
+     "title": "Anthropic 官方 Agent Skills 仓库",
+     "en": "anthropics/skills",
+     "metric": "+792 星",
+     "url": "https://github.com/anthropics/skills",
+     "time": "11-09",
+     "what": "官方技能集"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文热榜",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "Prefill 到自回归的跨模型迁移：机会与挑战",
+     "en": "On the Opportunities and Challenges of Prefill-to-Autoregressive Cross-Model Transfer",
+     "metric": "15 赞",
+     "url": "https://huggingface.co/papers/2611.06976",
+     "time": "11-04",
+     "what": "论文"
+    },
+    {
+     "title": "Muir：带敏感度分配门控的线性注意力",
+     "en": "Muir: Linear Attention with Sensitivity-Allocated Gating and Matched-Filter Readout",
+     "metric": "12 赞",
+     "url": "https://huggingface.co/papers/2611.08376",
+     "time": "11-05",
+     "what": "论文"
+    },
+    {
+     "title": "终端式数学建模基准：首个可验证的智能体基准",
+     "en": "Terminal-style Mathematical Modeling Bench",
+     "metric": "11 赞",
+     "url": "https://huggingface.co/papers/2611.08237",
+     "time": "11-05",
+     "what": "论文"
+    },
+    {
+     "title": "SwarmEvolve：用潜空间智能体群做进化式优化",
+     "en": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+     "metric": "9 赞",
+     "url": "https://huggingface.co/papers/2611.08483",
+     "time": "11-05",
+     "what": "论文"
+    },
+    {
+     "title": "用稀疏自编码器解读 MoE 专家的细粒度分工",
+     "en": "SAE Interprets MoE",
+     "metric": "9 赞",
+     "url": "https://huggingface.co/papers/2611.08089",
+     "time": "11-05",
+     "what": "论文"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#e5127d",
+   "url": "https://techcrunch.com/category/artificial-intelligence/",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "英伟达将调查黄仁勋与疑似中国间谍的关系",
+     "en": "Nvidia will investigate CEO Jensen Huang's relationship with possible Chinese spy",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+     "time": "11-08",
+     "what": "已读原文"
+    },
+    {
+     "title": "苹果加紧让 Siri 更具自主性",
+     "en": "Apple is racing to make Siri more agentic",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+     "time": "11-09",
+     "what": "只读标题"
+    },
+    {
+     "title": "Elvis 与 Eminem 版权方起诉 Suno",
+     "en": "Elvis and Eminem rights holders are suing Suno",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+     "time": "11-09",
+     "what": "只读标题"
+    },
+    {
+     "title": "美国允许英伟达向中国一间空办公室出售芯片",
+     "en": "The US let Nvidia sell chips to an empty office in China",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+     "time": "11-07",
+     "what": "只读标题"
+    },
+    {
+     "title": "Verge 全文刊出黄仁勋致员工信",
+     "en": "Here's the full text of Jensen Huang's memo to Nvidia",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+     "time": "11-09",
+     "what": "已对照英伟达官方稿"
+    }
+   ]
+  },
+  {
+   "key": "qbitai",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#1a73e8",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "GitHub 不堪重负：OpenAI 收购替代品，Anthropic 自研，马斯克也要做",
+     "en": "量子位",
+     "metric": "量子位首页",
+     "url": "https://www.qbitai.com/2026/11/508449.html",
+     "time": "11-08",
+     "what": "只读标题"
+    },
+    {
+     "title": "AGENTS.MD，危险危险危险",
+     "en": "量子位",
+     "metric": "量子位首页",
+     "url": "https://www.qbitai.com/2026/11/508244.html",
+     "time": "11-08",
+     "what": "只读标题"
+    },
+    {
+     "title": "Jeff Dean 与李飞飞最新对谈：全是 RSI 非共识",
+     "en": "量子位",
+     "metric": "量子位首页",
+     "url": "https://www.qbitai.com/2026/11/508196.html",
+     "time": "11-08",
+     "what": "只读标题"
+    },
+    {
+     "title": "资本正在撤离“世界模型”",
+     "en": "量子位",
+     "metric": "量子位首页",
+     "url": "https://www.qbitai.com/2026/11/508466.html",
+     "time": "11-08",
+     "what": "只读标题"
+    },
+    {
+     "title": "DeepSeek 带火稀疏计算，国产芯片公司加速突围",
+     "en": "量子位",
+     "metric": "量子位首页",
+     "url": "https://www.qbitai.com/2026/11/508155.html",
+     "time": "11-08",
+     "what": "只读标题"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "中文数码资讯",
+   "color": "#d9230f",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "黄仁勋道歉信全文：我对妻子不忠，没有任何借口",
+     "en": "IT之家",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/024/031.htm",
+     "time": "11-09",
+     "what": "与英伟达官方稿一致"
+    },
+    {
+     "title": "古尔曼：苹果最早明年推出自主代理式 Siri",
+     "en": "IT之家",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/024/029.htm",
+     "time": "11-09",
+     "what": "Gurman 爆料"
+    },
+    {
+     "title": "腾讯 Workbuddy 致歉：DeepSeek-V4.1 Flash 积分消耗 5 折结算返还",
+     "en": "IT之家",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/024/025.htm",
+     "time": "11-09",
+     "what": "公司公告"
+    },
+    {
+     "title": "腾讯元器停止服务，明年 1 月起不再受理数据导出",
+     "en": "IT之家",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/024/022.htm",
+     "time": "11-09",
+     "what": "公司公告"
+    },
+    {
+     "title": "蚂蚁灵光用户破 2000 万，2.0 上线一周管理 116 万项事务",
+     "en": "IT之家",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/024/010.htm",
+     "time": "11-09",
+     "what": "公司披露"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "工程师社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "systemd 爱上 Rust",
+     "en": "systemd loves Rust",
+     "metric": "32",
+     "url": "https://amutable.com/blog/systemd-loves-rust",
+     "time": "11-08",
+     "what": "博客"
+    },
+    {
+     "title": "关于电子邮件",
+     "en": "A bit about email",
+     "metric": "29",
+     "url": "https://maurycyz.com/misc/email/",
+     "time": "11-08",
+     "what": "博客"
+    },
+    {
+     "title": "NetBSD 11 桌面跑在树莓派 4 上",
+     "en": "NetBSD 11 desktop on a Raspberry Pi 4",
+     "metric": "18",
+     "url": "https://neongd.com/articles/netbsd11-rpi4.gmi",
+     "time": "11-08",
+     "what": "文章"
+    },
+    {
+     "title": "加密磁盘的无人值守重启",
+     "en": "Unattended reboots with encrypted disks",
+     "metric": "7",
+     "url": "https://jmmv.dev/2026/11/zkeys-intro.html",
+     "time": "11-08",
+     "what": "文章"
+    },
+    {
+     "title": "Mac mini M5 Pro（48GB）本地 AI 能做什么",
+     "en": "What can I realistically do with local AI on a Mac mini M5 Pro (48GB)?",
+     "metric": "8",
+     "url": "https://lobste.rs/",
+     "time": "11-08",
+     "what": "讨论帖"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "title": "英伟达董事会就黄仁勋遭情报行动盯上启动独立调查",
+   "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+   "why": "官方声明与致员工信已读；TC、Verge、HN 332 分",
+   "pick": true,
+   "status": "已读原文"
+  },
+  {
+   "title": "Claude Code“不再询问”规则把密码写进公开仓库",
+   "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+   "why": "Apiiro 研究，THN 全文已读；HN 577 分",
+   "pick": true,
+   "status": "已读原文，Apiiro 原站无法抓取"
+  },
+  {
+   "title": "llama-modchip：284B 模型 64GB 内存 CPU 运行",
+   "url": "https://github.com/synchopate/llama-modchip",
+   "why": "README 已读；HN 343 分、470 星",
+   "pick": true,
+   "status": "已读，数据为作者自测"
+  },
+  {
+   "title": "高盛对银行家和交易员停用 Claude Code",
+   "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+   "why": "HN 539 分，但报道发于 11-02",
+   "pick": false,
+   "status": "已读，时间偏旧"
+  },
+  {
+   "title": "Apple 加紧让 Siri 更自主",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+   "why": "Verge + Gurman（IT之家）",
+   "pick": false,
+   "status": "待核，只读标题"
+  },
+  {
+   "title": "美国放行英伟达向中国空办公室售芯片",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+   "why": "与头条 1 同线",
+   "pick": false,
+   "status": "待核，只读标题"
+  },
+  {
+   "title": "马斯克称软银拖欠燃气轮机订单",
+   "url": "https://www.trendingonweibo.com/hotwords/musk-softbank-gas-turbine-default-claim/",
+   "why": "200 万浏览，但无证据",
+   "pick": false,
+   "status": "待核"
+  }
+ ]
+}

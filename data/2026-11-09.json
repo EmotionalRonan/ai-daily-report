@@ -1,0 +1,544 @@
+{
+ "date": "2026-11-09",
+ "weekday": "周一",
+ "issue": 25,
+ "title": "英伟达查老板，Claude Code 漏密码",
+ "subtitle": "黄仁勋遭董事会调查、Claude Code 泄密、64GB 跑 284B 模型",
+ "lead": "英伟达董事会就黄仁勋遭境外情报行动盯上一事启动独立调查；Apiiro 在 1,122 个公开文件里找到 Claude Code 存下的密钥；llama-modchip 称 64GB 内存的 CPU 就能跑 284B 模型。",
+ "headlines": [
+  {
+   "title": "英伟达董事会启动独立调查，黄仁勋致信员工承认对妻子不忠",
+   "body": "英伟达董事会 11 月 8 日宣布，由独立董事委员会聘请外部律师展开调查，起因是有报道称黄仁勋是境外情报行动的目标。同日他在致员工信中承认对妻子不忠。董事会称没有理由相信国家安全或公司机密遭到泄露，并表示信任他。",
+   "why": "情报备忘录称 Megaspeed 前高管被中国国家安全部招募去监视他，这是单方说法，当事方回应未见；英伟达此前称双方接触“不算异常”。",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+   "image": {
+    "file": "wechat/img/h1.jpg",
+    "src_url": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294936867.jpg?resize=1200,800",
+    "credit": "TechCrunch",
+    "w": 1200,
+    "h": 800
+   }
+  },
+  {
+   "title": "Claude Code“不再询问”把密码原文写进 1,122 个公开 GitHub 文件",
+   "body": "Apiiro 扫描公开 GitHub 上 104,185 份 .claude/settings.local.json，1,122 份含密钥，共 1,379 个。用户选“Yes, and don't ask again”时，命令里的密码会连同命令原文存进该文件。Apiiro 没验证这些密钥是否仍有效。",
+   "why": "2025 年 8 月就有用户报过同类问题，相关 issue 被机器人关闭，研究者称没有得到 Anthropic 回复；215 份连 gitleaks 和 TruffleHog 都没扫出来。",
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+   "image": {
+    "file": "wechat/img/h2.jpg",
+    "src_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZH3vYLZb9lP7mDLqy2h-upzdComeWIfjDX5siFUO3FM2HlUs03OTwirA1R2uzOZq_clptIVBsoaJNXIuf8LlTbXHFvzBJLRl1l3mqGVesHjgdmD86S_c-k2JY_t56xZqI0bnN6jXRDr92KlMw6X5BHzm5hqogpWflsERi9zrsMHSS_abAcvZMcUGovd8/s1600/claude-code.jpg",
+    "credit": "The Hacker News",
+    "w": 900,
+    "h": 470
+   }
+  },
+  {
+   "title": "llama-modchip 称：284B 的 DeepSeek-V4-Flash 可在 64GB 内存、无 GPU 的 CPU 上运行",
+   "body": "开源项目 llama-modchip 称，经内核补丁和 1.71 bpw 量化，2840 亿参数的 DeepSeek-V4-Flash 可在 64GB 内存的纯 CPU 机器上以 256K 上下文运行，预填充约 44 tok/s，解码约 9 到 15 tok/s。数据均为作者自测。",
+   "why": "项目以 Apache-2.0 开源，HN 343 分、GitHub 470 多星；需配套的修改版 llama.cpp 和专用格式，原版 LM Studio、Ollama 无法读取这些模型。",
+   "source": "GitHub",
+   "url": "https://github.com/synchopate/llama-modchip",
+   "image": {
+    "file": "wechat/img/h3.jpg",
+    "src_url": "https://opengraph.githubassets.com/f894f5f0656052d3661d99d12111f55737104c43aec2543aadabb753838d60c9/synchopate/llama-modchip",
+    "credit": "GitHub",
+    "w": 1200,
+    "h": 600
+   }
+  }
+ ],
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "Goodbye Claude, hello Pi 作者换用 Pi 编程智能体",
+     "en": "Goodbye Claude, hello Pi",
+     "metric": "675 分",
+     "url": "https://caleb.software/posts/claude-to-pi.html"
+    },
+    {
+     "title": "Claude Code“不再询问”把密码写进 1,122 个公开 GitHub 文件",
+     "en": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+     "metric": "577 分",
+     "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again"
+    },
+    {
+     "title": "高盛对银行家和交易员停用 Claude Code",
+     "en": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+     "metric": "539 分",
+     "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers"
+    },
+    {
+     "title": "llama-modchip：2840 亿参数 DeepSeek 在 64GB 内存、无 GPU 上运行",
+     "en": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+     "metric": "343 分",
+     "url": "https://github.com/synchopate/llama-modchip"
+    },
+    {
+     "title": "英伟达董事会调查黄仁勋",
+     "en": "Nvidia Board of Directors Is Investigating Jensen Huang",
+     "metric": "332 分",
+     "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区情绪",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/LocalLLaMA/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "Qwen3.8-Flash-Next 在重构 neovim 配置时试图找 API 密钥",
+     "en": "Qwen3.8-Flash-Next hunting for API keys during a neovim refactor",
+     "metric": "87 赞 · 64 评论",
+     "url": "https://mindpattern.ai/f/33336"
+    },
+    {
+     "title": "Observer：手机变成本地 AI 看门人",
+     "en": "Observer turns your phone into a local AI watchdog",
+     "metric": "450+ 赞",
+     "url": "https://aifrontierpost.com/articles/observer-local-ai-phone-watchdog-demo/"
+    },
+    {
+     "title": "Apple 研究者用 Mac mini 跑 Qwen 控制 Unitree G1 机器人",
+     "en": "Apple researchers use a Mac mini running Qwen locally to control a Unitree G1",
+     "metric": "r/singularity 热帖",
+     "url": "https://ailately.com/rn"
+    },
+    {
+     "title": "Claude Code 反馈数据保留五年的讨论",
+     "en": "Claude trains on your code and saves your conversation for 5 years",
+     "metric": "35 评论",
+     "url": "https://ailately.com/rn"
+    },
+    {
+     "title": "教授午饭回来，Claude 删了他一年的讲义",
+     "en": "Professor returns from lunch to find AI deleted year's worth of lecture notes",
+     "metric": "Reddit 热帖（转述）",
+     "url": "https://pie-ai.org/reddit-ai-top-10-briefing-november-08-2026/"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X",
+   "tag": "热帖",
+   "color": "#111111",
+   "url": "https://x.com/explore",
+   "short": "X",
+   "items": [
+    {
+     "title": "马斯克：Grok Bot 的修复正在进行，提升 token 效率",
+     "en": "Fix for Grok Bot is in progress",
+     "metric": "2.3 万赞",
+     "url": "https://www.bytenote.net/article/x-24h-round54-grokbot-cursor-evolver"
+    },
+    {
+     "title": "马斯克称软银拖欠燃气轮机订单（无证据）",
+     "en": "SoftBank is defaulting on their turbine orders",
+     "metric": "200 万+ 浏览",
+     "url": "https://www.trendingonweibo.com/hotwords/musk-softbank-gas-turbine-default-claim/"
+    },
+    {
+     "title": "OpenCode Browse：智能体接管真实浏览器，关键步骤交还给人",
+     "en": "OpenCode Browse",
+     "metric": "4,812 赞 · 约 24 万浏览",
+     "url": "https://aitimeline.news/en/English-Topics/2026-11-08X%E8%8B%B1%E6%96%87%E7%83%AD%E7%82%B9%E9%80%89%E9%A2%98%E7%AE%80%E6%8A%A5/"
+    },
+    {
+     "title": "Ram-Altman：每天给奥特曼发邮件汇报闲置内存的脚本",
+     "en": "Ram-Altman",
+     "metric": "1.4 万赞 · 40 万浏览",
+     "url": "https://www.talkesport.com/hardware/ram-altman-script-emails-sam-altman-unused-ram/"
+    },
+    {
+     "title": "SpaceX：星舰第 15 次试飞最早 11 月 13 日",
+     "en": "Starship is preparing for catch Flight 15",
+     "metric": "约 185 万浏览 · 1.8 万赞",
+     "url": "https://www.observatory-k.com/x"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热榜",
+   "color": "#24292f",
+   "url": "https://github.com/trending",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "Sherlock：按用户名查社交账号",
+     "en": "sherlock-project/sherlock",
+     "metric": "+2,373 星",
+     "url": "https://github.com/sherlock-project/sherlock"
+    },
+    {
+     "title": "OpenMausBot：带虚拟机的开源 Grok Bot 替代",
+     "en": "milind-soni/OpenMausBot",
+     "metric": "+1,439 星",
+     "url": "https://github.com/milind-soni/OpenMausBot"
+    },
+    {
+     "title": "Meta astryx：可定制、面向智能体的设计系统",
+     "en": "meta/astryx",
+     "metric": "+875 星",
+     "url": "https://github.com/meta/astryx"
+    },
+    {
+     "title": "vercel-labs agent-browser：给智能体用的浏览器自动化命令行",
+     "en": "vercel-labs/agent-browser",
+     "metric": "+815 星",
+     "url": "https://github.com/vercel-labs/agent-browser"
+    },
+    {
+     "title": "Anthropic 官方 Agent Skills 仓库",
+     "en": "anthropics/skills",
+     "metric": "+792 星",
+     "url": "https://github.com/anthropics/skills"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文热榜",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "Prefill 到自回归的跨模型迁移：机会与挑战",
+     "en": "On the Opportunities and Challenges of Prefill-to-Autoregressive Cross-Model Transfer",
+     "metric": "15 赞",
+     "url": "https://huggingface.co/papers/2611.06976"
+    },
+    {
+     "title": "Muir：带敏感度分配门控的线性注意力",
+     "en": "Muir: Linear Attention with Sensitivity-Allocated Gating and Matched-Filter Readout",
+     "metric": "12 赞",
+     "url": "https://huggingface.co/papers/2611.08376"
+    },
+    {
+     "title": "终端式数学建模基准：首个可验证的智能体基准",
+     "en": "Terminal-style Mathematical Modeling Bench",
+     "metric": "11 赞",
+     "url": "https://huggingface.co/papers/2611.08237"
+    },
+    {
+     "title": "SwarmEvolve：用潜空间智能体群做进化式优化",
+     "en": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+     "metric": "9 赞",
+     "url": "https://huggingface.co/papers/2611.08483"
+    },
+    {
+     "title": "用稀疏自编码器解读 MoE 专家的细粒度分工",
+     "en": "SAE Interprets MoE",
+     "metric": "9 赞",
+     "url": "https://huggingface.co/papers/2611.08089"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#e5127d",
+   "url": "https://techcrunch.com/category/artificial-intelligence/",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "英伟达将调查黄仁勋与疑似中国间谍的关系",
+     "en": "Nvidia will investigate CEO Jensen Huang's relationship with possible Chinese spy",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/"
+    },
+    {
+     "title": "苹果加紧让 Siri 更具自主性",
+     "en": "Apple is racing to make Siri more agentic",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic"
+    },
+    {
+     "title": "Elvis 与 Eminem 版权方起诉 Suno",
+     "en": "Elvis and Eminem rights holders are suing Suno",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit"
+    },
+    {
+     "title": "美国允许英伟达向中国一间空办公室出售芯片",
+     "en": "The US let Nvidia sell chips to an empty office in China",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government"
+    },
+    {
+     "title": "Verge 全文刊出黄仁勋致员工信",
+     "en": "Here's the full text of Jensen Huang's memo to Nvidia",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia"
+    }
+   ]
+  },
+  {
+   "key": "qbitai",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#1a73e8",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "GitHub 不堪重负：OpenAI 收购替代品，Anthropic 自研，马斯克也要做",
+     "en": "量子位",
+     "metric": "量子位首页",
+     "url": "https://www.qbitai.com/2026/11/508449.html"
+    },
+    {
+     "title": "AGENTS.MD，危险危险危险",
+     "en": "量子位",
+     "metric": "量子位首页",
+     "url": "https://www.qbitai.com/2026/11/508244.html"
+    },
+    {
+     "title": "Jeff Dean 与李飞飞最新对谈：全是 RSI 非共识",
+     "en": "量子位",
+     "metric": "量子位首页",
+     "url": "https://www.qbitai.com/2026/11/508196.html"
+    },
+    {
+     "title": "资本正在撤离“世界模型”",
+     "en": "量子位",
+     "metric": "量子位首页",
+     "url": "https://www.qbitai.com/2026/11/508466.html"
+    },
+    {
+     "title": "DeepSeek 带火稀疏计算，国产芯片公司加速突围",
+     "en": "量子位",
+     "metric": "量子位首页",
+     "url": "https://www.qbitai.com/2026/11/508155.html"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "中文数码资讯",
+   "color": "#d9230f",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "黄仁勋道歉信全文：我对妻子不忠，没有任何借口",
+     "en": "IT之家",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/024/031.htm"
+    },
+    {
+     "title": "古尔曼：苹果最早明年推出自主代理式 Siri",
+     "en": "IT之家",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/024/029.htm"
+    },
+    {
+     "title": "腾讯 Workbuddy 致歉：DeepSeek-V4.1 Flash 积分消耗 5 折结算返还",
+     "en": "IT之家",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/024/025.htm"
+    },
+    {
+     "title": "腾讯元器停止服务，明年 1 月起不再受理数据导出",
+     "en": "IT之家",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/024/022.htm"
+    },
+    {
+     "title": "蚂蚁灵光用户破 2000 万，2.0 上线一周管理 116 万项事务",
+     "en": "IT之家",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/024/010.htm"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "工程师社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "systemd 爱上 Rust",
+     "en": "systemd loves Rust",
+     "metric": "32",
+     "url": "https://amutable.com/blog/systemd-loves-rust"
+    },
+    {
+     "title": "关于电子邮件",
+     "en": "A bit about email",
+     "metric": "29",
+     "url": "https://maurycyz.com/misc/email/"
+    },
+    {
+     "title": "NetBSD 11 桌面跑在树莓派 4 上",
+     "en": "NetBSD 11 desktop on a Raspberry Pi 4",
+     "metric": "18",
+     "url": "https://neongd.com/articles/netbsd11-rpi4.gmi"
+    },
+    {
+     "title": "加密磁盘的无人值守重启",
+     "en": "Unattended reboots with encrypted disks",
+     "metric": "7",
+     "url": "https://jmmv.dev/2026/11/zkeys-intro.html"
+    },
+    {
+     "title": "Mac mini M5 Pro（48GB）本地 AI 能做什么",
+     "en": "What can I realistically do with local AI on a Mac mini M5 Pro (48GB)?",
+     "metric": "8",
+     "url": "https://lobste.rs/"
+    }
+   ]
+  }
+ ],
+ "topics": [
+  {
+   "name": "智能体与产品",
+   "kicker": "AGENTS",
+   "items": [
+    {
+     "title": "苹果加紧让 Siri 更具自主性",
+     "note": "据古尔曼，最早明年推出。",
+     "src": "The Verge",
+     "metric": "11-09",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic"
+    },
+    {
+     "title": "OpenMausBot：带虚拟机的开源 Grok Bot 替代",
+     "note": "一天 +1,439 星，开源替代品受关注。",
+     "src": "GitHub",
+     "metric": "+1,439 星",
+     "url": "https://github.com/milind-soni/OpenMausBot"
+    },
+    {
+     "title": "agent-browser：给智能体用的浏览器自动化命令行",
+     "note": "浏览器正成为智能体的标配工具。",
+     "src": "GitHub",
+     "metric": "+815 星",
+     "url": "https://github.com/vercel-labs/agent-browser"
+    },
+    {
+     "title": "马斯克称 Grok Bot 修复进行中，主打 token 效率",
+     "note": "据转述，未给时间表，别当成已修复。",
+     "src": "X",
+     "metric": "2.3 万赞",
+     "url": "https://www.bytenote.net/article/x-24h-round54-grokbot-cursor-evolver"
+    }
+   ]
+  },
+  {
+   "name": "芯片、版权与下线",
+   "kicker": "POLICY",
+   "items": [
+    {
+     "title": "美国允许英伟达向中国一间空办公室售芯片",
+     "note": "据 Verge 标题，细节待读，与头条 1 同线。",
+     "src": "The Verge",
+     "metric": "11-07",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government"
+    },
+    {
+     "title": "Elvis 与 Eminem 版权方起诉 Suno",
+     "note": "AI 音乐的版权官司又添新原告。",
+     "src": "The Verge",
+     "metric": "11-09",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit"
+    },
+    {
+     "title": "马斯克称软银拖欠燃气轮机订单",
+     "note": "帖子无证据，软银未回应，只能当传闻。",
+     "src": "X",
+     "metric": "200 万浏览",
+     "url": "https://www.trendingonweibo.com/hotwords/musk-softbank-gas-turbine-default-claim/"
+    },
+    {
+     "title": "腾讯元器停止服务，明年 1 月起不再受理数据导出",
+     "note": "平台型智能体产品也会下线，数据要早导。",
+     "src": "IT之家",
+     "metric": "11-09",
+     "url": "https://www.ithome.com/1/024/022.htm"
+    }
+   ]
+  },
+  {
+   "name": "开发者与社区",
+   "kicker": "DEV",
+   "items": [
+    {
+     "title": "高盛对银行家和交易员停用 Claude Code",
+     "note": "11-02 报道，今天才登上 HN 高位。",
+     "src": "State of AI",
+     "metric": "539 分",
+     "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers"
+    },
+    {
+     "title": "Qwen3.8-Flash-Next 重构时试图找 API 密钥",
+     "note": "社区帖，多数人认为是幻觉，建议限制出网。",
+     "src": "Reddit",
+     "metric": "87 赞",
+     "url": "https://mindpattern.ai/f/33336"
+    },
+    {
+     "title": "Ram-Altman：每天给奥特曼发邮件汇报闲置内存",
+     "note": "玩笑项目，一天内传到 40 万浏览。",
+     "src": "X",
+     "metric": "40 万浏览",
+     "url": "https://www.talkesport.com/hardware/ram-altman-script-emails-sam-altman-unused-ram/"
+    },
+    {
+     "title": "Sherlock 再上 GitHub 热榜，+2,373 星",
+     "note": "与 AI 无关，但说明热榜不全是 AI。",
+     "src": "GitHub",
+     "metric": "+2,373 星",
+     "url": "https://github.com/sherlock-project/sherlock"
+    }
+   ]
+  }
+ ],
+ "comments": [
+  "头条 1 最值得看的是董事会的措辞：它承认的是调查，不是结论，也没有说“没有问题”。",
+  "Claude Code 这条提醒的不是某个模型，而是默认设置：把密码写进命令，就等于写进了文件。",
+  "本地跑 284B 模型很诱人，但速度和格式限制说明，“能跑”和“好用”之间还差一大截。"
+ ],
+ "xhs": {
+  "title": "英伟达查老板 Claude 漏密码",
+  "cover": "英伟达董事会\n查自家 CEO",
+  "deck": "黄仁勋·Claude·本地模型",
+  "intro": "英伟达董事会就黄仁勋遭境外情报行动盯上一事启动独立调查；Claude Code 的“不再询问”把密码写进 1,122 个公开文件；llama-modchip 称 64GB 内存就能跑 284B 模型。",
+  "oneliner": "今天的风险，多出在默认设置和关键人物上。",
+  "closing": "你会把密码直接写进让 AI 执行的命令里吗？",
+  "tags": [
+   "AI",
+   "人工智能",
+   "科技新闻",
+   "AI日报",
+   "英伟达",
+   "黄仁勋",
+   "ClaudeCode",
+   "Anthropic",
+   "本地大模型",
+   "网络安全"
+  ]
+ },
+ "sources": []
+}

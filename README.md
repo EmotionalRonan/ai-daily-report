@@ -10,7 +10,7 @@
 
 ## 最新一期
 
-- **2026-11-08｜AI 给自己提速，证据被涂黑**（METR 评估 Anthropic、Inkling 2 Small、微软 AI Frontiers 解散）· [网页](reports/2026-11-08/index.html) · 公众号 reports/2026-11-08/wechat/wechat.html · 小红书 reports/2026-11-08/xhs/xiaohongshu.md
+- **2026-11-09｜英伟达查老板，Claude Code 漏密码**（黄仁勋遭董事会调查、Claude Code 泄密、64GB 跑 284B 模型）· [网页](reports/2026-11-09/index.html) · 公众号 reports/2026-11-09/wechat/wechat.html · 小红书 reports/2026-11-09/xhs/xiaohongshu.md
 
 网页版（GitHub Pages）：https://emotionalronan.github.io/ai-daily-report/
 

@@ -92,8 +92,9 @@ def build(dpath):
     d.rectangle((80, y - 50, 200, y - 40), fill=RED)
     for l in lines: d.text((76, y), l, font=F('serif', fs), fill=INK); y += lh
     y = text_block(d, 80, y + 30, D['xhs'].get('deck', D['subtitle']), F('med', 42), 920, SUB, 62)
-    assert y < H * 0.85, ('cover overflow', y)
-    d.text((80, H * 0.85 - 40), '左滑看今日头条 →', font=F('reg', 30), fill=RED, anchor='lb')
+    ay = max(H * 0.85 - 40, y + 50)  # 3-line covers push the deck down; keep the arrow below it
+    assert ay < H - 120, ('cover overflow', y)
+    d.text((80, ay), '左滑看今日头条 →', font=F('reg', 30), fill=RED, anchor='lb')
     footer(d, 1); save(img, 1)
 
     # 2..: one card per headline — the source's own picture on top (cropped to 16:9), then title, why, credit

@@ -1,0 +1,60 @@
+name: AI 日报（自动生成）
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: '日期 YYYY-MM-DD（留空 = 北京时间今天）'
+        required: false
+      push:
+        description: '通过关卡后推送到 main 和 gh-pages'
+        type: boolean
+        default: false
+  # 确认替换现有定时任务后再打开：每天 08:00 北京时间 = 00:00 UTC
+  # schedule:
+  #   - cron: '0 0 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ai-daily
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r pipeline/requirements.txt
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/ai-daily-fonts
+          key: noto-cjk-fonts-v1
+      - name: 生产
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+          LLM_FALLBACK_MODELS: ${{ vars.LLM_FALLBACK_MODELS }}
+        run: |
+          git config user.name  "ai-daily-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          ARGS=""
+          if [ -n "${{ inputs.date }}" ]; then ARGS="$ARGS --date ${{ inputs.date }}"; fi
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.push }}" = "true" ]; then ARGS="$ARGS --push"; fi
+          python3 pipeline/run.py $ARGS
+      - name: 留底（失败时也上传）
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ai-daily-${{ github.run_id }}
+          path: |
+            work/
+            data/
+          retention-days: 14

@@ -1,0 +1,620 @@
+{
+ "date": "2026-11-10",
+ "weekday": "周二",
+ "issue": 26,
+ "title": "智能体接口标配，LG模型全免费",
+ "subtitle": "Anthropic开源Skills/LG API免费/Meta推出AgentUI",
+ "lead": "今日 AI 领域聚焦基础设施与智能体生态的标准化：Anthropic 开源 Skills 技能库为 Agent 设立规范，LG 宣布免费开放对标一流水平的模型 API，Meta 则推出了首个原生适配智能体的前端设计系统 Astryx。",
+ "headlines": [
+  {
+   "title": "Anthropic 官方开源 Agent Skills 规范与技能库",
+   "body": "Anthropic 正式开源 Agent Skills 规范仓库，提供扩展 Claude 能力的标准化技能集合。项目包含可重复调用的指令与资源，涵盖文档处理及 MCP 服务器生成等场景。所有技能均采用 Apache 2.0 协议，开发者可在 Claude Code 中快速安装与复用。",
+   "why": "头部大模型厂商首次将生产级智能体能力库标准化与开源化，为行业建立 Agent 扩展协议树立了新标杆。",
+   "source": "GitHub Trending",
+   "url": "https://github.com/anthropics/skills",
+   "image": {
+    "file": "wechat/img/h1.jpg",
+    "src_url": "https://opengraph.githubassets.com/2a01fd6637ef969ebf5b6658999e1fcb6f01ff8a16a8d8cdcf430022ed468051/anthropics/skills",
+    "credit": "GitHub Trending",
+    "w": 1200,
+    "h": 600
+   }
+  },
+  {
+   "title": "LG AI 研究院宣布免费开放 K-EXAONE 2.5 模型 API",
+   "body": "LG AI 研究院宣布面向全球开发者免费开放 K-EXAONE 2.5 模型 API。该模型在 8 月版本基础上进行了追加训练，具备比肩顶级开源大模型的智能体能力。官方测试显示，其在 SWE-Bench Pro 等测评中的表现与 DeepSeek-V4.1-Flash 和 GLM-5.3 相当。",
+   "why": "韩国科技巨头直接免收高阶智能体模型的 API 费用，推高了端侧与云端智能体基座的能力性价比屏障。",
+   "source": "IT之家",
+   "url": "https://www.ithome.com/1/024/069.htm",
+   "image": {
+    "file": "wechat/img/h2.jpg",
+    "src_url": "https://img.ithome.com/newsuploadfiles/2026/11/cb24ffd0-c1d8-4f86-9e4a-96b51be226d5.jpg",
+    "credit": "IT之家",
+    "w": 1600,
+    "h": 921
+   }
+  },
+  {
+   "title": "Meta 开源 Astryx 设计系统：原生适配 AI Agent",
+   "body": "Meta 开源内部迭代八年的 UI 设计系统 Astryx。该系统基于 React 19 和 StyleX 构建，包含 150 多个组件及命令行工具，支撑了内部上万个应用。Astryx 原生适配了 AI 智能体交互，使人类开发者与 AI 编程 Agent 能够使用同一套工具链协同开发。",
+   "why": "传统前端 UI 库正式迈入 Agent 原生时代，标志着人机协同开发模式向底层设计系统基础设施层全面渗透。",
+   "source": "GitHub Trending",
+   "url": "https://github.com/meta/astryx",
+   "image": {
+    "file": "wechat/img/h3.jpg",
+    "src_url": "https://opengraph.githubassets.com/95618b488238f8de5cf5f4895c81cb1a23a60792d309b37b2b4fa27e18805b96/meta/astryx",
+    "credit": "GitHub Trending",
+    "w": 1200,
+    "h": 600
+   }
+  }
+ ],
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "告别 Claude 转向 Pi：一名开发者的全栈替代尝试",
+     "en": "Goodbye Claude, hello Pi",
+     "metric": "723 分",
+     "url": "https://caleb.software/posts/claude-to-pi.html",
+     "time": "11-08",
+     "what": "开发者撰文详述将其日常开发工作流从 Claude 全面迁移至 Pi 的完整体验。"
+    },
+    {
+     "title": "Claude Code 记住配置漏洞致千个 GitHub 文件泄密",
+     "en": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+     "metric": "598 分",
+     "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+     "time": "11-07",
+     "what": "安全机构发现 Claude Code 默认跳过询问设置导致超千个开源仓库密码凭据泄露。"
+    },
+    {
+     "title": "英伟达 CEO 黄仁勋致全员信公开承认婚外情并道歉",
+     "en": "Nvidia CEO Jensen Huang's letter to staff about affair",
+     "metric": "472 分",
+     "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+     "time": "11-08",
+     "what": "黄仁勋向英伟达全体员工发布信件公开承认对家庭不忠并致歉，董事会已启动调查。"
+    },
+    {
+     "title": "声明式拖拽库：用纯声明语法重塑 Web 拖拽交互",
+     "en": "Declarative Dragging",
+     "metric": "444 分",
+     "url": "https://declarative-dragging.github.io/",
+     "time": "11-04",
+     "what": "开源项目提出声明式拖拽概念，简化前端复杂拖拽和重排组件的编写成本。"
+    },
+    {
+     "title": "KetchUp：基于 Rust 和 WebGPU 的开源 SketchUp 替代品",
+     "en": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
+     "metric": "345 分",
+     "url": "https://ketchup3d.github.io/app/",
+     "time": "11-08",
+     "what": "轻量级开源 3D 建模工具 KetchUp 发布，完全基于 Rust 与 WebGPU 构建。"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区情绪",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/LocalLLaMA/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "AI 部署推动玩家与开发者大举囤购 RTX 5060 Ti 16G",
+     "en": "Users have started buying RTX 5060 Ti 16GB graphics cards en masse for the sake of AI.",
+     "metric": "11-08",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr01bj/users_have_started_buying_rtx_5060_ti_16gb/",
+     "time": "11-08",
+     "what": "受本地大模型运行显存需求驱动，RTX 5060 Ti 16GB 迎来大规模采购潮。"
+    },
+    {
+     "title": "苹果研究人员用 Mac mini 运行 Qwen 操控人形机器人",
+     "en": "Apple researchers use a Mac mini running Qwen locally to control a Unitree G1 humanoid robot. Trained on 1,000 simulated homes, it autonomously sits, crawls under tables and navigates unfamiliar rooms, achieving 91% success across 360 real-world trials.",
+     "metric": "11-09",
+     "url": "https://www.reddit.com/r/singularity/comments/1xr6w6w/apple_researchers_use_a_mac_mini_running_qwen/",
+     "time": "11-08",
+     "what": "苹果研究团队使用端侧模型驱动宇树机器人完成跨房间导航与避障任务。"
+    },
+    {
+     "title": "开发者打造 MCP 协议让 Claude 在后台自主玩 GTA",
+     "en": "I built an MCP with Claude Code that lets Claude play PC games in the background. Here it is driving, flying a heli and walking in GTA on its own",
+     "metric": "11-09",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xr3gbs/i_built_an_mcp_with_claude_code_that_lets_claude/",
+     "time": "11-08",
+     "what": "开发者通过 MCP 协议赋予 Claude 键鼠控制权，实现在后台自主开直升机和开车。"
+    },
+    {
+     "title": "英伟达就黄仁勋与涉嫌间谍人员关系正式展开内部调查",
+     "en": "Nvidia Opens Investigation Into Jensen Huang’s Relationship With Chinese Spy",
+     "metric": "11-09",
+     "url": "https://www.reddit.com/r/singularity/comments/1xr7wb5/nvidia_opens_investigation_into_jensen_huangs/",
+     "time": "11-08",
+     "what": "Reddit 社区热烈讨论英伟达董事会就黄仁勋与争议人物关系的独立调查事件。"
+    },
+    {
+     "title": "腾讯推出 Qwen3.8-27B 投机采样模型，解码提速 3 倍",
+     "en": "tencent/Qwen3.8-27B-DSpine-b16 · Hugging Face",
+     "metric": "11-09",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr2aaa/tencentqwen3827bdspineb16_hugging_face/",
+     "time": "11-08",
+     "what": "腾讯在 HF 发布全新投机解码方法及权重，号称可将 27B 模型推理速度提升 3 倍。"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X",
+   "tag": "热帖",
+   "color": "#111111",
+   "url": "https://x.com/explore",
+   "short": "X",
+   "items": [
+    {
+     "title": "红杉合伙人发文力挺黄仁勋，称其为美国 AI 不可替代领袖",
+     "en": "@shaunmaguire Shaun Maguire, a partner at Sequoia Capital, posted on X outlining five points regarding the Jensen Huang scandal, stating that Huang is an irreplaceable leader for America's AI. This post garnered over 2.13 million views.",
+     "metric": "2.13 million views",
+     "url": "https://x.com/shaunmaguire/status/placeholder_for_actual_tweet_id",
+     "time": "11-08",
+     "what": "红杉资本合伙人列举五大理由力挺黄仁勋留任，该推文获得超两百万次浏览。",
+     "status": "待核"
+    },
+    {
+     "title": "马斯克转帖表态支持黄仁勋，引发行业对 AI 领军人广泛讨论",
+     "en": "@elonmusk Elon Musk retweeted Shaun Maguire's post about Jensen Huang, adding 'I agree,' which significantly amplified the reach of the discussion around the Nvidia CEO's situation and its implications for AI leadership.",
+     "metric": "amplified Maguire's post",
+     "url": "https://x.com/elonmusk/status/placeholder_for_actual_tweet_id",
+     "time": "11-08",
+     "what": "马斯克转发红杉合伙人言论并附言赞同，进一步推高英伟达人事变动讨论热度。",
+     "status": "待核"
+    },
+    {
+     "title": "DeepSeek 智能体应用 Harness 日活突破 154 万大关",
+     "en": "@DeepSeek DeepSeek, a Hangzhou startup, announced on X that its open-source AI agent app, Harness, reached 1.54 million daily active users by November 4, indicating significant growth and interest in AI agents.",
+     "metric": "1.54 million daily active users reported",
+     "url": "https://briefs.co/news/technology/deepseek-harness-hits-1-54-million-daily-users-fueling-the-ai-agent-race/",
+     "time": "11-08",
+     "what": "DeepSeek 宣布其开源智能体架构 Harness 迅速起量，日活突破 154 万用户。",
+     "status": "待核"
+    },
+    {
+     "title": "AI 智能体经济创业方向盘点引发社交网络热议",
+     "en": "@gregisenberg Greg Isenberg's tweet from October 23, 2026, about 'The MOST obvious (but REALLY good) STARTUP ideas right now' in the AI agent economy, was highlighted in a curated list of top AI tweets for its high engagement.",
+     "metric": "4.6K (likely likes/retweets), engagement score 4692.02",
+     "url": "https://x.com/gregisenberg/status/placeholder_for_actual_tweet_id",
+     "time": "10-23",
+     "what": "关于 Agent 时代最显而易见的创业方向分析贴因高互动量再度登上讨论榜。",
+     "status": "待核"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热榜",
+   "color": "#24292f",
+   "url": "https://github.com/trending",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "Meta 开源 Astryx：面向 Agent 的全定制化设计系统",
+     "en": "meta/astryx",
+     "metric": "+875 星",
+     "url": "https://github.com/meta/astryx",
+     "time": "11-09",
+     "what": "Meta 开源完全可定制、为 AI Agent 原生交互适配的前端设计系统组件库。"
+    },
+    {
+     "title": "Anthropic 官方开源智能体技能库 Skills",
+     "en": "anthropics/skills",
+     "metric": "+792 星",
+     "url": "https://github.com/anthropics/skills",
+     "time": "11-09",
+     "what": "Anthropic 官方建立开源仓库，汇集并标准化 Agent 可调用的通用技能集合。"
+    },
+    {
+     "title": "billion-context：面向月级超长会话的上下文压缩插件",
+     "en": "ranxianglei/billion-context",
+     "metric": "+460 星",
+     "url": "https://github.com/ranxianglei/billion-context",
+     "time": "11-09",
+     "what": "开源插件通过极端压缩机制让 100K 窗口支撑数亿 Token 级别的单会话记录。"
+    },
+    {
+     "title": "NVKE：裸金属 GPU Kubernetes 管理控制面",
+     "en": "dsx-ai-factory/nvke",
+     "metric": "+345 星",
+     "url": "https://github.com/dsx-ai-factory/nvke",
+     "time": "11-09",
+     "what": "专为裸金属环境 GPU 集群设计的极简 Kubernetes 控制面编排工具开源。"
+    },
+    {
+     "title": "DeepMind 开源物理模拟器 MuJoCo 持续维护更新",
+     "en": "google-deepmind/mujoco",
+     "metric": "+41 星",
+     "url": "https://github.com/google-deepmind/mujoco",
+     "time": "11-09",
+     "what": "DeepMind 旗下经典通用接触动力学物理模拟器 MuJoCo 登榜热门开源项目。"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文热榜",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "TailSteer：用于多轮图像编辑防漂移的末端引导框架",
+     "en": "TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing",
+     "metric": "41 赞",
+     "url": "https://huggingface.co/papers/2611.06741",
+     "time": "11-03",
+     "what": "研究提出 TailSteer 框架，通过去噪尾部修正大幅抑制多轮图像编辑中的累积漂移。"
+    },
+    {
+     "title": "终结现实落地的最后一公里：智能体原生原子能力构件",
+     "en": "The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks",
+     "metric": "25 赞",
+     "url": "https://huggingface.co/papers/2611.07461",
+     "time": "11-04",
+     "what": "论文探讨构建可复用的智能体原子基准块，解决前沿模型在终端实操中成功率不足。"
+    },
+    {
+     "title": "PACT：预填充至自回归阶段的跨模型迁移机遇与挑战",
+     "en": "On the Opportunities and Challenges of Prefill-to-Autoregressive Cross-Model Transfer",
+     "metric": "15 赞",
+     "url": "https://huggingface.co/papers/2611.06976",
+     "time": "11-04",
+     "what": "探索将大模型的 Prefill 表征传递给小模型进行高效解码生成的隐式跨模型通信。"
+    },
+    {
+     "title": "EvoWorld：生成式视频模型中的视线外世界动态演化",
+     "en": "EvoWorld: Towards Out-of-Sight World Evolution in Generative Video Models",
+     "metric": "13 赞",
+     "url": "https://huggingface.co/papers/2611.06748",
+     "time": "11-04",
+     "what": "针对视频模型像素渲染合理但缺乏世界演化推理的缺陷，提出自主演化推理架构。"
+    },
+    {
+     "title": "深入表象之下：关于智能体进化我们忽视的关键问题",
+     "en": "Beneath the Surface: What We Overlook When We Talk About Agent Evolution",
+     "metric": "13 赞",
+     "url": "https://huggingface.co/papers/2611.07624",
+     "time": "11-04",
+     "what": "评测无须调权的模型套件自进化方法，验证基准高分是否真正转化为可迁移能力。"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#e5127d",
+   "url": "https://techcrunch.com/category/artificial-intelligence/",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "英伟达黄仁勋全员备忘录全文：对家庭深感歉疚",
+     "en": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+     "metric": "11-09",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+     "time": "11-08",
+     "what": "The Verge 刊登黄仁勋就个人关系调查向全体员工发布的内部致歉备忘录全文。"
+    },
+    {
+     "title": "英伟达就黄仁勋与涉嫌间谍女子关系启动正式审查",
+     "en": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+     "metric": "11-09",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+     "time": "11-08",
+     "what": "英伟达董事会就黄仁勋与涉事 AI 高管的个人关系及潜在泄密风险启动独立调查。"
+    },
+    {
+     "title": "耶鲁学者评黄仁勋帅位危机：留任概率或仅五五开",
+     "en": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
+     "metric": "11-09",
+     "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
+     "time": "11-09",
+     "what": "耶鲁大学管理学院学者分析指出，在经历调查风波后黄仁勋留任 CEO 的概率参半。"
+    }
+   ]
+  },
+  {
+   "key": "qbitai",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#1a73e8",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "资本撤离“世界模型”赛道，泡沫开始降温",
+     "en": "资本正在撤离“世界模型”",
+     "metric": "11-08",
+     "url": "https://www.qbitai.com/2026/11/508466.html",
+     "time": "11-08",
+     "what": "投资界对高耗能、落地难的世界模型投资趋于保守，行业进入冷静调整期。"
+    },
+    {
+     "title": "GitHub 负载承压，OpenAI 与 Anthropic 加速自研替代",
+     "en": "GitHub不堪重负！OpenAI收购替代品，A社原地自研，马斯克也要搞",
+     "metric": "11-07",
+     "url": "https://www.qbitai.com/2026/11/508449.html",
+     "time": "11-07",
+     "what": "AI 代码生成激增令现有托管架构不堪负荷，巨头纷纷布局下一代代码基础设施。"
+    },
+    {
+     "title": "OpenAI 新一轮 110 亿美元融资到账，不及原定目标半数",
+     "en": "OpenAI新融资到账110亿美元，不及原计划一半",
+     "metric": "11-07",
+     "url": "https://www.qbitai.com/2026/11/508344.html",
+     "time": "11-07",
+     "what": "OpenAI 敲定新一轮融资款项，但在资本谨慎环境下整体募资额度远低于预期。"
+    },
+    {
+     "title": "为祛除 AI 痕迹，人类创作者开始刻意追求瑕疵文风",
+     "en": "为了去AI味，人类开始主动写烂文章了……",
+     "metric": "11-07",
+     "url": "https://www.qbitai.com/2026/11/508330.html",
+     "time": "11-07",
+     "what": "面对过度平滑机械的 AIGC 内容，创作者开始刻意采用不完美口语表达。"
+    },
+    {
+     "title": "华人团队打造下一代 Agent Harness，多会话长线运行破局",
+     "en": "抢跑DeepSeek！硅谷华人把下一代Agent Harness造出来了！？",
+     "metric": "11-07",
+     "url": "https://www.qbitai.com/2026/11/508264.html",
+     "time": "11-07",
+     "what": "硅谷华人团队推出针对复杂长程任务的调度架构，破解单 Session 智能体瓶颈。"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "中文数码资讯",
+   "color": "#d9230f",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "英伟达发言人确认黄仁勋将继续履职，特朗普表态支持",
+     "en": "英伟达发言人确认黄仁勋将继续履职公司 CEO 一职不中断，特朗普表态支持",
+     "metric": "11-09",
+     "url": "https://www.ithome.com/1/024/073.htm",
+     "time": "11-09",
+     "what": "英伟达发言人证实黄仁勋职务保持不变正常履职，特朗普也公开发言表达支持。"
+    },
+    {
+     "title": "Anthropic 报告显示科研人员多将 Claude 用于数据分析和写作",
+     "en": "Anthropic 揭秘科学家用 Claude 都干啥：大多用来分析数据和写作",
+     "metric": "11-09",
+     "url": "https://www.ithome.com/1/024/111.htm",
+     "time": "11-09",
+     "what": "Anthropic 基于逾 20 万次科研会话分析，揭示科学家使用大模型的核心场景。"
+    },
+    {
+     "title": "LG AI 研究院宣布面向全球免费开放 K-EXAONE 2.5 API",
+     "en": "LG AI 研究院宣布对外免费开放 K-EXAONE 2.5 模型 API",
+     "metric": "11-09",
+     "url": "https://www.ithome.com/1/024/069.htm",
+     "time": "11-09",
+     "what": "LG 对外免费开放具身与 Agent 能力对齐的自研大模型 API，供开发者免审核调用。"
+    },
+    {
+     "title": "IDC 预测今年全球灵巧手出货 2.5 万台，中国厂商份额超 85%",
+     "en": "IDC：2026 年全球灵巧手出货量约 2.5 万台，中国厂商占比超 85%",
+     "metric": "11-09",
+     "url": "https://www.ithome.com/1/024/146.htm",
+     "time": "11-09",
+     "what": "IDC 报告称具身智能快速演进驱动灵巧手需求，中国供应链占据超八成出货份额。"
+    },
+    {
+     "title": "微信鸿蒙版安装量破 9000 万，原生鸿蒙终端破亿在即",
+     "en": "微信鸿蒙版 App 安装量超 9000 万次，华为 HarmonyOS 终端用户数预计本月突破 1 亿大关",
+     "metric": "11-09",
+     "url": "https://www.ithome.com/1/024/099.htm",
+     "time": "11-09",
+     "what": "原生鸿蒙生态微信装机量突破九千万，整体鸿蒙终端用户即将迈过一亿关口。"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "工程师社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "systemd 拥抱 Rust：系统底层组件现代化的实践路径",
+     "en": "systemd loves Rust",
+     "metric": "37 分",
+     "url": "https://amutable.com/blog/systemd-loves-rust",
+     "time": "11-08",
+     "what": "文章探讨在 systemd 系统守护进程生态中逐步引入 Rust 语言的安全实践。"
+    },
+    {
+     "title": "再谈电子邮件系统：协议复杂性与现代投递难题",
+     "en": "A bit about email",
+     "metric": "40 分",
+     "url": "https://maurycyz.com/misc/email/",
+     "time": "11-08",
+     "what": "作者系统性回顾了邮件协议的演进以及如今在安全合规压力下的维护困局。"
+    },
+    {
+     "title": "开源安全披露之辩：开发者为何不必恪守预警封锁期",
+     "en": "Dear Open Source Developers: It's OK not to embargo",
+     "metric": "33 分",
+     "url": "https://opensourcesecurity.io/2026/10-embargo/",
+     "time": "11-07",
+     "what": "安全专家探讨独立开源维护者面对漏洞披露期时应对商业厂商勒索的策略建议。"
+    },
+    {
+     "title": "在树莓派 4 上运行 NetBSD 11 桌面环境体验记录",
+     "en": "NetBSD 11 desktop on a Raspberry Pi 4",
+     "metric": "21 分",
+     "url": "https://neongd.com/articles/netbsd11-rpi4.gmi",
+     "time": "11-08",
+     "what": "极客分享在低功耗树莓派开发板上完整配置与驱动 NetBSD 11 图形桌面的过程。"
+    },
+    {
+     "title": "Herb Sutter 谈 C++26 委员会分歧与语言发展路径",
+     "en": "Herb Sutter: When a language’s creator and its owners strongly disagree: C++26 post-DIS, historical experience, and paths forward",
+     "metric": "16 分",
+     "url": "https://isocpp.org/files/papers/P4454R0.pdf",
+     "time": "11-08",
+     "what": "知名 C++ 专家提交长篇备忘录，剖析标准制定委员会内部就未来演进的尖锐分歧。"
+    }
+   ]
+  }
+ ],
+ "topics": [
+  {
+   "name": "智能体生态",
+   "kicker": "AGENTS",
+   "items": [
+    {
+     "title": "Anthropic 官方开源智能体技能库 Skills",
+     "note": "将 Agent 能力封装标准化，大模型接口竞争进入协议层。",
+     "src": "GitHub Trending",
+     "metric": "+792 星",
+     "url": "https://github.com/anthropics/skills"
+    },
+    {
+     "title": "Meta 开源 Astryx：面向 Agent 的设计系统",
+     "note": "前端组件库原生适配智能体，人机协同开发全面普及。",
+     "src": "GitHub Trending",
+     "metric": "+875 星",
+     "url": "https://github.com/meta/astryx"
+    },
+    {
+     "title": "硅谷华人团队打造下一代 Agent Harness 架构",
+     "note": "突破单会话瓶颈，长程任务调度架构正在加速迭代。",
+     "src": "量子位",
+     "metric": "11-07",
+     "url": "https://www.qbitai.com/2026/11/508264.html"
+    },
+    {
+     "title": "智能体原生原子能力构件论文发布",
+     "note": "实操成功率仍需提升，复用原子构件是落地关键。",
+     "src": "Hugging Face Papers",
+     "metric": "25 赞",
+     "url": "https://huggingface.co/papers/2611.07461"
+    }
+   ]
+  },
+  {
+   "name": "钱与基建",
+   "kicker": "INFRA",
+   "items": [
+    {
+     "title": "OpenAI 新一轮 110 亿美元融资到账",
+     "note": "募资额不及原计划一半，资本对巨头烧钱态度更趋理性。",
+     "src": "量子位",
+     "metric": "11-07",
+     "url": "https://www.qbitai.com/2026/11/508344.html"
+    },
+    {
+     "title": "IDC预测今年全球灵巧手出货2.5万台",
+     "note": "中国厂商份额超85%，具身智能硬件链优势显著。",
+     "src": "IT之家",
+     "metric": "11-09",
+     "url": "https://www.ithome.com/1/024/146.htm"
+    },
+    {
+     "title": "资本撤离“世界模型”赛道，泡沫开始降温",
+     "note": "高耗能与落地难双重受阻，世界模型热潮回归理性调整。",
+     "src": "量子位",
+     "metric": "11-08",
+     "url": "https://www.qbitai.com/2026/11/508466.html"
+    },
+    {
+     "title": "GitHub 承压，OpenAI/Anthropic 加速自研",
+     "note": "AI 自动代码爆发式增长引发代码托管基础设施变革。",
+     "src": "量子位",
+     "metric": "11-07",
+     "url": "https://www.qbitai.com/2026/11/508449.html"
+    }
+   ]
+  },
+  {
+   "name": "开发者与社区",
+   "kicker": "DEV",
+   "items": [
+    {
+     "title": "告别 Claude 转向 Pi 的全栈替代尝试",
+     "note": "开发者开始探索重度依赖单一商用大模型之外的备选方案。",
+     "src": "Hacker News",
+     "metric": "723 分",
+     "url": "https://caleb.software/posts/claude-to-pi.html"
+    },
+    {
+     "title": "据报道开发者打造 MCP 让 Claude 玩 GTA",
+     "note": "MCP 赋能系统控制权，显示出智能体端侧操作的广阔空间。",
+     "src": "Reddit",
+     "metric": "11-09",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xr3gbs/i_built_an_mcp_with_claude_code_that_lets_claude/"
+    },
+    {
+     "title": "据报道腾讯推出 Qwen3.8 投机采样模型",
+     "note": "推理端提速方案百花齐放，投机解码成为开源调优新标准。",
+     "src": "Reddit",
+     "metric": "11-09",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr2aaa/tencentqwen3827bdspineb16_hugging_face/"
+    },
+    {
+     "title": "systemd 拥抱 Rust 底层现代化实践",
+     "note": "关键基础基础设施引入内存安全语言是大势所趋。",
+     "src": "Lobsters",
+     "metric": "37 分",
+     "url": "https://amutable.com/blog/systemd-loves-rust"
+    }
+   ]
+  }
+ ],
+ "comments": [
+  "Anthropic 开源 Agent Skills，给智能体给出了统一的标准动作库。当模型学会调用模版，标准化接口就成了新的竞争高地。",
+  "LG 将性能对标顶级开源模型的 API 直接免费，凸显出后发厂商通过零价格策略硬砸生态位、卷动智能体市场的野心。",
+  "从底层 UI 组件到代码托管系统，全都在针对 Agent 重构。未来写代码与调接口的不仅是程序员，更是自主 Agent。"
+ ],
+ "xhs": {
+  "title": "Agent 生态爆发！三大基础设施开源",
+  "cover": "智能体标准\n开源免费\nUI重构",
+  "deck": "AI 智能体迎来大重构",
+  "intro": "今天 AI 领域迎来多项重磅更新：Anthropic 官方开源技能标准，LG 免费开放高阶 API，Meta 更是推出了首个适配 Agent 的设计系统。",
+  "oneliner": "基础设施标准化正在加速智能体应用的爆发。",
+  "closing": "你会尝试在日常开发中引入这些开源 Agent 技能库吗？",
+  "tags": [
+   "人工智能",
+   "AI智能体",
+   "Anthropic",
+   "开源项目",
+   "软件开发",
+   "前端开发",
+   "Meta",
+   "科技资讯"
+  ]
+ },
+ "sources": [
+  "GitHub Trending",
+  "IT之家",
+  "Hacker News",
+  "Reddit",
+  "量子位",
+  "Lobsters",
+  "Hugging Face Papers"
+ ]
+}

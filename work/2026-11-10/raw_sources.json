@@ -1,0 +1,1035 @@
+{
+ "date": "2026-11-10",
+ "fetched_at": "2026-11-09T05:46:32.070550+00:00",
+ "sources": {
+  "hn": {
+   "items": [
+    {
+     "en": "Goodbye Claude, hello Pi",
+     "url": "https://caleb.software/posts/claude-to-pi.html",
+     "metric": "723 分",
+     "time": "2026-11-08T03:11:48Z",
+     "extra": "447 评论 · https://news.ycombinator.com/item?id=50410107"
+    },
+    {
+     "en": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+     "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+     "metric": "684 分",
+     "time": "2026-11-08T18:16:07Z",
+     "extra": "383 评论 · https://news.ycombinator.com/item?id=50415628"
+    },
+    {
+     "en": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+     "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+     "metric": "598 分",
+     "time": "2026-11-07T20:45:32Z",
+     "extra": "407 评论 · https://news.ycombinator.com/item?id=50407882"
+    },
+    {
+     "en": "Nvidia CEO Jensen Huang's letter to staff about affair",
+     "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+     "metric": "472 分",
+     "time": "2026-11-08T22:20:09Z",
+     "extra": "509 评论 · https://news.ycombinator.com/item?id=50418016"
+    },
+    {
+     "en": "Declarative Dragging",
+     "url": "https://declarative-dragging.github.io/",
+     "metric": "444 分",
+     "time": "2026-11-04T17:05:07Z",
+     "extra": "58 评论 · https://news.ycombinator.com/item?id=50368481"
+    },
+    {
+     "en": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+     "url": "https://github.com/synchopate/llama-modchip",
+     "metric": "402 分",
+     "time": "2026-11-08T10:22:04Z",
+     "extra": "180 评论 · https://news.ycombinator.com/item?id=50411961"
+    },
+    {
+     "en": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
+     "url": "https://ketchup3d.github.io/app/",
+     "metric": "345 分",
+     "time": "2026-11-08T22:35:35Z",
+     "extra": "92 评论 · https://news.ycombinator.com/item?id=50418176"
+    },
+    {
+     "en": "Outlook.com is rejecting email from domains without DMARC",
+     "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
+     "metric": "328 分",
+     "time": "2026-11-08T19:20:32Z",
+     "extra": "237 评论 · https://news.ycombinator.com/item?id=50416158"
+    },
+    {
+     "en": "Writing as a thinking tool",
+     "url": "http://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html",
+     "metric": "314 分",
+     "time": "2026-11-08T10:41:52Z",
+     "extra": "84 评论 · https://news.ycombinator.com/item?id=50412067"
+    },
+    {
+     "en": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
+     "url": "https://duxlabs.dev/",
+     "metric": "234 分",
+     "time": "2026-11-08T19:08:51Z",
+     "extra": "74 评论 · https://news.ycombinator.com/item?id=50416053"
+    },
+    {
+     "en": "RIP, Harvest",
+     "url": "https://aphyr.com/posts/427-rip-harvest",
+     "metric": "208 分",
+     "time": "2026-11-09T01:58:21Z",
+     "extra": "65 评论 · https://news.ycombinator.com/item?id=50420035"
+    },
+    {
+     "en": "How I Fight AI Brain Fry",
+     "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+     "metric": "197 分",
+     "time": "2026-11-08T19:37:42Z",
+     "extra": "158 评论 · https://news.ycombinator.com/item?id=50416363"
+    },
+    {
+     "en": "Show HN: Vegetable Gardening for Engineers",
+     "url": "https://jrcpl.us/contrib/2020/gardening-for-engineers/",
+     "metric": "185 分",
+     "time": "2026-11-04T08:54:27Z",
+     "extra": "39 评论 · https://news.ycombinator.com/item?id=50362963"
+    },
+    {
+     "en": "Unlocking any car from X brand in most of the world",
+     "url": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
+     "metric": "184 分",
+     "time": "2026-11-09T00:10:50Z",
+     "extra": "64 评论 · https://news.ycombinator.com/item?id=50419215"
+    },
+    {
+     "en": "Ask HN: What are you working on? (November 2026)",
+     "url": "https://news.ycombinator.com/item?id=50417407",
+     "metric": "177 分",
+     "time": "2026-11-08T21:20:20Z",
+     "extra": "592 评论 · https://news.ycombinator.com/item?id=50417407"
+    },
+    {
+     "en": "Chimera Vocal Synth",
+     "url": "https://chimera-vocal-synth.vercel.app/",
+     "metric": "153 分",
+     "time": "2026-11-08T22:36:03Z",
+     "extra": "23 评论 · https://news.ycombinator.com/item?id=50418182"
+    },
+    {
+     "en": "I'm not convinced the AI bubble exists",
+     "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+     "metric": "126 分",
+     "time": "2026-11-08T23:44:36Z",
+     "extra": "171 评论 · https://news.ycombinator.com/item?id=50418975"
+    },
+    {
+     "en": "The Web Is More Than Enough, by Paul Ford",
+     "url": "https://ftrain.com/aboard-the-web-is-more-than-enough",
+     "metric": "105 分",
+     "time": "2026-11-08T19:48:32Z",
+     "extra": "60 评论 · https://news.ycombinator.com/item?id=50416456"
+    }
+   ]
+  },
+  "reddit": {
+   "items": [
+    {
+     "en": "claudism",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xqtwu0/claudism/",
+     "time": "2026-11-08T08:48:23+00:00",
+     "metric": "11-08",
+     "extra": "submitted by /u/Pulku to r/ClaudeAI \n [link] [comments]"
+    },
+    {
+     "en": "\"Does censorship exist in [country]?\", according to various LLMs",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr09nq/does_censorship_exist_in_country_according_to/",
+     "time": "2026-11-08T14:56:07+00:00",
+     "metric": "11-08",
+     "extra": "I wrote a small program that asks the same Yes/No question about every country to a language model, and generates an SVG world map that visualizes the model's responses: https://github.com/p-e-w/llm-beliefs \n I'm rather surprised by the res"
+    },
+    {
+     "en": "Users have started buying RTX 5060 Ti 16GB graphics cards en masse for the sake of AI.",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr01bj/users_have_started_buying_rtx_5060_ti_16gb/",
+     "time": "2026-11-08T14:45:22+00:00",
+     "metric": "11-08",
+     "extra": "Oh look, thats us!\n submitted by /u/ab2377 to r/LocalLLaMA \n [link] [comments]"
+    },
+    {
+     "en": "Apple researchers use a Mac mini running Qwen locally to control a Unitree G1 humanoid robot. Trained on 1,000 simulated homes, it autonomously sits, crawls under tables and navigates unfamiliar rooms, achieving 91% success across 360 real-world trials.",
+     "url": "https://www.reddit.com/r/singularity/comments/1xr6w6w/apple_researchers_use_a_mac_mini_running_qwen/",
+     "time": "2026-11-08T19:32:25+00:00",
+     "metric": "11-09",
+     "extra": "submitted by /u/141_1337 to r/singularity \n [link] [comments]"
+    },
+    {
+     "en": "What's the one prompt you keep coming back to?",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xr0drc/whats_the_one_prompt_you_keep_coming_back_to/",
+     "time": "2026-11-08T15:01:02+00:00",
+     "metric": "11-08",
+     "extra": "Mine is\n Break this project into as many small steps as you can, in order. Each step should take under 30 min and have a clear done-check. Put them in one artifact with checkboxes I can come back to for weeks. If a step stalls, I'll paste i"
+    },
+    {
+     "en": "I built an MCP with Claude Code that lets Claude play PC games in the background. Here it is driving, flying a heli and walking in GTA on its own",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xr3gbs/i_built_an_mcp_with_claude_code_that_lets_claude/",
+     "time": "2026-11-08T17:11:53+00:00",
+     "metric": "11-09",
+     "extra": "I wanted AI agents to create, test, and improve my game mods autonomously by actually playing the games, without taking over my PC while they do it. So I built an MCP server with Claude Code. It gives Claude its own keyboard, mouse, gamepad"
+    },
+    {
+     "en": "Are we not allowed to ask any sh*t about biology to Opus 5.5?",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xr2pir/are_we_not_allowed_to_ask_any_sht_about_biology/",
+     "time": "2026-11-08T16:41:42+00:00",
+     "metric": "11-09",
+     "extra": "https://preview.redd.it/6ggcndgm2f0i1.png?width=1032&format=png&auto=webp&s=31cd3d832d7901e692102f8ac4ff901b763aa02f \n I wanted to ask Opus 5.5 if there are any molecules that can bind to androgen receptors more strongly than DHT. But even "
+    },
+    {
+     "en": "Nvidia Opens Investigation Into Jensen Huang’s Relationship With Chinese Spy",
+     "url": "https://www.reddit.com/r/singularity/comments/1xr7wb5/nvidia_opens_investigation_into_jensen_huangs/",
+     "time": "2026-11-08T20:13:02+00:00",
+     "metric": "11-09",
+     "extra": "submitted by /u/PandaElDiablo to r/singularity \n [link] [comments]"
+    },
+    {
+     "en": "Holy guardrails",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xr45rt/holy_guardrails/",
+     "time": "2026-11-08T17:41:08+00:00",
+     "metric": "11-09",
+     "extra": "Was cloude always like this? I am trying it for a month now. Really great capabilities but these safe guards are ridiculously sensitive. To the point it makes me apply for security researcher when trying to troubleshoot a problem. Or am I u"
+    },
+    {
+     "en": "DeepMind’s VP of Science teases a \"phase transition\" in scientific discovery. What could it be?",
+     "url": "https://www.reddit.com/r/singularity/comments/1xqzpba/deepminds_vp_of_science_teases_a_phase_transition/",
+     "time": "2026-11-08T14:29:57+00:00",
+     "metric": "11-08",
+     "extra": "Curious what this could be. Maybe something related to Co-Scientist, drug discovery or materials science? Google also filed a trademark for AlphaMatter back in April, so maybe we’ll finally hear something about that?\n Hopefully we get some "
+    },
+    {
+     "en": "Pro Tier at $50 Coming Soon?",
+     "url": "https://www.reddit.com/r/OpenAI/comments/1xqst31/pro_tier_at_50_coming_soon/",
+     "time": "2026-11-08T07:34:51+00:00",
+     "metric": "11-08",
+     "extra": "I suspect that if this is real, it will just be the new Plus while the current Plus will be aggressively limited.\n submitted by /u/Ok_Homework_1859 to r/OpenAI \n [link] [comments]"
+    },
+    {
+     "en": "GPT-5.5 dataset across my used 25 billion tokens!",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr3ymf/gpt55_dataset_across_my_used_25_billion_tokens/",
+     "time": "2026-11-08T17:32:48+00:00",
+     "metric": "11-09",
+     "extra": "Cheers for u/New_Comfortable7240 for santitisation!\n 12,121 tool calls here!\n submitted by /u/-MaskNinja- to r/LocalLLaMA \n [link] [comments]"
+    },
+    {
+     "en": "Claude saved my old iPhone from becoming ewaste",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xrevbv/claude_saved_my_old_iphone_from_becoming_ewaste/",
+     "time": "2026-11-09T01:30:10+00:00",
+     "metric": "11-09",
+     "extra": "Semi - new Claude user here.\n I had my old iPhone se that would not boot into anything, restore, ramdisk, nothing. Got to a point where I thought the nand had failed as it'd kernel panic or just die instantly.\n After longer than I want to a"
+    },
+    {
+     "en": "tencent/Qwen3.8-27B-DSpine-b16 · Hugging Face",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr2aaa/tencentqwen3827bdspineb16_hugging_face/",
+     "time": "2026-11-08T16:23:48+00:00",
+     "metric": "11-09",
+     "extra": "Apparently Tencent has developed a new speculative decoding method. 3x faster decoding for 27B models?\n submitted by /u/emdeka87 to r/LocalLLaMA \n [link] [comments]"
+    },
+    {
+     "en": "I used Claude Code to rebuild IDM as a free, open-source download manager, the ArtCraft way. Mister Download Manager, in Rust, 0.5 just shipped",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xqy0s6/i_used_claude_code_to_rebuild_idm_as_a_free/",
+     "time": "2026-11-08T13:07:25+00:00",
+     "metric": "11-08",
+     "extra": "When the guys at ArtCraft rebuilt Adobe's apps in Rust with Claude, I wanted the same for the download manager everyone knows, heh, IDM. I honestly never liked the licence nags. So ten days ago I started Mister Download Manager with Claude "
+    },
+    {
+     "en": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation: This will completely change everything!",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr6krp/nextconcept_modeling_fast_parallel_coarsetofine/",
+     "time": "2026-11-08T19:19:39+00:00",
+     "metric": "11-09",
+     "extra": "Essentially we could very soon run opus 5.5 level of intelligence on 32gb Vram. Its many folds more efficient in terms of memory bandwidth making compute the real bottleneck.\n What do you think?\n submitted by /u/Lorian0x7 to r/LocalLLaMA \n "
+    },
+    {
+     "en": "How long until gta 6 gets ported to pc after launch by vibe coding",
+     "url": "https://www.reddit.com/r/singularity/comments/1xquay6/how_long_until_gta_6_gets_ported_to_pc_after/",
+     "time": "2026-11-08T09:14:15+00:00",
+     "metric": "11-08",
+     "extra": "How much time do you think it will take as it is the most hyped game in years and will sony or rockstar try to stop it?\n submitted by /u/Fearless-Macaron9183 to r/singularity \n [link] [comments]"
+    },
+    {
+     "en": "4x Radeon AI PRO R9700 + 2x RTX 3090 on one x16 slot, using a PCIe switch",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr2a6y/4x_radeon_ai_pro_r9700_2x_rtx_3090_on_one_x16/",
+     "time": "2026-11-08T16:23:42+00:00",
+     "metric": "11-09",
+     "extra": "submitted by /u/bolts98 to r/LocalLLaMA \n [link] [comments]"
+    },
+    {
+     "en": "I built a free browser tycoon game with Claude: secretly live in the ceiling of a dying 2004 mall",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xr4cd7/i_built_a_free_browser_tycoon_game_with_claude/",
+     "time": "2026-11-08T17:48:48+00:00",
+     "metric": "11-09",
+     "extra": "I built Mall Bats with Claude Opus 5.5 after watching the fun documentary Secret Mall Apartment . My first attempt was in March, but LLMs weren't there yet. Tried again last week, and I'm amazed by the result.\n What it is: an isometric tyco"
+    },
+    {
+     "en": "This is what it looks like when you finish the OpenAI snake game",
+     "url": "https://www.reddit.com/r/OpenAI/comments/1xr0m2d/this_is_what_it_looks_like_when_you_finish_the/",
+     "time": "2026-11-08T15:11:00+00:00",
+     "metric": "11-08",
+     "extra": "submitted by /u/raidedclusteranimd to r/OpenAI \n [link] [comments]"
+    }
+   ]
+  },
+  "x": {
+   "items": [
+    {
+     "en": "@shaunmaguire Shaun Maguire, a partner at Sequoia Capital, posted on X outlining five points regarding the Jensen Huang scandal, stating that Huang is an irreplaceable leader for America's AI. This post garnered over 2.13 million views.",
+     "author": "@shaunmaguire",
+     "url": "https://x.com/shaunmaguire/status/placeholder_for_actual_tweet_id",
+     "metric": "2.13 million views",
+     "time": "2026-11-08",
+     "extra": "Futu News",
+     "status": "待核"
+    },
+    {
+     "en": "@elonmusk Elon Musk retweeted Shaun Maguire's post about Jensen Huang, adding 'I agree,' which significantly amplified the reach of the discussion around the Nvidia CEO's situation and its implications for AI leadership.",
+     "author": "@elonmusk",
+     "url": "https://x.com/elonmusk/status/placeholder_for_actual_tweet_id",
+     "metric": "amplified Maguire's post",
+     "time": "2026-11-08",
+     "extra": "Futu News",
+     "status": "待核"
+    },
+    {
+     "en": "@DeepSeek DeepSeek, a Hangzhou startup, announced on X that its open-source AI agent app, Harness, reached 1.54 million daily active users by November 4, indicating significant growth and interest in AI agents.",
+     "author": "@DeepSeek",
+     "url": "https://briefs.co/news/technology/deepseek-harness-hits-1-54-million-daily-users-fueling-the-ai-agent-race/",
+     "metric": "1.54 million daily active users reported",
+     "time": "2026-11-08",
+     "extra": "Briefs Finance",
+     "status": "待核"
+    },
+    {
+     "en": "@gregisenberg Greg Isenberg's tweet from October 23, 2026, about 'The MOST obvious (but REALLY good) STARTUP ideas right now' in the AI agent economy, was highlighted in a curated list of top AI tweets for its high engagement.",
+     "author": "@gregisenberg",
+     "url": "https://x.com/gregisenberg/status/placeholder_for_actual_tweet_id",
+     "metric": "4.6K (likely likes/retweets), engagement score 4692.02",
+     "time": "2026-10-23",
+     "extra": "Xholic AI (updated Oct 28, 2026)",
+     "status": "待核"
+    }
+   ]
+  },
+  "github": {
+   "items": [
+    {
+     "en": "sherlock-project/sherlock",
+     "url": "https://github.com/sherlock-project/sherlock",
+     "metric": "+2,373 星",
+     "extra": "Hunt down social media accounts by username across social networks [Python]"
+    },
+    {
+     "en": "dsx-ai-factory/nvke",
+     "url": "https://github.com/dsx-ai-factory/nvke",
+     "metric": "+345 星",
+     "extra": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal. [Go]"
+    },
+    {
+     "en": "milind-soni/OpenMausBot",
+     "url": "https://github.com/milind-soni/OpenMausBot",
+     "metric": "+1,439 星",
+     "extra": "Open-source Grok Bot alternative with a virtual machine that bots can use [TypeScript]"
+    },
+    {
+     "en": "anthropics/claude-quickstarts",
+     "url": "https://github.com/anthropics/claude-quickstarts",
+     "metric": "+32 星",
+     "extra": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API [Python]"
+    },
+    {
+     "en": "vercel-labs/agent-browser",
+     "url": "https://github.com/vercel-labs/agent-browser",
+     "metric": "+815 星",
+     "extra": "Browser automation CLI for AI agents [Rust]"
+    },
+    {
+     "en": "meta/astryx",
+     "url": "https://github.com/meta/astryx",
+     "metric": "+875 星",
+     "extra": "An open source design system that's fully customizable and agent ready [TypeScript]"
+    },
+    {
+     "en": "anthropics/skills",
+     "url": "https://github.com/anthropics/skills",
+     "metric": "+792 星",
+     "extra": "Public repository for Agent Skills [Python]"
+    },
+    {
+     "en": "google-deepmind/mujoco",
+     "url": "https://github.com/google-deepmind/mujoco",
+     "metric": "+41 星",
+     "extra": "Multi-Joint dynamics with Contact. A general purpose physics simulator. [C++]"
+    },
+    {
+     "en": "ranxianglei/billion-context",
+     "url": "https://github.com/ranxianglei/billion-context",
+     "metric": "+460 星",
+     "extra": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need [TypeScript]"
+    }
+   ]
+  },
+  "hf": {
+   "items": [
+    {
+     "en": "Decoupled Predictive Decision Making: A Shared Conditional Predictor for Agents",
+     "url": "https://huggingface.co/papers/2611.02075",
+     "metric": "81 赞",
+     "time": "2026-10-31T20:00:00.000Z",
+     "extra": "DPDM improves agent decision accuracy by combining frozen language-model representations with a shared pretrained conditional predictor that learns from deployment evidence without parameter updates."
+    },
+    {
+     "en": "TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing",
+     "url": "https://huggingface.co/papers/2611.06741",
+     "metric": "41 赞",
+     "time": "2026-11-03T19:00:00.000Z",
+     "extra": "TailSteer, a final-stage training framework, reduces cumulative visual drift in multi-turn editing by keeping early denoising dynamics close to the base model and learning tail-focused preservation corrections from on-po"
+    },
+    {
+     "en": "The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks",
+     "url": "https://huggingface.co/papers/2611.07461",
+     "metric": "25 赞",
+     "time": "2026-11-04T19:00:00.000Z",
+     "extra": "How can an agent handle a real-world task end to end? Frontier models with their own harnesses still fall short on real-world benchmarks: on Terminal-Bench 4.0, GPT-5.6 Sol with Codex resolves 37.3% of the tasks and Clau"
+    },
+    {
+     "en": "On the Opportunities and Challenges of Prefill-to-Autoregressive Cross-Model Transfer",
+     "url": "https://huggingface.co/papers/2611.06976",
+     "metric": "15 赞",
+     "time": "2026-11-04T08:33:47.000Z",
+     "extra": "Prefill-to-Autoregressive Cross-model Transfer (PACT), a form of latent communication between language models, combines a larger model's prompt representations with a smaller model's efficient generation, offering a prom"
+    },
+    {
+     "en": "EvoWorld: Towards Out-of-Sight World Evolution in Generative Video Models",
+     "url": "https://huggingface.co/papers/2611.06748",
+     "metric": "13 赞",
+     "time": "2026-11-04T11:26:45.000Z",
+     "extra": "Generative video models are increasingly used as visual world simulators, yet their primary strength lies in rendering plausible pixels rather than reasoning about how a world should evolve. Coherent world evolution requ"
+    },
+    {
+     "en": "Beneath the Surface: What We Overlook When We Talk About Agent Evolution",
+     "url": "https://huggingface.co/papers/2611.07624",
+     "metric": "13 赞",
+     "time": "2026-11-04T19:00:00.000Z",
+     "extra": "Agent harness evolution enables recursive self-improvement (RSI) without updating model weights. We examine whether higher benchmark scores yield reliable, efficient, and transferable improvement. We evaluate four method"
+    },
+    {
+     "en": "Muir: Linear Attention with Sensitivity-Allocated Gating and Matched-Filter Readout",
+     "url": "https://huggingface.co/papers/2611.08376",
+     "metric": "12 赞",
+     "time": "2026-11-05T12:53:49.000Z",
+     "extra": "A linear attention architecture called Muir allocates gate capacity by sensitivity, uses matched-filter readout and a stable parallel update, improving language modeling, long-context recall, and training speed over Gate"
+    },
+    {
+     "en": "Terminal-style Mathematical Modeling Bench: The First Agentic and Verifiable Benchmark for Mathematical Modeling",
+     "url": "https://huggingface.co/papers/2611.08237",
+     "metric": "11 赞",
+     "time": "2026-11-05T11:18:35.000Z",
+     "extra": "TB-MathModel is a terminal benchmark that makes complete contest-style mathematical modeling problems agentic and verifiable, scoring final numeric answers against multiple human references with feasibility checks."
+    },
+    {
+     "en": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+     "url": "https://huggingface.co/papers/2611.08483",
+     "metric": "9 赞",
+     "time": "2026-11-04T19:00:00.000Z",
+     "extra": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow becau"
+    },
+    {
+     "en": "SAE Interprets MoE: Sparse AutoEncoders Reveal That MoE Experts Exhibit Human-Interpretable Fine-Grained Specialization",
+     "url": "https://huggingface.co/papers/2611.08089",
+     "metric": "9 赞",
+     "time": "2026-11-05T09:35:08.000Z",
+     "extra": "A sparse autoencoder trained on mixture-of-experts layer outputs reveals that individual experts drive specific latent features, showing finer-grained and more concentrated specialization than routing or domain labels al"
+    },
+    {
+     "en": "HeLM: Hierarchical Explicit Language Memory for Non-Markovian Manipulation",
+     "url": "https://huggingface.co/papers/2611.02660",
+     "metric": "9 赞",
+     "time": "2026-11-02T02:20:12.000Z",
+     "extra": "A hierarchical VLA framework is proposed to address the limitations of Markovian models by maintaining task history through explicit language memory and event-triggered updates."
+    },
+    {
+     "en": "Video-Coder: Reinforcing Agentic Coding for Video Generation",
+     "url": "https://huggingface.co/papers/2611.09894",
+     "metric": "6 赞",
+     "time": "2026-11-05T19:00:00.000Z",
+     "extra": "Video-Coder is a code-driven video generation agent that writes and executes code to construct dynamic 3D scenes, trained with supervised fine-tuning and reinforcement learning using execution and video rewards to improv"
+    },
+    {
+     "en": "Exploring Weight-Space Programming: Capabilities, Generalization, and Limitations",
+     "url": "https://huggingface.co/papers/2611.09382",
+     "metric": "6 赞",
+     "time": "2026-11-05T19:00:00.000Z",
+     "extra": "Weight-Space Programming can improve reasoning performance through small, localized edits to neural network parameters, but its editing reliability and cross-task generalization remain uneven."
+    },
+    {
+     "en": "Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription",
+     "url": "https://huggingface.co/papers/2611.06043",
+     "metric": "6 赞",
+     "time": "2026-11-04T01:46:50.000Z",
+     "extra": "A stable-prefix streaming speech recognition model achieves near full-context accuracy with low latency by post-training on longest stable prefix labels without architectural changes."
+    },
+    {
+     "en": "Tools Need Not Speak in Text: Latent Context Compression for Agents",
+     "url": "https://huggingface.co/papers/2611.06500",
+     "metric": "6 赞",
+     "time": "2026-11-03T19:00:00.000Z",
+     "extra": "Large language model (LLM) agents typically append raw tool outputs to their context. Over multi-step interactions, long and noisy observations incur substantial context overhead and dilute the agent's attention to task-"
+    }
+   ]
+  },
+  "verge_tc": {
+   "items": [
+    {
+     "en": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+     "time": "2026-11-08T17:54:50-05:00",
+     "metric": "11-09",
+     "extra": "The Verge · On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Hu"
+    },
+    {
+     "en": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+     "time": "2026-11-08T15:22:39-05:00",
+     "metric": "11-09",
+     "extra": "The Verge · Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement "
+    },
+    {
+     "en": "Apple is racing to make Siri more agentic",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+     "time": "2026-11-08T14:18:19-05:00",
+     "metric": "11-09",
+     "extra": "The Verge · Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI's Dots or Meta's Muse. While Federighi has delivered a functional"
+    },
+    {
+     "en": "Elvis and Eminem rights holders are suing Suno",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+     "time": "2026-11-08T12:23:19-05:00",
+     "metric": "11-09",
+     "extra": "The Verge · Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company, claiming it illegally generates music and lyrics that mimi"
+    },
+    {
+     "en": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
+     "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
+     "time": "2026-11-09T05:26:29+00:00",
+     "metric": "11-09",
+     "extra": "TechCrunch · Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO."
+    },
+    {
+     "en": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+     "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+     "time": "2026-11-08T21:00:11+00:00",
+     "metric": "11-09",
+     "extra": "TechCrunch · In a memo to the company, Huang admitted that he had an affair."
+    },
+    {
+     "en": "After the midterms, things are looking rocky for Elon Musk and data centers",
+     "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+     "time": "2026-11-07T22:07:22+00:00",
+     "metric": "11-08",
+     "extra": "TechCrunch · On Equity, we unpacked what the midterms mean for the tech industry."
+    },
+    {
+     "en": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+     "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+     "time": "2026-11-07T21:17:08+00:00",
+     "metric": "11-08",
+     "extra": "TechCrunch · A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO."
+    }
+   ]
+  },
+  "qbitai": {
+   "items": [
+    {
+     "en": "资本正在撤离“世界模型”",
+     "url": "https://www.qbitai.com/2026/11/508466.html",
+     "time": "2026-11-08T04:09:55+00:00",
+     "metric": "11-08",
+     "extra": "没有永远的夏天"
+    },
+    {
+     "en": "GitHub不堪重负！OpenAI收购替代品，A社原地自研，马斯克也要搞",
+     "url": "https://www.qbitai.com/2026/11/508449.html",
+     "time": "2026-11-07T09:38:56+00:00",
+     "metric": "11-07",
+     "extra": "AI写代码太快，基础设施跟不上了"
+    },
+    {
+     "en": "OpenAI新融资到账110亿美元，不及原计划一半",
+     "url": "https://www.qbitai.com/2026/11/508344.html",
+     "time": "2026-11-07T08:11:25+00:00",
+     "metric": "11-07",
+     "extra": "融资缩水，硅谷投资人也谨慎了"
+    },
+    {
+     "en": "为了去AI味，人类开始主动写烂文章了……",
+     "url": "https://www.qbitai.com/2026/11/508330.html",
+     "time": "2026-11-07T07:59:28+00:00",
+     "metric": "11-07",
+     "extra": "需要说明的是，这并不意味着不会说人话就一定是人，也不意味着说人话的就一定不是AI......."
+    },
+    {
+     "en": "抢跑DeepSeek！硅谷华人把下一代Agent Harness造出来了！？",
+     "url": "https://www.qbitai.com/2026/11/508264.html",
+     "time": "2026-11-07T05:01:17+00:00",
+     "metric": "11-07",
+     "extra": "苦单Session久矣，两大Agent玩家不谋而合。"
+    },
+    {
+     "en": "AGENTS.MD，危险危险危险！！！",
+     "url": "https://www.qbitai.com/2026/11/508244.html",
+     "time": "2026-11-07T03:43:55+00:00",
+     "metric": "11-07",
+     "extra": "全新的电脑病毒"
+    },
+    {
+     "en": "浙大00后博士生再交卷！把十几种物理要素装进一个世界模型｜华为昇腾原生",
+     "url": "https://www.qbitai.com/2026/11/508236.html",
+     "time": "2026-11-07T03:31:44+00:00",
+     "metric": "11-07",
+     "extra": "中国版cosmos再交卷"
+    },
+    {
+     "en": "Jeff Dean李飞飞最新对谈：全是RSI非共识",
+     "url": "https://www.qbitai.com/2026/11/508196.html",
+     "time": "2026-11-07T03:23:29+00:00",
+     "metric": "11-07",
+     "extra": "RSI不可能无限快"
+    },
+    {
+     "en": "A\\三大内部模型曝光！领先Opus5.5三个月，RSI缩短80%实验时间",
+     "url": "https://www.qbitai.com/2026/11/508184.html",
+     "time": "2026-11-06T15:21:56+00:00",
+     "metric": "11-06",
+     "extra": "Dario刚喊减速…"
+    },
+    {
+     "en": "为什么每个 Personal Agent 背后，都必须配备一台“云电脑”？",
+     "url": "https://www.qbitai.com/2026/11/508174.html",
+     "time": "2026-11-06T09:25:59+00:00",
+     "metric": "11-06",
+     "extra": "PPIO 沙箱，把“云电脑”做成开箱即用的 API"
+    }
+   ]
+  },
+  "ithome": {
+   "items": [
+    {
+     "en": "“喵哈”一下：ATK 公布《宝可梦》新叶喵款 A9 Mini 大师版 + 鼠标",
+     "url": "https://www.ithome.com/1/024/214.htm",
+     "time": "2026-11-09T05:45:29+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，ATK 今日 12:00 公布了 A9 Mini 大师版 + 鼠标的《宝可梦》联名新叶喵款。该鼠标以第九世代的标志性宝可梦之一为设计元素， 整体为浅深双绿色 ， 装饰以新叶喵形象 ， 随附主题贴纸 。\n ATK A9 Mini 大师版 + 鼠标新叶喵款采用中小手对称模具，三维 118.4 × 61.2 ×38.6 (mm)；基于 Nordic nRF54LM20 主控、原相 PAW3955 光学传感器，搭配 ATK 定制光学微动、TTC 金轮编"
+    },
+    {
+     "en": "OPPO Pad Air6 平板配置曝光：12.1 英寸 LCD 屏 + 天玑 7360 芯片， 11 月 16 日发布",
+     "url": "https://www.ithome.com/1/024/213.htm",
+     "time": "2026-11-09T05:43:16+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，博主 @体验more 今日曝光了 OPPO Pad Air6 平板配置，这款新品将于 11 月 16 日 19:00 发布。\n 据爆料，新品搭载 天玑 7360 处理器 ，搭配 LPDDR5X + UFS3.1，提供 8GB+128GB/8GB+256GB/12GB+256GB 三个规格。机身正面配备 12.1 英寸 2.8K 120Hz LCD 大屏，提供奇遇蓝 / 星光银两个配色。\n 此外，新机内置 10050mAh 电池 ，支持 33W "
+    },
+    {
+     "en": "夸克网盘 11.11 继续发车： SVIP 低至 7 元 / 月，支持每月 100 次离线下载",
+     "url": "https://www.ithome.com/1/024/212.htm",
+     "time": "2026-11-09T05:38:55+00:00",
+     "metric": "11-09",
+     "extra": "夸克 SVIP 年卡官方定价 300 元，日常大促价 158 元 / 年、25 元 / 月。\n 今日 11.11 大促双年卡 + 月卡仅需 198 元（共 25 个月），加赠 keep 会员双月卡。\n 折合 7.9 元 / 月（算上 keep 会员则 7 元 / 月），95 元 / 年：\n 天猫 夸克网盘 SVIP 超级会员 2 年卡 赠月卡 +keep 双月卡 券后 198 元 直达链接 年卡今日折后 110 元，加赠 14 天，折合 8.7 元 / 月、104 元 / 年"
+    },
+    {
+     "en": "乘联分会：10 月全国乘用车市场零售 164.3 万辆，同比下降 27.1%",
+     "url": "https://www.ithome.com/1/024/211.htm",
+     "time": "2026-11-09T05:35:50+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，乘联分会今日发布 2026 年 10 月份全国乘用车市场分析。2026 年 10 月全国乘用车市场零售 164.3 万辆，同比下降 27.1%，环比增长 1.5%；1-10 月乘用车累计零售 1,497.8 万辆，同比下降 22.3%。 \n 数据显示， 10 月燃油车零售同比下降 45% ，其中纯燃油车同比下降 51%，普通混合动力车同比增长 28%。燃油车中自主同比下降 46%，主流合资同比下降 46%，豪华同比下降 37%，均无差别地受到高"
+    },
+    {
+     "en": "搜狐 2026 年第三季度总收入 1.33 亿美元同比下降 26%，净亏损 1500 万美元由盈转亏",
+     "url": "https://www.ithome.com/1/024/176.htm",
+     "time": "2026-11-09T05:17:12+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，搜狐公司今日公布了截至 2026 年 9 月 30 日未经审计的 2026 年第三季度财务报告。\n 总收入为 1.33 亿美元 （IT之家注：现汇率约合 8.88 亿元人民币） ，较 2025 年同期下降 26%，较上季度下降 2%。\n 营销服务收入为 1,500 万美元 （现汇率约合 1 亿元人民币） ，较 2025 年同期增长 10%，较上季度下降 2%。\n 在线游戏收入为 1.14 亿美元 （现汇率约合 7.61 亿元人民币） ，较 20"
+    },
+    {
+     "en": "IDC：2026 年全球灵巧手出货量约 2.5 万台，中国厂商占比超 85%",
+     "url": "https://www.ithome.com/1/024/146.htm",
+     "time": "2026-11-09T05:08:01+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，IDC 今日发布报告，随着人形机器人与具身智能产业发展，灵巧手的竞争已从自由度、抓握力等硬件参数，延伸至精细操作、感知控制及与具身智能模型的协同能力。当前灵巧手核心需求集中在人形机器人配套、科研教育与具身智能数据采集方向，工业等规模化应用仍处于探索阶段。\n IDC 预计， 2026 年全球灵巧手出货量约 2.5 万台 ，该数据不含厂商向自有机器人产品的内部配套出货； 其中中国厂商出货量占全球市场的比例预计超过 85% ，在全球灵巧手市场占据重要"
+    },
+    {
+     "en": "美国 NASA 新招一批宇航员：为登月任务铺路，上一批 1/800 概率入选",
+     "url": "https://www.ithome.com/1/024/143.htm",
+     "time": "2026-11-09T05:00:03+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，据美联社当地时间 11 月 8 日报道，为帮助实施阿尔忒弥斯项目， 美国航空航天局 NASA 正在接受一批新的宇航员申请 。\n NASA 官员于当地时间周六在肯尼迪航天中心举办的航空展上宣布了这一消息，该活动旨在推广月球探索以及航空和技术的进步。\n NASA 最近一次招募新宇航员是在两年前，共有超过 8,000 人申请，最后只有 10 个人在 2025 年 9 月进入最终筛选名单。\n IT之家从报道获悉， NASA 目前仅有 32 名现役宇航员"
+    },
+    {
+     "en": "OPPO Pad Air6 平板 11 月 16 日发布：10050mAh 大电池，2.8K 120Hz 屏幕",
+     "url": "https://www.ithome.com/1/024/139.htm",
+     "time": "2026-11-09T04:51:17+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，OPPO 官方今天在微博宣布， OPPO Pad Air6 平板将于 11 月 16 日 19:00 发布 。新机为无纸化学习而生，号称“超能学，超护眼，超耐用”。\n IT之家注意到，这款平板电脑已经在京东开启预约。现阶段预约并在发布后购机可获赠有线充电版手写笔、智能保护壳，认证学生还可优惠 100 元。\n 京东 OPPO Pad Air6 待公布 立即预约 商品页显示，这款平板将配备 10050mAh 大电池，拥有新一代明眸柔光屏，分辨率为 "
+    },
+    {
+     "en": "金河田：若二手显卡端子老化致使热烧毁，显卡损坏不属于电源质保范围",
+     "url": "https://www.ithome.com/1/024/137.htm",
+     "time": "2026-11-09T04:36:41+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，电源等 PC 组件品牌金河田 (Golden Field) 今日发布重要公告《搭配二手显卡供电接口风险及售后说明》：\n 金河田表示，电源连接器的可靠性必须建立在“配对端子镀层完好、插拔循环在规范限值内、无氧化”的前提下。而 二手显卡普遍存在 12V 正极导针氧化发黑的问题 ，这会带来接触电阻升高，进而在高功率下电流分配失衡，最终端子烧毁；这种情况并非电源工艺缺陷。\n 在面对此类售后问题时，金河田将进行故障溯源分析。如果问题源于电源侧，则将赔偿直"
+    },
+    {
+     "en": "星曜光学推出 APO M 35mm 1:1.7 ASPH.镜头，5299 元",
+     "url": "https://www.ithome.com/1/024/136.htm",
+     "time": "2026-11-09T04:27:18+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，星曜光学现已推出 APO M 35mm 1:1.7 ASPH.镜头，适配徕卡 M 卡口，预售价格 5299 元。\n 据介绍，这款镜头采用 APO 复消色差设计，可降低色差和高反差边缘的色彩偏移。采用 11 片 7 组光学结构，内置 3 片高精度双面非球面镜，共有 6 个非球面。并针对徕卡相机超薄 CMOS 前置玻璃的特性，在光学设计之初就进行专属光路优化。\n 同时，这款镜头适配 6100 万像素全画幅机型，像场覆盖 4433 中画幅传感器。镜头"
+    },
+    {
+     "en": "鸿蒙智行尊界汽车或推全新子品牌：定价 40-50 万元区间，主打 SUV 车型",
+     "url": "https://www.ithome.com/1/024/135.htm",
+     "time": "2026-11-09T04:20:42+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，据财联社报道，知情人士透露， 尊界或将推出一个全新子品牌，定价区间在 40-50 万左右，车型主打 SUV 。尊界与玛莎拉蒂的合作分属于两个项目，目前（子品牌）具体细节尚未正式确定。\n 据IT之家此前报道，有市场传闻称，玛莎拉蒂母公司 Stellantis、华为、江淮三方合作接近落地，目前规划两款全新纯电车型，整车将由尊界超级工厂负责制造。 新车分别是中大型纯电 SUV 和大型纯电 GT ，基于不同的产品定位，两款产品承担不同的市场责任。\n 尊"
+    },
+    {
+     "en": "博主指控美国苹果 Apple Store 未经顾客允许开通自动续费订阅，员工曾背负 40% 业绩指标",
+     "url": "https://www.ithome.com/1/024/134.htm",
+     "time": "2026-11-09T04:08:12+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，YouTube 博主 Louis Rossmann 昨日爆料称，部分美国地区的 Apple Store 直营店员工在顾客没有充分知情同意的情况下，擅自为其开通 Apple One 等服务的自动续费试用订阅。\n IT之家了解到，当顾客前往 Apple Store 后，店员会询问是否愿意扫描二维码，以获得个性化购物体验。如果顾客同意，店员就可以用公司配发的设备查看顾客信息，其中包含他持有的苹果设备、订阅的苹果服务，以及根据近期购买记录给出的订阅优惠"
+    },
+    {
+     "en": "自然干旱叠加数据中心建设，印度尼西亚峇淡遭遇自来水供应危机",
+     "url": "https://www.ithome.com/1/024/121.htm",
+     "time": "2026-11-09T03:57:35+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，据法新社当地时间本月 8 日报道，与新加坡隔海相望的印度尼西亚峇淡（巴淡）正因自然与人为两方面因素的共同影响遭遇自来水供应危机， 当地居民的日常饮食洗漱都受到严重影响 。\n 峇淡目前正遭受长期干旱，近来愈演愈烈的厄尔尼诺现象更加重了气候影响，导致 主要水源储水量严重下降 。另一方面，峇淡凭借其优厚的地理位置和相对开放的政策成为东南亚 AI 数据中心基建的关键节点之一，而 部分数据中心配备的是高耗水冷却系统 。\n ▲ 峇淡与新加坡 图源：谷歌地图"
+    },
+    {
+     "en": "比亚迪仰望鼎曜旗舰轿车现身官网：确认支持应急浮水功能，意外落水自动激活",
+     "url": "https://www.ithome.com/1/024/120.htm",
+     "time": "2026-11-09T03:57:22+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，11 月 7 日晚，在阿布扎比，比亚迪旗下超豪华行政旗舰轿车 —— 仰望鼎曜迎来全球首秀。\n IT之家注意到，这款新车目前已现身比亚迪仰望汽车官网。\n 官网信息显示，比亚迪仰望鼎曜支持应急浮水功能，在意外落水时会紧急自动激活。\n 参考IT之家此前报道，比亚迪仰望鼎曜长宽高分别为 5600/2030/1590mm，轴距更是达到了 3500mm。新车拥有鼎形前脸和鼎形钻切大灯。新车拥有首尾延展的 4.8 米贯穿式双腰线，并配备“中轴对开门”，前门开"
+    },
+    {
+     "en": "今年前 10 月全国火灾起数同比下降 7%，电气故障为首要诱因",
+     "url": "https://www.ithome.com/1/024/115.htm",
+     "time": "2026-11-09T03:55:48+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，据央视新闻报道，今天是第 35 个全国消防日，国家消防救援局发布了今年前 10 月全国火灾数据。据统计，今年前 10 月火灾起数同比有所下降，住宅是导致火灾伤亡的最主要场所， 电气故障是引发火灾的首要原因 。\n 今年 1 至 10 月，全国共接报火灾 69.6 万起，与去年同期相比， 火灾起数下降 7.0% 。从火灾发生地区情况看，今年前 10 月，在全国火灾总数中，东部地区占 43.3%，比重最高。与去年同期相比，东部、中部地区火灾起数有所下"
+    },
+    {
+     "en": "曝一汽大众取消两年“年终奖”，该收入占部分员工年薪近半",
+     "url": "https://www.ithome.com/1/024/114.htm",
+     "time": "2026-11-09T03:55:32+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，界面新闻今日援引多位一汽大众员工消息称，公司上周在内部口头传达， 2025 年度和 2026 年度的 BD 奖金将取消发放 。\n 报道称，BD 在内部也被称为“保单”， 约占全年总收入的 40% 至 45% 。由于其金额较高、按年度核定，员工通常将其视为年终奖。\n 报道提到，这项收入近年从对应年度结束后的次年 8 月起计入员工 BD 奖金账户。按这一发放节奏，2025 年度 BD 奖金已经超过往年入账时间，2026 年度 BD 奖金原本应在 2"
+    },
+    {
+     "en": "【视频】18万车主参与，第二届华为乾崑智驾公开赛进行中",
+     "url": "https://www.ithome.com/1/024/113.htm",
+     "time": "2026-11-09T03:47:28+00:00",
+     "metric": "11-09",
+     "extra": "第二届华为乾崑智驾公开赛火热进行中！18 万车主参赛，一同感受华为乾崑智驾 ADS 5 真实路况表现。 \n 点击关注IT之家视频号"
+    },
+    {
+     "en": "Anthropic 揭秘科学家用 Claude 都干啥：大多用来分析数据和写作",
+     "url": "https://www.ithome.com/1/024/111.htm",
+     "time": "2026-11-09T03:41:26+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，Anthropic 近日发布研究报告， 显示科学家主要将 Claude 用于数据分析和写作 ，收集数据、生成研究假设则较少使用 AI。\n IT之家了解到，Anthropic 此次研究使用了 2026 年 8 月 2 日至 9 月 30 日的 20.7 万次科研会话，其中包含 12.9 万次 Claude 对话和 Cowork 会话，以及 7.8 万次 Claude Code 会话。系统只保留并研究会话所属的学科、研究子领域和具体任务等分类标签，"
+    },
+    {
+     "en": "公安部 12 月 1 日起推行 5 项交管便民利企新措施，进口小客车可网上一站上牌",
+     "url": "https://www.ithome.com/1/024/110.htm",
+     "time": "2026-11-09T03:41:07+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，公安部今日宣布，进一步提升交管服务便利化水平，提升群众企业办事体验，推出进口小客车新车上牌“一件事”等 5 项公安交管便民利企改革新措施，将自 12 月 1 日起在全国全面推行。\n 推行进口小客车新车上牌“一件事” 。在与税务、金融监管等部门共享车辆销售发票、购置税、保险等信息，实现国产小客车新车上牌“一件事”基础上，进一步加强与市场监管部门信息联网，共享进口小客车预查验信息。群众购买进口小客车后，可通过“交管 12123”App，网上一站办结"
+    },
+    {
+     "en": "宝马公布 2026 广州车展阵容：新世代 BMW i3/iX3 领衔，MINI COUNTRYMAN 中国首秀",
+     "url": "https://www.ithome.com/1/024/109.htm",
+     "time": "2026-11-09T03:32:49+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，宝马集团今日公布广州车展参展阵容，活动时间为 11 月 27 日至 12 月 6 日。根据官方公布的信息来看，新世代 BMW i3、新世代 BMW iX3 将迎来上市，全新 MINI COUNTRYMAN 等车型也将迎来中国首秀。\n 据介绍，新世代 BMW i3 将于 11 月 27 日 正式上市，全国统一价模式，大订开启一步到位；新世代 BMW iX3 将于 11 月 25 日 正式上市，预订客户可转大订，店内试驾及车辆交付届时陆续开启。\n "
+    },
+    {
+     "en": "华为智选车产品总监彭磊：享界 G9 本月首周完成 ToC 交付 1435 辆，均价超 50 万元",
+     "url": "https://www.ithome.com/1/024/108.htm",
+     "time": "2026-11-09T03:32:11+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息， 鸿蒙智行首款科技豪华硬派 SUV 享界 G9 已于今年 8 月上市发布 。华为智选车产品总监（享界系列）彭磊今日公布了这款车型最新动态：\n 随着享界超级工厂生产爬坡上量， 享界 G9 在 11 月第一周完成 ToC 交付 1435 辆 ，均价超过了 50 万， 全月目标 C 端交付量冲刺 5000 台 。\n 享界 G9 在 9 月底才开启首批交付， 10 月是第一个完整生产交付月 ，产能确实经历了爬坡的过程。\n 据IT之家此前报道，享界 G9"
+    },
+    {
+     "en": "七彩虹隐星 P16 Pro 星风版游戏本配套水冷底座登场，套装最低价 12198 元",
+     "url": "https://www.ithome.com/1/024/107.htm",
+     "time": "2026-11-09T03:31:59+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，七彩虹 (Colorful) 今日宣布为 隐星 P16 Pro 星风版 游戏笔记本电脑推出配套的新星风 S1 水冷底座。这一配件 可让该笔电整机性能释放从 150W 提升至 210W ，增幅达 40%。\n 星风 S1 水冷底座搭载一体式密闭水冷系统，结合高速静音水泵、高密铝制鳍片冷排、大容量储液水箱、双温控风扇，拥有自锁定位卡扣。该底座可让隐星 P16 Pro 星风版 相同性能模式下核心平均温度降低约 10℃ ； 同等负载下噪声降低 5dB(A"
+    },
+    {
+     "en": "深圳成为全球消费级 3D 打印第一城",
+     "url": "https://www.ithome.com/1/024/102.htm",
+     "time": "2026-11-09T03:28:59+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，“广东发布”官方今日发文，今年上半年，深圳 3D 打印设备产量同比增长 58.1%，出口额同比增长 127.5%， 占全国同类产品出口总额的 86% 。\n “广东发布”表示，深圳凭借强大的产业和科技创新能力，牢牢占据全球 3D 打印市场， 一举拿下全球消费级 3D 打印第一城的宝座 。\n 国家统计局数据显示，2026 年上半年，国内 3D 打印设备产量同比增长 48.5%，增速在主要工业产品中排名第一。出口端表现更为突出，上半年我国累计出口 3"
+    },
+    {
+     "en": "微信鸿蒙版 App 安装量超 9000 万次，华为 HarmonyOS 终端用户数预计本月突破 1 亿大关",
+     "url": "https://www.ithome.com/1/024/099.htm",
+     "time": "2026-11-09T03:24:40+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，微信鸿蒙版 App 今日再迎里程碑时刻 —— 安装量正式突破 9000 万 （最新数据显示安装量为 9017 万次）。\n 值得一提的是，在 11 月 5 日的华为擎云 2026 鸿蒙办公产业峰会上，华为官方公布了 HarmonyOS 系统最新用户数据。\n 目前，华为 HarmonyOS 6&7 终端设备数已突破 9000 万、华为终端设备款数 140+、可获取应用和服务数 45 万+ 。HarmonyOS 终端用户数也即将突破 1 亿，预计会在"
+    },
+    {
+     "en": "东风本田 CR-V 全能荣耀款明日上市，预计座舱等配置升级",
+     "url": "https://www.ithome.com/1/024/089.htm",
+     "time": "2026-11-09T03:15:13+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，据东风本田官方，CR-V 全能荣耀款上市发布会将于 11 月 10 日 17:00 举行。目前官方暂未公布新车的配置及价格信息，预计主要升级智能座舱与智驾配置。\n IT之家注意到，CR-V 全球 30 年荣耀款指导价为 18.59-24.99 万元， 提供燃油版和混动版双版本 。该车外观方面基本延续 2024 款车型设计，前脸带有大尺寸黑色格栅，继续配备细长造型大灯组和前包围黑色装饰条；车身提供传统造型门把手；车尾带有 L 形尾灯组。\n 作为参"
+    },
+    {
+     "en": "人民空军“新家伙”来了，我国攻击-11 无尾飞翼布局无人机大大方方展示",
+     "url": "https://www.ithome.com/1/024/088.htm",
+     "time": "2026-11-09T03:14:46+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，央视军事今日发布视频，宣布人民空军“新家伙”来了， 并在视频中全方位展示了攻击-11 无尾飞翼布局无人机的外观细节 。\n IT之家查询获悉，攻击-11 是我国自主研发的无尾飞翼布局无人机，其进气道在机背上方，尾部采用扁平化工艺， 所有武器都装载于机腹的内置弹舱中，弹舱可以容纳多种对面打击弹药 。该机还具备良好的隐身性能，续航时间长，攻击精度高，可遂行制空突击、压制防空等作战任务。\n 2019 年，在国庆 70 周年阅兵上，攻击-11 无人机首次"
+    },
+    {
+     "en": "日本产业革新投资机构向三井化学和 DBJ 出售 JSR，总交易价值超 1.8 万亿日元",
+     "url": "https://www.ithome.com/1/024/086.htm",
+     "time": "2026-11-09T03:14:26+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，日本产业革新投资机构 (JIC) 当地时间今日发布正式公告，将向三井化学 (Mitsui Chemicals) 和日本政策投资银行 (DBJ) 出售旗下企业 JSR，交易完成后 JSR 将成为三井化学控股子公司 。\n 本次交易对 JSR 股权估值 13921 亿日元，另有 4479 亿日元债务承担， 总交易价值超 1.8 万亿日元 （IT之家注：现汇率约合 758.84 亿元人民币） ，预计将于 2027 财年下半年完成。\n JSR 是全球第二"
+    },
+    {
+     "en": "背屏支持心率血氧检测：荣耀 700 系列手机四色官图公布",
+     "url": "https://www.ithome.com/1/024/078.htm",
+     "time": "2026-11-09T03:10:18+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，荣耀现已公布荣耀 700 系列手机四种配色的官图，新机的配色分别为「晴空」「粉雾」「冷白」「蓝调」。\n IT之家注意到， 官图显示荣耀 700 系列的背屏支持心率血氧检测 ，并拥有后摄自拍、航班提醒等功能。\n 荣耀全球首席营销官关海涛曾于本月初表示，荣耀 700 系列新机方向很明确：继承旗舰级影像能力、探索 AI 时代年轻人的新鲜玩法，并守住荣耀一直以来的优势长板。\n 结合微博博主 @数码闲聊站 此前爆料， 荣耀 700 系列手机采用同档唯一双"
+    },
+    {
+     "en": "英伟达发言人确认黄仁勋将继续履职公司 CEO 一职不中断，特朗普表态支持",
+     "url": "https://www.ithome.com/1/024/073.htm",
+     "time": "2026-11-09T03:01:58+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，据 CNBC 报道，当地时间 11 月 8 日，英伟达发言人对外明确， 黄仁勋将继续担任公司首席执行官 （Chief Executive Officer，简称 CEO），履职不会中断，相关风波不会打乱英伟达正常经营节奏。\n 据IT之家今日早些时候报道，英伟达创始人兼 CEO 黄仁勋向英伟达员工发布了公开信。信中， 他公开致歉并承认对妻子不忠 ，称自己的行为伤害了她和孩子，所做的一切没有任何借口。\n 美国总统特朗普在被福克斯新闻记者问及相关问题时"
+    },
+    {
+     "en": "全国高校首个“冷门绝学学院”成立",
+     "url": "https://www.ithome.com/1/024/076.htm",
+     "time": "2026-11-09T03:00:25+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，全国高校首个冷门绝学学院于 11 月 6 日在中国社会科学院大学成立。\n 11 月 6 日，中国社会科学院大学冷门绝学学院成立仪式暨全国冷门绝学联盟启动大会在京举办。\n IT之家从官方公告了解到，中国社会科学院大学冷门绝学学院的研究范围覆盖突厥文、西夏文、契丹文、女真文、满文、古藏文、古彝文、八思巴文、纳西东巴文、方块壮文等 10 余种民族古文字，统筹甲骨学、简帛学、古典学等特色研究方向，设立甲骨文与简帛文献、北方民族古文字、西南民族古文字、中"
+    },
+    {
+     "en": "索尼 PlayStation Portal 串流掌机新增“午夜黑”配色，锁日区",
+     "url": "https://www.ithome.com/1/024/074.htm",
+     "time": "2026-11-09T02:59:00+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，索尼互动娱乐（SIE）今日推出 PlayStation Portal 串流掌机午夜黑配色，建议零售价 39,980 日元 （IT之家注：现汇率约合 1,685 元人民币） ，随机附赠 1 个月 PS Plus 高级会员，12 月 10 日正式发售。\n IT之家了解到，该款掌机名为「PlayStation Portal 玩家版」， 系统语言仅支持日语 ， 并且只能使用国家 / 地区设定为日本的 PSN 账号 。\n 同时，这款掌机配备 8 英寸 1"
+    },
+    {
+     "en": "某阔直板手机正面图曝光，预计为华为星芒 OSTA O1 Pro",
+     "url": "https://www.ithome.com/1/024/072.htm",
+     "time": "2026-11-09T02:45:58+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，博主 @数码闲聊站 今日曝光了某新机正面图，采用阔直板造型设计，评论区网友推测为华为星芒 OSTA O1 Pro。\n IT之家注意到，该博主此前曾爆料华为子品牌星芒的英文名是 OSTA，手机盒上也写的 OSTA，第一款阔直板手机叫 OSTA O1 Pro。该机可选星空黑 / 星云白 / 星芒紫三款配色，以及 12+256GB/12+512GB/16+512GB/16+1TB 容量。\n “星芒”这一名称并非首次出现在公众视野。IT之家查询公开商标"
+    },
+    {
+     "en": "特朗普称 AI 风险可控，但不介意设置监管护栏",
+     "url": "https://www.ithome.com/1/024/071.htm",
+     "time": "2026-11-09T02:43:18+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，据路透社今日报道，美国总统唐纳德 · 特朗普表示，AI 带来的风险是可控的，但其对监管措施持开放态度， 他“不介意设置护栏” 。\n 当被问及美国是否应该接受 AI 的风险时，特朗普表示这些危险是可控的，并表示愿意与民主党在监管措施方面进行合作。\n 特朗普此前支持让科技公司自我监管，而不是实施全面的政府限制。他的最新发言表明，其对 AI 监管持某种开放态度，尽管目前尚不清楚开放程度如何。\n 据IT之家此前报道，当地时间 9 月 14 日，英伟达 "
+    },
+    {
+     "en": "美国网络服务商 Spectrum 推出限时免费千兆网速升级，只为助力《GTA6》下载",
+     "url": "https://www.ithome.com/1/024/070.htm",
+     "time": "2026-11-09T02:40:16+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，美国网络服务提供商 Spectrum 最近宣布，公司将于 11 月 9 日-11 月 30 日，为符合条件的现有用户提供免费千兆网速升级，助力《GTA6》游戏下载。\n Spectrum 表示，拥有兼容设备的客户可在其手机 App 上轻点一下， 就能限时免费升级至 1G 互联网套餐 。如果用户已经拥有 1G 套餐，则可以升级至 2G 套餐。11 月 10 日起，升级网速的可以全速预下载《GTA6》，避开发售日的下载高峰。\n 据IT之家此前报道 ，"
+    },
+    {
+     "en": "LG AI 研究院宣布对外免费开放 K-EXAONE 2.5 模型 API",
+     "url": "https://www.ithome.com/1/024/069.htm",
+     "time": "2026-11-09T02:39:09+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，LG AI 研究院韩国当地时间今日宣布， 对外免费开放其 K-EXAONE 2.5 模型的 API 。包括开发者、企业、研究机构在内任何用户，可无需付费地将 K-EXAONE 2.5 应用于服务开发和研究。\n 这一自研技术验证模型在今年 8 月发布的原版基础上进行了追加训练， 拥有比肩头部开源 AI 模型的智能体能力 ，在 AutomationBench、SWE-Bench Pro、BrowseComp、Claw-Eval 上的表现与 Deep"
+    },
+    {
+     "en": "比亚迪 C12 DUO 首秀 2026 欧洲客车展，英国市场迎来第 3000 台电动大巴里程碑",
+     "url": "https://www.ithome.com/1/024/068.htm",
+     "time": "2026-11-09T02:35:47+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，11 月 3 日-5 日，2026 欧洲客车展（Euro Bus Expo）于英国伯明翰举办。据比亚迪商用车消息， 全新城际 C12 DUO 在此次车展上迎来全球首秀 ，B11 及两款双层 BD11A、BD11B 同步亮相，覆盖城市通勤、城郊接驳、城际客运等场景。\n ▲ 图源：比亚迪商用车公众号（后同） 据介绍，全新 12 米城际客车 C12 DUO，专为旅游客运、校车及城际定制化客运服务打造， 最高续航可达 547 公里 ，最大载客量 57 "
+    },
+    {
+     "en": "上汽奥迪 AUDI DAY 2026 定档 11 月 13 日，E7X/E5 Sportback 特别版车型登场",
+     "url": "https://www.ithome.com/1/024/067.htm",
+     "time": "2026-11-09T02:35:07+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，上汽奥迪官方今日宣布，AUDI DAY 2026 定档 11 月 13 日举办，奥迪世界模型全场景辅助驾驶将亮相，E7X 与 E5 Sportback 家族产品将焕新登场，特别版车型即将发布。\n 据IT之家此前报道，上汽奥迪 AUDI E7X 于 5 月 29 日上市，长宽高分别为 5049mm/1997mm/1710mm，轴距 3060mm，车型全系标配 900V 高压快充、前双叉臂独立悬挂、奥迪助手，支持 4C 快充，售价 26.98 万元"
+    },
+    {
+     "en": "12+256G 版 3999 → 2530 元：小米 REDMI K100 Pro 官方 11.11 直降",
+     "url": "https://www.ithome.com/1/024/066.htm",
+     "time": "2026-11-09T02:32:11+00:00",
+     "metric": "11-09",
+     "extra": "小米 8 月发布新一代 REDMI K100 Pro 系列手机，今日天猫旗舰店 11.11 狂促再加码。\n 先领天猫数码家电消费券： 点此领券 （非 88VIP 也能领）。\n 淘宝 11.11 红包至高 26888 元，每天可抽 1 次： 点此抽取 。\n 本次需叠加 200 元淘金币，如果淘金币不够，下方已附借币方法。\n REDMI K100 Pro\n 12+256GB 上市定价 3999 元，今日 2530.49 元。\n 16+256GB 上市定价 4599 元，今日 28"
+    },
+    {
+     "en": "何刚解释华为睿影 XMAGE 命名：三次升级始终保留了字母“X”，代表着未知",
+     "url": "https://www.ithome.com/1/024/064.htm",
+     "time": "2026-11-09T02:24:41+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，华为董事、终端 BG CEO 何刚今日发布长文，回顾了华为影像大赛的发展历程，并宣布华为影像大赛颁奖盛典暨 10 周年展“温暖共生”将于 11 月 11 日至 15 日在巴黎大皇宫举行。\n 文中，何刚还解释了华为睿影 XMAGE 的命名：\n 从 2017 年的新影像 Next-Image，2022 年成为独立影像品牌 XMAGE，再到今年的华为睿影 XMAGE。 三次品牌升级，我们始终保留了字母“X”，代表着未知 ：下一张照片能拍得更好，下一部"
+    },
+    {
+     "en": "Akko 空影 TAN8 鼠标新增 Master N2 版：升级 nRF54LM20 主控，329 元",
+     "url": "https://www.ithome.com/1/024/063.htm",
+     "time": "2026-11-09T02:21:20+00:00",
+     "metric": "11-09",
+     "extra": "IT之家 11 月 9 日消息，Akko 本月 7 日宣布为其空影 TAN8 系列鼠标新增 \"Master N2\" 版本。这一版本搭载 Nordic nRF54LM20 主控， 329 元的售价相比非 N2 原版 \"Master\" (nRF54L15) 高出 30 元 。\n 空影 TAN8 Master N2 采用复合碳纤维开孔壳体， 基于中大尺寸的对称式模具 ， 面向趴握与抓握姿势 ，三维 124.3 × 63.71 × 40.49 (mm)，内置 300mAh 电池，质量"
+    }
+   ]
+  },
+  "lobsters": {
+   "items": [
+    {
+     "en": "systemd loves Rust",
+     "url": "https://amutable.com/blog/systemd-loves-rust",
+     "metric": "37 分",
+     "time": "2026-11-08T06:55:05.530-06:00",
+     "extra": "rust systemd · https://lobste.rs/s/62loik/systemd_loves_rust"
+    },
+    {
+     "en": "A bit about email",
+     "url": "https://maurycyz.com/misc/email/",
+     "metric": "40 分",
+     "time": "2026-11-08T06:53:34.868-06:00",
+     "extra": "email · https://lobste.rs/s/jnz4v5/bit_about_email"
+    },
+    {
+     "en": "Unattended reboots with encrypted disks",
+     "url": "https://jmmv.dev/2026/11/zkeys-intro.html",
+     "metric": "10 分",
+     "time": "2026-11-08T10:58:03.605-06:00",
+     "extra": "freebsd security · https://lobste.rs/s/urg4yu/unattended_reboots_with_encrypted_disks"
+    },
+    {
+     "en": "Herb Sutter: When a language’s creator and its owners strongly disagree: C++26 post-DIS, historical experience, and paths forward",
+     "url": "https://isocpp.org/files/papers/P4454R0.pdf",
+     "metric": "16 分",
+     "time": "2026-11-08T15:59:26.172-06:00",
+     "extra": "c++ pdf · https://lobste.rs/s/vlagyq/herb_sutter_when_language_s_creator_its"
+    },
+    {
+     "en": "What can I realistically do with local AI on a Mac mini M5 Pro (48GB)?",
+     "url": "https://lobste.rs/s/umsitb",
+     "metric": "14 分",
+     "time": "2026-11-08T11:07:51.827-06:00",
+     "extra": "ai ask mac · https://lobste.rs/s/umsitb/what_can_i_realistically_do_with_local_ai"
+    },
+    {
+     "en": "Virtualized Redox: from Virtio-FS to Cloud Hypervisor, and beyond",
+     "url": "https://www.redox-os.org/news/virtualized-redox/",
+     "metric": "10 分",
+     "time": "2026-11-08T15:06:06.921-06:00",
+     "extra": "osdev · https://lobste.rs/s/zozcwa/virtualized_redox_from_virtio_fs_cloud"
+    },
+    {
+     "en": "Sem86: a full-system x86 emulator without hardcoded semantics",
+     "url": "https://liblisa.nl/sem86/",
+     "metric": "5 分",
+     "time": "2026-11-08T20:44:11.515-06:00",
+     "extra": "virtualization · https://lobste.rs/s/a7byol/sem86_full_system_x86_emulator_without"
+    },
+    {
+     "en": "NetBSD 11 desktop on a Raspberry Pi 4",
+     "url": "https://neongd.com/articles/netbsd11-rpi4.gmi",
+     "metric": "21 分",
+     "time": "2026-11-08T06:07:39.271-06:00",
+     "extra": "netbsd · https://lobste.rs/s/rv1icj/netbsd_11_desktop_on_raspberry_pi_4"
+    },
+    {
+     "en": "unlocking any car from X brand in most of the world",
+     "url": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
+     "metric": "3 分",
+     "time": "2026-11-08T22:43:15.100-06:00",
+     "extra": "reversing security · https://lobste.rs/s/kbrpx3/unlocking_any_car_from_x_brand_most_world"
+    },
+    {
+     "en": "I Dislike Pull Requests (2020)",
+     "url": "https://medium.com/@pia.fak.sunnanbo/i-hate-pull-requests-17836dd3cc38",
+     "metric": "3 分",
+     "time": "2026-11-08T17:10:34.336-06:00",
+     "extra": "practices · https://lobste.rs/s/za1r6h/i_dislike_pull_requests_2020"
+    },
+    {
+     "en": "Nspawn 3.0: A Docker-compatible Engine API for systemd-nspawn containers",
+     "url": "https://blog.nspawn.org/posts/nspawn-3-0-a-docker-compatible-engine-api-for-systemd-nspawn-containers/",
+     "metric": "15 分",
+     "time": "2026-11-08T02:41:38.183-06:00",
+     "extra": "release · https://lobste.rs/s/lh0qbr/nspawn_3_0_docker_compatible_engine_api"
+    },
+    {
+     "en": "I’m not a fan of Deno’s security model (2024)",
+     "url": "https://goldstein.lol/posts/deno-security/",
+     "metric": "40 分",
+     "time": "2026-11-07T17:19:53.437-06:00",
+     "extra": "security · https://lobste.rs/s/sh62d1/i_m_not_fan_deno_s_security_model_2024"
+    },
+    {
+     "en": "Who wants to crowdsource LLM scans of articles submitted to Lobste.rs?",
+     "url": "https://lobste.rs/s/jbdtim",
+     "metric": "22 分",
+     "time": "2026-11-08T10:36:17.777-06:00",
+     "extra": "meta · https://lobste.rs/s/jbdtim/who_wants_crowdsource_llm_scans_articles"
+    },
+    {
+     "en": "Optimizing reference deletions in Git",
+     "url": "https://nayak.im/posts/optimizing-reference-deletion/",
+     "metric": "3 分",
+     "time": "2026-11-08T15:37:53.908-06:00",
+     "extra": "c performance rust vcs · https://lobste.rs/s/ic1ora/optimizing_reference_deletions_git"
+    },
+    {
+     "en": "Introducing Project Steadfast",
+     "url": "https://noteflakes.com/articles/2026-11-07-introducing-project-steadfast",
+     "metric": "8 分",
+     "time": "2026-11-08T03:09:24.240-06:00",
+     "extra": "ruby · https://lobste.rs/s/5cavvx/introducing_project_steadfast"
+    },
+    {
+     "en": "Playing with the STM32MP2",
+     "url": "https://serd.es///2026/11/08/playing-with-stm32mp2.html",
+     "metric": "8 分",
+     "time": "2026-11-08T11:12:00.379-06:00",
+     "extra": "hardware · https://lobste.rs/s/cwmxea/playing_with_stm32mp2"
+    },
+    {
+     "en": "How are you dealing with all the negative side effects of AI on the web?",
+     "url": "https://lobste.rs/s/ipplhe",
+     "metric": "94 分",
+     "time": "2026-11-07T03:47:24.713-06:00",
+     "extra": "ask web · https://lobste.rs/s/ipplhe/how_are_you_dealing_with_all_negative_side"
+    },
+    {
+     "en": "Dear Open Source Developers: It's OK not to embargo",
+     "url": "https://opensourcesecurity.io/2026/10-embargo/",
+     "metric": "33 分",
+     "time": "2026-11-07T17:31:05.716-06:00",
+     "extra": "security · https://lobste.rs/s/lhovnm/dear_open_source_developers_it_s_ok_not"
+    }
+   ]
+  }
+ }
+}

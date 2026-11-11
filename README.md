@@ -10,7 +10,7 @@
 
 ## 最新一期
 
-- **2026-11-09｜英伟达查老板，Claude Code 漏密码**（黄仁勋遭董事会调查、Claude Code 泄密、64GB 跑 284B 模型）· [网页](reports/2026-11-09/index.html) · 公众号 reports/2026-11-09/wechat/wechat.html · 小红书 reports/2026-11-09/xhs/xiaohongshu.md
+- **2026-11-11｜AI 加速研发自己，证据却被涂黑**（Fable 5.2 降价、METR 报告、AlphaProof Code 验证 Signal）· [网页](reports/2026-11-11/index.html) · 公众号 reports/2026-11-11/wechat/wechat.html · 小红书 reports/2026-11-11/xhs/xiaohongshu.md
 
 网页版（GitHub Pages）：https://emotionalronan.github.io/ai-daily-report/
 

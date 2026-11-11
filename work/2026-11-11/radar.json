@@ -1,0 +1,498 @@
+{
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "智能家居设备应当无需联网也能工作",
+     "en": "Smart home devices should work without the internet",
+     "metric": "651 分",
+     "url": "https://docodethatmatters.com/home-automation-overnight-success/",
+     "time": "11-10",
+     "what": "作者主张智能家居应以本地运行为默认设计。"
+    },
+    {
+     "title": "DeepMind 发布 AlphaProof Code：AI 形式化验证 Signal 协议代码",
+     "en": "AlphaProof Code",
+     "metric": "560 分",
+     "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+     "time": "11-10",
+     "what": "DeepMind 称其智能体用 Lean 证明了 Signal 加密协议实际代码的关键安全属性。"
+    },
+    {
+     "title": "Blender 5.3 发布，新增高斯泼溅支持",
+     "en": "Blender 5.3 released with Gaussian Splat support",
+     "metric": "411 分",
+     "url": "https://www.blender.org/download/releases/5-3/",
+     "time": "11-10",
+     "what": "开源 3D 软件 Blender 发布 5.3 版本。"
+    },
+    {
+     "title": "AI 使用会生成脆弱的代码库",
+     "en": "AI usage generates a fragile codebase",
+     "metric": "349 分",
+     "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+     "time": "11-10",
+     "what": "开发者撰文讨论依赖 AI 写码带来的维护风险。"
+    },
+    {
+     "title": "Val Town 宣布停止运营",
+     "en": "Val Town is winding down",
+     "metric": "282 分",
+     "url": "https://blog.val.town/winding-down",
+     "time": "11-10",
+     "what": "在线代码托管运行平台 Val Town 官方博客宣布将逐步关停。"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区情绪",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/LocalLLaMA/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "GTA 5、使命召唤等多款游戏借 AI 逆向工程被移植到浏览器",
+     "en": "GTA 5, Modern Warfare 2, Halo ... ported to browser",
+     "metric": "820 赞",
+     "url": "https://www.destructoid.com/vibe-coded-games-in-browsers/",
+     "time": "11-10",
+     "what": "Destructoid 报道社区用 AI 逆向工程把多款大作移植到浏览器运行。"
+    },
+    {
+     "title": "用 Opus 5.5 把星际火狐、索尼克 CD 移植到桌面平台",
+     "en": "Opus 5.5 is INSANE at decompilation / ports",
+     "metric": "656 赞",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/",
+     "time": "11-10",
+     "what": "作者称用 Claude 将老游戏 ROM 做成原生桌面版，后补充说明更接近静态重编译而非还原源码。"
+    },
+    {
+     "title": "OpenAI 社区投票：取消 5 小时限额、保持周额度占上风",
+     "en": "Thank god",
+     "metric": "485 赞",
+     "url": "https://www.reddit.com/r/OpenAI/comments/1x3d4z1/thank_god/",
+     "time": "11-10",
+     "what": "用户讨论订阅额度规则调整的投票结果。"
+    },
+    {
+     "title": "Claude Projects 将合并为单一对话，Max 用户强烈反对",
+     "en": "New Projects rolling out for Chat and Cowork",
+     "metric": "358 赞",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x33na4/new_projects_rolling_out_for_chat_and_cowork_oh/",
+     "time": "11-10",
+     "what": "用户抗议 Anthropic 把项目内多个对话打通。"
+    },
+    {
+     "title": "10–16GB 显存可跑模型榜单",
+     "en": "Every Model That Can Be Run On 10-16GB VRAM Ranked",
+     "metric": "347 赞",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3gpyi/every_model_that_can_be_run_on_1016gb_vram_ranked/",
+     "time": "11-10",
+     "what": "LocalLLaMA 用户给出主观评测榜单。"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X",
+   "tag": "热帖",
+   "color": "#111111",
+   "url": "https://x.com/explore",
+   "short": "X",
+   "items": [
+    {
+     "title": "Fable 5.2 登顶 Artificial Analysis 智能指数",
+     "en": "Fable 5.2 takes #1 on the Artificial Analysis Intelligence Index",
+     "metric": "8.5 万赞（发布帖）",
+     "url": "https://noid.one/day/2026-11-10/",
+     "time": "11-10",
+     "what": "据热榜站转述：Fable 5.2 最高档得 65 分，领先 Gemini 4 Carbon 5 分。待核"
+    },
+    {
+     "title": "Ryan Dahl：软件工程已全靠 AI 写代码，但“确认能跑”没消失",
+     "en": "Ryan Dahl on AI-written software",
+     "metric": "125 万浏览",
+     "url": "https://aitimeline.news/en/English-Topics/2026-11-10-X%E8%8B%B1%E6%96%87%E7%83%AD%E7%82%B9%E9%80%89%E9%A2%98%E7%AE%80%E6%8A%A5/",
+     "time": "11-10",
+     "what": "转述：Node.js 作者称验证成为瓶颈。"
+    },
+    {
+     "title": "马斯克称 Opus 5.5 是杰作，Grok 4.8 不够好",
+     "en": "Musk on Claude Opus 5.5",
+     "metric": "—",
+     "url": "https://www.chaincatcher.com/en/article/2303503",
+     "time": "11-11",
+     "what": "据 ChainCatcher 转述马斯克在 X 的回复。待核"
+    },
+    {
+     "title": "Pichai 演示 Antigravity /swarm 子智能体做 3D 游戏",
+     "en": "Pichai demos Antigravity /swarm",
+     "metric": "—",
+     "url": "https://agihunt.info/en/p/1a1c66a0845443841f3eae4f35b",
+     "time": "11-11",
+     "what": "转述：builder 与 critic 子智能体循环迭代出可玩游戏。"
+    },
+    {
+     "title": "OpenRouter 正式并入 Stripe",
+     "en": "OpenRouter is officially part of Stripe",
+     "metric": "498 赞",
+     "url": "https://aidaily.fyi/en/s/voices",
+     "time": "11-10",
+     "what": "OpenRouter 官方账号宣布加入 Stripe（转述页）。待核"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热榜",
+   "color": "#24292f",
+   "url": "https://github.com/trending",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "cloudflare/security-audit-skill",
+     "en": "cloudflare/security-audit-skill",
+     "metric": "+2,085 星",
+     "url": "https://github.com/cloudflare/security-audit-skill",
+     "time": "11-11",
+     "what": "Cloudflare 的安全审计技能库。"
+    },
+    {
+     "title": "sherlock-project/sherlock",
+     "en": "sherlock-project/sherlock",
+     "metric": "+1,766 星",
+     "url": "https://github.com/sherlock-project/sherlock",
+     "time": "11-11",
+     "what": "按用户名跨站点查找社交账号的老牌工具。"
+    },
+    {
+     "title": "mattpocock/skills",
+     "en": "mattpocock/skills",
+     "metric": "+1,100 星",
+     "url": "https://github.com/mattpocock/skills",
+     "time": "11-11",
+     "what": "面向编码智能体的技能集合。"
+    },
+    {
+     "title": "google/skills",
+     "en": "google/skills",
+     "metric": "+443 星",
+     "url": "https://github.com/google/skills",
+     "time": "11-11",
+     "what": "Google 的智能体技能仓库。"
+    },
+    {
+     "title": "anthropics/skills",
+     "en": "anthropics/skills",
+     "metric": "+390 星",
+     "url": "https://github.com/anthropics/skills",
+     "time": "11-11",
+     "what": "Anthropic 官方技能库，连续多日在榜。"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文热榜",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "解耦预测决策：面向智能体的共享条件预测器",
+     "en": "Decoupled Predictive Decision Making",
+     "metric": "79 赞",
+     "url": "https://huggingface.co/papers/2611.02075",
+     "time": "11-10",
+     "what": "提出让智能体共享条件预测器的决策框架。"
+    },
+    {
+     "title": "预填充到自回归的跨模型迁移：机遇与挑战",
+     "en": "Prefill-to-Autoregressive Cross-Model Transfer",
+     "metric": "14 赞",
+     "url": "https://huggingface.co/papers/2611.06976",
+     "time": "11-10",
+     "what": "探讨不同模型间迁移预填充状态。"
+    },
+    {
+     "title": "终端式数学建模基准",
+     "en": "Terminal-style Mathematical Modeling Bench",
+     "metric": "9 赞",
+     "url": "https://huggingface.co/papers/2611.08237",
+     "time": "11-10",
+     "what": "首个可验证的智能体数学建模基准。"
+    },
+    {
+     "title": "SwarmEvolve：用于进化式发现的潜空间智能体集群",
+     "en": "SwarmEvolve",
+     "metric": "8 赞",
+     "url": "https://huggingface.co/papers/2611.08483",
+     "time": "11-10",
+     "what": "潜空间智能体集群做进化式搜索与优化。"
+    },
+    {
+     "title": "Muir：敏感度分配门控的线性注意力",
+     "en": "Muir",
+     "metric": "7 赞",
+     "url": "https://huggingface.co/papers/2611.08376",
+     "time": "11-10",
+     "what": "线性注意力新结构。"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#e5127d",
+   "url": "https://techcrunch.com/category/artificial-intelligence/",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "Anthropic 发布 Mythos 5.2 与 Fable 5.2，Fable 降价至每百万输入 8 美元",
+     "en": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+     "time": "11-09",
+     "what": "新模型编码、推理、视觉提升，Fable 价格从 10 降到 8 美元。"
+    },
+    {
+     "title": "METR 报告：Anthropic 的 AI 研发速度约为一年前 2 倍",
+     "en": "Why a new report on Anthropic automating AI development is alarming researchers",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+     "time": "11-07",
+     "what": "第三方机构称内部模型使研发加速，Anthropic 大幅涂黑公开版。"
+    },
+    {
+     "title": "OpenAI 据报道以 1.25 万亿美元估值再融 110 亿美元",
+     "en": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+     "time": "11-06",
+     "what": "据报道。"
+    },
+    {
+     "title": "美国允许英伟达向中国一间空办公室售芯片",
+     "en": "The US let Nvidia sell chips to an empty office in China",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+     "time": "11-10",
+     "what": "Verge 报道黑名单芯片销售漏洞。"
+    },
+    {
+     "title": "Meta 推出 Spaces，与 Muse 智能体协作",
+     "en": "Meta introduces Spaces",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+     "time": "11-06",
+     "what": "Meta 的智能体协作空间。"
+    }
+   ]
+  },
+  {
+   "key": "qbitai",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#1a73e8",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "Fable 5.2 深夜掀桌！从 0 造操作系统，性价比反超 Opus 5.5",
+     "en": "Fable 5.2",
+     "metric": "—",
+     "url": "https://www.qbitai.com/2026/11/508771.html",
+     "time": "11-10",
+     "what": "量子位报道 Fable 5.2 发布及其 RSI 能力限制。"
+    },
+    {
+     "title": "英伟达机器人开源撞上 Fable 5.2 发布，Jim Fan：不是寒冬是夏天",
+     "en": "",
+     "metric": "—",
+     "url": "https://www.qbitai.com/2026/11/509032.html",
+     "time": "11-11",
+     "what": "报道英伟达机器人模型开源。"
+    },
+    {
+     "title": "蚂蚁灵波开源 LingBot-Touch 触觉基础模型",
+     "en": "LingBot-Touch",
+     "metric": "—",
+     "url": "https://www.qbitai.com/2026/11/508996.html",
+     "time": "11-10",
+     "what": "11 月 10 日开源触觉基础模型。"
+    },
+    {
+     "title": "千问办公 2.0 发布，首个支持多人与 Agent 协作的 Team Agent",
+     "en": "",
+     "metric": "—",
+     "url": "https://www.qbitai.com/2026/11/508694.html",
+     "time": "11-09",
+     "what": "千问办公 2.0。"
+    },
+    {
+     "title": "百度文心首次披露 RSI 进展",
+     "en": "",
+     "metric": "—",
+     "url": "https://www.qbitai.com/2026/11/508746.html",
+     "time": "11-09",
+     "what": "ERNIE Evolve 已用于最新模型研发。"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "中文数码资讯",
+   "color": "#d9230f",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "《塞尔达传说：时之笛》重制版刚发售就已能在越狱 PS5 和 iPhone 上运行",
+     "en": "",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/023/841.htm",
+     "time": "11-08",
+     "what": "重制版发售即被破解运行。"
+    },
+    {
+     "title": "埃森哲报告被曝存在虚假引用，公司否认系 AI 幻觉",
+     "en": "",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/023/845.htm",
+     "time": "11-08",
+     "what": "埃森哲报告引用问题。"
+    },
+    {
+     "title": "神舟二十四号乘组本月飞往中国空间站，首位外籍航天员驻留一周",
+     "en": "",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/023/844.htm",
+     "time": "11-08",
+     "what": "载人航天动态。"
+    },
+    {
+     "title": "PS5 版《GTA 6》实体版包装盒曝光：仅含兑换码",
+     "en": "",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/023/840.htm",
+     "time": "11-08",
+     "what": "据曝光图片。"
+    },
+    {
+     "title": "育碧被曝正开发两款《刺客信条》新作",
+     "en": "",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/023/843.htm",
+     "time": "11-08",
+     "what": "据报道。"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "工程师社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "Libghostty 1.0",
+     "en": "Libghostty 1.0",
+     "metric": "148 分",
+     "url": "https://mitchellh.com/writing/libghostty-1-0",
+     "time": "11-10",
+     "what": "Ghostty 终端核心库发布 1.0。"
+    },
+    {
+     "title": "你如何应对 AI 对网络的负面影响？",
+     "en": "How are you dealing with all the negative side effects of AI on the web?",
+     "metric": "56 分",
+     "url": "https://lobste.rs/",
+     "time": "11-10",
+     "what": "工程师社区讨论帖。"
+    },
+    {
+     "title": "Meridian：基于 Servo 和 GPUI 的实验性浏览器",
+     "en": "Meridian",
+     "metric": "43 分",
+     "url": "https://op.tngl.io/meridian/",
+     "time": "11-10",
+     "what": "新实验浏览器。"
+    },
+    {
+     "title": "可编程 GeoDNS：从 AWS 迁往 Bunny",
+     "en": "Scriptable GeoDNS: leaving AWS for Bunny",
+     "metric": "24 分",
+     "url": "https://vincent.bernat.ch/en/blog/2026-bunny-geodns",
+     "time": "11-10",
+     "what": "迁移经验。"
+    },
+    {
+     "title": "OpenBSD top(1) 新增显示 chroot、pledge、unveil 状态的参数",
+     "en": "",
+     "metric": "16 分",
+     "url": "https://undeadly.org/cgi?action=article;sid=20261106104957",
+     "time": "11-06",
+     "what": "OpenBSD 更新。"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Anthropic 发布 Fable 5.2 / Mythos 5.2，Fable 降价 20%",
+   "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+   "why": "Fable 每百万输入 token 从 10 美元降到 8 美元，已低于 GPT-6 Astra；官方称两款新模型比以往更常怀疑自己在被评测。",
+   "pick": true,
+   "status": "ok"
+  },
+  {
+   "title": "METR 报告：Anthropic 的 AI 研发速度约为一年前 2 倍，公开版被大幅涂黑",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+   "why": "第三方 11 周调查，员工自报生产力约 12 倍，递归自我改进讨论升温。",
+   "pick": true,
+   "status": "ok"
+  },
+  {
+   "title": "DeepMind AlphaProof Code 形式化验证 Signal 协议代码",
+   "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+   "why": "四周内生成超 600 万行 Lean 证明，HN 560 分。",
+   "pick": true,
+   "status": "ok"
+  },
+  {
+   "title": "OpenAI 据报道以 1.25 万亿美元估值再融 110 亿美元",
+   "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+   "why": "据报道，11-06 发布，非当日新闻。",
+   "pick": false,
+   "status": "待核"
+  },
+  {
+   "title": "美国允许英伟达向中国空办公室售芯片",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+   "why": "监管漏洞话题，但黄仁勋事件已连续数日报道。",
+   "pick": false,
+   "status": "ok"
+  },
+  {
+   "title": "Meta 推出 Spaces 与 Muse 智能体协作",
+   "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+   "why": "产品更新，细节少。",
+   "pick": false,
+   "status": "ok"
+  }
+ ]
+}

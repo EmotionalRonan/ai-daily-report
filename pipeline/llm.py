@@ -46,6 +46,8 @@ def chain():
 def ask(system, user, *, json_out=True, images=(), search=False, temperature=0.4, tries=6):
     """One model call. images: list of (mime, bytes). search: allow Google Search grounding (gemini only).
     Returns parsed JSON (json_out) or text; with search also returns the grounding sources as ('sources', [...])."""
+    if not KEY:
+        raise RuntimeError('缺少 GEMINI_API_KEY：请在仓库 Settings → Secrets and variables → Actions 的 Repository secrets 里添加')
     last = None
     for i in range(tries):
         try:
@@ -55,7 +57,10 @@ def ask(system, user, *, json_out=True, images=(), search=False, temperature=0.4
                 return _gemini(system, user, json_out, images, search, temperature, m)
             return _openai(system, user, json_out, images, temperature)
         except Exception as ex:
-            last = ex; print(f'[llm] retry {i + 1}: {str(ex)[:300]}'); time.sleep(10 * (i + 1))
+            last = ex; print(f'[llm] retry {i + 1}: {str(ex)[:300]}')
+            if re.search(r'HTTP (400|401|403)\b', str(ex)):   # bad / missing / unauthorised key: retrying won't help
+                raise RuntimeError(f'LLM 鉴权失败（检查 GEMINI_API_KEY）: {str(ex)[:300]}')
+            time.sleep(10 * (i + 1))
     raise RuntimeError(f'LLM failed: {last}')
 
 def _gemini(system, user, json_out, images, search, temperature, mdl=None):

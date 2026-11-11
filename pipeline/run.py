@@ -22,6 +22,8 @@ def main():
     ap.add_argument('--from', dest='start', default='collect', choices=STAGES)
     ap.add_argument('--to', dest='stop', default=STAGES[-1], choices=STAGES)
     a = ap.parse_args(); day = a.date
+    if llm.PROVIDER == 'gemini' and not llm.KEY:
+        sys.exit('缺少 GEMINI_API_KEY：请在仓库 Settings → Secrets and variables → Actions 的 Repository secrets 里添加（名字必须完全一致）')
     wdir = P('work', day); os.makedirs(wdir, exist_ok=True)
     go = lambda s: STAGES.index(a.start) <= STAGES.index(s) <= STAGES.index(a.stop)
     t0 = time.time()

@@ -1,0 +1,553 @@
+{
+ "date": "2026-11-12",
+ "weekday": "周四",
+ "issue": 28,
+ "title": "平台开始拒绝 AI 智能体了",
+ "subtitle": "联合航空/Claude 办公套件/英伟达",
+ "lead": "联合航空宣布不让第三方 AI 智能体代客订票，eBay 与多家银行也在设限；Anthropic 则把 Claude 做进会议、表格和白板。与此同时，英伟达董事会据报道正讨论罢免黄仁勋。",
+ "headlines": [
+  {
+   "title": "英伟达董事会据报道准备罢免黄仁勋，盘后股价跌约 8%",
+   "body": "据《华尔街日报》报道，英伟达董事会最快周三讨论创始人兼 CEO 黄仁勋的去留。黄仁勋周日承认与一名被美国情报部门称为中国间谍的女子有婚外情，《纽约时报》又称他与一名下属高管有关系。英伟达盘后跌约 8%，五日跌约 11%，公司此前没有明确的继任计划。",
+   "why": "AI 算力最关键的一家公司，把一次个人丑闻变成了治理问题：黄仁勋有约 60 名直接下属，接班人却没有。",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+   "image": {
+    "file": "wechat/img/h1.jpg",
+    "src_url": "https://techcrunch.com/wp-content/uploads/2026/09/Jensen-Huang.jpg?resize=1200,800",
+    "credit": "TechCrunch",
+    "w": 1200,
+    "h": 800
+   }
+  },
+  {
+   "title": "联合航空不让第三方 AI 智能体代客订票",
+   "body": "联合航空表示，不允许个人 AI 助手在其平台上完成订票，理由是隐私和监管：智能体可能泄露乘客信息、代买用户不想要的东西，还绕不过联邦规定的声明，比如行李不含爆炸物。智能体仍可展示联合航空的航班。CEO 柯比说，不想再多一个中间人。",
+   "why": "eBay、多家银行也在设限。智能体想替人下单，先要过平台这一关，而平台未必愿意让出入口。",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+   "image": {
+    "file": "wechat/img/h2.jpg",
+    "src_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23176430/1237621702.jpg?quality=90&strip=all&crop=0%2C10.721800295556%2C100%2C78.556399408888&w=1200",
+    "credit": "The Verge",
+    "w": 1200,
+    "h": 623
+   }
+  },
+  {
+   "title": "Anthropic 推出 Claude 会议、表格和白板工具",
+   "body": "Anthropic 周二发布三款面向非技术职员的工具：Meetings 可入会记笔记，Sheets 可与员工一起改表格，Whiteboards 可在白板上整理想法。前两者对付费计划开放测试，Meetings 限 Teams 和企业版。Claude Data 同步向全部付费计划开放。",
+   "why": "Anthropic 的主场一直是程序员，这是它第一次系统性地走向办公室；背后是上市前提高收入与活跃度的压力。",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now",
+   "image": {
+    "file": "wechat/img/h3.jpg",
+    "src_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKB364_CLAUDE_2_C_96d15c.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "credit": "The Verge",
+    "w": 1200,
+    "h": 624
+   }
+  }
+ ],
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "我的 AI 智能体发现了一处未标注的玛雅遗址",
+     "en": "My AI agents found an unmapped Maya site",
+     "metric": "910 分",
+     "url": "https://pietromiotti.com/latest/maya-site"
+    },
+    {
+     "title": "Python 元老 Tim Peters 去世",
+     "en": "Tim Peters has died",
+     "metric": "787 分",
+     "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028"
+    },
+    {
+     "title": "AWS 官方开源本地模拟器",
+     "en": "AWS emulator",
+     "metric": "594 分",
+     "url": "https://github.com/aws/aws-emulator"
+    },
+    {
+     "title": "华尔街日报：英伟达正准备罢免黄仁勋",
+     "en": "Nvidia is preparing to oust Jensen Huang",
+     "metric": "300 分",
+     "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad"
+    },
+    {
+     "title": "联合航空禁止 AI 智能体代客订票",
+     "en": "United Airlines bans AI agents from booking flights",
+     "metric": "276 分",
+     "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区情绪",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/LocalLLaMA/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "“互联网太疯狂了”（r/artificial 热帖）",
+     "en": "The Internet is wild",
+     "metric": "2106 赞",
+     "url": "https://i.redd.it/ciij72r3ztuh1.jpeg"
+    },
+    {
+     "title": "开源版 Office 三件套复刻引发热议",
+     "en": "Creator of free Adobe clones unveils open-source Office replications",
+     "metric": "1481 赞",
+     "url": "https://www.tomshardware.com/software/microsoft-office/creator-of-free-adobe-clones-unveils-open-source-microsoft-office-excel-powerpoint-and-word-replications-autodesk-tools-and-other-subscription-based-services-may-come-next"
+    },
+    {
+     "title": "GTA 5、使命召唤等借 AI 逆向被移植到浏览器",
+     "en": "GTA 5, Modern Warfare 2, Halo ... ported to browser",
+     "metric": "820 赞",
+     "url": "https://www.destructoid.com/vibe-coded-games-in-browsers/"
+    },
+    {
+     "title": "Karpathy 谈能力落差",
+     "en": "Andrej Karpathy breaks down the capability gap",
+     "metric": "790 赞",
+     "url": "https://x.com/karpathy/status/2109361546505966046"
+    },
+    {
+     "title": "RTX 5090 卖到 5000 美元：AI 公司整托盘买游戏显卡",
+     "en": "Here's why RTX 5090 costs $5,000",
+     "metric": "463 赞",
+     "url": "https://videocardz.com/newz/heres-why-rtx-5090-costs-5000-ai-firms-are-buying-gaming-gpus-by-the-pallet"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X",
+   "tag": "热帖",
+   "color": "#111111",
+   "url": "https://x.com/explore",
+   "short": "X",
+   "items": [
+    {
+     "title": "Anthropic 发布 Fable 5.2 预发布演示串",
+     "en": "Claude Fable 5.2 pre-release showcase",
+     "metric": "约 640 万浏览（转述）",
+     "url": "https://x.com/claudeai/status/2120174863210201316"
+    },
+    {
+     "title": "Artificial Analysis：Fable 5.2 登顶 3D 能力榜",
+     "en": "Claude Fable 5.2 is now #1 on AA-3D",
+     "metric": "Elo 1271",
+     "url": "https://x.com/ArtificialAnlys/status/2119953570430881946"
+    },
+    {
+     "title": "Claude 官方转发：用 Fable 5.2 做的黑板讲题应用",
+     "en": "Ask anything and see the answer explained on a chalkboard",
+     "metric": "12.18 万浏览",
+     "url": "https://x.com/claudeai/status/2120174863210201316"
+    },
+    {
+     "title": "Kevin Ngo：Fable 5.2 用代码做出 90 年代玩具广告",
+     "en": "Claude Fable 5.2 made this 90's toy commercial",
+     "metric": "2.63 万浏览",
+     "url": "https://x.com/kevin_t_ngo/status/2119972124211454139"
+    },
+    {
+     "title": "Dave Jeffery：Fable 5.2 擅长保持既有设计一致",
+     "en": "Fable 5.2 is exceptional at staying consistent with existing designs",
+     "metric": "7,458 浏览",
+     "url": "https://x.com/DaveJ/status/2120486254852608470"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热榜",
+   "color": "#24292f",
+   "url": "https://github.com/trending",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "Meta 的 AI Agent 适配设计系统 Astryx",
+     "en": "meta/astryx",
+     "metric": "+2,842 星",
+     "url": "https://github.com/meta/astryx"
+    },
+    {
+     "title": "个人记账应用 Sure",
+     "en": "we-promise/sure",
+     "metric": "+1,079 星",
+     "url": "https://github.com/we-promise/sure"
+    },
+    {
+     "title": "Addy Osmani 的 AI 编程智能体工程技能库",
+     "en": "addyosmani/agent-skills",
+     "metric": "+788 星",
+     "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+     "title": "Vercel Labs 的智能体浏览器自动化命令行",
+     "en": "vercel-labs/agent-browser",
+     "metric": "+712 星",
+     "url": "https://github.com/vercel-labs/agent-browser"
+    },
+    {
+     "title": "用 Claude、ChatGPT 配置 Home Assistant 的 MCP",
+     "en": "homeassistant-ai/ha-mcp",
+     "metric": "+640 星",
+     "url": "https://github.com/homeassistant-ai/ha-mcp"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文热榜",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "MACaQ：快速、模型无关的校准量化",
+     "en": "MACaQ: Fast, Model Agnostic Calibrated Quantization",
+     "metric": "20 赞",
+     "url": "https://huggingface.co/papers/2611.10649"
+    },
+    {
+     "title": "具身首考",
+     "en": "Embodied First Exam",
+     "metric": "19 赞",
+     "url": "https://huggingface.co/papers/2611.12177"
+    },
+    {
+     "title": "后训练中删除权重出人意料地有效",
+     "en": "The Surprising Effectiveness of Deleting Weights in LLM Post-Training",
+     "metric": "13 赞",
+     "url": "https://huggingface.co/papers/2611.10866"
+    },
+    {
+     "title": "PhyRubric：文生视频的物理常识评测",
+     "en": "PhyRubric",
+     "metric": "9 赞",
+     "url": "https://huggingface.co/papers/2611.13576"
+    },
+    {
+     "title": "扩散语言模型的测试时扩展",
+     "en": "Test-Time Scaling for Diffusion Language Models",
+     "metric": "8 赞",
+     "url": "https://huggingface.co/papers/2611.10486"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#e5127d",
+   "url": "https://techcrunch.com/category/artificial-intelligence/",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "英伟达股价大跌，董事会据报道准备罢免黄仁勋",
+     "en": "Nvidia's stock drops as board reportedly preps to oust CEO Jensen Huang",
+     "metric": "TechCrunch 11-11",
+     "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/"
+    },
+    {
+     "title": "联合航空不让你的 AI 智能体订机票",
+     "en": "United won't let your AI agent book your flight",
+     "metric": "Verge 11-11",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents"
+    },
+    {
+     "title": "Anthropic 推出 Claude 办公套件",
+     "en": "Anthropic has its own AI-powered office suite now",
+     "metric": "Verge 11-10",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now"
+    },
+    {
+     "title": "AlphaGenome 2 聚焦疾病的细胞根源",
+     "en": "Google's AlphaGenome 2 zooms in on the cellular roots of disease",
+     "metric": "Verge 11-11",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model"
+    },
+    {
+     "title": "eBay 似乎已对第三方 AI 智能体关门",
+     "en": "eBay appears to have shut the door on third-party AI agents",
+     "metric": "Verge 11-11",
+     "url": "https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping"
+    }
+   ]
+  },
+  {
+   "key": "qbitai",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#1a73e8",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "英伟达机器人开源撞上 Fable 5.2 发布，Jim Fan：不是寒冬是夏天",
+     "en": "",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/509032.html"
+    },
+    {
+     "title": "Fable 5.2 首批实测：网友称 Opus 突然不香了",
+     "en": "",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/508912.html"
+    },
+    {
+     "title": "中大本科生反 AI 逆向项目走红，让黑客 Token 账单暴涨 300 倍",
+     "en": "",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/508787.html"
+    },
+    {
+     "title": "11 月 11 日大模型厂商在天猫打 5 折",
+     "en": "",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/509085.html"
+    },
+    {
+     "title": "机器人接管酒店洗衣",
+     "en": "",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/509203.html"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "中文数码资讯",
+   "color": "#d9230f",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "消息称英伟达正准备罢免 CEO 黄仁勋，盘后股价大跌",
+     "en": "",
+     "metric": "11-11",
+     "url": "https://www.ithome.com/1/025/829.htm"
+    },
+    {
+     "title": "OpenRouter 正式并入 Stripe",
+     "en": "",
+     "metric": "11-11",
+     "url": "https://www.ithome.com/1/025/833.htm"
+    },
+    {
+     "title": "谷歌 DeepMind 发布 AlphaGenome 2，识别致病变异能力近乎翻倍",
+     "en": "",
+     "metric": "11-11",
+     "url": "https://www.ithome.com/1/025/822.htm"
+    },
+    {
+     "title": "苹果 CarPlay 接入谷歌 Gemini",
+     "en": "",
+     "metric": "11-11",
+     "url": "https://www.ithome.com/1/025/831.htm"
+    },
+    {
+     "title": "Nothing CEO 展示公司首款 AI 设备，预计无屏幕设计",
+     "en": "",
+     "metric": "11-11",
+     "url": "https://www.ithome.com/1/025/832.htm"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "工程师社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "Python 元老 Tim Peters 逝世 悼文",
+     "en": "In Memoriam: Tim Peters 1952–2026",
+     "metric": "62 分",
+     "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028"
+    },
+    {
+     "title": "误报烟雾警报险些淹了 Jane Street 纽约唯一机房",
+     "en": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+     "metric": "42 分",
+     "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/"
+    },
+    {
+     "title": "用电压毛刺解锁挖矿版 A100",
+     "en": "Using voltage glitching to unlock the A100 in my mining card",
+     "metric": "40 分",
+     "url": "https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/"
+    },
+    {
+     "title": "C++26 标准首次未获各国标准机构通过",
+     "en": "For the first time, a C++ standard failed to pass the national bodies",
+     "metric": "12 分",
+     "url": "https://herecomesthemoon.net/2026/11/cpp26-failed-the-national-bodies/"
+    },
+    {
+     "title": "锁定你的 GitHub Actions",
+     "en": "Lock your GitHub Actions",
+     "metric": "12 分",
+     "url": "https://hugovk.dev/blog/2026/lock-github-actions/"
+    }
+   ]
+  }
+ ],
+ "topics": [
+  {
+   "name": "智能体的边界",
+   "kicker": "AGENTS",
+   "items": [
+    {
+     "title": "eBay 似乎已对第三方 AI 智能体关上大门",
+     "note": "与联合航空同一天，平台开始收口。",
+     "src": "The Verge",
+     "metric": "11-11",
+     "url": "https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping"
+    },
+    {
+     "title": "ChatGPT 将推出经过验证的企业“商业智能体”",
+     "note": "平台这边的答案：企业自己的官方入口。",
+     "src": "The Verge",
+     "metric": "11-10",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub"
+    },
+    {
+     "title": "Vercel Labs 发布给智能体用的浏览器自动化命令行",
+     "note": "工具层仍在加速，当日新增 712 星。",
+     "src": "GitHub Trending",
+     "metric": "+712 星",
+     "url": "https://github.com/vercel-labs/agent-browser"
+    },
+    {
+     "title": "ha-mcp：用 Claude、ChatGPT 配置 Home Assistant",
+     "note": "用自然语言管家，是智能体的常见场景。",
+     "src": "GitHub Trending",
+     "metric": "+640 星",
+     "url": "https://github.com/homeassistant-ai/ha-mcp"
+    }
+   ]
+  },
+  {
+   "name": "英伟达风波",
+   "kicker": "NVIDIA",
+   "items": [
+    {
+     "title": "黄仁勋据报道还与一名下属高管有关系",
+     "note": "NYT 报道，TechCrunch 转述。",
+     "src": "TechCrunch",
+     "metric": "11-11",
+     "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/"
+    },
+    {
+     "title": "国会将传唤黄仁勋，回应涉嫌间谍的关系",
+     "note": "事件从公司内部走向国会听证。",
+     "src": "TechCrunch",
+     "metric": "11-11",
+     "url": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/"
+    },
+    {
+     "title": "美国正在赢下 AI 竞赛，黄仁勋差点搞砸",
+     "note": "Verge 评论：出口管制与个人风险叠加。",
+     "src": "The Verge",
+     "metric": "11-11",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy"
+    },
+    {
+     "title": "Meta 基础设施长期负责人将离职",
+     "note": "算力一线的人事变动，细节待跟进。",
+     "src": "TechCrunch",
+     "metric": "11-11",
+     "url": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/"
+    }
+   ]
+  },
+  {
+   "name": "AI 与科研",
+   "kicker": "SCIENCE",
+   "items": [
+    {
+     "title": "AlphaGenome 2 按细胞类型预测基因变异的影响",
+     "note": "DeepMind 称识别变异数近乎翻倍。",
+     "src": "The Verge",
+     "metric": "11-11",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model"
+    },
+    {
+     "title": "论文：后训练中删除权重出人意料地有效",
+     "note": "预训练模型获得新能力，改动可能很少。",
+     "src": "Hugging Face",
+     "metric": "13 赞",
+     "url": "https://huggingface.co/papers/2611.10866"
+    },
+    {
+     "title": "我的 AI 智能体发现了一处未标注的玛雅遗址",
+     "note": "作者自述，尚无独立考古验证。",
+     "src": "Hacker News",
+     "metric": "910 分",
+     "url": "https://pietromiotti.com/latest/maya-site"
+    },
+    {
+     "title": "Google 实验项目 Tabletop 让人搭协作应用",
+     "note": "目前需排队等待开放。",
+     "src": "The Verge",
+     "metric": "11-12",
+     "url": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability"
+    }
+   ]
+  }
+ ],
+ "comments": [
+  "英伟达的问题不是缺钱缺技术，而是一个人撑着 60 个直接下属，没有接班人。",
+  "联合航空的理由是监管与隐私；更底下的一层，是不想多一个夹在客户和自己之间的中间人。",
+  "办公套件让 Anthropic 离普通白领更近，也让它必须开始回答：这些会议记录和表格数据，谁来负责？"
+ ],
+ "xhs": {
+  "title": "平台开始拒绝 AI 智能体了",
+  "cover": "智能体\n被拒之门外",
+  "deck": "联合航空与英伟达",
+  "intro": "今天三件事：联合航空不让 AI 智能体代客订票，Anthropic 推出面向白领的 Claude 办公工具，英伟达董事会据报道在讨论罢免黄仁勋。",
+  "oneliner": "AI 想替人办事，先得过平台这一关。",
+  "closing": "你愿意让 AI 助手替你直接下单付款吗？",
+  "tags": [
+   "人工智能",
+   "AI智能体",
+   "联合航空",
+   "Anthropic",
+   "Claude",
+   "英伟达",
+   "黄仁勋",
+   "科技资讯"
+  ]
+ },
+ "sources": [
+  "TechCrunch",
+  "The Verge",
+  "Google DeepMind",
+  "Hacker News",
+  "Reddit",
+  "量子位",
+  "IT之家",
+  "GitHub Trending",
+  "Hugging Face Papers",
+  "Lobsters"
+ ]
+}

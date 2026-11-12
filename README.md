@@ -10,7 +10,7 @@
 
 ## 最新一期
 
-- **2026-11-11｜AI 加速研发自己，证据却被涂黑**（Fable 5.2 降价、METR 报告、AlphaProof Code 验证 Signal）· [网页](reports/2026-11-11/index.html) · 公众号 reports/2026-11-11/wechat/wechat.html · 小红书 reports/2026-11-11/xhs/xiaohongshu.md
+- **2026-11-12｜平台开始拒绝 AI 智能体了**（联合航空禁智能体订票、Claude 办公工具、英伟达董事会传闻）· [网页](reports/2026-11-12/index.html) · 公众号 reports/2026-11-12/wechat/wechat.html · 小红书 reports/2026-11-12/xhs/xiaohongshu.md
 
 网页版（GitHub Pages）：https://emotionalronan.github.io/ai-daily-report/
 

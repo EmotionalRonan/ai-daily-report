@@ -1,0 +1,498 @@
+{
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "我的 AI 智能体发现了一处未标注的玛雅遗址",
+     "en": "My AI agents found an unmapped Maya site",
+     "metric": "910 分",
+     "url": "https://pietromiotti.com/latest/maya-site",
+     "time": "11-11",
+     "what": "作者称用 AI 智能体分析数据，找到未被记录的玛雅遗址。"
+    },
+    {
+     "title": "Python 元老 Tim Peters 去世",
+     "en": "Tim Peters has died",
+     "metric": "787 分",
+     "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+     "time": "11-11",
+     "what": "Python 社区发布悼念帖。"
+    },
+    {
+     "title": "AWS 官方开源本地模拟器",
+     "en": "AWS emulator",
+     "metric": "594 分",
+     "url": "https://github.com/aws/aws-emulator",
+     "time": "11-11",
+     "what": "AWS 在 GitHub 发布 aws-emulator 仓库。"
+    },
+    {
+     "title": "华尔街日报：英伟达正准备罢免黄仁勋",
+     "en": "Nvidia is preparing to oust Jensen Huang",
+     "metric": "300 分",
+     "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+     "time": "11-11",
+     "what": "WSJ 称董事会最快周三讨论黄仁勋去留。"
+    },
+    {
+     "title": "联合航空禁止 AI 智能体代客订票",
+     "en": "United Airlines bans AI agents from booking flights",
+     "metric": "276 分",
+     "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+     "time": "11-11",
+     "what": "联合航空称不允许第三方 AI 助手完成订票。"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区情绪",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/LocalLLaMA/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "“互联网太疯狂了”（r/artificial 热帖）",
+     "en": "The Internet is wild",
+     "metric": "2106 赞",
+     "url": "https://i.redd.it/ciij72r3ztuh1.jpeg",
+     "time": "11-11",
+     "what": "梗图帖，无实质信息。"
+    },
+    {
+     "title": "开源版 Office 三件套复刻引发热议",
+     "en": "Creator of free Adobe clones unveils open-source Office replications",
+     "metric": "1481 赞",
+     "url": "https://www.tomshardware.com/software/microsoft-office/creator-of-free-adobe-clones-unveils-open-source-microsoft-office-excel-powerpoint-and-word-replications-autodesk-tools-and-other-subscription-based-services-may-come-next",
+     "time": "11-11",
+     "what": "Tom's Hardware 报道，连续多日在榜。"
+    },
+    {
+     "title": "GTA 5、使命召唤等借 AI 逆向被移植到浏览器",
+     "en": "GTA 5, Modern Warfare 2, Halo ... ported to browser",
+     "metric": "820 赞",
+     "url": "https://www.destructoid.com/vibe-coded-games-in-browsers/",
+     "time": "11-11",
+     "what": "Destructoid 报道，往期已收录。"
+    },
+    {
+     "title": "Karpathy 谈能力落差",
+     "en": "Andrej Karpathy breaks down the capability gap",
+     "metric": "790 赞",
+     "url": "https://x.com/karpathy/status/2109361546505966046",
+     "time": "11-11",
+     "what": "截图转述，往期已收录。"
+    },
+    {
+     "title": "RTX 5090 卖到 5000 美元：AI 公司整托盘买游戏显卡",
+     "en": "Here's why RTX 5090 costs $5,000",
+     "metric": "463 赞",
+     "url": "https://videocardz.com/newz/heres-why-rtx-5090-costs-5000-ai-firms-are-buying-gaming-gpus-by-the-pallet",
+     "time": "11-11",
+     "what": "VideoCardz 报道，连续多日在榜。"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X",
+   "tag": "热帖",
+   "color": "#111111",
+   "url": "https://x.com/explore",
+   "short": "X",
+   "items": [
+    {
+     "title": "Anthropic 发布 Fable 5.2 预发布演示串",
+     "en": "Claude Fable 5.2 pre-release showcase",
+     "metric": "约 640 万浏览（转述）",
+     "url": "https://x.com/claudeai/status/2120174863210201316",
+     "time": "11-09",
+     "what": "转述自 ainativeoperators.ai 的统计，待核。"
+    },
+    {
+     "title": "Artificial Analysis：Fable 5.2 登顶 3D 能力榜",
+     "en": "Claude Fable 5.2 is now #1 on AA-3D",
+     "metric": "Elo 1271",
+     "url": "https://x.com/ArtificialAnlys/status/2119953570430881946",
+     "time": "11-10",
+     "what": "第三方评测机构自家帖。"
+    },
+    {
+     "title": "Claude 官方转发：用 Fable 5.2 做的黑板讲题应用",
+     "en": "Ask anything and see the answer explained on a chalkboard",
+     "metric": "12.18 万浏览",
+     "url": "https://x.com/claudeai/status/2120174863210201316",
+     "time": "11-10",
+     "what": "官方账号转发用户作品。"
+    },
+    {
+     "title": "Kevin Ngo：Fable 5.2 用代码做出 90 年代玩具广告",
+     "en": "Claude Fable 5.2 made this 90's toy commercial",
+     "metric": "2.63 万浏览",
+     "url": "https://x.com/kevin_t_ngo/status/2119972124211454139",
+     "time": "11-10",
+     "what": "作者称 Python 动画 + Blender 渲染。"
+    },
+    {
+     "title": "Dave Jeffery：Fable 5.2 擅长保持既有设计一致",
+     "en": "Fable 5.2 is exceptional at staying consistent with existing designs",
+     "metric": "7,458 浏览",
+     "url": "https://x.com/DaveJ/status/2120486254852608470",
+     "time": "11-11",
+     "what": "个人使用感受。"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热榜",
+   "color": "#24292f",
+   "url": "https://github.com/trending",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "Meta 的 AI Agent 适配设计系统 Astryx",
+     "en": "meta/astryx",
+     "metric": "+2,842 星",
+     "url": "https://github.com/meta/astryx",
+     "time": "11-12",
+     "what": "往期已收录。"
+    },
+    {
+     "title": "个人记账应用 Sure",
+     "en": "we-promise/sure",
+     "metric": "+1,079 星",
+     "url": "https://github.com/we-promise/sure",
+     "time": "11-12",
+     "what": "开源个人理财应用。"
+    },
+    {
+     "title": "Addy Osmani 的 AI 编程智能体工程技能库",
+     "en": "addyosmani/agent-skills",
+     "metric": "+788 星",
+     "url": "https://github.com/addyosmani/agent-skills",
+     "time": "11-12",
+     "what": "面向编码智能体的生产级技能。"
+    },
+    {
+     "title": "Vercel Labs 的智能体浏览器自动化命令行",
+     "en": "vercel-labs/agent-browser",
+     "metric": "+712 星",
+     "url": "https://github.com/vercel-labs/agent-browser",
+     "time": "11-12",
+     "what": "给 AI 智能体用的浏览器自动化 CLI。"
+    },
+    {
+     "title": "用 Claude、ChatGPT 配置 Home Assistant 的 MCP",
+     "en": "homeassistant-ai/ha-mcp",
+     "metric": "+640 星",
+     "url": "https://github.com/homeassistant-ai/ha-mcp",
+     "time": "11-12",
+     "what": "让 AI 助手配置智能家居。"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文热榜",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "MACaQ：快速、模型无关的校准量化",
+     "en": "MACaQ: Fast, Model Agnostic Calibrated Quantization",
+     "metric": "20 赞",
+     "url": "https://huggingface.co/papers/2611.10649",
+     "time": "11-11",
+     "what": "低精度权重与激活量化方法。"
+    },
+    {
+     "title": "具身首考",
+     "en": "Embodied First Exam",
+     "metric": "19 赞",
+     "url": "https://huggingface.co/papers/2611.12177",
+     "time": "11-11",
+     "what": "探讨用编码智能体做机器人任务。"
+    },
+    {
+     "title": "后训练中删除权重出人意料地有效",
+     "en": "The Surprising Effectiveness of Deleting Weights in LLM Post-Training",
+     "metric": "13 赞",
+     "url": "https://huggingface.co/papers/2611.10866",
+     "time": "11-11",
+     "what": "研究预训练模型获得新能力需要改动多少权重。"
+    },
+    {
+     "title": "PhyRubric：文生视频的物理常识评测",
+     "en": "PhyRubric",
+     "metric": "9 赞",
+     "url": "https://huggingface.co/papers/2611.13576",
+     "time": "11-11",
+     "what": "评测视频模型的物理常识。"
+    },
+    {
+     "title": "扩散语言模型的测试时扩展",
+     "en": "Test-Time Scaling for Diffusion Language Models",
+     "metric": "8 赞",
+     "url": "https://huggingface.co/papers/2611.10486",
+     "time": "11-11",
+     "what": "频率感知重掩码。"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#e5127d",
+   "url": "https://techcrunch.com/category/artificial-intelligence/",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "英伟达股价大跌，董事会据报道准备罢免黄仁勋",
+     "en": "Nvidia's stock drops as board reportedly preps to oust CEO Jensen Huang",
+     "metric": "TechCrunch 11-11",
+     "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+     "time": "11-11",
+     "what": "盘后跌约 8%。"
+    },
+    {
+     "title": "联合航空不让你的 AI 智能体订机票",
+     "en": "United won't let your AI agent book your flight",
+     "metric": "Verge 11-11",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+     "time": "11-11",
+     "what": "引 WSJ：出于隐私与监管。"
+    },
+    {
+     "title": "Anthropic 推出 Claude 办公套件",
+     "en": "Anthropic has its own AI-powered office suite now",
+     "metric": "Verge 11-10",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now",
+     "time": "11-10",
+     "what": "Meetings、Sheets、Whiteboards。"
+    },
+    {
+     "title": "AlphaGenome 2 聚焦疾病的细胞根源",
+     "en": "Google's AlphaGenome 2 zooms in on the cellular roots of disease",
+     "metric": "Verge 11-11",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
+     "time": "11-11",
+     "what": "按细胞类型预测变异影响。"
+    },
+    {
+     "title": "eBay 似乎已对第三方 AI 智能体关门",
+     "en": "eBay appears to have shut the door on third-party AI agents",
+     "metric": "Verge 11-11",
+     "url": "https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping",
+     "time": "11-11",
+     "what": "与联合航空同类。"
+    }
+   ]
+  },
+  {
+   "key": "qbitai",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#1a73e8",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "英伟达机器人开源撞上 Fable 5.2 发布，Jim Fan：不是寒冬是夏天",
+     "en": "",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/509032.html",
+     "time": "11-11",
+     "what": "往期已收录。"
+    },
+    {
+     "title": "Fable 5.2 首批实测：网友称 Opus 突然不香了",
+     "en": "",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/508912.html",
+     "time": "11-11",
+     "what": "实测汇总。"
+    },
+    {
+     "title": "中大本科生反 AI 逆向项目走红，让黑客 Token 账单暴涨 300 倍",
+     "en": "",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/508787.html",
+     "time": "11-11",
+     "what": "社区项目。"
+    },
+    {
+     "title": "11 月 11 日大模型厂商在天猫打 5 折",
+     "en": "",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/509085.html",
+     "time": "11-11",
+     "what": "大模型 API 双十一促销。"
+    },
+    {
+     "title": "机器人接管酒店洗衣",
+     "en": "",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/509203.html",
+     "time": "11-11",
+     "what": "企业稿，偏宣传。"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "中文数码资讯",
+   "color": "#d9230f",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "消息称英伟达正准备罢免 CEO 黄仁勋，盘后股价大跌",
+     "en": "",
+     "metric": "11-11",
+     "url": "https://www.ithome.com/1/025/829.htm",
+     "time": "11-11",
+     "what": "转 WSJ。"
+    },
+    {
+     "title": "OpenRouter 正式并入 Stripe",
+     "en": "",
+     "metric": "11-11",
+     "url": "https://www.ithome.com/1/025/833.htm",
+     "time": "11-11",
+     "what": "全球最大 AI 聚合平台并入 Stripe，优化词元路由与用量。"
+    },
+    {
+     "title": "谷歌 DeepMind 发布 AlphaGenome 2，识别致病变异能力近乎翻倍",
+     "en": "",
+     "metric": "11-11",
+     "url": "https://www.ithome.com/1/025/822.htm",
+     "time": "11-11",
+     "what": "基因序列模型。"
+    },
+    {
+     "title": "苹果 CarPlay 接入谷歌 Gemini",
+     "en": "",
+     "metric": "11-11",
+     "url": "https://www.ithome.com/1/025/831.htm",
+     "time": "11-11",
+     "what": "车内自然对话。"
+    },
+    {
+     "title": "Nothing CEO 展示公司首款 AI 设备，预计无屏幕设计",
+     "en": "",
+     "metric": "11-11",
+     "url": "https://www.ithome.com/1/025/832.htm",
+     "time": "11-11",
+     "what": "据报道。"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "工程师社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "Python 元老 Tim Peters 逝世 悼文",
+     "en": "In Memoriam: Tim Peters 1952–2026",
+     "metric": "62 分",
+     "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+     "time": "11-11",
+     "what": "社区悼念。"
+    },
+    {
+     "title": "误报烟雾警报险些淹了 Jane Street 纽约唯一机房",
+     "en": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+     "metric": "42 分",
+     "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
+     "time": "11-11",
+     "what": "运维事故复盘。"
+    },
+    {
+     "title": "用电压毛刺解锁挖矿版 A100",
+     "en": "Using voltage glitching to unlock the A100 in my mining card",
+     "metric": "40 分",
+     "url": "https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/",
+     "time": "11-11",
+     "what": "硬件折腾。"
+    },
+    {
+     "title": "C++26 标准首次未获各国标准机构通过",
+     "en": "For the first time, a C++ standard failed to pass the national bodies",
+     "metric": "12 分",
+     "url": "https://herecomesthemoon.net/2026/11/cpp26-failed-the-national-bodies/",
+     "time": "11-11",
+     "what": "标准化进程受阻。"
+    },
+    {
+     "title": "锁定你的 GitHub Actions",
+     "en": "Lock your GitHub Actions",
+     "metric": "12 分",
+     "url": "https://hugovk.dev/blog/2026/lock-github-actions/",
+     "time": "11-11",
+     "what": "供应链安全建议。"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "title": "英伟达董事会据报道准备罢免黄仁勋",
+   "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+   "why": "WSJ 称董事会最快周三议决；盘后股价跌约 8%；NYT 称另有一段与下属高管的关系。",
+   "pick": true,
+   "status": "ok"
+  },
+  {
+   "title": "联合航空禁止第三方 AI 智能体订票",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+   "why": "联合航空、eBay、多家银行相继限制智能体，与“智能体经济”叙事相反。",
+   "pick": true,
+   "status": "ok"
+  },
+  {
+   "title": "Anthropic 发布 Claude Meetings/Sheets/Whiteboards",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now",
+   "why": "首批面向非技术职员的原生产品，IPO 前拉收入。",
+   "pick": true,
+   "status": "ok"
+  },
+  {
+   "title": "AlphaGenome 2",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
+   "why": "识别影响基因表达的变异数近乎翻倍，API 非商业研究可用。",
+   "pick": false,
+   "status": "ok"
+  },
+  {
+   "title": "OpenRouter 并入 Stripe",
+   "url": "https://www.ithome.com/1/025/833.htm",
+   "why": "仅见 IT之家，一手来源未核。",
+   "pick": false,
+   "status": "待核"
+  },
+  {
+   "title": "Fable 5.2 登顶 AA-3D、RLI 41.3%",
+   "url": "https://x.com/ArtificialAnlys/status/2119953570430881946",
+   "why": "第三方榜单，但 11-11 刊已报 Fable 5.2。",
+   "pick": false,
+   "status": "ok"
+  }
+ ]
+}

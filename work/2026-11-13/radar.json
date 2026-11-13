@@ -1,0 +1,505 @@
+{
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "英伟达 CEO 黄仁勋辞职",
+     "en": "Jensen Huang resigns",
+     "metric": "2767 分",
+     "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+     "time": "11-12",
+     "what": "美联社报道黄仁勋辞去 CEO。"
+    },
+    {
+     "title": "Anthropic 公开招股网站上线",
+     "en": "Anthropic IPO",
+     "metric": "792 分",
+     "url": "https://ipo.anthropic.com/us/",
+     "time": "11-12",
+     "what": "披露 Q3 营收、路演与上市时间表。"
+    },
+    {
+     "title": "谷歌发布 Gemini 4 Hydrogen",
+     "en": "Gemini 4 Hydrogen",
+     "metric": "437 分",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+     "time": "11-12",
+     "what": "谷歌新模型，进入搜索与 API。"
+    },
+    {
+     "title": "微软 365 服务降级",
+     "en": "Service degradation on Microsoft 365",
+     "metric": "421 分",
+     "url": "https://status.cloud.microsoft/",
+     "time": "11-12",
+     "what": "微软状态页显示服务异常。"
+    },
+    {
+     "title": "Rust 1.100 发布",
+     "en": "Rust 1.100",
+     "metric": "334 分",
+     "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+     "time": "11-12",
+     "what": "Rust 官方发布 1.100 版本。"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区情绪",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/LocalLLaMA/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "GTA 5、使命召唤等被 AI 逆向移植到浏览器",
+     "en": "GTA 5, Modern Warfare 2, Halo ported to browser via AI reverse-engineering",
+     "metric": "820 赞",
+     "url": "https://www.destructoid.com/vibe-coded-games-in-browsers/",
+     "time": "11-12",
+     "what": "r/singularity 热帖，来源 Destructoid。"
+    },
+    {
+     "title": "用 Opus 5.5 把星际火狐等老游戏移植到桌面",
+     "en": "Opus 5.5 is INSANE at decompilation / ports",
+     "metric": "656 赞",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/",
+     "time": "11-12",
+     "what": "作者自述；后又更正“反编译”说法。"
+    },
+    {
+     "title": "OpenAI 用量限制投票，网友称“谢天谢地”",
+     "en": "Thank god",
+     "metric": "485 赞",
+     "url": "https://i.redd.it/7k83wzkkbvuh1.jpeg",
+     "time": "11-12",
+     "what": "r/OpenAI 讨论每周限额与 5 小时限制。"
+    },
+    {
+     "title": "Claude 项目功能改版引用户反对",
+     "en": "New Projects rolling out for Chat and Cowork",
+     "metric": "358 赞",
+     "url": "https://www.reddit.com/gallery/1x33na4",
+     "time": "11-11",
+     "what": "r/ClaudeAI 用户抗议项目内对话互通。"
+    },
+    {
+     "title": "10–16GB 显存可跑模型排行",
+     "en": "Every Model That Can Be Run On 10-16GB VRAM Ranked",
+     "metric": "347 赞",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3gpyi/every_model_that_can_be_run_on_1016gb_vram_ranked/",
+     "time": "11-12",
+     "what": "作者主观评测，偏角色扮演。"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X",
+   "tag": "热帖",
+   "color": "#111111",
+   "url": "https://x.com/explore",
+   "short": "X",
+   "items": [
+    {
+     "title": "马斯克回应“请雇用黄仁勋”：“那将是荣幸”",
+     "en": "Elon Musk: That would be an honor",
+     "metric": "68 万浏览",
+     "url": "https://x.com/elonmusk/status/2120688743111971293",
+     "time": "11-12",
+     "what": "回复 zerohedge；转述自 Business Insider 等。"
+    },
+    {
+     "title": "英伟达官方宣布 CEO 交接的帖子",
+     "en": "Nvidia announces CEO transition",
+     "metric": "6 万赞（转述）",
+     "url": "https://ailately.com/rn",
+     "time": "11-12",
+     "what": "据 Ai Lately 统计；转述。"
+    },
+    {
+     "title": "Hugging Face CEO：将更用力为开源 AI 而战",
+     "en": "Clem Delangue on Huang's exit",
+     "metric": "转述",
+     "url": "https://www.usatoday.com/story/tech/2026/11/12/what-does-jensen-huangs-resignation-mean-for-ai/92739989007/",
+     "time": "11-12",
+     "what": "据 USA Today 转述其 X 帖。"
+    },
+    {
+     "title": "Grok 被问“间谍、妻子还是员工”，选了妻子",
+     "en": "Grok's reply to Huang question",
+     "metric": "转述",
+     "url": "https://www.ndtvprofit.com/trending/how-you-lose-a-4t-company-groks-savage-reply-to-spy-wife-or-employee-question-about-jensen-huang-12316557",
+     "time": "11-12",
+     "what": "NDTV Profit 报道的 X 热帖。"
+    },
+    {
+     "title": "Perplexity CEO 感谢黄仁勋",
+     "en": "Aravind Srinivas on Huang",
+     "metric": "转述",
+     "url": "https://www.hindustantimes.com/trending/us/your-grit-and-perseverance-should-always-be-remembered-perplexity-ceo-aravind-srinivas-after-jensen-huang-resigns-as-nvidia-ceo-101794503589143.html",
+     "time": "11-12",
+     "what": "Hindustan Times 转述其 X 帖。"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热榜",
+   "color": "#24292f",
+   "url": "https://github.com/trending",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "Meta 开源设计系统 astryx",
+     "en": "meta/astryx",
+     "metric": "+1830 星",
+     "url": "https://github.com/meta/astryx",
+     "time": "11-12",
+     "what": "可定制、面向智能体的开源设计系统。"
+    },
+    {
+     "title": "个人理财应用 sure",
+     "en": "we-promise/sure",
+     "metric": "+967 星",
+     "url": "https://github.com/we-promise/sure",
+     "time": "11-12",
+     "what": "开源个人理财应用。"
+    },
+    {
+     "title": "面向编码智能体的工程技能库",
+     "en": "addyosmani/agent-skills",
+     "metric": "+816 星",
+     "url": "https://github.com/addyosmani/agent-skills",
+     "time": "11-12",
+     "what": "生产级工程技能集合。"
+    },
+    {
+     "title": "谷歌 Chrome：让编码智能体跟上网页最佳实践",
+     "en": "GoogleChrome/modern-web-guidance-src",
+     "metric": "+739 星",
+     "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+     "time": "11-12",
+     "what": "Chrome 团队的网页开发指南源码。"
+    },
+    {
+     "title": "OpenAI Codex Security 命令行与 SDK",
+     "en": "openai/codex-security",
+     "metric": "+643 星",
+     "url": "https://github.com/openai/codex-security",
+     "time": "11-12",
+     "what": "用于发现、验证并修复安全漏洞。"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文热榜",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "为长期运行的智能体自适应调度大模型服务",
+     "en": "Evolving Infra: Agent-Adaptive LLM Serving at Scale",
+     "metric": "11 赞",
+     "url": "https://huggingface.co/papers/2611.12304",
+     "time": "11-12",
+     "what": "论文。"
+    },
+    {
+     "title": "对齐在 Transformer 的何处出现",
+     "en": "Where Does Alignment Emerge and What Does It Mean?",
+     "metric": "6 赞",
+     "url": "https://huggingface.co/papers/2611.12869",
+     "time": "11-12",
+     "what": "论文。"
+    },
+    {
+     "title": "面向实时模型预测控制的 GPU 加速二次规划求解器",
+     "en": "FAME-QP",
+     "metric": "4 赞",
+     "url": "https://huggingface.co/papers/2611.13766",
+     "time": "11-13",
+     "what": "论文。"
+    },
+    {
+     "title": "在不确定的解码步骤提升权重精度",
+     "en": "Precision on Demand",
+     "metric": "4 赞",
+     "url": "https://huggingface.co/papers/2611.14418",
+     "time": "11-13",
+     "what": "论文。"
+    },
+    {
+     "title": "评测复杂购物建议的量表基准",
+     "en": "CARTBench",
+     "metric": "3 赞",
+     "url": "https://huggingface.co/papers/2611.05862",
+     "time": "11-12",
+     "what": "论文。"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#e5127d",
+   "url": "https://techcrunch.com/category/artificial-intelligence/",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "谷歌新模型更擅长理解复杂问题",
+     "en": "Google's new Gemini model is better at understanding complicated questions",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+     "time": "11-12",
+     "what": "Gemini 4 Hydrogen 成为 AI 模式默认模型。"
+    },
+    {
+     "title": "不，AI 智能体并没有发现未知的玛雅遗址",
+     "en": "No, AI agents did not discover a previously unknown Maya site",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
+     "time": "11-12",
+     "what": "该遗址一年多前已有论文记录。"
+    },
+    {
+     "title": "Fireworks AI 遭攻击，Notion 用户聊天记录被窃",
+     "en": "Cyberattack on Fireworks AI allowed hackers to access Notion customers' chat transcripts",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+     "time": "11-12",
+     "what": "Fireworks 两个月内第二次数据泄露。"
+    },
+    {
+     "title": "Nebius 计划 2027 年投入 400 亿美元",
+     "en": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+     "time": "11-12",
+     "what": "财报日股价跌 17%。"
+    },
+    {
+     "title": "研究称 AI 聊天机器人在推荐虚假购物网站",
+     "en": "AI chatbots are recommending fake retail websites, study finds",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+     "time": "11-12",
+     "what": "涉及 Gemini、ChatGPT、Perplexity。"
+    }
+   ]
+  },
+  {
+   "key": "qbitai",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#1a73e8",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "Anthropic 启动 IPO 路演",
+     "en": "Anthropic IPO roadshow",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/11/509381.html",
+     "time": "11-12",
+     "what": "量子位报道路演与估值。"
+    },
+    {
+     "title": "马斯克已准备好聘请黄仁勋",
+     "en": "Musk ready to hire Huang",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/11/509334.html",
+     "time": "11-12",
+     "what": "报道黄仁勋风波与马斯克表态。"
+    },
+    {
+     "title": "Anthropic 玻璃翼计划被质疑：近 4 万个候补漏洞只修了 217 条",
+     "en": "Project Glasswing questioned",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/11/509291.html",
+     "time": "11-12",
+     "what": "标题所述，未核。"
+    },
+    {
+     "title": "MiniMax 开源生图模型，原生 4K",
+     "en": "MiniMax open-sources image model",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/11/509440.html",
+     "time": "11-13",
+     "what": "量子位标题所述，未核。"
+    },
+    {
+     "title": "Grok 泄露 SpaceX、特斯拉工资绩效",
+     "en": "Grok leaks internal pay data",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/11/509355.html",
+     "time": "11-12",
+     "what": "量子位标题所述，未核。"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "中文数码资讯",
+   "color": "#d9230f",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "星舰明日第 15 次试飞，“筷子”首次挑战双级捕获",
+     "en": "Starship Flight 15",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/026/467.htm",
+     "time": "11-13",
+     "what": "IT之家报道。"
+    },
+    {
+     "title": "OpenAI、Anthropic、谷歌等五家 AI 巨头遭起诉",
+     "en": "Five AI companies sued",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/026/466.htm",
+     "time": "11-13",
+     "what": "原告要求叫停 ChatGPT、Gemini、Claude。"
+    },
+    {
+     "title": "Anthropic、OpenAI 遭专利诉讼，涉五项神经网络专利",
+     "en": "Patent suit vs Anthropic, OpenAI",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/026/464.htm",
+     "time": "11-13",
+     "what": "IT之家报道。"
+    },
+    {
+     "title": "英伟达总市值重回 4 万亿美元上方",
+     "en": "Nvidia market cap back above $4T",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/026/462.htm",
+     "time": "11-13",
+     "what": "此前曾在黄仁勋辞职后失守。"
+    },
+    {
+     "title": "微软 365 核心服务全球性瘫痪，正逐步恢复",
+     "en": "Microsoft 365 outage",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/026/460.htm",
+     "time": "11-13",
+     "what": "Outlook、OneDrive、Teams 受影响。"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "工程师社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "我是如何意外成为百万富翁的",
+     "en": "How I accidentally became a millionaire",
+     "metric": "216 分",
+     "url": "https://lyra.horse/blog/2026/11/disinformation-machine/",
+     "time": "11-12",
+     "what": "Lobsters 热帖。"
+    },
+    {
+     "title": "Rust 1.100.0 发布",
+     "en": "Announcing Rust 1.100.0",
+     "metric": "58 分",
+     "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+     "time": "11-12",
+     "what": "官方公告。"
+    },
+    {
+     "title": "Baochip 入门",
+     "en": "Hello Baochip",
+     "metric": "49 分",
+     "url": "https://ratfactor.com/cards/hello-baochip",
+     "time": "11-12",
+     "what": "芯片入门笔记。"
+    },
+    {
+     "title": "《Let Over Lambda》全书免费上线",
+     "en": "Let Over Lambda is now freely available",
+     "metric": "46 分",
+     "url": "https://letoverlambda.com/",
+     "time": "11-12",
+     "what": "Lisp 宏经典。"
+    },
+    {
+     "title": "Gemini 协议的“反营销”面向",
+     "en": "The anti-marketing aspect of the Gemini network",
+     "metric": "21 分",
+     "url": "https://ploum.net/2026-11-12-anti-marketing-gemini.html",
+     "time": "11-12",
+     "what": "此 Gemini 为小众网络协议。"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "title": "黄仁勋辞去英伟达 CEO",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-ceo-jensen-huang-has-resigned-what-happens-next",
+   "why": "HN 2767 分；Verge 全文已读，董事会、临时 CEO、股价均可核。",
+   "pick": true,
+   "status": "ok"
+  },
+  {
+   "title": "Anthropic IPO 路演与 Q3 财务",
+   "url": "https://ipo.anthropic.com/us/",
+   "why": "一手招股页：营收 170 亿美元、11 月 19 日挂牌 ANT。",
+   "pick": true,
+   "status": "ok"
+  },
+  {
+   "title": "Gemini 4 Hydrogen 发布",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+   "why": "HN 437 分；Verge 全文已读。",
+   "pick": true,
+   "status": "ok"
+  },
+  {
+   "title": "玛雅遗址“发现”被指早有记录",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
+   "why": "HN 910 分的帖子被 Verge 反驳；放专题。",
+   "pick": false,
+   "status": "ok"
+  },
+  {
+   "title": "Nebius 2027 年 400 亿美元投入",
+   "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+   "why": "TC 全文已读；放专题。",
+   "pick": false,
+   "status": "ok"
+  },
+  {
+   "title": "Fireworks AI 泄露 Notion 聊天记录",
+   "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+   "why": "TC 全文已读；放专题。",
+   "pick": false,
+   "status": "ok"
+  },
+  {
+   "title": "微软 365 大范围故障",
+   "url": "https://www.ithome.com/1/026/460.htm",
+   "why": "HN 421 分，仅标题级来源，待核细节。",
+   "pick": false,
+   "status": "待核"
+  }
+ ]
+}

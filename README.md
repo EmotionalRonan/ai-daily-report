@@ -10,7 +10,7 @@
 
 ## 最新一期
 
-- **2026-11-13｜黄仁勋走后，AI 开始算“单点风险”**（英伟达换帅、Anthropic IPO 路演、Gemini 4 Hydrogen）· [网页](reports/2026-11-13/index.html) · 公众号 reports/2026-11-13/wechat/wechat.html · 小红书 reports/2026-11-13/xhs/xiaohongshu.md
+- **2026-11-14｜智能体拿到钱包，通用模型接管机器人**（ChatGPT Wallet、OpenAI 解散机器人团队、哥德尔笔记）· [网页](reports/2026-11-14/index.html) · 公众号 reports/2026-11-14/wechat/wechat.html · 小红书 reports/2026-11-14/xhs/xiaohongshu.md
 
 网页版（GitHub Pages）：https://emotionalronan.github.io/ai-daily-report/
 

@@ -1,0 +1,555 @@
+{
+ "date": "2026-11-14",
+ "weekday": "周六",
+ "issue": 30,
+ "title": "智能体拿到钱包，通用模型接管机器人",
+ "subtitle": "ChatGPT Wallet/OpenAI 机器人/哥德尔笔记",
+ "lead": "OpenAI 推出 ChatGPT Wallet，让智能体经批准代为付款；同时解散独立机器人团队，押注通用模型直接驱动机器人；卫报报道 AI 协助读懂哥德尔的 1009 页笔记。",
+ "headlines": [
+  {
+   "title": "ChatGPT Wallet 上线，智能体可代你下单付款",
+   "body": "OpenAI 周五推出 ChatGPT Wallet，让 dots 智能体替你下单。首批只向美国 18 岁以上的 Pro 订阅用户开放，需绑定美国发行的 Visa、万事达或美国运通卡。智能体拿到的是支付令牌，看不到真实卡号，每笔购买都要用 Face ID 或指纹确认。",
+   "why": "付款是智能体的最后一道关。批准权留在用户手里，但亚马逊等零售商仍在拦截智能体，能不能真正结账还要看商家让不让进。",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+   "image": {
+    "file": "wechat/img/h1.jpg",
+    "src_url": "https://techcrunch.com/wp-content/uploads/2026/11/chatgpt-wallet.jpg?resize=1200,729",
+    "credit": "TechCrunch",
+    "w": 1200,
+    "h": 729
+   }
+  },
+  {
+   "title": "OpenAI 解散独立机器人团队，研究员并入主研究部门",
+   "body": "据 Fortune 独家报道，OpenAI 已解散独立的机器人团队：研究人员并入首席研究官马克·陈领导的主研究团队，应用与硬件团队划归格雷格·布罗克曼领导的应用部门。OpenAI 称原因是 GPT-6 Astra 等通用模型已可直接用于机器人，机器人仍是长期方向。",
+   "why": "机器人被降格为通用模型的一个下游应用，这与许多机器人创业公司“机器人要有自己的大脑”的前提相冲突。MIT 教授泰德雷克则认为，现场部署数据仍是创业公司的优势。",
+   "source": "Fortune",
+   "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+   "image": {
+    "file": "wechat/img/h2.jpg",
+    "src_url": "https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-2304572308-e1794587995495.jpg?resize=1200,600",
+    "credit": "Fortune",
+    "w": 1200,
+    "h": 600
+   }
+  },
+  {
+   "title": "AI 帮忙读懂哥德尔笔记，称含数百条已证定理",
+   "body": "据卫报，赫尔辛基大学的冯·普拉托团队读哥德尔 1009 页笔记，原本每周只能读懂约一页。9 月起请 Claude 梳理，几天内得到 650 页解读。Claude 列出 663 条定理，经 Coq 检验，约 400 条成立、约 200 条需修正、约 50 条有误。",
+   "why": "AI 的长处是一次读完一千页并把前后连起来。逻辑学家哈姆金斯提醒：其中多少算 Claude、多少算哥德尔，还要历史学家来判断。",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+   "image": {
+    "file": "wechat/img/h3.jpg",
+    "src_url": "https://i.guim.co.uk/img/media/6eeccf216579fe2181ae737d30f31abd7590125c/210_58_1759_1407/master/1759.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=334efc63d7472a97d72be0ffd23af8bb",
+    "credit": "The Guardian",
+    "w": 1200,
+    "h": 630
+   }
+  }
+ ],
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "AI 帮忙解读哥德尔笔记，称含数百条已证定理",
+     "en": "AI unlocks Gödel's notebooks",
+     "metric": "302 分",
+     "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths"
+    },
+    {
+     "title": "价值 1140 万美元英伟达硬件在运输途中失踪",
+     "en": "$11.4M in Nvidia hardware vanishes",
+     "metric": "265 分",
+     "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas"
+    },
+    {
+     "title": "600 次实验后我对 JEPA 世界模型的发现",
+     "en": "600 experiments on JEPA world models",
+     "metric": "199 分",
+     "url": "https://haddyalchaer.com/jepa"
+    },
+    {
+     "title": "OpenAI 解散独立机器人团队",
+     "en": "OpenAI disbands its robotics team",
+     "metric": "135 分",
+     "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/"
+    },
+    {
+     "title": "《无 AI 垃圾宣言》",
+     "en": "No AI Slop: A Manifesto",
+     "metric": "170 分",
+     "url": "https://www.slopmanifesto.com/"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区情绪",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/OpenAI/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "OpenAI 宣布 ChatGPT Wallet，智能体经批准可代为付款",
+     "en": "OpenAI introduces ChatGPT Wallet",
+     "metric": "89 票",
+     "url": "https://www.reddit.com/r/OpenAI/comments/1xvd1ci/openai_introduces_chatgpt_wallet_so_agents_can/"
+    },
+    {
+     "title": "华尔街之赌版热议 ChatGPT Wallet",
+     "en": "ChatGPT Wallet on r/wallstreetbets",
+     "metric": "128 赞",
+     "url": "https://www.reddit.com/r/wallstreetbets/comments/1xval67/openai_launches_chatgpt_wallet_allowing_its_dots/"
+    },
+    {
+     "title": "Dot 未开 VPN 就出现在欧盟账号里",
+     "en": "Dot appeared on my EU account",
+     "metric": "68 票",
+     "url": "https://agihunt.info/en/p/1a1d4324b8497137a55c08c24b0"
+    },
+    {
+     "title": "调查称中国四大 AI 实验室新模型都用了被禁运的 Blackwell",
+     "en": "Top 4 Chinese labs built on Blackwell",
+     "metric": "5 小时前",
+     "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
+    },
+    {
+     "title": "Claude 会议功能可在 Google Meet 里做笔记",
+     "en": "Claude can now take notes in Google Meet",
+     "metric": "r/artificial",
+     "url": "https://www.reddit.com/r/artificial/comments/1xv0hd3/claude_can_now_take_notes_in_google_meet_with/"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X",
+   "tag": "热帖",
+   "color": "#111111",
+   "url": "https://x.com/explore",
+   "short": "X",
+   "items": [
+    {
+     "title": "Codex 负责人问“不许说模型，Codex 还能怎么改进”",
+     "en": "Codex lead asks for improvements",
+     "metric": "9.8K 回复",
+     "url": "https://mindpattern.ai/s/2026-11-13-openai-s-codex-lead-asked-how-codex-could-improve-without-saying-model-and-got-nearly"
+    },
+    {
+     "title": "OpenAI 发布网络安全新工具",
+     "en": "OpenAI cyber tools announcement",
+     "metric": "58.7 万浏览",
+     "url": "https://x.com/thsottiaux/status/2121036562058400200"
+    },
+    {
+     "title": "ChatGPT 官方发布 Wallet",
+     "en": "ChatGPT announces Wallet",
+     "metric": "37.2 万浏览",
+     "url": "https://x.com/ChatGPT/status/2121283151729496235"
+    },
+    {
+     "title": "Expo 给编码智能体一台云端手机",
+     "en": "Expo Simulators",
+     "metric": "123 万浏览",
+     "url": "https://aitimeline.news/en/English-Topics/2026-11-13-X%E8%8B%B1%E6%96%87%E7%83%AD%E7%82%B9%E9%80%89%E9%A2%98%E7%AE%80%E6%8A%A5/"
+    },
+    {
+     "title": "Claude Meetings 进入 Team/Enterprise 测试",
+     "en": "Claude Meetings beta",
+     "metric": "官方帖",
+     "url": "https://aitimeline.news/en/Daily/2026-11-13-X%E6%97%A5%E6%8A%A5/"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热榜",
+   "color": "#24292f",
+   "url": "https://github.com/trending",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "GoogleChrome/modern-web-guidance-src",
+     "en": "modern-web-guidance-src",
+     "metric": "+1,875 星",
+     "url": "https://github.com/GoogleChrome/modern-web-guidance-src"
+    },
+    {
+     "title": "we-promise/sure",
+     "en": "sure",
+     "metric": "+944 星",
+     "url": "https://github.com/we-promise/sure"
+    },
+    {
+     "title": "openai/codex-security",
+     "en": "codex-security",
+     "metric": "+754 星",
+     "url": "https://github.com/openai/codex-security"
+    },
+    {
+     "title": "ZhuLinsen/daily_stock_analysis",
+     "en": "daily_stock_analysis",
+     "metric": "+272 星",
+     "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
+    },
+    {
+     "title": "alibaba/open-code-review",
+     "en": "open-code-review",
+     "metric": "+206 星",
+     "url": "https://github.com/alibaba/open-code-review"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文热榜",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "回到像素：把潜空间视频扩散搬到像素空间",
+     "en": "Back to Pixels",
+     "metric": "1 票",
+     "url": "https://huggingface.co/papers/2611.17336"
+    },
+    {
+     "title": "参考式无人机视频稳像中的共识捕获",
+     "en": "Consensus Capture in UAV Video Stabilization",
+     "metric": "2 票",
+     "url": "https://huggingface.co/papers/2611.17190"
+    },
+    {
+     "title": "TurtLES：湍流三维神经 PDE 代理的大规模基准",
+     "en": "TurtLES",
+     "metric": "3 票",
+     "url": "https://huggingface.co/papers/2611.09567"
+    },
+    {
+     "title": "思考的价值：混合决策模型何时该推理",
+     "en": "The Value of Thinking",
+     "metric": "1 票",
+     "url": "https://huggingface.co/papers/2611.16961"
+    },
+    {
+     "title": "面向人脑成像的前沿机器智能",
+     "en": "A frontier machine intelligence for human neuroimaging",
+     "metric": "0 票",
+     "url": "https://huggingface.co/papers/2611.15094"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#e5127d",
+   "url": "https://techcrunch.com/category/artificial-intelligence/",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "ChatGPT Wallet 让 AI 智能体代你下单结账",
+     "en": "ChatGPT's new Wallet lets AI agents shop",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/"
+    },
+    {
+     "title": "LangChain 估值达 30 亿美元",
+     "en": "LangChain hits $3B valuation",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/"
+    },
+    {
+     "title": "被禁运的英伟达芯片支撑着中国最强模型",
+     "en": "Export-banned Nvidia chips behind China's models",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
+    },
+    {
+     "title": "亚马逊计划为全球网购数据建索引",
+     "en": "Amazon world product graph",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search"
+    },
+    {
+     "title": "Claude 的 Duet 智能体有点神经质，但出乎意料地好用",
+     "en": "Claude Duet hands-on",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on"
+    }
+   ]
+  },
+  {
+   "key": "qbitai",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#1a73e8",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "黄仁勋辞职，英伟达 33 年首换帅",
+     "en": "Jensen Huang resigns",
+     "metric": "首页头条",
+     "url": "https://www.qbitai.com/2026/11/509995.html"
+    },
+    {
+     "title": "Anthropic 启动 IPO 路演",
+     "en": "Anthropic IPO roadshow",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/509381.html"
+    },
+    {
+     "title": "马斯克裁掉整个多模态团队",
+     "en": "Musk cuts multimodal team",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/509545.html"
+    },
+    {
+     "title": "MiniMax 开源原生 4K 生图模型",
+     "en": "MiniMax open-sources image model",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/509440.html"
+    },
+    {
+     "title": "玻璃翼计划被质疑：近 4 万个候补漏洞只修了 217 条",
+     "en": "Glasswing questioned",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/509291.html"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "中文数码资讯",
+   "color": "#d9230f",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "OpenAI 宣布重组具身智能团队",
+     "en": "OpenAI reorganizes robotics",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/027/004.htm"
+    },
+    {
+     "title": "微软就全球服务中断致歉，称与网络攻击无关",
+     "en": "Microsoft apologizes for outage",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/027/005.htm"
+    },
+    {
+     "title": "微软：全美航班停飞与 M365 宕机无关",
+     "en": "Microsoft: no link to FAA ground stop",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/027/003.htm"
+    },
+    {
+     "title": "Arm 掌门人哈斯进入英伟达接班候选",
+     "en": "Arm CEO Haas eyed for Nvidia",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/027/002.htm"
+    },
+    {
+     "title": "Epic 指责苹果以 27% 佣金规避禁令",
+     "en": "Epic vs Apple 27% fee",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/027/006.htm"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "工程师社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "如何不要做一个音乐播放器",
+     "en": "How Not to Build a Music Player",
+     "metric": "81 分",
+     "url": "https://alichraghi.github.io/blog/how-not-to-build-a-music-player"
+    },
+    {
+     "title": "不占单元格的终端边框",
+     "en": "Terminal borders that don't cost a cell",
+     "metric": "44 分",
+     "url": "https://www.joshka.net/cell-borders/"
+    },
+    {
+     "title": "用 NetHack 击败前沿模型",
+     "en": "Beating the frontier on NetHack",
+     "metric": "22 分",
+     "url": "https://antithesis.com/blog/2026/nethack/"
+    },
+    {
+     "title": "Go 里的概率数据结构",
+     "en": "Probabilistic data structures in Go",
+     "metric": "25 分",
+     "url": "https://antonz.org/probabilistic-data-structures/"
+    },
+    {
+     "title": "反驳“粘合工作有害论”",
+     "en": "Contra \"Glue work considered harmful\"",
+     "metric": "47 分",
+     "url": "https://sunshowers.io/posts/glue-work/"
+    }
+   ]
+  }
+ ],
+ "topics": [
+  {
+   "name": "智能体的边界",
+   "kicker": "能花钱，还要有人放行",
+   "items": [
+    {
+     "title": "亚马逊是最大的“拒绝智能体”的零售商",
+     "note": "它要把用户引向自家的 Alexa。",
+     "src": "TechCrunch",
+     "metric": "11-13",
+     "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/"
+    },
+    {
+     "title": "Expo 给编码智能体一台云端手机",
+     "note": "让它自己点一遍，再把录屏交人审。",
+     "src": "AI Timeline（转述）",
+     "metric": "123 万浏览",
+     "url": "https://aitimeline.news/en/English-Topics/2026-11-13-X%E8%8B%B1%E6%96%87%E7%83%AD%E7%82%B9%E9%80%89%E9%A2%98%E7%AE%80%E6%8A%A5/"
+    },
+    {
+     "title": "Codex 负责人问“不许说模型，还能怎么改”",
+     "note": "据转述，讨论集中在工具和流程上。",
+     "src": "MindPattern（转述）",
+     "metric": "9.8K 回复",
+     "url": "https://mindpattern.ai/s/2026-11-13-openai-s-codex-lead-asked-how-codex-could-improve-without-saying-model-and-got-nearly"
+    },
+    {
+     "title": "OpenAI 公布自动打补丁和红队的新工具",
+     "note": "X 帖称面向网络安全，细节待官方页。",
+     "src": "X",
+     "metric": "58.7 万浏览",
+     "url": "https://x.com/thsottiaux/status/2121036562058400200"
+    }
+   ]
+  },
+  {
+   "name": "英伟达余波",
+   "kicker": "芯片、人事和货",
+   "items": [
+    {
+     "title": "调查称中国头部模型用了被禁运的 Blackwell",
+     "note": "这是调查结论，不是官方认定。",
+     "src": "TechCrunch",
+     "metric": "11-13",
+     "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
+    },
+    {
+     "title": "黄仁勋离任冲击 AI 创业融资，投资人称",
+     "note": "说法来自 VC 和创始人。",
+     "src": "TechCrunch",
+     "metric": "11-13",
+     "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/"
+    },
+    {
+     "title": "Arm 掌门人哈斯进入接班候选",
+     "note": "转述路透社，尚无官方确认。",
+     "src": "IT之家",
+     "metric": "11-13",
+     "url": "https://www.ithome.com/1/027/002.htm"
+    },
+    {
+     "title": "价值 1140 万美元英伟达硬件运输途中失踪",
+     "note": "货物从加州运往德州，原因未明。",
+     "src": "FreightWaves",
+     "metric": "265 分",
+     "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas"
+    }
+   ]
+  },
+  {
+   "name": "资本与平台",
+   "kicker": "钱往哪里流",
+   "items": [
+    {
+     "title": "LangChain 估值达 30 亿美元",
+     "note": "智能体框架公司继续拿钱。",
+     "src": "TechCrunch",
+     "metric": "11-13",
+     "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/"
+    },
+    {
+     "title": "亚马逊计划为全球网购数据建索引",
+     "note": "为 AI 搜索准备的产品图谱。",
+     "src": "The Verge",
+     "metric": "11-13",
+     "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search"
+    },
+    {
+     "title": "微软就全球服务中断致歉，称与攻击无关",
+     "note": "同日美国航班停飞，微软称无关联。",
+     "src": "IT之家",
+     "metric": "11-13",
+     "url": "https://www.ithome.com/1/027/005.htm"
+    },
+    {
+     "title": "Epic 指责苹果以 27% 佣金规避禁令",
+     "note": "诉讼将于明年 1 月继续。",
+     "src": "IT之家",
+     "metric": "11-13",
+     "url": "https://www.ithome.com/1/027/006.htm"
+    }
+   ]
+  }
+ ],
+ "comments": [
+  "付款的批准权还在人手里，真正的变量是商家愿不愿意放智能体进来。",
+  "机器人团队并入主研究部门，说明 OpenAI 认为“脑”比“身体”更值得先投入。",
+  "让 AI 读完一千页再由人用 Coq 逐条验证，可能是科研里更稳的分工。"
+ ],
+ "xhs": {
+  "title": "AI 开始管钱管机器人",
+  "cover": "智能体\n拿到钱包",
+  "deck": "钱包、机器人与遗稿",
+  "intro": "今天三件事：OpenAI 推出 ChatGPT Wallet，智能体经批准可代为付款；OpenAI 解散独立机器人团队；AI 协助读懂哥德尔的 1009 页笔记。",
+  "oneliner": "通用模型接手的岗位越来越要紧，人留下的是批准和核对。",
+  "closing": "如果让智能体替你付款，你会放心吗？",
+  "tags": [
+   "人工智能",
+   "ChatGPT",
+   "OpenAI",
+   "智能体",
+   "机器人",
+   "Claude",
+   "科技资讯",
+   "AI日报"
+  ]
+ },
+ "sources": [
+  "TechCrunch",
+  "Fortune",
+  "The Guardian",
+  "The Verge",
+  "Hacker News",
+  "Reddit",
+  "X",
+  "量子位",
+  "IT之家",
+  "GitHub Trending",
+  "Hugging Face Papers",
+  "Lobsters"
+ ]
+}

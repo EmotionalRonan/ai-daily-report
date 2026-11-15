@@ -1,0 +1,512 @@
+{
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "Lovable 搭建的应用暴露护照信息和 20 多万条私信",
+     "en": "Lovable apps expose passport details and 200K+ private messages",
+     "metric": "584 分",
+     "url": "https://www.crissyfield.de/research/lovable-en/",
+     "time": "11-15",
+     "what": "研究者分析 15.9 万个项目，不少应用无需登录即可读取数据库。"
+    },
+    {
+     "title": "星舰第 15 次试飞，飞船被发射塔首次接住",
+     "en": "SpaceX catches the Starship to end Flight 15",
+     "metric": "510 分",
+     "url": "https://www.spacex.com/launches/starship-flight-15",
+     "time": "11-15",
+     "what": "二级飞船由塔臂捕获，一级因低燃料告警改道溅落。"
+    },
+    {
+     "title": "EFF：科技公司又想改写“隐私”的含义",
+     "en": "Tech companies are trying to shift the concept of privacy again",
+     "metric": "433 分",
+     "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
+     "time": "11-14",
+     "what": "EFF 批评厂商把“隐私”偷换成数据留在自家系统内。"
+    },
+    {
+     "title": "意大利就安卓用户数据访问向 Meta 罚款 8.87 亿美元",
+     "en": "Italy fines Meta $887M over Android users' data access",
+     "metric": "306 分",
+     "url": "https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/",
+     "time": "11-14",
+     "what": "路透报道。"
+    },
+    {
+     "title": "谷歌 Antigravity 的 /teamwork 多智能体用于科学与工程难题",
+     "en": "Advancing science and engineering with Antigravity's /teamwork",
+     "metric": "154 分",
+     "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+     "time": "11-13",
+     "what": "谷歌研究院称与人类专家合作解决数学、化学、系统软件等开放问题。"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区热议",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "GTA 5、使命召唤等游戏被 AI 逆向后移植到浏览器",
+     "en": "GTA 5, MW2, Halo ported to browser via AI reverse-engineering",
+     "metric": "820 赞",
+     "url": "https://www.destructoid.com/vibe-coded-games-in-browsers/",
+     "time": "11-14",
+     "what": "r/singularity 热帖，Destructoid 报道。"
+    },
+    {
+     "title": "卡帕西梳理“能力差距”",
+     "en": "Andrej Karpathy breaks down the capability gap",
+     "metric": "790 赞",
+     "url": "https://x.com/karpathy/status/2109361546505966046",
+     "time": "11-14",
+     "what": "r/singularity 转发其长帖截图，内容待核。"
+    },
+    {
+     "title": "用 Opus 5.5 把星际火狐等老游戏移植到桌面",
+     "en": "Opus 5.5 is INSANE at decompilation / ports",
+     "metric": "656 赞",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/",
+     "time": "11-14",
+     "what": "作者后来承认更像“专用模拟器 + 静态重编译”。"
+    },
+    {
+     "title": "Claude 的新“项目”功能被付费用户吐槽",
+     "en": "New Projects rolling out for Chat and Cowork",
+     "metric": "358 赞",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x33na4/new_projects_rolling_out_for_chat_and_cowork_oh/",
+     "time": "11-14",
+     "what": "不少用户不想让项目内的对话互通。"
+    },
+    {
+     "title": "10–16GB 显存能跑的模型排行",
+     "en": "Every Model That Can Be Run On 10-16GB VRAM Ranked",
+     "metric": "347 赞",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3gpyi/every_model_that_can_be_run_on_1016gb_vram_ranked/",
+     "time": "11-15",
+     "what": "r/LocalLLaMA 个人评测，偏角色扮演场景。"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X / Twitter",
+   "tag": "社交热帖",
+   "color": "#111111",
+   "url": "https://agentflare.org/social/ai/2026-11-14.html",
+   "short": "X",
+   "items": [
+    {
+     "title": "前 OpenAI 研究员称中国多家模型由禁运的 Blackwell 芯片初始化",
+     "en": "Will DePue: Chinese open models initialized on barred Blackwell chips",
+     "metric": "6.2M 浏览",
+     "url": "https://agentflare.org/social/ai/2026-11-14.html",
+     "time": "11-14",
+     "what": "TechCrunch 已跟进报道；据作者称 OpenAI、Anthropic 研究员独立验证过（转述）。"
+    },
+    {
+     "title": "DeepSeek 把 App 全套能力开放到 API",
+     "en": "The full DeepSeek App experience, now via API",
+     "metric": "73.4 万浏览",
+     "url": "https://x.com/deepseek_ai/status/2121247896918253875",
+     "time": "11-13",
+     "what": "官方帖，含搜索、文件、读链接、OCR、语音。"
+    },
+    {
+     "title": "Edge0 开源 145B 和 120B 端侧模型",
+     "en": "Edge0-145B and Edge0-120B released",
+     "metric": "转述",
+     "url": "https://aitimeline.news/en/Daily/2026-11-14-X%E6%97%A5%E6%8A%A5/",
+     "time": "11-12",
+     "what": "据称衍生自 Qwen3.8-Flash-Next，跑分为厂商自报，待核。"
+    },
+    {
+     "title": "llama.cpp 发布 1.0 稳定版",
+     "en": "llama.cpp 1.0.0",
+     "metric": "转述",
+     "url": "https://www.communeify.com/en/blog/ai-daily-2026-11-14/",
+     "time": "11-14",
+     "what": "据 Communeify 转述，待核官方发布页。"
+    },
+    {
+     "title": "Claude Code 桌面版支持自定义主题",
+     "en": "Claude Code custom themes with mods",
+     "metric": "转述",
+     "url": "https://www.bam.dog/pulse",
+     "time": "11-14",
+     "what": "Bam 的 AI 简报转述。"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热榜",
+   "color": "#24292f",
+   "url": "https://github.com/trending?since=daily",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "GoogleChrome/modern-web-guidance-src",
+     "en": "GoogleChrome/modern-web-guidance-src",
+     "metric": "1,231 星/日",
+     "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+     "time": "11-15",
+     "what": "Chrome 团队的现代 Web 开发指引源码。"
+    },
+    {
+     "title": "alibaba/open-code-review",
+     "en": "alibaba/open-code-review",
+     "metric": "893 星/日",
+     "url": "https://github.com/alibaba/open-code-review",
+     "time": "11-15",
+     "what": "阿里开源的代码评审项目。"
+    },
+    {
+     "title": "ChromeDevTools/chrome-devtools-mcp",
+     "en": "ChromeDevTools/chrome-devtools-mcp",
+     "metric": "664 星/日",
+     "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+     "time": "11-15",
+     "what": "让编码智能体调用 Chrome 开发者工具。"
+    },
+    {
+     "title": "tradermonty/claude-trading-skills",
+     "en": "tradermonty/claude-trading-skills",
+     "metric": "553 星/日",
+     "url": "https://github.com/tradermonty/claude-trading-skills",
+     "time": "11-15",
+     "what": "面向交易分析的 Claude 技能集。"
+    },
+    {
+     "title": "dream-num/univer",
+     "en": "dream-num/univer",
+     "metric": "495 星/日",
+     "url": "https://github.com/dream-num/univer",
+     "time": "11-15",
+     "what": "开源的表格/文档/幻灯片套件。"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文热榜",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction",
+     "en": "Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction",
+     "metric": "7 赞",
+     "url": "https://huggingface.co/papers/2611.10439",
+     "time": "11-14",
+     "what": "今日每日论文榜靠前条目。"
+    },
+    {
+     "title": "EgoX: Egocentric Cross-Embodiment Manipulation with Embodiment Dreaming",
+     "en": "EgoX: Egocentric Cross-Embodiment Manipulation with Embodiment Dreaming",
+     "metric": "1 赞",
+     "url": "https://huggingface.co/papers/2611.16728",
+     "time": "11-14",
+     "what": "今日每日论文榜靠前条目。"
+    },
+    {
+     "title": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
+     "en": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
+     "metric": "3 赞",
+     "url": "https://huggingface.co/papers/2611.17336",
+     "time": "11-14",
+     "what": "今日每日论文榜靠前条目。"
+    },
+    {
+     "title": "Consensus Capture in Reference-Based UAV Video Stabilization: A Benchmark on Dynamic Urban Scenes",
+     "en": "Consensus Capture in Reference-Based UAV Video Stabilization: A Benchmark on Dynamic Urban Scenes",
+     "metric": "4 赞",
+     "url": "https://huggingface.co/papers/2611.17190",
+     "time": "11-14",
+     "what": "今日每日论文榜靠前条目。"
+    },
+    {
+     "title": "TurtLES: A Large-Scale Benchmark for Turbulent 3D Neural PDE Surrogates",
+     "en": "TurtLES: A Large-Scale Benchmark for Turbulent 3D Neural PDE Surrogates",
+     "metric": "4 赞",
+     "url": "https://huggingface.co/papers/2611.09567",
+     "time": "11-14",
+     "what": "今日每日论文榜靠前条目。"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#5200ff",
+   "url": "https://techcrunch.com/category/artificial-intelligence/",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "出口禁令下的英伟达芯片，成了中国最强模型的底座？",
+     "en": "Export-banned Nvidia chips are behind China's most powerful AI models",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+     "time": "11-13",
+     "what": "研究称 DeepSeek、月之暗面等开源模型带有 Blackwell 训练痕迹。"
+    },
+    {
+     "title": "LangChain 融资 3 亿美元，估值 30 亿",
+     "en": "AI agent startup LangChain hits $3B valuation",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+     "time": "11-13",
+     "what": "CapitalG 领投 C 轮。"
+    },
+    {
+     "title": "黄仁勋离开，AI 创业融资出现缺口",
+     "en": "Jensen Huang's departure blasts big hole in AI startup funding",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+     "time": "11-13",
+     "what": "投资人担心英伟达减少对创业公司的投资。"
+    },
+    {
+     "title": "Claude Duet 上手：有用，但有点神经质",
+     "en": "Claude's Duet agent is a little neurotic and surprisingly helpful",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+     "time": "11-14",
+     "what": "Anthropic 面向消费者的智能体。"
+    },
+    {
+     "title": "微软邮件故障演变成全球云服务危机",
+     "en": "Microsoft's latest email outage turned into a full-blown global cloud crisis",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/13/microsoft-latest-email-outage-turned-into-a-full-blown-global-cloud-crisis/",
+     "time": "11-13",
+     "what": "Outlook、Teams、Copilot 等同时受影响。"
+    }
+   ]
+  },
+  {
+   "key": "qbitai",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#1a73e8",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "英伟达员工集体请愿：让老黄回家",
+     "en": "英伟达上演“奥特曼2.0”，员工集体请愿",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/510297.html",
+     "time": "11-14",
+     "what": "量子位首页头条。"
+    },
+    {
+     "title": "DeepSeek 开放全家桶 API",
+     "en": "突发！DeepSeek开放全家桶API",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/510003.html",
+     "time": "11-13",
+     "what": "与官方文档一致。"
+    },
+    {
+     "title": "黄仁勋辞职，英伟达 33 年首换帅",
+     "en": "黄仁勋辞职，英伟达33年首换帅，市值蒸发超3万亿",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/509995.html",
+     "time": "11-13",
+     "what": "市值数字待核。"
+    },
+    {
+     "title": "无界前沿开源 Fx-Bio-1031",
+     "en": "高难盲测超越GPT-6-Astra与Opus-5！无界前沿开源Fx-Bio-1031",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/509663.html",
+     "time": "11-13",
+     "what": "跑分为厂商自报，待核。"
+    },
+    {
+     "title": "程序员集体沉迷折纸飞机",
+     "en": "程序员集体沉迷折纸飞机！最长滞空31.2秒",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/510150.html",
+     "time": "11-14",
+     "what": "趣闻。"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "国内科技快讯",
+   "color": "#d32f2f",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "星舰飞船首次被发射塔机械臂捕获",
+     "en": "SpaceX Starship caught by tower",
+     "metric": "11-15",
+     "url": "https://www.ithome.com/1/027/253.htm",
+     "time": "11-15",
+     "what": "马斯克称将建百万艘航天器规模的 AI 数据中心星座。"
+    },
+    {
+     "title": "请愿恢复黄仁勋 CEO 职务人数突破 12 万",
+     "en": "Stand with Jensen petition passes 120K",
+     "metric": "12 万签名",
+     "url": "https://www.ithome.com/1/027/252.htm",
+     "time": "11-15",
+     "what": "英伟达仍按原计划 11 月 17 日发布财报。"
+    },
+    {
+     "title": "超聚变创业板 IPO 过会",
+     "en": "Xfusion ChiNext IPO approved",
+     "metric": "11-15",
+     "url": "https://www.ithome.com/1/027/255.htm",
+     "time": "11-15",
+     "what": "前身是华为 x86 服务器业务。"
+    },
+    {
+     "title": "Win11 大规模界面改版开始推送",
+     "en": "Windows 11 UI refresh rolling out",
+     "metric": "11-15",
+     "url": "https://www.ithome.com/1/027/256.htm",
+     "time": "11-15",
+     "what": "先从自动播放弹窗开始。"
+    },
+    {
+     "title": "香港迪士尼票务系统遭入侵",
+     "en": "Hong Kong Disneyland ticketing breach",
+     "metric": "11-15",
+     "url": "https://www.ithome.com/1/027/251.htm",
+     "time": "11-15",
+     "what": "约 1.7 万个门票二维码疑似被盗。"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "极客社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "《如何不去做一个音乐播放器》",
+     "en": "How Not to Build a Music Player",
+     "metric": "109 分",
+     "url": "https://alichraghi.github.io/blog/how-not-to-build-a-music-player",
+     "time": "11-14",
+     "what": "开发者复盘。"
+    },
+    {
+     "title": "至少需要第三个选项",
+     "en": "The need for at least a third option",
+     "metric": "82 分",
+     "url": "https://blog.ovalerio.net/archives/3359",
+     "time": "11-14",
+     "what": "博客。"
+    },
+    {
+     "title": "不占单元格的终端边框",
+     "en": "Terminal borders that don't cost a cell",
+     "metric": "57 分",
+     "url": "https://www.joshka.net/cell-borders/",
+     "time": "11-14",
+     "what": "终端 UI 技巧。"
+    },
+    {
+     "title": "3com 后来怎么了",
+     "en": "What happened to 3com?",
+     "metric": "29 分",
+     "url": "https://dfarq.homeip.net/what-happened-to-3com/",
+     "time": "11-14",
+     "what": "科技史。"
+    },
+    {
+     "title": "让我让你拥有你的数据",
+     "en": "Let Me Let You Own Your Data",
+     "metric": "21 分",
+     "url": "https://www.willett.io/posts/data/",
+     "time": "11-14",
+     "what": "博客。"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "title": "DeepSeek 把 App 全套能力开放到 API",
+   "url": "https://api-docs.deepseek.com/news/news261113",
+   "why": "官方文档已读，X 浏览 73 万，量子位同步。",
+   "pick": true,
+   "status": "ok"
+  },
+  {
+   "title": "研究称中国头部开源模型带有 Blackwell 训练痕迹",
+   "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+   "why": "TechCrunch 全文已读，X 上 620 万浏览；研究本身待独立验证。",
+   "pick": true,
+   "status": "ok"
+  },
+  {
+   "title": "Lovable 应用大面积暴露敏感数据",
+   "url": "https://www.crissyfield.de/research/lovable-en/",
+   "why": "研究原文已读，HN 584 分，Handelsblatt 11-02 已报道。",
+   "pick": true,
+   "status": "ok"
+  },
+  {
+   "title": "星舰飞船首次被塔臂捕获",
+   "url": "https://www.ithome.com/1/027/253.htm",
+   "why": "HN 510 分，但与 AI 日报主线距离远，放热榜。",
+   "pick": false,
+   "status": "ok"
+  },
+  {
+   "title": "LangChain 3 亿美元 C 轮",
+   "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+   "why": "一手已读，体量不足头条。",
+   "pick": false,
+   "status": "ok"
+  },
+  {
+   "title": "黄仁勋请愿突破 12 万",
+   "url": "https://www.ithome.com/1/027/252.htm",
+   "why": "前两期已连续报道，今天只给后续。",
+   "pick": false,
+   "status": "ok"
+  },
+  {
+   "title": "微软全球宕机波及 Copilot",
+   "url": "https://techcrunch.com/2026/11/13/microsoft-latest-email-outage-turned-into-a-full-blown-global-cloud-crisis/",
+   "why": "原因未公布，等结论。",
+   "pick": false,
+   "status": "ok"
+  },
+  {
+   "title": "Edge0 开源 145B 端侧模型",
+   "url": "https://aitimeline.news/en/Daily/2026-11-14-X%E6%97%A5%E6%8A%A5/",
+   "why": "只有转述与厂商自报跑分。",
+   "pick": false,
+   "status": "待核"
+  }
+ ]
+}

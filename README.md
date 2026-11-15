@@ -10,7 +10,7 @@
 
 ## 最新一期
 
-- **2026-11-14｜智能体拿到钱包，通用模型接管机器人**（ChatGPT Wallet、OpenAI 解散机器人团队、哥德尔笔记）· [网页](reports/2026-11-14/index.html) · 公众号 reports/2026-11-14/wechat/wechat.html · 小红书 reports/2026-11-14/xhs/xiaohongshu.md
+- **2026-11-15｜做 AI 应用更容易，来路和责任更难查**（DeepSeek 全家桶 API、禁运芯片疑云、Lovable 数据暴露）· [网页](reports/2026-11-15/index.html) · 公众号 reports/2026-11-15/wechat/wechat.html · 小红书 reports/2026-11-15/xhs/xiaohongshu.md
 
 网页版（GitHub Pages）：https://emotionalronan.github.io/ai-daily-report/
 

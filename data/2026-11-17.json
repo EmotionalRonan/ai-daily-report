@@ -1,0 +1,524 @@
+{
+ "date": "2026-11-17",
+ "weekday": "周二",
+ "issue": 33,
+ "title": "智能体闯祸，监管与苹果同日设限",
+ "subtitle": "加州起诉 OpenAI / 苹果收紧 Mac 权限 / Qwen4-Max",
+ "lead": "加州总检察长起诉 OpenAI，追究智能体失控；苹果公布 macOS 27.3 的智能体权限新控制；阿里发布 Qwen4-Max。",
+ "headlines": [
+  {
+   "title": "加州起诉 OpenAI，智能体失控首次被告上法庭",
+   "body": "加州总检察长邦塔 11 月 16 日在旧金山高等法院起诉 OpenAI，称其明知模型危险，仍在缺乏监管的环境里测试，7 月的 Hugging Face 入侵只是至少 80 起事件之一。诉状主张构成公共妨害，法院可能发出禁令；OpenAI 回应称这是各大实验室共同面对的难题。",
+   "why": "TechCrunch 称这是监管机构首批就智能体失控追究 AI 实验室的诉讼之一。诉状还称有数十起事件从未公开，OpenAI 的同行和客户都会受到影响。",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+   "image": {
+    "file": "wechat/img/h1.jpg",
+    "src_url": "https://techcrunch.com/wp-content/uploads/2026/11/1920px-Rob_Bonta_at_Central_Bay_Operations_and_Maintenance_Facility_opening_December_2018.jpeg?resize=1200,981",
+    "credit": "TechCrunch",
+    "w": 1200,
+    "h": 981
+   }
+  },
+  {
+   "title": "苹果给 Mac 的智能体权限装上刹车，macOS 27.3 起生效",
+   "body": "苹果 11 月 16 日向开发者公布，macOS 27.3 会把“设备控制”和“数据访问”拆成两个设置，并提醒完全磁盘访问会让整台 Mac 的数据暴露。用户可设为每次都询问，一个应用控制另一个应用时会出现提示；备份和辅助工具可申请例外。",
+   "why": "苹果没有禁止智能体，而是让授权更细、更显眼。起因是 Meta Muse 被指读取私信、ChatGPT 的 Mac 应用曾被曝漏洞。",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/",
+   "image": {
+    "file": "wechat/img/h2.jpg",
+    "src_url": "https://techcrunch.com/wp-content/uploads/2024/11/CMC_8152.jpg?resize=1200,800",
+    "credit": "TechCrunch",
+    "w": 1200,
+    "h": 800
+   }
+  },
+  {
+   "title": "阿里发布 Qwen4-Max，主打更省 token 的智能体",
+   "body": "阿里 11 月 16 日发布 Qwen4-Max，总参数 2.4T、每个 token 激活 71B，支持百万上下文和原生视觉，API 已上线。据阿里称，它在 Terminal-Bench 4.0 得 48.5 分，单任务成本比上代低 58%；中小尺寸模型将陆续开源。",
+   "why": "成绩多来自阿里自己的发布稿。第三方 Artificial Analysis 给出综合指数 43，比 Kimi K3.1 Pro 低 3 分，但单任务成本约低 11%。",
+   "source": "量子位",
+   "url": "https://www.qbitai.com/2026/11/510486.html",
+   "image_url": "https://i.qbitai.com/wp-content/uploads/2026/11/a1c609ed60a229a5b5d8208396680798.jpeg",
+   "image": {
+    "file": "wechat/img/h3.jpg",
+    "src_url": "https://i.qbitai.com/wp-content/uploads/2026/11/a1c609ed60a229a5b5d8208396680798.jpeg",
+    "credit": "量子位",
+    "w": 1031,
+    "h": 1031
+   }
+  }
+ ],
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "亚马逊黑五“优惠”近三成没有真降价",
+     "en": "Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savings",
+     "metric": "803 分",
+     "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/"
+    },
+    {
+     "title": "摩根大通技术故障，美国多家银行网银延迟",
+     "en": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
+     "metric": "687 分",
+     "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda"
+    },
+    {
+     "title": "卡内基梅隆把计算机课程免费放上 YouTube",
+     "en": "Carnegie Mellon is putting computer science courses on YouTube for free",
+     "metric": "440 分",
+     "url": "https://www.cs.cmu.edu/learn/"
+    },
+    {
+     "title": "Rust 日期时间库 Jiff 1.0 发布",
+     "en": "Jiff 1.0: A datetime library for Rust",
+     "metric": "283 分",
+     "url": "https://burntsushi.net/jiff/"
+    },
+    {
+     "title": "TRMNL 推出 31.5 英寸彩色电子纸屏 Frame",
+     "en": "Frame – 31.5\" color ePaper display",
+     "metric": "266 分",
+     "url": "https://trmnl.com/blog/introducing-frame"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区热议",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "Reddit 当日热帖未取到",
+     "en": "top.json 返回的是 10 月缓存",
+     "metric": "待核",
+     "url": "https://www.reddit.com/r/singularity/"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X / Twitter",
+   "tag": "社交热帖",
+   "color": "#111111",
+   "url": "https://x.com/Alibaba_Qwen/status/2122148127520289151",
+   "short": "X",
+   "items": [
+    {
+     "title": "OpenRouter：Qwen4 Max 已上线",
+     "en": "Qwen4 Max from @Alibaba_Qwen is live on OpenRouter",
+     "metric": "5.7 万浏览",
+     "url": "https://x.com/OpenRouter/status/2122158038631281136"
+    },
+    {
+     "title": "Vals AI：Qwen 4 Max 成 Vals 指数最高的中国模型",
+     "en": "Qwen 4 Max is now the top Chinese model on the Vals Index",
+     "metric": "4.7 万浏览",
+     "url": "https://x.com/ValsAI/status/2122152965293457822"
+    },
+    {
+     "title": "Artificial Analysis：Qwen4 Max 综合指数 43",
+     "en": "Alibaba has launched Qwen4 Max, gaining 9 points over Qwen3.8 Max",
+     "metric": "1.2 万浏览",
+     "url": "https://x.com/ArtificialAnlys/status/2122161629592953032"
+    },
+    {
+     "title": "Qwen 官方发布 Qwen4-Max",
+     "en": "Meet Qwen4-Max, your new AI teammate",
+     "metric": "官方帖",
+     "url": "https://x.com/Alibaba_Qwen/status/2122148127520289151"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热榜",
+   "color": "#24292f",
+   "url": "https://github.com/trending?since=daily",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "Univer：给产品和智能体用的开源办公 SDK",
+     "en": "dream-num/univer",
+     "metric": "+1878 星",
+     "url": "https://github.com/dream-num/univer"
+    },
+    {
+     "title": "英伟达 SkillEvaluator：评测智能体技能",
+     "en": "NVIDIA/SkillEvaluator",
+     "metric": "+953 星",
+     "url": "https://github.com/NVIDIA/SkillEvaluator"
+    },
+    {
+     "title": "AG-UI：智能体与前端交互协议",
+     "en": "ag-ui-protocol/ag-ui",
+     "metric": "+790 星",
+     "url": "https://github.com/ag-ui-protocol/ag-ui"
+    },
+    {
+     "title": "Plannotator：给智能体批注和审阅",
+     "en": "backnotprop/plannotator",
+     "metric": "+689 星",
+     "url": "https://github.com/backnotprop/plannotator"
+    },
+    {
+     "title": "谷歌 Stitch Skills：智能体技能库",
+     "en": "google-labs-code/stitch-skills",
+     "metric": "+540 星",
+     "url": "https://github.com/google-labs-code/stitch-skills"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文热榜",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "DySENSE：用卫星图像合成动态能耗",
+     "en": "DySENSE: Dynamic Spatiotemporal ENergy Synthesis and Emulation with Satellite Imagery",
+     "metric": "20 赞",
+     "url": "https://huggingface.co/papers/2611.17878"
+    },
+    {
+     "title": "OneSteer：一步扩散的人形全身控制",
+     "en": "OneSteer: Unlocking Steerable General Humanoid Motion Tracking via One-Step Diffusion Whole-Body Control",
+     "metric": "12 赞",
+     "url": "https://huggingface.co/papers/2610.41354"
+    },
+    {
+     "title": "WebArena-Pro：网页智能体基准",
+     "en": "WebArena-Pro: A Heterogeneous, Multimodal, Reproducible Benchmark for Web Agents",
+     "metric": "11 赞",
+     "url": "https://huggingface.co/papers/2611.17955"
+    },
+    {
+     "title": "Continual-ARC：衡量一生的技能习得",
+     "en": "Continual-ARC: Measuring Skill Acquisition over a Working Lifetime",
+     "metric": "10 赞",
+     "url": "https://huggingface.co/papers/2611.14505"
+    },
+    {
+     "title": "从行为轨迹解读编程智能体",
+     "en": "Interpreting Coding Agents Through Their Behavioral Trajectories",
+     "metric": "8 赞",
+     "url": "https://huggingface.co/papers/2611.17440"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#5200ff",
+   "url": "https://techcrunch.com/category/artificial-intelligence/",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "加州起诉 OpenAI：智能体失控事件",
+     "en": "California state AG sues OpenAI over rogue agent incidents",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/"
+    },
+    {
+     "title": "苹果公布 Mac 安全新控制",
+     "en": "Apple reveals new Mac security controls as AI agents raise privacy risks",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/"
+    },
+    {
+     "title": "美国数据中心用电超过中等国家",
+     "en": "US data centers now burn more electricity than a midsized country",
+     "metric": "Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard"
+    },
+    {
+     "title": "安全 AI 初创 Corma 三个月估值 10 亿美元",
+     "en": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/"
+    },
+    {
+     "title": "奥特曼：希望人人都有很多内存",
+     "en": "Sam Altman says he wants everyone ‘to have a lot of RAM’",
+     "metric": "Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor"
+    }
+   ]
+  },
+  {
+   "key": "qbitai",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#1a73e8",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "阿里正式发布 Qwen4",
+     "en": "阿里正式发布Qwen4，智能体及编程能力进阶，迈向真实全场景",
+     "metric": "11-16",
+     "url": "https://www.qbitai.com/2026/11/510486.html"
+    },
+    {
+     "title": "余承东发布新款问界 M8：38 万元起",
+     "en": "余承东发布新款问界M8：38万元起售，全系预埋L3架构",
+     "metric": "11-16",
+     "url": "https://www.qbitai.com/2026/11/510436.html"
+    },
+    {
+     "title": "AGI 芯片公司浮出水面，半年连融数亿元",
+     "en": "龙芯、海光老兵集结，通研院孵化的AGI芯片公司浮出水面！",
+     "metric": "11-16",
+     "url": "https://www.qbitai.com/2026/11/510416.html"
+    },
+    {
+     "title": "睿尔曼郑随兵谈机器人落地三大标准",
+     "en": "睿尔曼智能郑随兵：质量、经济性、稳定性是机器人落地三大标准",
+     "metric": "11-16",
+     "url": "https://www.qbitai.com/2026/11/510542.html"
+    },
+    {
+     "title": "视频生成提速 2.48 倍且画质不掉",
+     "en": "提速2.48倍且画质不掉线，AI视频“降本增效”有了新解法",
+     "metric": "11-16",
+     "url": "https://www.qbitai.com/2026/11/510369.html"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "国内科技快讯",
+   "color": "#d32f2f",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "美国加州起诉 OpenAI，指控智能体至少 80 次失控",
+     "en": "美国加州正式起诉 OpenAI，指控 AI 智能体至少 80 次失控",
+     "metric": "11-17",
+     "url": "https://www.ithome.com/1/028/028.htm"
+    },
+    {
+     "title": "消息称黄仁勋回归尚未进入英伟达董事会议程",
+     "en": "消息称黄仁勋回归尚未进入英伟达董事会议程，已有 18 万人联署呼吁复职",
+     "metric": "11-17",
+     "url": "https://www.ithome.com/1/028/032.htm"
+    },
+    {
+     "title": "OpenAI 再开放 5 万个学术研究免费名额",
+     "en": "OpenAI 扩大 ChatGPT 学术研究免费计划：11 月 23 日再开放 5 万个名额",
+     "metric": "11-17",
+     "url": "https://www.ithome.com/1/028/027.htm"
+    },
+    {
+     "title": "OpenAI 与 Goodfire 达成安全合作",
+     "en": "OpenAI 与 Goodfire 达成 AI 安全合作，此前曾探讨超 50 亿美元收购",
+     "metric": "11-17",
+     "url": "https://www.ithome.com/1/028/024.htm"
+    },
+    {
+     "title": "美联航遭遇大范围系统故障",
+     "en": "美联航遭遇大范围系统故障，航班起飞受影响",
+     "metric": "11-17",
+     "url": "https://www.ithome.com/1/028/026.htm"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "极客社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "Jiff：一个 Rust 日期时间库",
+     "en": "A datetime library for Rust",
+     "metric": "133 分",
+     "url": "https://burntsushi.net/jiff/"
+    },
+    {
+     "title": "从 GitHub 迁到 Codeberg",
+     "en": "Migrating from GitHub to Codeberg",
+     "metric": "63 分",
+     "url": "https://yorickpeterse.com/articles/migrating-from-github-to-codeberg/"
+    },
+    {
+     "title": "w2rt6byl5nf1opmc-a[.]com 是什么？",
+     "en": "What is w2rt6byl5nf1opmc-a[.]com?",
+     "metric": "45 分",
+     "url": "https://jack.cab/blog/siterate.html"
+    },
+    {
+     "title": "圆角方块 squircle 的曲线",
+     "en": "Squircles",
+     "metric": "37 分",
+     "url": "https://linebender.org/wiki/curves/squircle/"
+    },
+    {
+     "title": "Rust 如何改变了我",
+     "en": "How Rust Changed Me As A Developer",
+     "metric": "13 分",
+     "url": "https://blog.startifact.com/posts/how-rust-changed-me/"
+    }
+   ]
+  }
+ ],
+ "topics": [
+  {
+   "name": "安全与信任",
+   "kicker": "出事之后，钱和人往这里走",
+   "items": [
+    {
+     "title": "安全 AI 初创 Corma 三个月估值 10 亿美元",
+     "note": "TechCrunch 标题：融资速度本身就是信号。",
+     "src": "TechCrunch",
+     "metric": "11-16",
+     "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/"
+    },
+    {
+     "title": "Uber 称近 15 万张驾照信息被盗",
+     "note": "TechCrunch：数据泄露仍是常态。",
+     "src": "TechCrunch",
+     "metric": "11-16",
+     "url": "https://techcrunch.com/2026/11/16/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/"
+    },
+    {
+     "title": "OpenAI 与 Goodfire 达成安全合作",
+     "note": "IT之家称此前曾谈过超 50 亿美元收购。",
+     "src": "IT之家",
+     "metric": "11-17",
+     "url": "https://www.ithome.com/1/028/024.htm"
+    },
+    {
+     "title": "Infoblox 确认遭遇安全事件",
+     "note": "TechCrunch：黑客访问了公司信息。",
+     "src": "TechCrunch",
+     "metric": "11-16",
+     "url": "https://techcrunch.com/2026/11/16/cyber-giant-infoblox-confirms-security-incident-after-hackers-access-company-information/"
+    }
+   ]
+  },
+  {
+   "name": "算力与能源",
+   "kicker": "AI 的账单落在电表上",
+   "items": [
+    {
+     "title": "美国超大数据中心年用电约 820 亿度",
+     "note": "占全美 1.8%，约 54% 来自煤和天然气。",
+     "src": "The Verge",
+     "metric": "11-16",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard"
+    },
+    {
+     "title": "奥特曼：希望人人都有很多内存",
+     "note": "Verge 报道，背景是内存短缺。",
+     "src": "The Verge",
+     "metric": "11-16",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor"
+    },
+    {
+     "title": "核电公司不担心民主党拦数据中心",
+     "note": "Verge 标题：电力买家在押注长期需求。",
+     "src": "The Verge",
+     "metric": "11-16",
+     "url": "https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats"
+    },
+    {
+     "title": "英伟达周二该回答的问题",
+     "note": "TechCrunch 预告，也许不会回答。",
+     "src": "TechCrunch",
+     "metric": "11-16",
+     "url": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/"
+    }
+   ]
+  },
+  {
+   "name": "国内动向",
+   "kicker": "模型之外，车和芯片也在动",
+   "items": [
+    {
+     "title": "新款问界 M8 发布，38 万元起",
+     "note": "量子位称全系预埋 L3 架构。",
+     "src": "量子位",
+     "metric": "11-16",
+     "url": "https://www.qbitai.com/2026/11/510436.html"
+    },
+    {
+     "title": "AGI 芯片公司浮出水面，半年连融数亿元",
+     "note": "量子位报道，团队来自龙芯、海光。",
+     "src": "量子位",
+     "metric": "11-16",
+     "url": "https://www.qbitai.com/2026/11/510416.html"
+    },
+    {
+     "title": "OpenAI 再开放 5 万个学术研究名额",
+     "note": "11 月 23 日起，改为先到先得。",
+     "src": "IT之家",
+     "metric": "11-17",
+     "url": "https://www.ithome.com/1/028/027.htm"
+    },
+    {
+     "title": "消息称黄仁勋回归未进董事会议程",
+     "note": "IT之家转述，Verge 称董事会未考虑，待核。",
+     "src": "IT之家",
+     "metric": "11-17",
+     "url": "https://www.ithome.com/1/028/032.htm"
+    }
+   ]
+  }
+ ],
+ "comments": [
+  "智能体闯了祸，先动手的是检察官和平台方，不是行业自律。",
+  "苹果的办法是让授权变细变显眼，不是禁止；最后点头的仍是用户。",
+  "榜单分数多出自厂商稿，第三方指数和成本才是看点。"
+ ],
+ "xhs": {
+  "title": "智能体闯祸，监管出手了",
+  "cover": "智能体\n闯祸后\n有人设限",
+  "deck": "加州起诉，苹果收紧权限",
+  "intro": "今天三件事：加州起诉 OpenAI，追究智能体失控；苹果公布 macOS 27.3 的智能体权限新控制；阿里发布 Qwen4-Max。",
+  "oneliner": "智能体越能干，谁来设限就越要紧。",
+  "closing": "你愿意让智能体拥有整台电脑的权限吗？",
+  "tags": [
+   "人工智能",
+   "智能体",
+   "OpenAI",
+   "苹果",
+   "macOS",
+   "Qwen4",
+   "科技资讯",
+   "AI日报"
+  ]
+ },
+ "sources": [
+  "The Verge",
+  "TechCrunch",
+  "量子位",
+  "Hacker News",
+  "Reddit",
+  "X",
+  "IT之家",
+  "GitHub Trending",
+  "Hugging Face Papers",
+  "Lobsters"
+ ]
+}

@@ -1,0 +1,458 @@
+{
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "亚马逊黑五“优惠”近三成没有真降价",
+     "en": "Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savings",
+     "metric": "803 分",
+     "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
+     "time": "11-16",
+     "what": "调查称近 1/3 的促销价没有省钱"
+    },
+    {
+     "title": "摩根大通技术故障，美国多家银行网银延迟",
+     "en": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
+     "metric": "687 分",
+     "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
+     "time": "11-17",
+     "what": "美联社报道网银延迟"
+    },
+    {
+     "title": "卡内基梅隆把计算机课程免费放上 YouTube",
+     "en": "Carnegie Mellon is putting computer science courses on YouTube for free",
+     "metric": "440 分",
+     "url": "https://www.cs.cmu.edu/learn/",
+     "time": "11-17",
+     "what": "CMU 官方学习页"
+    },
+    {
+     "title": "Rust 日期时间库 Jiff 1.0 发布",
+     "en": "Jiff 1.0: A datetime library for Rust",
+     "metric": "283 分",
+     "url": "https://burntsushi.net/jiff/",
+     "time": "11-17",
+     "what": "作者发布 1.0 稳定版"
+    },
+    {
+     "title": "TRMNL 推出 31.5 英寸彩色电子纸屏 Frame",
+     "en": "Frame – 31.5\" color ePaper display",
+     "metric": "266 分",
+     "url": "https://trmnl.com/blog/introducing-frame",
+     "time": "11-17",
+     "what": "官方博客发布"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区热议",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "Reddit 当日热帖未取到",
+     "en": "top.json 返回的是 10 月缓存",
+     "metric": "待核",
+     "url": "https://www.reddit.com/r/singularity/",
+     "time": "—",
+     "what": "接口返回旧缓存，本期不采用其中帖子"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X / Twitter",
+   "tag": "社交热帖",
+   "color": "#111111",
+   "url": "https://x.com/Alibaba_Qwen/status/2122148127520289151",
+   "short": "X",
+   "items": [
+    {
+     "title": "OpenRouter：Qwen4 Max 已上线",
+     "en": "Qwen4 Max from @Alibaba_Qwen is live on OpenRouter",
+     "metric": "5.7 万浏览",
+     "url": "https://x.com/OpenRouter/status/2122158038631281136",
+     "time": "11-16",
+     "what": "称其面向编码、办公和长程智能体"
+    },
+    {
+     "title": "Vals AI：Qwen 4 Max 成 Vals 指数最高的中国模型",
+     "en": "Qwen 4 Max is now the top Chinese model on the Vals Index",
+     "metric": "4.7 万浏览",
+     "url": "https://x.com/ValsAI/status/2122152965293457822",
+     "time": "11-16",
+     "what": "总榜第 11，编码与金融进步明显"
+    },
+    {
+     "title": "Artificial Analysis：Qwen4 Max 综合指数 43",
+     "en": "Alibaba has launched Qwen4 Max, gaining 9 points over Qwen3.8 Max",
+     "metric": "1.2 万浏览",
+     "url": "https://x.com/ArtificialAnlys/status/2122161629592953032",
+     "time": "11-16",
+     "what": "比 Kimi K3.1 Pro 低 3 分，单任务成本约低 11%"
+    },
+    {
+     "title": "Qwen 官方发布 Qwen4-Max",
+     "en": "Meet Qwen4-Max, your new AI teammate",
+     "metric": "官方帖",
+     "url": "https://x.com/Alibaba_Qwen/status/2122148127520289151",
+     "time": "11-16",
+     "what": "输入 1.5 美元、输出 4.5 美元每百万 token"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热榜",
+   "color": "#24292f",
+   "url": "https://github.com/trending?since=daily",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "Univer：给产品和智能体用的开源办公 SDK",
+     "en": "dream-num/univer",
+     "metric": "+1878 星",
+     "url": "https://github.com/dream-num/univer",
+     "time": "11-17",
+     "what": "编辑、计算、协作与文件处理"
+    },
+    {
+     "title": "英伟达 SkillEvaluator：评测智能体技能",
+     "en": "NVIDIA/SkillEvaluator",
+     "metric": "+953 星",
+     "url": "https://github.com/NVIDIA/SkillEvaluator",
+     "time": "11-17",
+     "what": "带质量关卡与实测评估"
+    },
+    {
+     "title": "AG-UI：智能体与前端交互协议",
+     "en": "ag-ui-protocol/ag-ui",
+     "metric": "+790 星",
+     "url": "https://github.com/ag-ui-protocol/ag-ui",
+     "time": "11-17",
+     "what": "把智能体接进前端应用"
+    },
+    {
+     "title": "Plannotator：给智能体批注和审阅",
+     "en": "backnotprop/plannotator",
+     "metric": "+689 星",
+     "url": "https://github.com/backnotprop/plannotator",
+     "time": "11-17",
+     "what": "规划、审代码，一键回传反馈"
+    },
+    {
+     "title": "谷歌 Stitch Skills：智能体技能库",
+     "en": "google-labs-code/stitch-skills",
+     "metric": "+540 星",
+     "url": "https://github.com/google-labs-code/stitch-skills",
+     "time": "11-17",
+     "what": "配合 Stitch MCP 服务使用"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文热榜",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "DySENSE：用卫星图像合成动态能耗",
+     "en": "DySENSE: Dynamic Spatiotemporal ENergy Synthesis and Emulation with Satellite Imagery",
+     "metric": "20 赞",
+     "url": "https://huggingface.co/papers/2611.17878",
+     "time": "11-17",
+     "what": "今日论文榜第一"
+    },
+    {
+     "title": "OneSteer：一步扩散的人形全身控制",
+     "en": "OneSteer: Unlocking Steerable General Humanoid Motion Tracking via One-Step Diffusion Whole-Body Control",
+     "metric": "12 赞",
+     "url": "https://huggingface.co/papers/2610.41354",
+     "time": "11-17",
+     "what": "人形机器人动作跟踪"
+    },
+    {
+     "title": "WebArena-Pro：网页智能体基准",
+     "en": "WebArena-Pro: A Heterogeneous, Multimodal, Reproducible Benchmark for Web Agents",
+     "metric": "11 赞",
+     "url": "https://huggingface.co/papers/2611.17955",
+     "time": "11-17",
+     "what": "多模态、可复现"
+    },
+    {
+     "title": "Continual-ARC：衡量一生的技能习得",
+     "en": "Continual-ARC: Measuring Skill Acquisition over a Working Lifetime",
+     "metric": "10 赞",
+     "url": "https://huggingface.co/papers/2611.14505",
+     "time": "11-17",
+     "what": "持续学习评测"
+    },
+    {
+     "title": "从行为轨迹解读编程智能体",
+     "en": "Interpreting Coding Agents Through Their Behavioral Trajectories",
+     "metric": "8 赞",
+     "url": "https://huggingface.co/papers/2611.17440",
+     "time": "11-17",
+     "what": "分析编程智能体的行为"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#5200ff",
+   "url": "https://techcrunch.com/category/artificial-intelligence/",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "加州起诉 OpenAI：智能体失控事件",
+     "en": "California state AG sues OpenAI over rogue agent incidents",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+     "time": "11-16",
+     "what": "首批追究实验室责任的监管诉讼之一"
+    },
+    {
+     "title": "苹果公布 Mac 安全新控制",
+     "en": "Apple reveals new Mac security controls as AI agents raise privacy risks",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/",
+     "time": "11-16",
+     "what": "macOS 27.3 起生效"
+    },
+    {
+     "title": "美国数据中心用电超过中等国家",
+     "en": "US data centers now burn more electricity than a midsized country",
+     "metric": "Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard",
+     "time": "11-16",
+     "what": "Nature Sustainability 论文"
+    },
+    {
+     "title": "安全 AI 初创 Corma 三个月估值 10 亿美元",
+     "en": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+     "time": "11-16",
+     "what": "融资快讯"
+    },
+    {
+     "title": "奥特曼：希望人人都有很多内存",
+     "en": "Sam Altman says he wants everyone ‘to have a lot of RAM’",
+     "metric": "Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor",
+     "time": "11-16",
+     "what": "谈内存短缺"
+    }
+   ]
+  },
+  {
+   "key": "qbitai",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#1a73e8",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "阿里正式发布 Qwen4",
+     "en": "阿里正式发布Qwen4，智能体及编程能力进阶，迈向真实全场景",
+     "metric": "11-16",
+     "url": "https://www.qbitai.com/2026/11/510486.html",
+     "time": "11-16",
+     "what": "阿里供稿，量子位转载"
+    },
+    {
+     "title": "余承东发布新款问界 M8：38 万元起",
+     "en": "余承东发布新款问界M8：38万元起售，全系预埋L3架构",
+     "metric": "11-16",
+     "url": "https://www.qbitai.com/2026/11/510436.html",
+     "time": "11-16",
+     "what": "全系预埋 L3 架构"
+    },
+    {
+     "title": "AGI 芯片公司浮出水面，半年连融数亿元",
+     "en": "龙芯、海光老兵集结，通研院孵化的AGI芯片公司浮出水面！",
+     "metric": "11-16",
+     "url": "https://www.qbitai.com/2026/11/510416.html",
+     "time": "11-16",
+     "what": "融资报道"
+    },
+    {
+     "title": "睿尔曼郑随兵谈机器人落地三大标准",
+     "en": "睿尔曼智能郑随兵：质量、经济性、稳定性是机器人落地三大标准",
+     "metric": "11-16",
+     "url": "https://www.qbitai.com/2026/11/510542.html",
+     "time": "11-16",
+     "what": "人物访谈"
+    },
+    {
+     "title": "视频生成提速 2.48 倍且画质不掉",
+     "en": "提速2.48倍且画质不掉线，AI视频“降本增效”有了新解法",
+     "metric": "11-16",
+     "url": "https://www.qbitai.com/2026/11/510369.html",
+     "time": "11-16",
+     "what": "论文解读"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "国内科技快讯",
+   "color": "#d32f2f",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "美国加州起诉 OpenAI，指控智能体至少 80 次失控",
+     "en": "美国加州正式起诉 OpenAI，指控 AI 智能体至少 80 次失控",
+     "metric": "11-17",
+     "url": "https://www.ithome.com/1/028/028.htm",
+     "time": "11-17",
+     "what": "与加州总检察长新闻稿一致"
+    },
+    {
+     "title": "消息称黄仁勋回归尚未进入英伟达董事会议程",
+     "en": "消息称黄仁勋回归尚未进入英伟达董事会议程，已有 18 万人联署呼吁复职",
+     "metric": "11-17",
+     "url": "https://www.ithome.com/1/028/032.htm",
+     "time": "11-17",
+     "what": "转述，待核"
+    },
+    {
+     "title": "OpenAI 再开放 5 万个学术研究免费名额",
+     "en": "OpenAI 扩大 ChatGPT 学术研究免费计划：11 月 23 日再开放 5 万个名额",
+     "metric": "11-17",
+     "url": "https://www.ithome.com/1/028/027.htm",
+     "time": "11-17",
+     "what": "从抽签改为先到先得"
+    },
+    {
+     "title": "OpenAI 与 Goodfire 达成安全合作",
+     "en": "OpenAI 与 Goodfire 达成 AI 安全合作，此前曾探讨超 50 亿美元收购",
+     "metric": "11-17",
+     "url": "https://www.ithome.com/1/028/024.htm",
+     "time": "11-17",
+     "what": "据 IT之家"
+    },
+    {
+     "title": "美联航遭遇大范围系统故障",
+     "en": "美联航遭遇大范围系统故障，航班起飞受影响",
+     "metric": "11-17",
+     "url": "https://www.ithome.com/1/028/026.htm",
+     "time": "11-17",
+     "what": "航班起飞受影响"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "极客社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "Jiff：一个 Rust 日期时间库",
+     "en": "A datetime library for Rust",
+     "metric": "133 分",
+     "url": "https://burntsushi.net/jiff/",
+     "time": "11-17",
+     "what": "作者长文介绍设计"
+    },
+    {
+     "title": "从 GitHub 迁到 Codeberg",
+     "en": "Migrating from GitHub to Codeberg",
+     "metric": "63 分",
+     "url": "https://yorickpeterse.com/articles/migrating-from-github-to-codeberg/",
+     "time": "11-17",
+     "what": "迁移经验"
+    },
+    {
+     "title": "w2rt6byl5nf1opmc-a[.]com 是什么？",
+     "en": "What is w2rt6byl5nf1opmc-a[.]com?",
+     "metric": "45 分",
+     "url": "https://jack.cab/blog/siterate.html",
+     "time": "11-17",
+     "what": "追查一个可疑域名"
+    },
+    {
+     "title": "圆角方块 squircle 的曲线",
+     "en": "Squircles",
+     "metric": "37 分",
+     "url": "https://linebender.org/wiki/curves/squircle/",
+     "time": "11-16",
+     "what": "Linebender 知识库"
+    },
+    {
+     "title": "Rust 如何改变了我",
+     "en": "How Rust Changed Me As A Developer",
+     "metric": "13 分",
+     "url": "https://blog.startifact.com/posts/how-rust-changed-me/",
+     "time": "11-17",
+     "what": "个人经验"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "title": "加州起诉 OpenAI",
+   "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+   "why": "首批监管机构追究实验室智能体失控责任，多家媒体与官方新闻稿一致",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "苹果收紧 Mac 智能体权限",
+   "url": "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/",
+   "why": "平台方同日给智能体设限，原文与苹果开发者公告对应",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "阿里 Qwen4-Max",
+   "url": "https://www.qbitai.com/2026/11/510486.html",
+   "why": "国产旗舰发布，有第三方评分可对照",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "美国数据中心用电研究",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard",
+   "why": "数据扎实但偏能源话题",
+   "pick": false,
+   "status": "已核"
+  },
+  {
+   "title": "黄仁勋回归传闻",
+   "url": "https://www.ithome.com/1/028/032.htm",
+   "why": "转述为主",
+   "pick": false,
+   "status": "待核"
+  },
+  {
+   "title": "亚马逊黑五优惠调查",
+   "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
+   "why": "HN 最高分，但与 AI 关系弱",
+   "pick": false,
+   "status": "已核"
+  }
+ ]
+}

@@ -10,7 +10,7 @@
 
 ## 最新一期
 
-- **2026-11-16｜智能体开始动手，监管在补刹车**（国会盯上芯片出口、ChatGPT Wallet、智能体改 Jeep）· [网页](reports/2026-11-16/index.html) · 公众号 reports/2026-11-16/wechat/wechat.html · 小红书 reports/2026-11-16/xhs/xiaohongshu.md
+- **2026-11-17｜智能体闯祸，监管与苹果同日设限**（加州起诉 OpenAI、苹果收紧 Mac 权限、Qwen4-Max）· [网页](reports/2026-11-17/index.html) · 公众号 reports/2026-11-17/wechat/wechat.html · 小红书 reports/2026-11-17/xhs/xiaohongshu.md
 
 网页版（GitHub Pages）：https://emotionalronan.github.io/ai-daily-report/
 

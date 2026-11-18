@@ -1,0 +1,497 @@
+{
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "OpenAI 发布 GPT-6.2 Astra 与 Sol",
+     "en": "GPT‑6.2 Astra and Sol",
+     "metric": "1027 分",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+     "time": "11-17",
+     "what": "两款新模型进入 ChatGPT Work、Codex 和 API"
+    },
+    {
+     "title": "苹果服务大面积中断",
+     "en": "Apple Services Down",
+     "metric": "608 分",
+     "url": "https://developer.apple.com/system-status/",
+     "time": "11-17",
+     "what": "苹果系统状态页显示多项服务异常"
+    },
+    {
+     "title": "英伟达不再披露新加坡销售额，季度收入破千亿",
+     "en": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
+     "metric": "342 分",
+     "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
+     "time": "11-17",
+     "what": "FT 报道，英伟达停止单列新加坡销售"
+    },
+    {
+     "title": "微软发布 MAI Code 2 与 Code 2 Flash",
+     "en": "MAI Code 2 and Code 2 Flash",
+     "metric": "261 分",
+     "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+     "time": "11-17",
+     "what": "微软自研编程模型两款"
+    },
+    {
+     "title": "Claude Code 团队如何看待验证",
+     "en": "How the Claude Code team thinks about verification",
+     "metric": "251 分",
+     "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+     "time": "11-17",
+     "what": "官方博客谈智能体写完代码后如何验证"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区热议",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "Office 三件套开源复刻引围观",
+     "en": "Creator of free Adobe clones unveils open-source Office replications",
+     "metric": "1481 赞",
+     "url": "https://www.tomshardware.com/software/microsoft-office/creator-of-free-adobe-clones-unveils-open-source-microsoft-office-excel-powerpoint-and-word-replications-autodesk-tools-and-other-subscription-based-services-may-come-next",
+     "time": "11-17",
+     "what": "r/singularity 热帖，Tom’s Hardware 报道"
+    },
+    {
+     "title": "AI 逆向工程把 GTA 5 等游戏搬进浏览器",
+     "en": "GTA 5, Modern Warfare 2, Halo ported to browser via AI reverse-engineering",
+     "metric": "820 赞",
+     "url": "https://www.destructoid.com/vibe-coded-games-in-browsers/",
+     "time": "11-17",
+     "what": "Destructoid 报道"
+    },
+    {
+     "title": "Opus 5.5 把 StarFox 等老游戏移植到桌面",
+     "en": "Opus 5.5 is INSANE at decompilation / ports",
+     "metric": "656 赞",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/",
+     "time": "11-17",
+     "what": "作者随后承认更接近模拟器加静态重编译"
+    },
+    {
+     "title": "RTX 5090 卖到 5000 美元，AI 公司成批买游戏显卡",
+     "en": "Here’s why RTX 5090 costs $5,000",
+     "metric": "463 赞",
+     "url": "https://videocardz.com/newz/heres-why-rtx-5090-costs-5000-ai-firms-are-buying-gaming-gpus-by-the-pallet",
+     "time": "11-17",
+     "what": "VideoCardz 报道；此话题已连续多日在榜"
+    },
+    {
+     "title": "Claude 项目功能向 Chat 与 Cowork 推广，Max 用户反对",
+     "en": "New Projects rolling out for Chat and Cowork",
+     "metric": "358 赞",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x33na4/new_projects_rolling_out_for_chat_and_cowork_oh/",
+     "time": "11-17",
+     "what": "用户抱怨项目内对话会互通"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X / 社交",
+   "tag": "转述汇总",
+   "color": "#111111",
+   "url": "https://x.com/",
+   "short": "X",
+   "items": [
+    {
+     "title": "Perplexity 成立 Frontier Research 实验室",
+     "en": "Perplexity Frontier Research",
+     "metric": "转述",
+     "url": "https://www.unrot.co/ai-news/2026/11/17",
+     "time": "11-16",
+     "what": "称承诺至少 1 万张 GPU，待核原帖"
+    },
+    {
+     "title": "美国商务部堵上 AI 芯片远程访问漏洞",
+     "en": "BIS rule on remote access to AI chips",
+     "metric": "转述",
+     "url": "https://adtestbench.com/news/2026-11-17/",
+     "time": "11-17",
+     "what": "汇总站称境外数据中心服务受限客户需许可，待核"
+    },
+    {
+     "title": "Anthropic 把漏洞披露窗口从 90 天缩到 30 天",
+     "en": "Anthropic cuts vulnerability disclosure window",
+     "metric": "转述",
+     "url": "https://dxtoday.com/blog/2026-11-17",
+     "time": "11-17",
+     "what": "汇总站转述，待核"
+    },
+    {
+     "title": "MBZUAI 发布 K2-Horizon 六款全开源模型",
+     "en": "K2-Horizon",
+     "metric": "转述",
+     "url": "https://dailyaibrief.com/news",
+     "time": "11-17",
+     "what": "称最大 375B 参数，附训练数据与日志，待核"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热榜",
+   "color": "#24292f",
+   "url": "https://github.com/trending",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "dream-num/univer",
+     "en": "dream-num/univer",
+     "metric": "+1,774 星/日",
+     "url": "https://github.com/dream-num/univer",
+     "time": "11-18",
+     "what": "今日新增星标最多"
+    },
+    {
+     "title": "elementalsouls/Claude-BugHunter",
+     "en": "elementalsouls/Claude-BugHunter",
+     "metric": "+1,005 星/日",
+     "url": "https://github.com/elementalsouls/Claude-BugHunter",
+     "time": "11-18",
+     "what": "榜上第二"
+    },
+    {
+     "title": "alibaba/open-code-review",
+     "en": "alibaba/open-code-review",
+     "metric": "+763 星/日",
+     "url": "https://github.com/alibaba/open-code-review",
+     "time": "11-18",
+     "what": "阿里的代码评审项目"
+    },
+    {
+     "title": "mvanhorn/last30days-skill",
+     "en": "mvanhorn/last30days-skill",
+     "metric": "+696 星/日",
+     "url": "https://github.com/mvanhorn/last30days-skill",
+     "time": "11-18",
+     "what": "智能体技能包"
+    },
+    {
+     "title": "getarcaneapp/arcane",
+     "en": "getarcaneapp/arcane",
+     "metric": "+618 星/日",
+     "url": "https://github.com/getarcaneapp/arcane",
+     "time": "11-18",
+     "what": "榜上第五"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文热度",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "终止滞后：编程智能体早早解出，却迟迟收手",
+     "en": "Termination Lag: Coding Agents Solve Early but Stop Late",
+     "metric": "5 赞",
+     "url": "https://huggingface.co/papers/2611.14960",
+     "time": "11-17",
+     "what": "研究编程智能体何时停止"
+    },
+    {
+     "title": "用 VR 人类示范纠正点云抓取策略的持续失败",
+     "en": "Correcting Persistent Failures in Point-Cloud Grasping Policies using Human Demonstrations in VR",
+     "metric": "5 赞",
+     "url": "https://huggingface.co/papers/2611.18919",
+     "time": "11-17",
+     "what": "机器人抓取"
+    },
+    {
+     "title": "基于能量的推理器",
+     "en": "Energy-Based Reasoners",
+     "metric": "4 赞",
+     "url": "https://huggingface.co/papers/2611.08977",
+     "time": "11-17",
+     "what": "主张循环推理器应为能量模型"
+    },
+    {
+     "title": "Marimba：语音的 System One 模型",
+     "en": "Marimba: A System One Model for Speech",
+     "metric": "4 赞",
+     "url": "https://huggingface.co/papers/2611.18330",
+     "time": "11-17",
+     "what": "语音模型"
+    },
+    {
+     "title": "JEPA4R：带 4D 点规划的具身世界模型",
+     "en": "JEPA4R: Embodied JEPA World Models with 4D Point Planning",
+     "metric": "4 赞",
+     "url": "https://huggingface.co/papers/2611.19771",
+     "time": "11-17",
+     "what": "具身世界模型"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#1a1a1a",
+   "url": "https://www.theverge.com/ai-artificial-intelligence",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "英伟达 Q3 财报达标，没提黄仁勋",
+     "en": "Nvidia’s Q3 earnings hit the mark",
+     "metric": "11-17",
+     "url": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
+     "time": "11-17",
+     "what": "收入 1158 亿美元"
+    },
+    {
+     "title": "亚马逊和谷歌将在 Anthropic 上市后合计持股近 30%",
+     "en": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+     "metric": "11-17",
+     "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+     "time": "11-17",
+     "what": "亚马逊 14.7%，谷歌 13.7%"
+    },
+    {
+     "title": "英伟达在黄仁勋离开后放弃中国市场",
+     "en": "Nvidia is abandoning China after Jensen Huang’s ouster",
+     "metric": "11-17",
+     "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+     "time": "11-17",
+     "what": "TechCrunch 标题"
+    },
+    {
+     "title": "纳德拉称自己现在“信了 AGI”",
+     "en": "Satya Nadella says he’s AGI-pilled now",
+     "metric": "11-17",
+     "url": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+     "time": "11-17",
+     "what": "Verge 标题"
+    },
+    {
+     "title": "谷歌 Spark 智能体改名 Tasks，并免费开放",
+     "en": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
+     "metric": "11-17",
+     "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
+     "time": "11-17",
+     "what": "Verge 标题"
+    }
+   ]
+  },
+  {
+   "key": "qbitai",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#0b6bcb",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "并购完成，李飞飞率队加入 AMD",
+     "en": "并购完成，李飞飞正式率队加入AMD",
+     "metric": "11-17",
+     "url": "https://www.qbitai.com/2026/11/510695.html",
+     "time": "11-17",
+     "what": "82 亿美元股票，46 天交割"
+    },
+    {
+     "title": "奥特曼谈黄仁勋离职：“英雄也有缺陷”",
+     "en": "奥特曼共情黄仁勋",
+     "metric": "11-17",
+     "url": "https://www.qbitai.com/2026/11/510592.html",
+     "time": "11-17",
+     "what": "首次公开谈黄仁勋离职"
+    },
+    {
+     "title": "李沐加盟的 Aimotion 是什么公司",
+     "en": "李沐加盟的Aimotion",
+     "metric": "11-17",
+     "url": "https://www.qbitai.com/2026/11/510688.html",
+     "time": "11-17",
+     "what": "瞄准产业级世界模型"
+    },
+    {
+     "title": "材料科学智能体 MatOS 开源",
+     "en": "材料科学智能体MatOS正式开源",
+     "metric": "11-17",
+     "url": "https://www.qbitai.com/2026/11/510652.html",
+     "time": "11-17",
+     "what": "筛材料、找配方"
+    },
+    {
+     "title": "谷歌整柜 TPU 外售，推理每美元性能领先 GB200 五成",
+     "en": "谷歌奇袭英伟达：整柜TPU外售",
+     "metric": "11-16",
+     "url": "https://www.qbitai.com/2026/11/510349.html",
+     "time": "11-16",
+     "what": "量子位报道，数据待核"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "中文科技媒体",
+   "color": "#d9261c",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "英伟达董事会明确不考虑黄仁勋复职",
+     "en": "IT早报 1118",
+     "metric": "11-18",
+     "url": "https://www.ithome.com/1/028/595.htm",
+     "time": "11-18",
+     "what": "财报电话会上表态"
+    },
+    {
+     "title": "微软自研芯片 Maia 200 投入生产",
+     "en": "Maia 200",
+     "metric": "11-18",
+     "url": "https://www.ithome.com/1/028/597.htm",
+     "time": "11-18",
+     "what": "称每瓦 token 性能提升 1.7 倍"
+    },
+    {
+     "title": "微软首款语音对语音模型 MAI Realtime 1",
+     "en": "MAI Realtime 1",
+     "metric": "11-18",
+     "url": "https://www.ithome.com/1/028/588.htm",
+     "time": "11-18",
+     "what": "起价每分钟 0.01 美元"
+    },
+    {
+     "title": "微软网安模型 MAI Cyber 2 Flash 登场",
+     "en": "MAI Cyber 2 Flash",
+     "metric": "11-18",
+     "url": "https://www.ithome.com/1/028/585.htm",
+     "time": "11-18",
+     "what": "称成本约为 GPT-6 Astra 的 2%"
+    },
+    {
+     "title": "Steam 突发大规模服务故障",
+     "en": "Steam outage",
+     "metric": "11-18",
+     "url": "https://www.ithome.com/1/028/592.htm",
+     "time": "11-18",
+     "what": "下载、好友列表、云存档受影响"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "工程师社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "curl 的 Rust 重写到底改了什么",
+     "en": "Actual curl rewrites in rust",
+     "metric": "76 分",
+     "url": "https://daniel.haxx.se/blog/2026/11/17/actual-curl-rewrites-in-rust/",
+     "time": "11-17",
+     "what": "作者是 curl 维护者 Daniel Stenberg"
+    },
+    {
+     "title": "Redict 项目宣布弃用",
+     "en": "Redict is deprecated",
+     "metric": "64 分",
+     "url": "https://redict.io/posts/2026-11-17-redict-deprecated/",
+     "time": "11-17",
+     "what": "Redis 分叉项目停更"
+    },
+    {
+     "title": "Phrack 73 发布",
+     "en": "Phrack 73",
+     "metric": "32 分",
+     "url": "https://phrack.org/issues/73/introduction_md.html",
+     "time": "11-17",
+     "what": "黑客杂志新一期"
+    },
+    {
+     "title": "Java4Shell：OpenJDK 处理 Base64 时可远程执行代码",
+     "en": "Java4Shell",
+     "metric": "21 分",
+     "url": "https://calif.io/java4shell/",
+     "time": "11-17",
+     "what": "Calif 披露"
+    },
+    {
+     "title": "绕过 Rust 孤儿规则",
+     "en": "How to Bypass Rust’s Orphan Rule",
+     "metric": "18 分",
+     "url": "https://edvong.com/bypass-orphan-rule/",
+     "time": "11-17",
+     "what": "语言技巧"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "title": "GPT-6.2 Astra 与 Sol",
+   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+   "why": "HN 1027 分，官方原文已核；价格与安全门槛写得具体",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "英伟达 Q3 财报与不复职表态",
+   "url": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
+   "why": "Verge 与 IT之家、量子位同日跟进",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "Anthropic 上市前披露亚马逊、谷歌持股",
+   "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+   "why": "TechCrunch 引自 Anthropic 披露文件",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "美国商务部堵 AI 芯片远程访问",
+   "url": "https://adtestbench.com/news/2026-11-17/",
+   "why": "只有汇总站转述，未取到 BIS 原文",
+   "pick": false,
+   "status": "待核"
+  },
+  {
+   "title": "微软 MAI 系列密集发布",
+   "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+   "why": "多款并发，单条体量不够头条，放专题",
+   "pick": false,
+   "status": "已核"
+  },
+  {
+   "title": "AMD 完成 World Labs 收购",
+   "url": "https://www.qbitai.com/2026/11/510695.html",
+   "why": "仅量子位一家，放热榜",
+   "pick": false,
+   "status": "待核"
+  },
+  {
+   "title": "Perplexity Frontier Research",
+   "url": "https://www.unrot.co/ai-news/2026/11/17",
+   "why": "研究计划，无成果，且为转述",
+   "pick": false,
+   "status": "待核"
+  }
+ ]
+}

@@ -10,7 +10,7 @@
 
 ## 最新一期
 
-- **2026-11-17｜智能体闯祸，监管与苹果同日设限**（加州起诉 OpenAI、苹果收紧 Mac 权限、Qwen4-Max）· [网页](reports/2026-11-17/index.html) · 公众号 reports/2026-11-17/wechat/wechat.html · 小红书 reports/2026-11-17/xhs/xiaohongshu.md
+- **2026-11-18｜GPT-6.2 上线，英伟达交出千亿季报**（GPT-6.2 Astra 与 Sol、英伟达 Q3、Anthropic 持股）· [网页](reports/2026-11-18/index.html) · 公众号 reports/2026-11-18/wechat/ · 小红书 reports/2026-11-18/xhs/
 
 网页版（GitHub Pages）：https://emotionalronan.github.io/ai-daily-report/
 

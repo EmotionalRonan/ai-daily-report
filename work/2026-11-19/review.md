@@ -15,5 +15,8 @@
 - h2：Wiz 原文头图，写有 NGINX、HTTP/2 RCE 与两个 CVE 编号，清晰，通过。
 - h3：原文页唯一的图是模糊的 Claude 应用图标，与定价事件关系弱，主笔已写 image_skip，不用图，通过。
 
+
+## 回改记录
+- intro 里“由 AI 工具发现”命中禁用词，主笔已改为“借助 AI 工具”；header 标题过长，已缩短。
+
 VERDICT: PASS
-- 回改：intro 里“由 AI 工具发现”命中禁用词，已改“借助 AI 工具”。

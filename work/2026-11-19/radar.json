@@ -1,0 +1,505 @@
+{
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "Nginx 曝远程代码执行漏洞",
+     "en": "Unauthenticated remote code execution in Nginx",
+     "metric": "1056 分",
+     "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+     "time": "11-18",
+     "what": "Wiz 披露两个 HTTP/2 高危漏洞，F5 同日发补丁"
+    },
+    {
+     "title": "Quad9 因法国封锁令退出法国",
+     "en": "DNS resolvers are the wrong place to fight piracy",
+     "metric": "567 分",
+     "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
+     "time": "11-18",
+     "what": "公共 DNS 服务商不愿承担封盗版链接的责任"
+    },
+    {
+     "title": "Gemini 4 Neon 发布",
+     "en": "Gemini 4 Neon",
+     "metric": "332 分",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+     "time": "11-18",
+     "what": "谷歌新中档模型，每百万 token 输入 3 美元、输出 15 美元"
+    },
+    {
+     "title": "AI 审计试验：提问质量超过毕马威会计师",
+     "en": "AI agents ask better questions than KPMG accountants in audit trial",
+     "metric": "315 分",
+     "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+     "time": "11-18",
+     "what": "审计试验里 AI 代理的提问被评得更好"
+    },
+    {
+     "title": "能量模型推理器：称推理效率提高 385 倍",
+     "en": "Energy-Based Reasoners: 385x more efficient inference",
+     "metric": "297 分",
+     "url": "https://energy-based-reasoners.github.io/",
+     "time": "11-18",
+     "what": "项目页称推理效率大幅提升，口径待独立验证"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区热议",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "GPT-6.2 Astra 在 SimpleBench 上明显退步",
+     "en": "6.2 Astra regresses heavily on SimpleBench",
+     "metric": "r/singularity 新帖",
+     "url": "https://www.reddit.com/r/singularity/new/",
+     "time": "11-18",
+     "what": "社区贴出 SimpleBench 成绩，转述自搜索摘要，待核"
+    },
+    {
+     "title": "Gemini 4 Neon 上线前夜热帖",
+     "en": "Gemini neon releasing today",
+     "metric": "r/singularity 热帖",
+     "url": "https://www.reddit.com/r/singularity/comments/1xz9ua2/gemini_neon_releasing_today_who_hurted_you_google/",
+     "time": "11-18",
+     "what": "网友围绕谷歌新模型命名与发布节奏吐槽"
+    },
+    {
+     "title": "微软称 MAI Code 2 以 5% 价格完成 Opus 5.5 的 96% 工作",
+     "en": "Microsoft says its new MAI Code 2 does 96% of Claude Opus 5.5's work for 5% of the price",
+     "metric": "r/ClaudeAI 热帖",
+     "url": "https://madrobot.blog/2026/11/17/microsoft-mai-code-2-ignite-cheaper-openai-anthropic/",
+     "time": "11-17",
+     "what": "微软口径，社区在讨论 Claude 是否也该降价"
+    },
+    {
+     "title": "Anthropic S-1 财务拆解",
+     "en": "Anthropic's S-1",
+     "metric": "r/ClaudeAI 热帖",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xzlizt/anthropics_s1/",
+     "time": "11-18",
+     "what": "增长、毛利、烧钱、算力承诺的交互式拆解"
+    },
+    {
+     "title": "Opus 5.6 会不会是“降价款”",
+     "en": "Would Opus 5.6 be the cheapening model?",
+     "metric": "r/ClaudeAI 热帖",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xz923g/would_opus_56_be_the_cheapening_model/",
+     "time": "11-18",
+     "what": "GPT-6.2 降价后，用户期待 Anthropic 跟进"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X / 社交",
+   "tag": "转述汇总",
+   "color": "#111111",
+   "url": "https://x.com/",
+   "short": "X",
+   "items": [
+    {
+     "title": "Matt Shumer：GPT-6.2 “基本没法用”",
+     "en": "GPT-6.2 essentially unusable",
+     "metric": "85.1 万浏览",
+     "url": "https://aitimeline.news/en/English-Topics/2026-11-18-X%E8%8B%B1%E6%96%87%E7%83%AD%E7%82%B9%E9%80%89%E9%A2%98%E7%AE%80%E6%8A%A5/",
+     "time": "11-18",
+     "what": "转述自 AI Timeline 汇总，5119 赞"
+    },
+    {
+     "title": "Mark Gurman：Gemini 加入 Tasks，五家实验室都有了个人代理",
+     "en": "Now that Gemini has Tasks all 5 labs have a personal agent",
+     "metric": "19.1 万浏览",
+     "url": "https://x.com/markgurman/status/2122870209216225388",
+     "time": "11-18",
+     "what": "Gurman 评论苹果 Siri AI 再度落后"
+    },
+    {
+     "title": "OpenAI 称与 AMD 合作，GPU 设计 PPA 最高提升 14%",
+     "en": "OpenAI x AMD GPU design PPA",
+     "metric": "转发热帖",
+     "url": "https://www.vsnews.ai/news/ai-2026113714",
+     "time": "11-19",
+     "what": "转述自 vsnews.ai，原帖为 OpenAI 官方账号"
+    },
+    {
+     "title": "马斯克：这是最聪明也是最愚蠢的时代",
+     "en": "It was the smartest of times, the dumbest of times",
+     "metric": "数十万浏览",
+     "url": "https://www.thenews.com.pk/latest/1424164-elon-musk-says-ai-is-both-smartest-and-dumbest",
+     "time": "11-18",
+     "what": "转述自媒体报道，待核"
+    },
+    {
+     "title": "黄仁勋公开信点赞破 100 万",
+     "en": "Jensen Huang plea passes one million likes",
+     "metric": "100.6 万赞",
+     "url": "https://ailately.com/rn/2026-11-18-00",
+     "time": "11-17",
+     "what": "转述自 Ai Lately 汇总"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热榜",
+   "color": "#24292f",
+   "url": "https://github.com/trending",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "Claude-BugHunter",
+     "en": "elementalsouls/Claude-BugHunter",
+     "metric": "+2,313 星/日",
+     "url": "https://github.com/elementalsouls/Claude-BugHunter",
+     "time": "11-19",
+     "what": "用 Claude 做漏洞赏金猎手的技能集"
+    },
+    {
+     "title": "paper-orchestra",
+     "en": "google-research/paper-orchestra",
+     "metric": "+1,524 星/日",
+     "url": "https://github.com/google-research/paper-orchestra",
+     "time": "11-19",
+     "what": "谷歌研究的论文写作多代理框架"
+    },
+    {
+     "title": "last30days-skill",
+     "en": "mvanhorn/last30days-skill",
+     "metric": "+1,059 星/日",
+     "url": "https://github.com/mvanhorn/last30days-skill",
+     "time": "11-19",
+     "what": "检索近 30 天话题的代理技能"
+    },
+    {
+     "title": "CLI-Anything",
+     "en": "HKUDS/CLI-Anything",
+     "metric": "+389 星/日",
+     "url": "https://github.com/HKUDS/CLI-Anything",
+     "time": "11-19",
+     "what": "把任意软件变成代理可调用的命令行"
+    },
+    {
+     "title": "stitch-skills",
+     "en": "google-labs-code/stitch-skills",
+     "metric": "+365 星/日",
+     "url": "https://github.com/google-labs-code/stitch-skills",
+     "time": "11-19",
+     "what": "谷歌 Labs 的 Stitch 技能库"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文热度",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "流式视频中学会先开口再行动",
+     "en": "Beyond Answering: Learning to Speak First and Act in Streaming Video",
+     "metric": "33 赞",
+     "url": "https://huggingface.co/papers/2611.17048",
+     "time": "11-14",
+     "what": "让视频模型主动发言并行动"
+    },
+    {
+     "title": "CADMAGEDDON：本地推理的高保真 CAD 重建",
+     "en": "CADMAGEDDON: High-Fidelity CAD Reconstruction with Local Inference",
+     "metric": "9 赞",
+     "url": "https://huggingface.co/papers/2611.22563",
+     "time": "11-16",
+     "what": "从图像重建可编辑 CAD"
+    },
+    {
+     "title": "VisualArtifactSpec 1.0：按任务规格评估视觉瑕疵",
+     "en": "VisualArtifactSpec 1.0",
+     "metric": "6 赞",
+     "url": "https://huggingface.co/papers/2611.21382",
+     "time": "11-15",
+     "what": "生成图像瑕疵评测基准"
+    },
+    {
+     "title": "HubEgo-100K：熟练工作的第一视角视频",
+     "en": "HubEgo-100K",
+     "metric": "4 赞",
+     "url": "https://huggingface.co/papers/2611.21938",
+     "time": "11-15",
+     "what": "机器人学习用第一视角数据集"
+    },
+    {
+     "title": "量化对比的噪声底：引擎、批量与内核漂移",
+     "en": "The Noise Floor of a Quantization Comparison",
+     "metric": "4 赞",
+     "url": "https://huggingface.co/papers/2611.15671",
+     "time": "11-10",
+     "what": "测量量化比较里的非量化噪声"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#1a1a1a",
+   "url": "https://www.theverge.com/ai-artificial-intelligence",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "Anthropic 据报道以每股 83 美元定价 IPO",
+     "en": "Anthropic reportedly prices IPO at $83 a share",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+     "time": "11-18",
+     "what": "高于 70–78 美元区间，估值约 1.5 万亿美元"
+    },
+    {
+     "title": "纳德拉：大量关键基础设施“无法打补丁”",
+     "en": "Nadella says lots of critical infrastructure is unpatchable",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+     "time": "11-18",
+     "what": "谈 AI 网络攻击下的基础设施风险"
+    },
+    {
+     "title": "马斯克：赶走黄仁勋像把乔丹踢出球队",
+     "en": "Musk: ousting Huang is like kicking Michael Jordan off your team",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
+     "time": "11-18",
+     "what": "DealBook 峰会上的表态"
+    },
+    {
+     "title": "美国最大学区考虑弃用谷歌搜索",
+     "en": "School districts consider ditching Google Search",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
+     "time": "11-18",
+     "what": "学区担心 AI 摘要与学生隐私"
+    },
+    {
+     "title": "迪士尼星战机器人用 AI 与游客互动",
+     "en": "Disney's Star Wars animatronics interact with guests using AI",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai",
+     "time": "11-18",
+     "what": "底层为亚马逊 AWS 云 AI"
+    }
+   ]
+  },
+  {
+   "key": "qbitai",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#0b6bcb",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "Gemini 新模型 Neon 箭在弦上",
+     "en": "Gemini新模型Neon箭在弦上，网友：遍历元素周期表？",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/11/510922.html",
+     "time": "11-18",
+     "what": "发布前预热"
+    },
+    {
+     "title": "GPT-6.2 难产！OpenAI 怕了",
+     "en": "GPT-6.2难产！OpenAI怕了",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/11/510914.html",
+     "time": "11-18",
+     "what": "谈 GPT-6.2 发布前的反复修改"
+    },
+    {
+     "title": "思维链一作 Jason Wei 离职",
+     "en": "思维链一作Jason Wei离职",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/11/510811.html",
+     "time": "11-18",
+     "what": "离开 Meta，业内人才流动"
+    },
+    {
+     "title": "英伟达与 AMD 首次联手押注 Genesis，估值超 230 亿",
+     "en": "英伟达AMD首次联手押注！Genesis完成A轮融资，估值超230亿",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/11/510821.html",
+     "time": "11-18",
+     "what": "A 轮融资"
+    },
+    {
+     "title": "李飞飞团队并入 AMD",
+     "en": "并购完成，李飞飞正式率队加入AMD",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/11/510695.html",
+     "time": "11-18",
+     "what": "苏姿丰欢迎，细节待核"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "中文科技媒体",
+   "color": "#d9261c",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "OpenAI 公布芯片设计成果：AMD 旗舰 GPU PPA 最高提升 14%",
+     "en": "OpenAI chip design results with AMD",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/029/135.htm",
+     "time": "11-19",
+     "what": "自研芯片 Jalapeño 面积最高减少 13%"
+    },
+    {
+     "title": "英伟达员工大会宣布告别“黄仁勋时代”",
+     "en": "Nvidia all-hands ends the Huang era",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/029/134.htm",
+     "time": "11-19",
+     "what": "12 月员工加薪，启动新 CEO 遴选"
+    },
+    {
+     "title": "字节被曝与微软洽谈 5 亿美元 Azure 合同",
+     "en": "ByteDance in talks with Microsoft on $500M Azure deal",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/029/133.htm",
+     "time": "11-19",
+     "what": "据报道，惹 OpenAI 不满"
+    },
+    {
+     "title": "Nginx 漏洞链 NGINX2Root 可结合内核漏洞拿 root",
+     "en": "NGINX2Root",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/029/139.htm",
+     "time": "11-19",
+     "what": "无需认证远程执行命令"
+    },
+    {
+     "title": "谷歌降低安卓 Gemini App 门槛，2GB 内存也能用",
+     "en": "Gemini app on 2GB Android phones",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/029/141.htm",
+     "time": "11-19",
+     "what": "面向低配机型"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "工程师社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "Codeberg 域名从账户中消失，站点无法访问",
+     "en": "Codeberg's domain suddenly disappeared",
+     "metric": "181 分",
+     "url": "https://social.anoxinon.de/@Codeberg/117636454915265360",
+     "time": "11-18",
+     "what": "开源托管站遇域名故障"
+    },
+    {
+     "title": "nginx2root",
+     "en": "nginx2root",
+     "metric": "59 分",
+     "url": "https://xint.io/blog/nginx2root-remote-code-execution",
+     "time": "11-18",
+     "what": "Xint 的 Nginx 漏洞利用链分析"
+    },
+    {
+     "title": "Windows 11 收集你用哪些编码代理和开发工具",
+     "en": "Windows 11 collects data on which coding agents you use",
+     "metric": "30 分",
+     "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+     "time": "11-18",
+     "what": "遥测数据引发讨论"
+    },
+    {
+     "title": "Java4Shell 是继续用 Java 的理由",
+     "en": "Java4Shell is a reason to use Java",
+     "metric": "23 分",
+     "url": "https://mccue.dev/pages/11-18-26-java4shell",
+     "time": "11-18",
+     "what": "对 OpenJDK 漏洞的反向观点"
+    },
+    {
+     "title": "Solid 2.0 发布",
+     "en": "Solid 2.0",
+     "metric": "20 分",
+     "url": "https://www.solidjs.com/blog/solid-2-0-the-long-hold",
+     "time": "11-18",
+     "what": "前端框架大版本"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Gemini 4 Neon：谷歌中档模型对标前沿，价格 3/15 美元",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+   "why": "HN 332 分，官方原文已核；跑分自测，有价格与上下文数据",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "Nginx 两个 HTTP/2 远程代码执行漏洞，由 AI 工具发现",
+   "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+   "why": "HN 1056 分，Wiz 原文已核；同类 PHP2Shell、Java4Shell 连续出现",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "Anthropic 以每股 83 美元定价 IPO，今日纳斯达克挂牌",
+   "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+   "why": "TechCrunch 原文已核，口径为“据报道”",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "Genie 4 向 Ultra 订阅者开放",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+   "why": "HN 169 分，官方原文已核；仅限 Ultra，影响面小",
+   "pick": false,
+   "status": "已核"
+  },
+  {
+   "title": "GPT-6.2 早期口碑两极",
+   "url": "https://aitimeline.news/en/English-Topics/2026-11-18-X%E8%8B%B1%E6%96%87%E7%83%AD%E7%82%B9%E9%80%89%E9%A2%98%E7%AE%80%E6%8A%A5/",
+   "why": "昨日已做头条，今日仅为转述的口碑，不重复",
+   "pick": false,
+   "status": "待核"
+  },
+  {
+   "title": "OpenAI 与 AMD 合作优化 GPU 设计，PPA 最高 +14%",
+   "url": "https://www.ithome.com/1/029/135.htm",
+   "why": "IT之家转述官方成果，一手出处未核",
+   "pick": false,
+   "status": "待核"
+  },
+  {
+   "title": "纳德拉：关键基础设施无法打补丁",
+   "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+   "why": "与 Nginx 一条同主题，放专题",
+   "pick": false,
+   "status": "已核"
+  }
+ ]
+}

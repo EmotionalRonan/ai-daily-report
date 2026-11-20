@@ -1,0 +1,505 @@
+{
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "Quad9 因法国封锁令退出法国",
+     "en": "DNS resolvers are the wrong place to fight piracy",
+     "metric": "567 分",
+     "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
+     "time": "11-18",
+     "what": "公共 DNS 服务商不愿承担封盗版链接的责任"
+    },
+    {
+     "title": "德意志银行内部结构互动图",
+     "en": "Inside Deutsche Bank",
+     "metric": "522 分",
+     "url": "https://www.inside-db.com/",
+     "time": "11-18",
+     "what": "用交互页面展示银行内部组织与业务"
+    },
+    {
+     "title": "微软 Ignite：七款新模型",
+     "en": "Seven new models at scalable price-performance",
+     "metric": "411 分",
+     "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+     "time": "11-18",
+     "what": "微软 AI 在 Ignite 上发布七款新模型"
+    },
+    {
+     "title": "能量式推理器：推理效率提升 385 倍",
+     "en": "Energy-Based Reasoners: 385x more efficient inference",
+     "metric": "297 分",
+     "url": "https://energy-based-reasoners.github.io/",
+     "time": "11-18",
+     "what": "研究页称推理效率大幅提升，尚无独立复现"
+    },
+    {
+     "title": "剑桥词典 2026 年度词：human",
+     "en": "Cambridge Dictionary Word of the Year 2026",
+     "metric": "227 分",
+     "url": "https://www.cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026",
+     "time": "11-18",
+     "what": "年度词选了“human”"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区热议",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "GTA 5、使命召唤等游戏借 AI 逆向移植到浏览器",
+     "en": "GTA 5, Modern Warfare 2, Halo ported to browser via AI reverse-engineering",
+     "metric": "r/singularity 820 赞",
+     "url": "https://www.destructoid.com/vibe-coded-games-in-browsers/",
+     "time": "11-19",
+     "what": "Destructoid 报道，社区热议"
+    },
+    {
+     "title": "用户称 Opus 5.5 把星际火狐等老游戏移植到桌面",
+     "en": "Opus 5.5 is INSANE at decompilation / ports",
+     "metric": "r/ClaudeAI 656 赞",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/",
+     "time": "11-20",
+     "what": "作者随后更正：更接近专用模拟器而非干净反编译"
+    },
+    {
+     "title": "OpenAI 用量限制投票：取消 5 小时限制呼声占优",
+     "en": "Thank god (OpenAI usage limits poll)",
+     "metric": "r/OpenAI 485 赞",
+     "url": "https://www.reddit.com/r/OpenAI/comments/1x3d4z1/thank_god/",
+     "time": "11-19",
+     "what": "网友截图，社区声称"
+    },
+    {
+     "title": "Claude 项目功能将并入对话，付费用户抗议",
+     "en": "New Projects rolling out for Chat and Cowork",
+     "metric": "r/ClaudeAI 358 赞",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x33na4/new_projects_rolling_out_for_chat_and_cowork_oh/",
+     "time": "11-19",
+     "what": "用户要求改为可选开启"
+    },
+    {
+     "title": "10–16GB 显存可跑模型排行",
+     "en": "Every Model That Can Be Run On 10-16GB VRAM Ranked",
+     "metric": "r/LocalLLaMA 347 赞",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3gpyi/every_model_that_can_be_run_on_1016gb_vram_ranked/",
+     "time": "11-20",
+     "what": "个人主观测评，仅供参考"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X / 社交",
+   "tag": "转述汇总",
+   "color": "#111111",
+   "url": "https://x.com/",
+   "short": "X",
+   "items": [
+    {
+     "title": "Anthropic 上市发布帖 460 万浏览",
+     "en": "Anthropic launch post on X",
+     "metric": "4.6M 浏览",
+     "url": "https://doomers.ai/launches/anthropic-2026-11-19",
+     "time": "11-19",
+     "what": "第三方统计页转述"
+    },
+    {
+     "title": "“只喂 1900 年前音乐的模型能发明爵士吗”",
+     "en": "Richard Bartlett: LLM trained on pre-1900 music would never invent jazz",
+     "metric": "54.8 万浏览",
+     "url": "https://x.com/AGTPinsights/status/2123374219920576630",
+     "time": "11-19",
+     "what": "AGTP 转述原帖数据"
+    },
+    {
+     "title": "马斯克转发 Grok Bot 接管电脑与打电话演示",
+     "en": "Grok Bot computer takeover controls",
+     "metric": "马斯克转发 33.6 万",
+     "url": "https://newsference.com/c/xai-grok-bot-computer-takeover",
+     "time": "11-19",
+     "what": "聚合页转述，标待核"
+    },
+    {
+     "title": "DeepMind：Genie 4 登陆 Project Genie",
+     "en": "Genie 4 is now available in Project Genie",
+     "metric": "15.9 万浏览",
+     "url": "https://doomers.ai/launches/google-deepmind-genie-available-project",
+     "time": "11-18",
+     "what": "第三方统计页转述"
+    },
+    {
+     "title": "马斯克称英伟达撤换黄仁勋是个错误",
+     "en": "Musk says Nvidia made a mistake removing Jensen Huang",
+     "metric": "5212 赞",
+     "url": "https://ailately.com/rn/2026-11-19-00",
+     "time": "11-18",
+     "what": "据 Wall St Engine 帖子转述"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热榜",
+   "color": "#24292f",
+   "url": "https://github.com/trending",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "superpowers",
+     "en": "obra/superpowers",
+     "metric": "+2,028 星/日",
+     "url": "https://github.com/obra/superpowers",
+     "time": "11-20",
+     "what": "编程智能体技能框架"
+    },
+    {
+     "title": "Claude-BugHunter",
+     "en": "elementalsouls/Claude-BugHunter",
+     "metric": "+1,349 星/日",
+     "url": "https://github.com/elementalsouls/Claude-BugHunter",
+     "time": "11-20",
+     "what": "漏洞挖掘智能体，连续上榜"
+    },
+    {
+     "title": "last30days-skill",
+     "en": "mvanhorn/last30days-skill",
+     "metric": "+954 星/日",
+     "url": "https://github.com/mvanhorn/last30days-skill",
+     "time": "11-20",
+     "what": "检索近 30 天资讯的技能"
+    },
+    {
+     "title": "CLI-Anything",
+     "en": "HKUDS/CLI-Anything",
+     "metric": "+898 星/日",
+     "url": "https://github.com/HKUDS/CLI-Anything",
+     "time": "11-20",
+     "what": "把软件包装成智能体可用的命令行"
+    },
+    {
+     "title": "firecrawl",
+     "en": "firecrawl/firecrawl",
+     "metric": "+825 星/日",
+     "url": "https://github.com/firecrawl/firecrawl",
+     "time": "11-20",
+     "what": "网页抓取转 LLM 可读数据"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文热度",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "LightTAR：多模态表格学习的轻量表示",
+     "en": "LightTAR: Light and Fast Target-Aware Representations for Multimodal Tabular Learning",
+     "metric": "20 赞",
+     "url": "https://huggingface.co/papers/2611.17600",
+     "time": "11-20",
+     "what": "表格学习"
+    },
+    {
+     "title": "StrideWorld：交互视频世界模型基准",
+     "en": "StrideWorld: Benchmarking Scene Rigidity and Action Consistency",
+     "metric": "12 赞",
+     "url": "https://huggingface.co/papers/2611.24408",
+     "time": "11-20",
+     "what": "评测场景刚性与动作一致性"
+    },
+    {
+     "title": "BLIP-Live：流式视频智能体的时机与精度",
+     "en": "BLIP-Live: Balancing Timeliness & Firing Precision",
+     "metric": "9 赞",
+     "url": "https://huggingface.co/papers/2611.21553",
+     "time": "11-20",
+     "what": "主动式视频智能体"
+    },
+    {
+     "title": "StatePortal：为深层状态测试合成检查点",
+     "en": "StatePortal: Agentic Checkpoint Synthesis",
+     "metric": "9 赞",
+     "url": "https://huggingface.co/papers/2611.23257",
+     "time": "11-20",
+     "what": "交互软件测试"
+    },
+    {
+     "title": "WaveView：新视角藏在噪声里",
+     "en": "WaveView: The Novel View Is in the Noise",
+     "metric": "8 赞",
+     "url": "https://huggingface.co/papers/2611.23994",
+     "time": "11-20",
+     "what": "新视角合成"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#1a1a1a",
+   "url": "https://www.theverge.com/ai-artificial-intelligence",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "Anthropic 在纳斯达克开盘 111.5 美元",
+     "en": "Anthropic starts trading on Wall Street",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
+     "time": "11-19",
+     "what": "高于 83 美元发行价"
+    },
+    {
+     "title": "谷歌让 Gemini 在 Mac 上替你操作电脑",
+     "en": "Google gives Gemini the ability to use your Mac for you",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+     "time": "11-19",
+     "what": "美国英文先上，需 AI Plus/Pro/Ultra"
+    },
+    {
+     "title": "Meta 的 Muse 被曝串号、泄露他人信息",
+     "en": "Meta's AI agent Muse is mixing up conversations",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+     "time": "11-19",
+     "what": "路透报道内部员工帖，Meta 回应称员工测试版不同"
+    },
+    {
+     "title": "苹果招聘工程师打造自家 AI 智能体",
+     "en": "Apple is hiring engineers to build its own AI agent",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+     "time": "11-19",
+     "what": "据彭博发现的职位描述"
+    },
+    {
+     "title": "Meta Muse Charm 或售 300 美元",
+     "en": "Meta's Muse Charm might cost $300",
+     "metric": "The Verge",
+     "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
+     "time": "11-19",
+     "what": "据 The Information"
+    }
+   ]
+  },
+  {
+   "key": "qbitai",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#0b6bcb",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "黄仁勋不再沉默：我愿重掌英伟达，董事会：不考虑",
+     "en": "同左",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/11/510726.html",
+     "time": "11-18",
+     "what": "英伟达公布黄仁勋离任后首份财报"
+    },
+    {
+     "title": "并购完成，李飞飞率队加入 AMD",
+     "en": "同左",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/11/510695.html",
+     "time": "11-17",
+     "what": "82 亿美元股票、46 天交割"
+    },
+    {
+     "title": "范式下场做基模：国产算力全链路训练",
+     "en": "同左",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/11/511071.html",
+     "time": "11-19",
+     "what": "语言模型单张 3090 可运行"
+    },
+    {
+     "title": "思维链一作 Jason Wei 离职 Meta",
+     "en": "同左",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/11/510811.html",
+     "time": "11-18",
+     "what": "入职刚满一年"
+    },
+    {
+     "title": "GPT-6.2 难产",
+     "en": "同左",
+     "metric": "量子位",
+     "url": "https://www.qbitai.com/2026/11/510914.html",
+     "time": "11-18",
+     "what": "往期已写 GPT-6.2，作背景"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "中文科技媒体",
+   "color": "#d9261c",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "摩根大通、万事达披露第三方服务商遭攻击",
+     "en": "同左",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/029/758.htm",
+     "time": "11-20",
+     "what": "继 Visa 之后，称支付系统未受影响"
+    },
+    {
+     "title": "腾讯：元宝没有预期成功，大幅削减投入",
+     "en": "同左",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/029/755.htm",
+     "time": "11-20",
+     "what": "腾讯披露微信 AI 助手小微数据"
+    },
+    {
+     "title": "中南大学通报附属医院 AI 论文争议，确认学术不端",
+     "en": "同左",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/029/755.htm",
+     "time": "11-20",
+     "what": "“1 厘米标尺 12 个刻度”"
+    },
+    {
+     "title": "苹果正自研 AI 智能体",
+     "en": "同左",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/029/750.htm",
+     "time": "11-19",
+     "what": "可操控设备、浏览网页、写代码"
+    },
+    {
+     "title": "微软携手英伟达升级云 PC：2027 年预览",
+     "en": "同左",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/029/747.htm",
+     "time": "11-19",
+     "what": "两路 4K 60 帧"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "工程师社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "Codeberg 域名从账户中消失，站点无法访问",
+     "en": "Codeberg's domain suddenly disappeared",
+     "metric": "219 分",
+     "url": "https://social.anoxinon.de/@Codeberg/117636454915265360",
+     "time": "11-20",
+     "what": "Codeberg 官方帖"
+    },
+    {
+     "title": "我们需要在乎的聪明人",
+     "en": "We Need Smart People Who Give a Shit",
+     "metric": "126 分",
+     "url": "https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/",
+     "time": "11-17",
+     "what": "博客"
+    },
+    {
+     "title": "PostgreSQL 19 发布",
+     "en": "PostgreSQL 19 Released",
+     "metric": "52 分",
+     "url": "https://www.postgresql.org/about/news/postgresql-19-released-3449/",
+     "time": "11-19",
+     "what": "新增 REPACK (CONCURRENTLY)、pg_plan_advice"
+    },
+    {
+     "title": "一台虚拟机跑 1500 万个 Web 服务器",
+     "en": "15 million web servers on one VM",
+     "metric": "32 分",
+     "url": "https://kapteko.com/15-million-webservers/",
+     "time": "11-19",
+     "what": "smoltcp/DPDK/AF_XDP"
+    },
+    {
+     "title": "为可理解性而设计",
+     "en": "Design for Understandability",
+     "metric": "31 分",
+     "url": "https://jschuster.org/blog/2026/11/19/design-for-understandability/",
+     "time": "11-19",
+     "what": "博客"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Anthropic 纳斯达克开盘 111.5 美元，融资 813 亿",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
+   "why": "昨天只是“据报道定价”，今天是实际开盘，Amodei 讲话与 S-1 风险提示可核",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "谷歌让 Gemini 在 Mac 上操作电脑",
+   "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+   "why": "TechCrunch 已核；与苹果自研智能体同日，桌面智能体竞争",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "Meta Muse 串号、泄露他人信息（路透）",
+   "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+   "why": "TechCrunch 转路透并附 Meta 回应；与 Gemini 同日构成“智能体权限”对照",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "苹果招聘工程师打造 AI 智能体",
+   "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+   "why": "只是职位描述，写进专题",
+   "pick": false,
+   "status": "已核"
+  },
+  {
+   "title": "摩根大通、万事达披露第三方服务商攻击",
+   "url": "https://www.ithome.com/1/029/758.htm",
+   "why": "影响范围有限（营销数据/邮箱），进专题",
+   "pick": false,
+   "status": "已核"
+  },
+  {
+   "title": "黄仁勋事件时间线（TechCrunch）",
+   "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+   "why": "涉个人指控，原文被拦未能核对，不写",
+   "pick": false,
+   "status": "待核"
+  },
+  {
+   "title": "Claude 解决黑洞物理两个开放问题（anthropic.com）",
+   "url": "https://www.anthropic.com/",
+   "why": "仅见 HN 转述（340 分），未核到原文",
+   "pick": false,
+   "status": "待核"
+  }
+ ]
+}

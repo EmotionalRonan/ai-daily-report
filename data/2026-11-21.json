@@ -1,0 +1,551 @@
+{
+ "date": "2026-11-21",
+ "weekday": "周六",
+ "issue": 37,
+ "title": "成果越大，越要有人验证",
+ "subtitle": "黎曼猜想证明声明 / Signal 挡 AI / Frostbite 自述",
+ "lead": "Anthropic 数学家称借 Claude 证明广义黎曼猜想，尚待验证；Signal 限制截屏挡住系统级 AI；Frostbite 称 AI 设计的 CPU 每瓦性能是传统核的 4.59 倍。",
+ "headlines": [
+  {
+   "title": "Anthropic 数学家称借 Claude 证明广义黎曼猜想，尚待验证",
+   "body": "Anthropic 数学家 Levent Alpöge 11 月 20 日在个人网站发布说明，称与 Claude 合作证明了黎曼猜想，并推广到广义形式，附 Lean 形式化代码。Verge 指出尚无独立验证，Anthropic 未置评。陶哲轩称这份证明体量巨大，消化需要时间。",
+   "why": "克雷研究所规定解答须发表并经两年检验才能考虑授奖。目前的信息只是“作者声称”加“代码可编译”，离“被接受”还很远。",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+   "image_skip": "原文唯一配图是 Anthropic 上市日纳斯达克外屏照片，与证明声明无关，不用"
+  },
+  {
+   "title": "Signal 限制截屏，防 Gemini 和 Siri 读取聊天内容",
+   "body": "Signal 在安卓和 iOS 上默认限制截屏，目的是不让系统级 AI 读取屏幕上的聊天。总裁惠特克称，系统层的智能体集成对应用层隐私是“生存威胁”，并要求苹果、谷歌、微软给开发者提供控制工具。Signal 承认办法并不完整，macOS 上还做不到。",
+   "why": "应用方第一次公开拒绝系统级 AI 的读取权限，而且手段只是关掉截屏。用户可在设置里重新打开，但 Signal 警告这会破坏隐私保证。",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+   "image": {
+    "file": "wechat/img/h2.jpg",
+    "src_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/protecting-your-privacy-1.png?quality=90&strip=all&crop=0%2C3.8035109331691%2C100%2C92.392978133662&w=1200",
+    "credit": "The Verge",
+    "w": 1200,
+    "h": 625
+   }
+  },
+  {
+   "title": "Frostbite 称 AI 设计的 CPU 每瓦性能是传统核 4.59 倍",
+   "body": "Architect Labs 11 月 18 日称，其 AI 系统从指令集到最终版图独立设计了 Frostbite 处理器，基于交互网，7nm 工艺，500MHz。25 项测试的每瓦性能几何平均是双发射顺序核的 4.59 倍，留出的 15 项为 3.83 倍。公司未披露对比的 CPU 型号。",
+   "why": "数字全部来自厂商自家综合与仿真，文中未提流片，也没有第三方复测。值得看的是它用形式化规格约束 AI 的做法，是否成立要等后续公开 RTL。",
+   "source": "Architect Labs",
+   "url": "https://architectlabs.com/blog/frostbite",
+   "image": {
+    "file": "wechat/img/h3.jpg",
+    "src_url": "https://main--gleeful-begonia-6bb5f3.netlify.app/_next/static/media/frostbite-cover.3n9ytugnquhlr.jpg",
+    "credit": "Architect Labs",
+    "w": 1600,
+    "h": 900
+   }
+  }
+ ],
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "Anthropic 数学家称借 Claude 证明广义黎曼猜想",
+     "en": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis",
+     "metric": "2284 分",
+     "url": "https://alpo.ge/remark.pdf"
+    },
+    {
+     "title": "Ravi Vakil 转发：Masullo 的非 AI 版 GRH 证明",
+     "en": "Hurried Announcement: Alessandro Masullo GRH",
+     "metric": "1381 分",
+     "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/"
+    },
+    {
+     "title": "Frostbite：AI 设计并验证的新 CPU 架构",
+     "en": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+     "metric": "610 分",
+     "url": "https://architectlabs.com/blog/frostbite"
+    },
+    {
+     "title": "Thinking Machines 发布 Inkling 2 Mini",
+     "en": "Inkling 2 Mini",
+     "metric": "559 分",
+     "url": "https://thinkingmachines.ai/news/inkling-2-mini/"
+    },
+    {
+     "title": "Signal 要把 AI 智能体挡在应用之外",
+     "en": "Signal Is Serious About Protecting Your Privacy",
+     "metric": "482 分",
+     "url": "https://signal.org/blog/protecting-your-privacy/"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区热议",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "Karpathy 拆解能力差距",
+     "en": "Andrej Karpathy breaks down the capability gap",
+     "metric": "790 赞",
+     "url": "https://www.reddit.com/r/singularity/comments/1x3gsc4/andrej_karpathy_breaks_down_the_capability_gap/"
+    },
+    {
+     "title": "游戏被 AI 逆向后移植到浏览器",
+     "en": "GTA 5, Modern Warfare 2, Halo ported to browser via AI reverse-engineering",
+     "metric": "820 赞",
+     "url": "https://www.destructoid.com/vibe-coded-games-in-browsers/"
+    },
+    {
+     "title": "用 Opus 5.5 把星际火狐等老游戏移植到 PC",
+     "en": "Opus 5.5 is INSANE at decompilation / ports",
+     "metric": "656 赞",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/"
+    },
+    {
+     "title": "OpenAI 社区投票：取消 5 小时限额还是保周额度",
+     "en": "Thank god (OpenAI usage limits poll)",
+     "metric": "485 赞",
+     "url": "https://www.reddit.com/r/OpenAI/comments/1x3d4z1/thank_god/"
+    },
+    {
+     "title": "Claude 项目功能改版引发 Max 用户不满",
+     "en": "New Projects rolling out for Chat and Cowork",
+     "metric": "358 赞",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x33na4/new_projects_rolling_out_for_chat_and_cowork_oh/"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X / 社交",
+   "tag": "转述汇总",
+   "color": "#111111",
+   "url": "https://x.com/",
+   "short": "X",
+   "items": [
+    {
+     "title": "谷歌：Gemini 4 Hydrogen 在 Gemini 应用和搜索上线",
+     "en": "Gemini 4 Hydrogen live in the Gemini app and Search",
+     "metric": "官方帖",
+     "url": "https://news.fyniks.co/pulse/ai-companies/"
+    },
+    {
+     "title": "OpenAI：ChatGPT Plus 用户可用 Spaces 协作",
+     "en": "Plus users, welcome to Space",
+     "metric": "官方帖",
+     "url": "https://tokenwhale.dev/en/news?article=64aba6f3e89a1b699e5e867168ca3c7aaf5407699c4c0672f8fe750a28052b03"
+    },
+    {
+     "title": "纳德拉：把强模型当作潜在内部威胁，装“紧急制动”",
+     "en": "Nadella: assume the model has been compromised",
+     "metric": "X 长帖",
+     "url": "https://www.gmt8press.com/flash/detail/1550268"
+    },
+    {
+     "title": "可灵 Image 4.0：原生 8K",
+     "en": "Kling Image 4.0 launches with native 8K",
+     "metric": "官方帖",
+     "url": "https://ai123.com/official-updates"
+    },
+    {
+     "title": "阶跃星辰：Step 5 预览亮相",
+     "en": "Step 5 Preview at Agent Night Out SF",
+     "metric": "官方帖",
+     "url": "https://ai123.com/official-updates"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热榜",
+   "color": "#24292f",
+   "url": "https://github.com/trending",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "elementalsouls/Claude-BugHunter",
+     "en": "elementalsouls/Claude-BugHunter",
+     "metric": "+1,622 星",
+     "url": "https://github.com/elementalsouls/Claude-BugHunter"
+    },
+    {
+     "title": "firecrawl/firecrawl",
+     "en": "firecrawl/firecrawl",
+     "metric": "+1,241 星",
+     "url": "https://github.com/firecrawl/firecrawl"
+    },
+    {
+     "title": "jingyaogong/minimind",
+     "en": "jingyaogong/minimind",
+     "metric": "+847 星",
+     "url": "https://github.com/jingyaogong/minimind"
+    },
+    {
+     "title": "obra/superpowers",
+     "en": "obra/superpowers",
+     "metric": "+890 星",
+     "url": "https://github.com/obra/superpowers"
+    },
+    {
+     "title": "HKUDS/CLI-Anything",
+     "en": "HKUDS/CLI-Anything",
+     "metric": "+773 星",
+     "url": "https://github.com/HKUDS/CLI-Anything"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文热度",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "扩散 Transformer 的强化学习后训练本质是激活调控",
+     "en": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+     "metric": "14 票",
+     "url": "https://huggingface.co/papers/2611.26627"
+    },
+    {
+     "title": "训练视觉模型做 LLM 驱动的权重空间编程",
+     "en": "Training Vision Models for LLM-Driven Weight-Space Programming",
+     "metric": "12 票",
+     "url": "https://huggingface.co/papers/2611.26408"
+    },
+    {
+     "title": "指令条件下的流程视频在线错误检测",
+     "en": "Online Mistake Detection in Instruction-Conditioned Procedural Video",
+     "metric": "9 票",
+     "url": "https://huggingface.co/papers/2611.25567"
+    },
+    {
+     "title": "LLM 时代同行评审的论断同质化",
+     "en": "Twice-Told Critiques: Claim-Level Homogenization of Peer Review in the LLM Era",
+     "metric": "9 票",
+     "url": "https://huggingface.co/papers/2611.26286"
+    },
+    {
+     "title": "语言模型可以改写自己的权重",
+     "en": "Language Models Can Rewrite Their Own Weights",
+     "metric": "4 票",
+     "url": "https://huggingface.co/papers/2611.21885"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#1a1a1a",
+   "url": "https://www.theverge.com/ai-artificial-intelligence",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "Anthropic 数学家称借 Claude 解决千禧年难题",
+     "en": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+     "metric": "Verge 首页热门",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem"
+    },
+    {
+     "title": "Signal 阻止 Gemini 和 Siri AI 读取屏幕",
+     "en": "Signal is blocking Gemini and Siri AI from reading your screen",
+     "metric": "Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app"
+    },
+    {
+     "title": "特朗普威胁对海外建数据中心征“巨额税”",
+     "en": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+     "metric": "Verge",
+     "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax"
+    },
+    {
+     "title": "AI 宣称解决黎曼猜想，人类也宣称解决了",
+     "en": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/"
+    },
+    {
+     "title": "Anthropic 七位创始人在上市中套现近 20 亿美元",
+     "en": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+     "metric": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/"
+    }
+   ]
+  },
+  {
+   "key": "qbitai",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#0b6bcb",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "美国 AI 音乐公司进军视频生成，底层模型来自 MiniMax",
+     "en": "美国AI音乐巨头进军视频生成，底层模型来自中国MiniMax",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/511722.html"
+    },
+    {
+     "title": "昇腾算力训出双榜 SOTA 具身世界模型",
+     "en": "昇腾算力训出了双榜SOTA的具身世界模型",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/511610.html"
+    },
+    {
+     "title": "具身机器人进入真机时代，华为云 CloudRobo 组队",
+     "en": "具身机器人进入真机时代，华为云CloudRobo开始组队发力了",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/511426.html"
+    },
+    {
+     "title": "SenseNova U1 Pro 获 Design Arena 双榜中国第一",
+     "en": "SenseNova U1 Pro获Design Arena双榜中国第一、全球第六",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/511179.html"
+    },
+    {
+     "title": "联想集团迎来最佳财季",
+     "en": "AI基建大潮方兴未艾，联想集团最佳财季诞生！",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/511088.html"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "中文科技媒体",
+   "color": "#d9261c",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "黎曼猜想真被 Claude 证明了？陶哲轩称验证仍需时间",
+     "en": "黎曼猜想真被 Claude 证明了？Anthropic 数学家仅发布 Lean 代码，陶哲轩称验证仍需时间",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/030/297.htm"
+    },
+    {
+     "title": "阿波罗与高盛完成 440 亿美元 GPU 融资定价",
+     "en": "440 亿美元！阿波罗与高盛完成迄今规模最大 GPU 融资定价，SpaceX 要买英伟达芯片",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/030/296.htm"
+    },
+    {
+     "title": "700 多台 POS 机未打补丁，超 100 万张银行卡沦陷",
+     "en": "700 多台 POS 机滞后约 2 年未打微软 Win10/Win11 补丁酿苦果，超 100 万张银行卡集体沦陷",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/030/298.htm"
+    },
+    {
+     "title": "国际版三星 Galaxy S27 Pro 跑分曝光",
+     "en": "国际版三星 Galaxy S27 Pro 手机跑分曝光：Exynos 2700 芯片、12GB 内存",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/030/295.htm"
+    },
+    {
+     "title": "IT早报 1121：华为 OSTA O1 Pro 发布",
+     "en": "IT早报 1121：5499 元起华为 OSTA O1 Pro 发布；腾讯因仙逆盗版起诉百度索赔 1 亿元",
+     "metric": "IT之家",
+     "url": "https://www.ithome.com/1/030/294.htm"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "工程师社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "Alpöge 宣称证明黎曼猜想",
+     "en": "Levent Alpoge Claims Proof of Riemann Hypothesis",
+     "metric": "66 分",
+     "url": "https://alpo.ge/remark.pdf"
+    },
+    {
+     "title": "Linux 内核移除 binder.c",
+     "en": "Removing binder.c",
+     "metric": "54 分",
+     "url": "https://lwn.net/Articles/1102982/"
+    },
+    {
+     "title": "Vim Classic 8.3.1 发布",
+     "en": "Vim Classic 8.3.1 released",
+     "metric": "51 分",
+     "url": "https://vim-classic.org/news/vim-8.3.1-released.html"
+    },
+    {
+     "title": "jj-musubi：Jujutsu 的实时同步",
+     "en": "Announcing jj-musubi: live sync for Jujutsu",
+     "metric": "33 分",
+     "url": "https://www.serpentine.com/posts/2026/announcing-jj-musubi/"
+    },
+    {
+     "title": "Internet Archive 员工发起工会",
+     "en": "Internet Archive Staffers Are Unionizing",
+     "metric": "27 分",
+     "url": "https://cwa-union.org/news/releases/internet-archive-workers-launch-union-campaign-communications-workers-america"
+    }
+   ]
+  }
+ ],
+ "topics": [
+  {
+   "name": "数学与验证",
+   "kicker": "结果出来了，检查才刚开始",
+   "items": [
+    {
+     "title": "Masullo 的非 AI 版证明：Ravi Vakil 转发",
+     "note": "陶哲轩说需时间消化，路线更近 Deninger。",
+     "src": "Vakil 博客",
+     "metric": "HN 1381 分",
+     "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/"
+    },
+    {
+     "title": "陶哲轩梳理三项结果：欧拉、纳维-斯托克斯、GRH",
+     "note": "按“消化程度”排序，GRH 最后。",
+     "src": "陶哲轩博客",
+     "metric": "11-20",
+     "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/"
+    },
+    {
+     "title": "TechCrunch：AI 宣称解决了，人类也宣称解决了",
+     "note": "两份手稿同日出现，谁先谁后不是重点。",
+     "src": "TechCrunch",
+     "metric": "11-20",
+     "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/"
+    },
+    {
+     "title": "论文：语言模型可以改写自己的权重",
+     "note": "HF 4 票，HN 320 分，先看能否复现。",
+     "src": "Hugging Face",
+     "metric": "HN 320 分",
+     "url": "https://arxiv.org/abs/2611.21885"
+    }
+   ]
+  },
+  {
+   "name": "智能体与权限",
+   "kicker": "谁能碰什么，各家说法不一",
+   "items": [
+    {
+     "title": "纳德拉：把强模型当潜在内部威胁",
+     "note": "据转述的 X 帖，主张部署时留“紧急制动”。",
+     "src": "据报道",
+     "metric": "11-21",
+     "url": "https://www.gmt8press.com/flash/detail/1550268"
+    },
+    {
+     "title": "Gemini 4 Hydrogen 上线，主打速度",
+     "note": "转述自聚合站，谷歌原帖待核。",
+     "src": "据转述",
+     "metric": "11-20",
+     "url": "https://news.fyniks.co/pulse/ai-companies/"
+    },
+    {
+     "title": "ChatGPT Plus 开放 Spaces 协作",
+     "note": "转述自聚合站，能否替人维护页面待看。",
+     "src": "据转述",
+     "metric": "11-21",
+     "url": "https://tokenwhale.dev/en/news?article=64aba6f3e89a1b699e5e867168ca3c7aaf5407699c4c0672f8fe750a28052b03"
+    },
+    {
+     "title": "Claude 项目功能改版，Max 用户不满",
+     "note": "社区反馈，官方尚未回应。",
+     "src": "Reddit",
+     "metric": "358 赞",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x33na4/new_projects_rolling_out_for_chat_and_cowork_oh/"
+    }
+   ]
+  },
+  {
+   "name": "算力与政策",
+   "kicker": "钱和地盘的问题",
+   "items": [
+    {
+     "title": "特朗普威胁对海外数据中心征“巨额税”",
+     "note": "只有口头表态，Verge 称他承认没跟团队说过。",
+     "src": "The Verge",
+     "metric": "11-20",
+     "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax"
+    },
+    {
+     "title": "阿波罗与高盛完成 440 亿美元 GPU 融资",
+     "note": "据 IT之家，SpaceX 将买英伟达芯片。",
+     "src": "IT之家",
+     "metric": "据报道",
+     "url": "https://www.ithome.com/1/030/296.htm"
+    },
+    {
+     "title": "弗吉尼亚州劳登县暂停受理新数据中心申请",
+     "note": "地方限制与联邦威胁同日出现。",
+     "src": "The Verge",
+     "metric": "11-20",
+     "url": "https://www.theverge.com/policy/1038917/loudoun-county-is-pausing-new-data-center-applications"
+    },
+    {
+     "title": "Anthropic 七位创始人上市套现近 20 亿美元",
+     "note": "上市只是起点，持股后续才见分晓。",
+     "src": "TechCrunch",
+     "metric": "11-19",
+     "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/"
+    }
+   ]
+  }
+ ],
+ "comments": [
+  "证明可以先发出来，检验得慢慢来。“声称”和“被接受”之间隔着两年规则，别把前者当后者。",
+  "Signal 能做的只是关掉截屏，凸显应用层缺少对系统 AI 的控制权，这得由平台方来补。",
+  "Frostbite 的看点是形式化规格而非 4.59 倍，没有第三方复测之前，这个数字只能算厂商的自述。"
+ ],
+ "xhs": {
+  "title": "黎曼猜想被AI证了？先别急",
+  "cover": "成果越大\n越要有人\n来验证",
+  "deck": "黎曼猜想、Signal、新CPU",
+  "intro": "今天三件事：Anthropic 数学家称借 Claude 证明了广义黎曼猜想，Verge 说尚无独立验证；Signal 默认限制截屏，挡住系统级 AI；Architect Labs 称 AI 设计的 CPU 每瓦性能是传统核 4.59 倍，数据出自自家仿真。",
+  "oneliner": "AI 的结果出得越快，检验的人就越不能慢。",
+  "closing": "如果 AI 证明了世纪难题，你会等多久才相信？",
+  "tags": [
+   "人工智能",
+   "黎曼猜想",
+   "Claude",
+   "Anthropic",
+   "Signal",
+   "隐私",
+   "CPU",
+   "科技资讯",
+   "AI日报"
+  ]
+ },
+ "sources": [
+  "The Verge",
+  "TechCrunch",
+  "陶哲轩博客",
+  "Signal",
+  "Architect Labs",
+  "量子位",
+  "IT之家",
+  "Hacker News",
+  "Reddit",
+  "X（转述）",
+  "GitHub Trending",
+  "Hugging Face Papers",
+  "Lobsters"
+ ]
+}

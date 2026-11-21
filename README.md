@@ -10,7 +10,7 @@
 
 ## 最新一期
 
-- **2026-11-20｜智能体拿到权限，边界跟着来**（Anthropic 开盘、Gemini 接管 Mac、Muse 串号）· [网页](reports/2026-11-20/index.html) · 公众号 reports/2026-11-20/wechat/ · 小红书 reports/2026-11-20/xhs/
+- **2026-11-21｜成果越大，越要有人验证**（黎曼猜想证明声明、Signal 挡 AI、Frostbite 自述）· [网页](reports/2026-11-21/index.html) · 公众号 reports/2026-11-21/wechat/ · 小红书 reports/2026-11-21/xhs/
 - **2026-11-18｜GPT-6.2 上线，英伟达交出千亿季报**（GPT-6.2 Astra 与 Sol、英伟达 Q3、Anthropic 持股）· [网页](reports/2026-11-18/index.html) · 公众号 reports/2026-11-18/wechat/ · 小红书 reports/2026-11-18/xhs/
 
 网页版（GitHub Pages）：https://emotionalronan.github.io/ai-daily-report/

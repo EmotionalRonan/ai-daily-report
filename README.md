@@ -10,6 +10,7 @@
 
 ## 最新一期
 
+- **2026-11-22｜验证变快了，信心却变贵了**（黎曼猜想认证、Inkling 2 Mini、市场重挫）· [网页](reports/2026-11-22/index.html) · 公众号 reports/2026-11-22/wechat/ · 小红书 reports/2026-11-22/xhs/
 - **2026-11-21｜成果越大，越要有人验证**（黎曼猜想证明声明、Signal 挡 AI、Frostbite 自述）· [网页](reports/2026-11-21/index.html) · 公众号 reports/2026-11-21/wechat/ · 小红书 reports/2026-11-21/xhs/
 - **2026-11-18｜GPT-6.2 上线，英伟达交出千亿季报**（GPT-6.2 Astra 与 Sol、英伟达 Q3、Anthropic 持股）· [网页](reports/2026-11-18/index.html) · 公众号 reports/2026-11-18/wechat/ · 小红书 reports/2026-11-18/xhs/
 

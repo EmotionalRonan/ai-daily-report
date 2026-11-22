@@ -1,0 +1,505 @@
+{
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "Vakil 转发 Masullo 的广义黎曼猜想手稿",
+     "en": "Hurried Announcement: Alessandro Masullo GRH",
+     "metric": "2379 分",
+     "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+     "time": "11-20",
+     "what": "人类作者的另一份证明声明"
+    },
+    {
+     "title": "Thinking Machines 发布 Inkling 2 Mini",
+     "en": "Inkling 2 Mini",
+     "metric": "1365 分",
+     "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+     "time": "11-20",
+     "what": "可在笔记本运行的开放权重循环模型"
+    },
+    {
+     "title": "Lean 社区：黎曼猜想的 Lean 证明已验证",
+     "en": "Lean verification of the Riemann Hypothesis",
+     "metric": "777 分",
+     "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+     "time": "11-21",
+     "what": "Lean 与 Mathlib 社区联合声明"
+    },
+    {
+     "title": "巴西税务局以 MIT 协议开源税务计算器",
+     "en": "Brazil tax authority open-sources its tax calculator",
+     "metric": "702 分",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria",
+     "time": "11-21",
+     "what": "政府机构首次公开源码"
+    },
+    {
+     "title": "我们把开发者提成架构师，却没告诉他们",
+     "en": "We promoted developers into architects without informing them",
+     "metric": "576 分",
+     "url": "https://manidoraisamy.com/developer-to-architect.html",
+     "time": "11-21",
+     "what": "团队管理随笔"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区热议",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "论坛热帖：能在普通电脑跑 Sonnet 级模型那天",
+     "en": "The day we can run Sonnet-level AI locally",
+     "metric": "889 赞",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x35dqe/the_day_we_can_run_sonnetlevel_ai_locally_on_a/",
+     "time": "11-21",
+     "what": "ClaudeAI 版讨论本地化时间表"
+    },
+    {
+     "title": "用 Opus 5.5 把星际火狐等老游戏移植到桌面",
+     "en": "Opus 5.5 is INSANE at decompilation / ports",
+     "metric": "656 赞",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/",
+     "time": "11-21",
+     "what": "作者随后承认“反编译”一词用得不准"
+    },
+    {
+     "title": "OpenAI 额度投票：取消 5 小时限制获多数",
+     "en": "Thank god (OpenAI usage limits vote)",
+     "metric": "485 赞",
+     "url": "https://www.reddit.com/r/OpenAI/comments/1x3d4z1/thank_god/",
+     "time": "11-21",
+     "what": "用户偏好周额度"
+    },
+    {
+     "title": "RTX 5090 卖到 5000 美元，AI 公司成箱买游戏卡",
+     "en": "Why RTX 5090 costs $5,000",
+     "metric": "463 赞",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x37tg6/heres_why_rtx_5090_costs_5000_ai_firms_are_buying/",
+     "time": "11-21",
+     "what": "VideoCardz 报道，连续数日在榜"
+    },
+    {
+     "title": "Claude 项目功能将合并对话，Max 用户抗议",
+     "en": "New Projects rolling out for Chat and Cowork",
+     "metric": "358 赞",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x33na4/new_projects_rolling_out_for_chat_and_cowork_oh/",
+     "time": "11-21",
+     "what": "要求改为可选"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X / 社交",
+   "tag": "转述汇总",
+   "color": "#111111",
+   "url": "https://x.com/",
+   "short": "X",
+   "items": [
+    {
+     "title": "Lean 官方：黎曼猜想证明联合认证",
+     "en": "Lean FRO and Mathlib Initiative joint statement",
+     "metric": "官方帖",
+     "url": "https://x.com/leanprover/status/2124159121645801562",
+     "time": "11-21",
+     "what": "转述自聚合页，原帖已核"
+    },
+    {
+     "title": "atulit：证明通过独立内核检查",
+     "en": "Riemann proof passed the independent kernel check",
+     "metric": "8242 赞",
+     "url": "https://ailately.com/rn",
+     "time": "11-21",
+     "what": "转述（Ai Lately 汇总）"
+    },
+    {
+     "title": "EXO Labs：Inkling 2 Mini 本地速度",
+     "en": "Inkling 2 Mini local speed",
+     "metric": "官方帖",
+     "url": "https://x.com/exolabs/status/2123953913342935486",
+     "time": "11-21",
+     "what": "MacBook Pro M5 Max 125 tok/s，厂商自述"
+    },
+    {
+     "title": "Alex Finn 称 Inkling 超过 Qwen3.8 27B",
+     "en": "Alex Finn on Inkling 2",
+     "metric": "社区帖",
+     "url": "https://x.com/AlexFinn/status/2123930655000346888",
+     "time": "11-21",
+     "what": "个人观点，且误写为 Small"
+    },
+    {
+     "title": "Luke Drago：小模型让 AI 自有化",
+     "en": "Luke Drago on Inkling 2 Mini",
+     "metric": "2503 浏览",
+     "url": "https://x.com/luke_drago_/status/2123955480246771837",
+     "time": "11-21",
+     "what": "Thinking Machines 员工观点"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热榜",
+   "color": "#24292f",
+   "url": "https://github.com/trending",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "firecrawl/firecrawl",
+     "en": "firecrawl/firecrawl",
+     "metric": "999 星/日",
+     "url": "https://github.com/firecrawl/firecrawl",
+     "time": "11-22",
+     "what": "网页抓取转 LLM 数据"
+    },
+    {
+     "title": "obra/superpowers",
+     "en": "obra/superpowers",
+     "metric": "884 星/日",
+     "url": "https://github.com/obra/superpowers",
+     "time": "11-22",
+     "what": "编码智能体技能框架"
+    },
+    {
+     "title": "HKUDS/CLI-Anything",
+     "en": "HKUDS/CLI-Anything",
+     "metric": "767 星/日",
+     "url": "https://github.com/HKUDS/CLI-Anything",
+     "time": "11-22",
+     "what": "把软件变成智能体可调用的命令行"
+    },
+    {
+     "title": "jingyaogong/minimind",
+     "en": "jingyaogong/minimind",
+     "metric": "488 星/日",
+     "url": "https://github.com/jingyaogong/minimind",
+     "time": "11-22",
+     "what": "从零训练小模型"
+    },
+    {
+     "title": "cursor/plugins",
+     "en": "cursor/plugins",
+     "metric": "261 星/日",
+     "url": "https://github.com/cursor/plugins",
+     "time": "11-22",
+     "what": "Cursor 插件仓库"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文热度",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "扩散 Transformer 的 RL 后训练就是激活转向",
+     "en": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+     "metric": "17 票",
+     "url": "https://huggingface.co/papers/2611.26627",
+     "time": "11-21",
+     "what": "论文"
+    },
+    {
+     "title": "教视觉-语言-动作模型安全停下",
+     "en": "Teaching Vision-Language-Action Models to Stop Safely",
+     "metric": "7 票",
+     "url": "https://huggingface.co/papers/2611.26239",
+     "time": "11-21",
+     "what": "论文"
+    },
+    {
+     "title": "Squoosh Bench：318 个历史网站 A/B 测试评估",
+     "en": "Squoosh Bench: Evaluating UX-1 on 318 Historical Website A/B Tests",
+     "metric": "3 票",
+     "url": "https://huggingface.co/papers/2611.25200",
+     "time": "11-21",
+     "what": "论文"
+    },
+    {
+     "title": "面向自动驾驶的策略感知数据估值",
+     "en": "PAD: Policy-Aware Data Valuation for Autonomous Driving",
+     "metric": "4 票",
+     "url": "https://huggingface.co/papers/2611.25604",
+     "time": "11-21",
+     "what": "论文"
+    },
+    {
+     "title": "局部因果父节点发现的时序结构学习",
+     "en": "Time Series Structure Learning with Local Causal Parent Discovery",
+     "metric": "2 票",
+     "url": "https://huggingface.co/papers/2611.26232",
+     "time": "11-21",
+     "what": "论文；当日热度整体偏低"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#1a1a1a",
+   "url": "https://www.theverge.com/ai-artificial-intelligence",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "联合国未能就“杀手机器人”规则达成一致",
+     "en": "The UN fails to agree on rules regulating killer robots",
+     "metric": "Verge 11-21",
+     "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+     "time": "11-21",
+     "what": "各国同意“开始讨论选项”"
+    },
+    {
+     "title": "英伟达周跌 23%，SEC 被报在查会计做法",
+     "en": "Nvidia stock closes the week down 14 percent",
+     "metric": "Verge 11-20",
+     "url": "https://www.theverge.com/tech/1039305/nvda-down-sec-investigation-accounting",
+     "time": "11-20",
+     "what": "Reuters 报道尚待官方确认"
+    },
+    {
+     "title": "Google 明年停用智能音箱上的 Assistant",
+     "en": "Google to shut off Google Assistant on smart speakers",
+     "metric": "Verge 11-20",
+     "url": "https://www.theverge.com/tech/1038834/google-assistant-smart-speakers-nest-app-killed-shut-down",
+     "time": "11-20",
+     "what": "Nest 应用 2027-01-25 关停"
+    },
+    {
+     "title": "英伟达的两副面孔",
+     "en": "A tale of two Nvidias",
+     "metric": "TC 11-21",
+     "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+     "time": "11-21",
+     "what": "财报强劲与黄仁勋复出呼声并存"
+    },
+    {
+     "title": "Anthropic 能否承担把安全放第一",
+     "en": "Can Anthropic afford to put safety first?",
+     "metric": "Verge 播客",
+     "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+     "time": "11-21",
+     "what": "Decoder 播客"
+    }
+   ]
+  },
+  {
+   "key": "qbitai",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#0b6bcb",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "黎曼猜想被证明？Claude 加持，34 岁数学家放出 Lean 证明",
+     "en": "",
+     "metric": "热门文章",
+     "url": "https://www.qbitai.com/2026/11/511727.html",
+     "time": "11-21",
+     "what": "首页热门"
+    },
+    {
+     "title": "GPT-6.2 Astra 再次暴击具身模型：16 项任务成功率翻倍",
+     "en": "",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/511779.html",
+     "time": "11-21",
+     "what": "待核，仅看标题"
+    },
+    {
+     "title": "姚顺雨和混元团队上 Reddit 答网友，Hy 小模型已进路线图",
+     "en": "",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/511757.html",
+     "time": "11-21",
+     "what": "待核，仅看标题"
+    },
+    {
+     "title": "反超 Gemini 之后，Karpathy 新作再开源，浏览器 Agent 速效双赢",
+     "en": "",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/511791.html",
+     "time": "11-21",
+     "what": "待核，仅看标题"
+    },
+    {
+     "title": "DeepSeek V1 作者创业项目曝光：开源 Agent",
+     "en": "",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/511570.html",
+     "time": "11-21",
+     "what": "待核，仅看标题"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "中文科技媒体",
+   "color": "#d9261c",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "加密聊天应用 Signal 默认屏蔽截图，防 AI 智能体读取消息",
+     "en": "",
+     "metric": "今日要闻",
+     "url": "https://www.ithome.com/1/030/517.htm",
+     "time": "11-22",
+     "what": "与昨日头条相同"
+    },
+    {
+     "title": "OpenAI：GPT-6.2 Astra 思考链提取成功率从 54% 降至 0.2%",
+     "en": "",
+     "metric": "IT早报",
+     "url": "https://www.ithome.com/1/030/518.htm",
+     "time": "11-22",
+     "what": "厂商自述的红队结果"
+    },
+    {
+     "title": "Anthropic 研究员预测 2027 年底 AI 比肩顶尖专家",
+     "en": "",
+     "metric": "IT早报",
+     "url": "https://www.ithome.com/1/030/518.htm",
+     "time": "11-22",
+     "what": "个人预测"
+    },
+    {
+     "title": "谷歌智能家居应用 Nest 明年停服",
+     "en": "",
+     "metric": "今日要闻",
+     "url": "https://www.ithome.com/1/030/515.htm",
+     "time": "11-22",
+     "what": "并入 Google Home"
+    },
+    {
+     "title": "28 核英特尔 Nova Lake-S 现身测试平台，最高 5.2GHz",
+     "en": "",
+     "metric": "今日要闻",
+     "url": "https://www.ithome.com/1/030/522.htm",
+     "time": "11-22",
+     "what": "传闻级"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "工程师社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "我的显示器把下载速度拖慢了 75%",
+     "en": "My Monitor Was Cutting My Download Speed by 75%",
+     "metric": "70 分",
+     "url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
+     "time": "11-21",
+     "what": "硬件排障"
+    },
+    {
+     "title": "Levent Alpöge 声称证明黎曼猜想",
+     "en": "Levent Alpöge Claims Proof of Riemann Hypothesis",
+     "metric": "100 分",
+     "url": "https://alpo.ge/remark.pdf",
+     "time": "11-21",
+     "what": "原文 PDF"
+    },
+    {
+     "title": "Postgres 塞进单个二进制文件",
+     "en": "How I Got Postgres into a Single Binary",
+     "metric": "9 分",
+     "url": "https://progrium.xyz/articles/2026/single-binary-postgres",
+     "time": "11-21",
+     "what": "工程实践"
+    },
+    {
+     "title": "C++26 定稿（再一次）：11 月 ISO 会议报告",
+     "en": "C++26 is done (again)!",
+     "metric": "16 分",
+     "url": "https://herbsutter.com/2026/11/21/c26-is-done-again-trip-report-november-2026-iso-c-standards-meeting-buzios-brazil/",
+     "time": "11-21",
+     "what": "Herb Sutter 报告"
+    },
+    {
+     "title": "Go 里的概率数据结构（二）",
+     "en": "Probabilistic data structures in Go, part 2",
+     "metric": "21 分",
+     "url": "https://antonz.org/probabilistic-data-structures-2/",
+     "time": "11-21",
+     "what": "教程"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Lean 社区联合声明：黎曼猜想的 Lean 证明已通过验证",
+   "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+   "why": "昨天只是声称，今天社区用多种检查器认证；仍待数学界理解",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "Thinking Machines 发布 Inkling 2 Mini",
+   "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+   "why": "20GB 开放权重、笔记本可跑；成绩为厂商自测",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "Nvidia 周跌 23%，纳斯达克周跌 10%",
+   "url": "https://apnews.com/article/stock-markets-anthropic-ai-chips-boom-c4c3f4878b12989347f8a930ed813dad",
+   "why": "AI 板块本周最大的市场事件，多家媒体交叉核对",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "联合国未能就自主武器规则达成一致",
+   "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+   "why": "AI 监管话题，Verge 转述 NPR",
+   "pick": false,
+   "status": "已核"
+  },
+  {
+   "title": "Google 明年关停智能音箱上的 Assistant",
+   "url": "https://www.theverge.com/tech/1038834/google-assistant-smart-speakers-nest-app-killed-shut-down",
+   "why": "Gemini for Home 替代，日期明确",
+   "pick": false,
+   "status": "已核"
+  },
+  {
+   "title": "OpenAI 称思考链提取成功率降至 0.2%",
+   "url": "https://www.ithome.com/1/030/518.htm",
+   "why": "厂商自述，无第三方复测",
+   "pick": false,
+   "status": "待核"
+  },
+  {
+   "title": "Anthropic 研究员预测 2027 年底 AI 比肩顶尖专家",
+   "url": "https://www.ithome.com/1/030/518.htm",
+   "why": "个人预测，非公司立场",
+   "pick": false,
+   "status": "待核"
+  }
+ ]
+}

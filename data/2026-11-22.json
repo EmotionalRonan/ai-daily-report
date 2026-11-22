@@ -1,0 +1,539 @@
+{
+ "date": "2026-11-22",
+ "weekday": "周日",
+ "issue": 38,
+ "title": "验证变快了，信心却变贵了",
+ "subtitle": "黎曼猜想认证 / Inkling 2 Mini / 市场重挫",
+ "lead": "Lean 社区认证黎曼猜想的 Lean 证明；Thinking Machines 发布笔记本可跑的 Inkling 2 Mini；纳斯达克本周跌 10%，英伟达周跌 23%。",
+ "headlines": [
+  {
+   "title": "Lean 社区联合声明：黎曼猜想的 Lean 证明已通过验证",
+   "body": "Lean 与 Mathlib 社区 11 月 21 日发表联合声明，称对 Levent Alpöge 前一天发布的黎曼猜想证明有“完全信心”。该证明是 1700 万行 Lean 代码；声明说命题与 Mathlib 一致，代码可编译，导出的证明经多个检查器验证。",
+   "why": "昨天还是“作者声称”，今天机器检查已过关。但数学界读懂思路还需要时间，克雷研究所的奖项规则（发表加两年检验）也没变。",
+   "source": "Lean 社区博客",
+   "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+   "image_skip": "原文页只有文字，没有与证明相关的配图"
+  },
+  {
+   "title": "Thinking Machines 发布 Inkling 2 Mini，笔记本可跑",
+   "body": "Thinking Machines 11 月 20 日发布开放权重模型 Inkling 2 Mini：总参数 264 亿、激活 34 亿，中间层循环三次，约20GB，可在 32GB 以上内存的 Mac 上运行。官方称其 DeepSWE v1.1 得 48.2%，为 1000 亿参数以下开放模型之首。",
+   "why": "这些成绩由厂商自己测，注意不要当成第三方榜单。值得看的是它拿“循环”换推理深度，并同时公开了思维链可监控性的测试。",
+   "source": "Thinking Machines",
+   "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+   "image_skip": "原文页只有站点 logo 封面，与模型无说明关系，不用"
+  },
+  {
+   "title": "AI 板块本周重挫：纳斯达克周跌 10%，英伟达周跌 23%",
+   "body": "据 Reuters，11 月 20 日纳斯达克指数单日跌 5.3%，周跌 10%，为 2020 年以来最大；标普 500 单日跌 3.7%。英伟达单日跌 14%、周跌 23%，Reuters 称 SEC 在查其会计；上市次日的 Anthropic 当天跌约 9%。",
+   "why": "这是市场数据，不是对技术的判断；分析师意见也分歧，有人认为是情绪性抛售，有人认为是对 AI 估值的重新定价。",
+   "source": "Reuters（Investing.com 转载）",
+   "url": "https://www.investing.com/news/stock-market-news/nasdaq-plunges-5-a-day-after-anthropic-debut-but-investors-still-believe-in-ai-5042641",
+   "image_skip": "原文配图是通用路透图片，与事件无直接说明力，不用"
+  }
+ ],
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "Vakil 转发 Masullo 的广义黎曼猜想手稿",
+     "en": "Hurried Announcement: Alessandro Masullo GRH",
+     "metric": "2379 分",
+     "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/"
+    },
+    {
+     "title": "Thinking Machines 发布 Inkling 2 Mini",
+     "en": "Inkling 2 Mini",
+     "metric": "1365 分",
+     "url": "https://thinkingmachines.ai/news/inkling-2-mini/"
+    },
+    {
+     "title": "Lean 社区：黎曼猜想的 Lean 证明已验证",
+     "en": "Lean verification of the Riemann Hypothesis",
+     "metric": "777 分",
+     "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
+    },
+    {
+     "title": "巴西税务局以 MIT 协议开源税务计算器",
+     "en": "Brazil tax authority open-sources its tax calculator",
+     "metric": "702 分",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria"
+    },
+    {
+     "title": "我们把开发者提成架构师，却没告诉他们",
+     "en": "We promoted developers into architects without informing them",
+     "metric": "576 分",
+     "url": "https://manidoraisamy.com/developer-to-architect.html"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区热议",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "论坛热帖：能在普通电脑跑 Sonnet 级模型那天",
+     "en": "The day we can run Sonnet-level AI locally",
+     "metric": "889 赞",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x35dqe/the_day_we_can_run_sonnetlevel_ai_locally_on_a/"
+    },
+    {
+     "title": "用 Opus 5.5 把星际火狐等老游戏移植到桌面",
+     "en": "Opus 5.5 is INSANE at decompilation / ports",
+     "metric": "656 赞",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/"
+    },
+    {
+     "title": "OpenAI 额度投票：取消 5 小时限制获多数",
+     "en": "Thank god (OpenAI usage limits vote)",
+     "metric": "485 赞",
+     "url": "https://www.reddit.com/r/OpenAI/comments/1x3d4z1/thank_god/"
+    },
+    {
+     "title": "RTX 5090 卖到 5000 美元，AI 公司成箱买游戏卡",
+     "en": "Why RTX 5090 costs $5,000",
+     "metric": "463 赞",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x37tg6/heres_why_rtx_5090_costs_5000_ai_firms_are_buying/"
+    },
+    {
+     "title": "Claude 项目功能将合并对话，Max 用户抗议",
+     "en": "New Projects rolling out for Chat and Cowork",
+     "metric": "358 赞",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x33na4/new_projects_rolling_out_for_chat_and_cowork_oh/"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X / 社交",
+   "tag": "转述汇总",
+   "color": "#111111",
+   "url": "https://x.com/",
+   "short": "X",
+   "items": [
+    {
+     "title": "Lean 官方：黎曼猜想证明联合认证",
+     "en": "Lean FRO and Mathlib Initiative joint statement",
+     "metric": "官方帖",
+     "url": "https://x.com/leanprover/status/2124159121645801562"
+    },
+    {
+     "title": "atulit：证明通过独立内核检查",
+     "en": "Riemann proof passed the independent kernel check",
+     "metric": "8242 赞",
+     "url": "https://ailately.com/rn"
+    },
+    {
+     "title": "EXO Labs：Inkling 2 Mini 本地速度",
+     "en": "Inkling 2 Mini local speed",
+     "metric": "官方帖",
+     "url": "https://x.com/exolabs/status/2123953913342935486"
+    },
+    {
+     "title": "Alex Finn 称 Inkling 超过 Qwen3.8 27B",
+     "en": "Alex Finn on Inkling 2",
+     "metric": "社区帖",
+     "url": "https://x.com/AlexFinn/status/2123930655000346888"
+    },
+    {
+     "title": "Luke Drago：小模型让 AI 自有化",
+     "en": "Luke Drago on Inkling 2 Mini",
+     "metric": "2503 浏览",
+     "url": "https://x.com/luke_drago_/status/2123955480246771837"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热榜",
+   "color": "#24292f",
+   "url": "https://github.com/trending",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "firecrawl/firecrawl",
+     "en": "firecrawl/firecrawl",
+     "metric": "999 星/日",
+     "url": "https://github.com/firecrawl/firecrawl"
+    },
+    {
+     "title": "obra/superpowers",
+     "en": "obra/superpowers",
+     "metric": "884 星/日",
+     "url": "https://github.com/obra/superpowers"
+    },
+    {
+     "title": "HKUDS/CLI-Anything",
+     "en": "HKUDS/CLI-Anything",
+     "metric": "767 星/日",
+     "url": "https://github.com/HKUDS/CLI-Anything"
+    },
+    {
+     "title": "jingyaogong/minimind",
+     "en": "jingyaogong/minimind",
+     "metric": "488 星/日",
+     "url": "https://github.com/jingyaogong/minimind"
+    },
+    {
+     "title": "cursor/plugins",
+     "en": "cursor/plugins",
+     "metric": "261 星/日",
+     "url": "https://github.com/cursor/plugins"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文热度",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "扩散 Transformer 的 RL 后训练就是激活转向",
+     "en": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+     "metric": "17 票",
+     "url": "https://huggingface.co/papers/2611.26627"
+    },
+    {
+     "title": "教视觉-语言-动作模型安全停下",
+     "en": "Teaching Vision-Language-Action Models to Stop Safely",
+     "metric": "7 票",
+     "url": "https://huggingface.co/papers/2611.26239"
+    },
+    {
+     "title": "Squoosh Bench：318 个历史网站 A/B 测试评估",
+     "en": "Squoosh Bench: Evaluating UX-1 on 318 Historical Website A/B Tests",
+     "metric": "3 票",
+     "url": "https://huggingface.co/papers/2611.25200"
+    },
+    {
+     "title": "面向自动驾驶的策略感知数据估值",
+     "en": "PAD: Policy-Aware Data Valuation for Autonomous Driving",
+     "metric": "4 票",
+     "url": "https://huggingface.co/papers/2611.25604"
+    },
+    {
+     "title": "局部因果父节点发现的时序结构学习",
+     "en": "Time Series Structure Learning with Local Causal Parent Discovery",
+     "metric": "2 票",
+     "url": "https://huggingface.co/papers/2611.26232"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "英文科技媒体",
+   "color": "#1a1a1a",
+   "url": "https://www.theverge.com/ai-artificial-intelligence",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "联合国未能就“杀手机器人”规则达成一致",
+     "en": "The UN fails to agree on rules regulating killer robots",
+     "metric": "Verge 11-21",
+     "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots"
+    },
+    {
+     "title": "英伟达周跌 23%，SEC 被报在查会计做法",
+     "en": "Nvidia stock closes the week down 14 percent",
+     "metric": "Verge 11-20",
+     "url": "https://www.theverge.com/tech/1039305/nvda-down-sec-investigation-accounting"
+    },
+    {
+     "title": "Google 明年停用智能音箱上的 Assistant",
+     "en": "Google to shut off Google Assistant on smart speakers",
+     "metric": "Verge 11-20",
+     "url": "https://www.theverge.com/tech/1038834/google-assistant-smart-speakers-nest-app-killed-shut-down"
+    },
+    {
+     "title": "英伟达的两副面孔",
+     "en": "A tale of two Nvidias",
+     "metric": "TC 11-21",
+     "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/"
+    },
+    {
+     "title": "Anthropic 能否承担把安全放第一",
+     "en": "Can Anthropic afford to put safety first?",
+     "metric": "Verge 播客",
+     "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure"
+    }
+   ]
+  },
+  {
+   "key": "qbitai",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#0b6bcb",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "黎曼猜想被证明？Claude 加持，34 岁数学家放出 Lean 证明",
+     "en": "",
+     "metric": "热门文章",
+     "url": "https://www.qbitai.com/2026/11/511727.html"
+    },
+    {
+     "title": "GPT-6.2 Astra 再次暴击具身模型：16 项任务成功率翻倍",
+     "en": "",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/511779.html"
+    },
+    {
+     "title": "姚顺雨和混元团队上 Reddit 答网友，Hy 小模型已进路线图",
+     "en": "",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/511757.html"
+    },
+    {
+     "title": "反超 Gemini 之后，Karpathy 新作再开源，浏览器 Agent 速效双赢",
+     "en": "",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/511791.html"
+    },
+    {
+     "title": "DeepSeek V1 作者创业项目曝光：开源 Agent",
+     "en": "",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/511570.html"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "中文科技媒体",
+   "color": "#d9261c",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "加密聊天应用 Signal 默认屏蔽截图，防 AI 智能体读取消息",
+     "en": "",
+     "metric": "今日要闻",
+     "url": "https://www.ithome.com/1/030/517.htm"
+    },
+    {
+     "title": "OpenAI：GPT-6.2 Astra 思考链提取成功率从 54% 降至 0.2%",
+     "en": "",
+     "metric": "IT早报",
+     "url": "https://www.ithome.com/1/030/518.htm"
+    },
+    {
+     "title": "Anthropic 研究员预测 2027 年底 AI 比肩顶尖专家",
+     "en": "",
+     "metric": "IT早报",
+     "url": "https://www.ithome.com/1/030/518.htm"
+    },
+    {
+     "title": "谷歌智能家居应用 Nest 明年停服",
+     "en": "",
+     "metric": "今日要闻",
+     "url": "https://www.ithome.com/1/030/515.htm"
+    },
+    {
+     "title": "28 核英特尔 Nova Lake-S 现身测试平台，最高 5.2GHz",
+     "en": "",
+     "metric": "今日要闻",
+     "url": "https://www.ithome.com/1/030/522.htm"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "工程师社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "我的显示器把下载速度拖慢了 75%",
+     "en": "My Monitor Was Cutting My Download Speed by 75%",
+     "metric": "70 分",
+     "url": "https://blog.tymscar.com/posts/studiodisplayethernet/"
+    },
+    {
+     "title": "Levent Alpöge 声称证明黎曼猜想",
+     "en": "Levent Alpöge Claims Proof of Riemann Hypothesis",
+     "metric": "100 分",
+     "url": "https://alpo.ge/remark.pdf"
+    },
+    {
+     "title": "Postgres 塞进单个二进制文件",
+     "en": "How I Got Postgres into a Single Binary",
+     "metric": "9 分",
+     "url": "https://progrium.xyz/articles/2026/single-binary-postgres"
+    },
+    {
+     "title": "C++26 定稿（再一次）：11 月 ISO 会议报告",
+     "en": "C++26 is done (again)!",
+     "metric": "16 分",
+     "url": "https://herbsutter.com/2026/11/21/c26-is-done-again-trip-report-november-2026-iso-c-standards-meeting-buzios-brazil/"
+    },
+    {
+     "title": "Go 里的概率数据结构（二）",
+     "en": "Probabilistic data structures in Go, part 2",
+     "metric": "21 分",
+     "url": "https://antonz.org/probabilistic-data-structures-2/"
+    }
+   ]
+  }
+ ],
+ "topics": [
+  {
+   "name": "本地与开源",
+   "kicker": "模型变小，社区的预期在变大",
+   "items": [
+    {
+     "title": "EXO：Inkling 2 Mini 在 M5 Max 上 125 词元/秒",
+     "note": "合作方自述，非独立测试。",
+     "src": "X（转述）",
+     "metric": "11-21",
+     "url": "https://x.com/exolabs/status/2123953913342935486"
+    },
+    {
+     "title": "社区热帖：何时能在普通电脑跑 Sonnet 级模型",
+     "note": "问题还是老问题，只是时间表在缩短。",
+     "src": "Reddit",
+     "metric": "889 赞",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x35dqe/the_day_we_can_run_sonnetlevel_ai_locally_on_a/"
+    },
+    {
+     "title": "用 Opus 5.5 把老游戏移植到桌面",
+     "note": "作者自己改口：更像专用模拟器，不是反编译。",
+     "src": "Reddit",
+     "metric": "656 赞",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/"
+    },
+    {
+     "title": "minimind：从零训练小模型的开源项目",
+     "note": "单日 488 星，适合想看小模型训练全流程的人。",
+     "src": "GitHub",
+     "metric": "488 星/日",
+     "url": "https://github.com/jingyaogong/minimind"
+    }
+   ]
+  },
+  {
+   "name": "市场与规则",
+   "kicker": "钱和监管都在重新定价",
+   "items": [
+    {
+     "title": "TechCrunch：英伟达财报强劲，复出呼声也强",
+     "note": "公司称无意让黄仁勋回归。",
+     "src": "TechCrunch",
+     "metric": "11-21",
+     "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/"
+    },
+    {
+     "title": "Verge：英伟达周收跌 14%，SEC 被报在查",
+     "note": "Reuters 引述两名知情人，尚未证实。",
+     "src": "The Verge",
+     "metric": "11-20",
+     "url": "https://www.theverge.com/tech/1039305/nvda-down-sec-investigation-accounting"
+    },
+    {
+     "title": "联合国未能就自主武器规则达成一致",
+     "note": "只同意“开始讨论选项”，期限放宽到两年。",
+     "src": "The Verge",
+     "metric": "11-21",
+     "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots"
+    },
+    {
+     "title": "Google 将在 2027 年 8 月用 Gemini 取代音箱 Assistant",
+     "note": "Nest 应用 2027-01-25 先关停。",
+     "src": "The Verge",
+     "metric": "11-20",
+     "url": "https://www.theverge.com/tech/1038834/google-assistant-smart-speakers-nest-app-killed-shut-down"
+    }
+   ]
+  },
+  {
+   "name": "智能体与说法",
+   "kicker": "厂商的数字，先标出处",
+   "items": [
+    {
+     "title": "OpenAI：思考链提取成功率从 54% 降到 0.2%",
+     "note": "红队结果由厂商公布，无第三方复测。",
+     "src": "IT之家",
+     "metric": "11-22",
+     "url": "https://www.ithome.com/1/030/518.htm"
+    },
+    {
+     "title": "Anthropic 研究员预测 2027 年底 AI 比肩顶尖专家",
+     "note": "访谈中的个人预测，不代表公司。",
+     "src": "IT之家",
+     "metric": "11-22",
+     "url": "https://www.ithome.com/1/030/518.htm"
+    },
+    {
+     "title": "obra/superpowers：编码智能体技能框架",
+     "note": "单日 884 星，值得看它怎么约束智能体。",
+     "src": "GitHub",
+     "metric": "884 星/日",
+     "url": "https://github.com/obra/superpowers"
+    },
+    {
+     "title": "Claude 项目功能将合并对话，Max 用户反对",
+     "note": "社区反馈，官方尚未回应。",
+     "src": "Reddit",
+     "metric": "358 赞",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x33na4/new_projects_rolling_out_for_chat_and_cowork_oh/"
+    }
+   ]
+  }
+ ],
+ "comments": [
+  "机器检查让验证只用了一天，但“读懂”仍然要靠人。验证快了，理解没有变快。",
+  "Inkling 的成绩全部是厂商自测，社区的兴奋可以有，第三方复测比转发更值得等。",
+  "市场在为 AI 估值重新定价，技术进展与股价这周是两条线，不要把它们拧在一起。"
+ ],
+ "xhs": {
+  "title": "黎曼猜想被验证，AI股却崩了",
+  "cover": "验证变快\n信心变贵",
+  "deck": "黎曼猜想、Inkling、AI股",
+  "intro": "今天三件事：Lean 社区联合认证 Alpöge 的黎曼猜想 Lean 证明；Thinking Machines 发布笔记本能跑的 Inkling 2 Mini，成绩是厂商自测；纳斯达克本周跌 10%，英伟达周跌 23%，Reuters 称 SEC 在查其会计。",
+  "oneliner": "验证越来越快，市场的信心却越来越贵。",
+  "closing": "你觉得这次下跌是情绪，还是 AI 估值的重新定价？",
+  "tags": [
+   "人工智能",
+   "黎曼猜想",
+   "Lean",
+   "Inkling",
+   "开源模型",
+   "英伟达",
+   "纳斯达克",
+   "科技资讯",
+   "AI日报"
+  ]
+ },
+ "sources": [
+  "Lean 社区博客",
+  "Thinking Machines",
+  "Reuters（Investing.com）",
+  "The Verge",
+  "TechCrunch",
+  "量子位",
+  "IT之家",
+  "Hacker News",
+  "Reddit",
+  "X（转述）",
+  "GitHub Trending",
+  "Hugging Face Papers",
+  "Lobsters"
+ ]
+}

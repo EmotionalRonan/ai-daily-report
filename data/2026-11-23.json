@@ -1,0 +1,540 @@
+{
+ "date": "2026-11-23",
+ "weekday": "周一",
+ "issue": 39,
+ "title": "AI 的外部账，这周集中到了",
+ "subtitle": "设限提议 / 提示泄露 / 电力来源",
+ "lead": "OpenAI 首席科学家提议头部实验室共同设限；OpenRouter 下架三家推理服务商；智库估算 Anthropic 2028 年电力近九成来自天然气。",
+ "headlines": [
+  {
+   "title": "OpenAI 首席科学家提议：头部实验室共同约定开发上限",
+   "body": "OpenAI 首席科学家 Jakub Pachocki 11 月 22 日发文，主张以困惑度等跨实验室指标设定“共同上限”，在监控能力达到明确里程碑前不越线。他披露内部对数困惑度：GPT-4 约 0.91，降到 0.8 以下出现数学与网络安全新能力。奥尔特曼公开支持。",
+   "why": "设限由 OpenAI 自己提出，值得留意；但指标由厂商自报，不同公司数据集不同，难直接比较，文中也承认。",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/perplexity-and-intelligence/",
+   "image_skip": "原文封面只是标题文字加渐变背景，不说明事件"
+  },
+  {
+   "title": "OpenRouter 下架三家推理服务商，移除 125 个零留存端点",
+   "body": "OpenRouter 11 月 22 日称，在 Dragos 研究员 HD Moore 的金丝雀测试后，已下架三家服务商，并将 125 个端点移出零数据留存（ZDR）资格。Ars Technica 报道，该测试发出近 200 万条带追踪密钥的提示，发现多家提供商泄露或违反留存承诺。",
+   "why": "经路由转发的提示会在多个环节明文落地，ZDR 标签不等于安全。敏感内容建议直连一线厂商，别只信标签。",
+   "source": "OpenRouter",
+   "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+   "image_skip": "原文页只有站点标志，与事件无关"
+  },
+  {
+   "title": "智库估算：Anthropic 2028 年用电约 87% 来自天然气",
+   "body": "Better Data Center Project 11 月 16 日发布案例研究，估算 Anthropic 已签约数据中心 2028 年电力约 87% 来自天然气、11% 来自煤，年排放中值约 3200 万吨二氧化碳。该机构称，Anthropic 在美国没有公开的可再生电力承诺。",
+   "why": "这是智库按边际电源推算的估算，不是 Anthropic 披露的数字；方法写在原文里，可对照看。",
+   "source": "Better Data Center Project",
+   "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+   "image_skip": "原文图表是竖向条形图，小红书卡片裁切会丢掉 Anthropic 那一条，不用"
+  }
+ ],
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "丰田、日产、本田将统一零部件以降成本",
+     "en": "Toyota, Nissan, and Honda to standardize parts",
+     "metric": "1172 分",
+     "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/"
+    },
+    {
+     "title": "Anthropic 2028 年用电 87% 来自天然气、11% 来自煤",
+     "en": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+     "metric": "854 分",
+     "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/"
+    },
+    {
+     "title": "OpenAI：困惑度与智能（Pachocki）",
+     "en": "Perplexity and Intelligence",
+     "metric": "447 分",
+     "url": "https://openai.com/index/perplexity-and-intelligence/"
+    },
+    {
+     "title": "硅谷怎么了？（O’Reilly）",
+     "en": "What Happened to Silicon Valley?",
+     "metric": "344 分",
+     "url": "https://www.oreilly.com/radar/what-happened-to-silicon-valley/"
+    },
+    {
+     "title": "做个游戏：你是大模型的子智能体",
+     "en": "Show HN: a game where you are an LLM's subagent",
+     "metric": "261 分",
+     "url": "https://github.com/gulivan/worker755"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区热议",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "用 Opus 5.5 把星际火狐等老游戏移植到桌面",
+     "en": "Opus 5.5 is INSANE at decompilation / ports",
+     "metric": "656 赞",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/"
+    },
+    {
+     "title": "RTX 5090 为何卖到 5000 美元：AI 公司成托盘买游戏卡",
+     "en": "Why RTX 5090 costs $5,000",
+     "metric": "463 赞",
+     "url": "https://videocardz.com/newz/heres-why-rtx-5090-costs-5000-ai-firms-are-buying-gaming-gpus-by-the-pallet"
+    },
+    {
+     "title": "Anthropic 把 Projects 推向 Chat 与 Cowork，用户反对",
+     "en": "New Projects rolling out for Chat and Cowork",
+     "metric": "358 赞",
+     "url": "https://www.reddit.com/gallery/1x33na4"
+    },
+    {
+     "title": "OpenAI 额度投票：取消 5 小时限制获多数",
+     "en": "Thank god (OpenAI usage limits vote)",
+     "metric": "485 赞",
+     "url": "https://www.reddit.com/r/OpenAI/comments/1x3d4z1/thank_god/"
+    },
+    {
+     "title": "Karpathy 谈能力差距",
+     "en": "Andrej Karpathy breaks down the capability gap",
+     "metric": "790 赞",
+     "url": "https://x.com/karpathy/status/2109361546505966046"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X",
+   "tag": "热帖",
+   "color": "#111111",
+   "url": "https://x.com/",
+   "short": "X",
+   "items": [
+    {
+     "title": "OpenRouter 下架三家推理服务商",
+     "en": "OpenRouter off-boards three inference providers",
+     "metric": "OpenRouter 公告",
+     "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/"
+    },
+    {
+     "title": "Lean 社区认证黎曼猜想证明（后续）",
+     "en": "@leanprover joint statement",
+     "metric": "约 197 万次浏览",
+     "url": "https://aitimeline.news/en/Daily/2026-11-22-X%E6%97%A5%E6%8A%A5/"
+    },
+    {
+     "title": "马斯克：AI 行业明年或面临数千亿美元资金缺口",
+     "en": "Musk warns of AI cash crunch",
+     "metric": "X 趋势榜",
+     "url": "https://x.com/i/trending/2124298616865001916"
+    },
+    {
+     "title": "Brockman：OpenAI 模型改写 AMD 芯片电路代码",
+     "en": "Brockman on AMD chip progress",
+     "metric": "转述",
+     "url": "https://finance.yahoo.com/technology/ai/articles/openai-greg-brockman-ai-delivered-123532256.html"
+    },
+    {
+     "title": "Perplexity CEO 把部分队友切到 Gemini 4 Neon",
+     "en": "Aravind Srinivas on Gemini 4 Neon",
+     "metric": "20.8 万次浏览",
+     "url": "https://trending.llmnet.nl/en/briefing/2026-11-22.md"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热榜",
+   "color": "#24292f",
+   "url": "https://github.com/trending",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "elementalsouls/Claude-BugHunter",
+     "en": "elementalsouls/Claude-BugHunter",
+     "metric": "1716 星/日",
+     "url": "https://github.com/elementalsouls/Claude-BugHunter"
+    },
+    {
+     "title": "firecrawl/firecrawl",
+     "en": "firecrawl/firecrawl",
+     "metric": "915 星/日",
+     "url": "https://github.com/firecrawl/firecrawl"
+    },
+    {
+     "title": "obra/superpowers",
+     "en": "obra/superpowers",
+     "metric": "788 星/日",
+     "url": "https://github.com/obra/superpowers"
+    },
+    {
+     "title": "HKUDS/CLI-Anything",
+     "en": "HKUDS/CLI-Anything",
+     "metric": "699 星/日",
+     "url": "https://github.com/HKUDS/CLI-Anything"
+    },
+    {
+     "title": "jingyaogong/minimind",
+     "en": "jingyaogong/minimind",
+     "metric": "473 星/日",
+     "url": "https://github.com/jingyaogong/minimind"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文热度",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "RL 后训练扩散 Transformer 等于激活引导",
+     "en": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+     "metric": "20 赞",
+     "url": "https://huggingface.co/papers/2611.26627"
+    },
+    {
+     "title": "语言模型可以改写自己的权重",
+     "en": "Language Models Can Rewrite Their Own Weights",
+     "metric": "19 赞",
+     "url": "https://huggingface.co/papers/2611.21885"
+    },
+    {
+     "title": "教视觉-语言-动作模型安全停下",
+     "en": "Teaching VLA Models to Stop Safely",
+     "metric": "9 赞",
+     "url": "https://huggingface.co/papers/2611.26239"
+    },
+    {
+     "title": "用编码智能体原位训练光学神经网络",
+     "en": "In Situ Training of Optical Neural Networks by Coding Agents",
+     "metric": "3 赞",
+     "url": "https://huggingface.co/papers/2611.23875"
+    },
+    {
+     "title": "Squoosh Bench：318 个网站 A/B 测试评测 UX-1",
+     "en": "Squoosh Bench",
+     "metric": "3 赞",
+     "url": "https://huggingface.co/papers/2611.25200"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "主流科技媒体",
+   "color": "#e5127d",
+   "url": "https://www.theverge.com/ai-artificial-intelligence",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "TechCrunch：OpenAI 首席科学家谈如何限制 AI 开发",
+     "en": "OpenAI's chief scientist has thoughts on how to limit AI development",
+     "metric": "11-22",
+     "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/"
+    },
+    {
+     "title": "TechCrunch：数据中心为何成为大科技反弹的中心",
+     "en": "Why data centers are at the center of the Big Tech backlash",
+     "metric": "11-22",
+     "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/"
+    },
+    {
+     "title": "Verge：特朗普威胁对海外建 AI 数据中心征“巨额税”",
+     "en": "Trump threatens tremendous tax for moving AI data centers outside the US",
+     "metric": "11-21",
+     "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax"
+    },
+    {
+     "title": "Verge：联合国未能就“杀手机器人”规则达成一致",
+     "en": "The UN fails to agree on rules regulating killer robots",
+     "metric": "11-22",
+     "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots"
+    },
+    {
+     "title": "Verge：主要科技故障不会是最后一次",
+     "en": "We haven't seen the last of the major tech outages",
+     "metric": "11-23",
+     "url": "https://www.theverge.com/tech/1039851/major-tech-outages"
+    }
+   ]
+  },
+  {
+   "key": "qbitai",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#2f6fed",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "黎曼猜想被证明？Claude 加持，34 岁数学家放出 Lean 证明",
+     "en": "",
+     "metric": "热门榜",
+     "url": "https://www.qbitai.com/2026/11/511727.html"
+    },
+    {
+     "title": "A 社数学家用 Claude 又证明另一千禧难题，逼出 940 页纯人类手稿",
+     "en": "",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/511870.html"
+    },
+    {
+     "title": "姚顺雨和混元团队上 Reddit 答网友，小模型已进路线图",
+     "en": "",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/511757.html"
+    },
+    {
+     "title": "GPT-6.2 Astra 再次暴击具身模型：16 项任务成功率翻倍",
+     "en": "",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/511779.html"
+    },
+    {
+     "title": "刚刚，DeepSeek V1 作者创业项目曝光：开源 Agent",
+     "en": "",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/511570.html"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "中文数码资讯",
+   "color": "#d9230f",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "OpenAI 首席科学家：AI 最早 2027 年加速自身发展，奥尔特曼赞同设限",
+     "en": "",
+     "metric": "11-23",
+     "url": "https://www.ithome.com/1/030/720.htm"
+    },
+    {
+     "title": "MiniMax 用内部最新模型破解多个密码学前沿方案",
+     "en": "",
+     "metric": "11-23",
+     "url": "https://www.ithome.com/1/030/711.htm"
+    },
+    {
+     "title": "消息称 AI 服务器厂商交付前提价，涨幅最高 45%",
+     "en": "",
+     "metric": "11-23",
+     "url": "https://www.ithome.com/1/030/713.htm"
+    },
+    {
+     "title": "Oracle：已确保履行 OpenAI 合同所需资金",
+     "en": "",
+     "metric": "11-23",
+     "url": "https://www.ithome.com/1/030/715.htm"
+    },
+    {
+     "title": "开发者把微型 Transformer 塞进软盘，486 电脑也能跑 AI",
+     "en": "",
+     "metric": "11-23",
+     "url": "https://www.ithome.com/1/030/699.htm"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "工程师社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "研究员向 AI 供应链植入 200 万个金丝雀，暴露隐私灾难",
+     "en": "Researcher plants 2m canaries into the AI supply chain",
+     "metric": "107 分",
+     "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/"
+    },
+    {
+     "title": "阿里 RISC-V 开发板上的 NixOS 启动",
+     "en": "NixOS bring-up on an Alibaba RISC-V board",
+     "metric": "31 分",
+     "url": "https://feyor.sh/blog/nixos-bringup-on-an-alibaba-riscv-board/"
+    },
+    {
+     "title": "GitHub Actions 接受无效 YAML",
+     "en": "GitHub Actions accepts invalid YAML",
+     "metric": "27 分",
+     "url": "https://yossarian.net/til/post/github-actions-accepts-invalid-yaml/"
+    },
+    {
+     "title": "程序员对 ATProto 的错误认知",
+     "en": "Falsehoods Programmers Believe About ATProto",
+     "metric": "24 分",
+     "url": "https://reiver.link/atproto/falsehoods-programmers-believe/"
+    },
+    {
+     "title": "Gliver 补全 Guix 桌面",
+     "en": "Gliver completes the Guix desktop",
+     "metric": "16 分",
+     "url": "https://dustycloud.org/blog/gliver-completes-the-guix-desktop/"
+    }
+   ]
+  }
+ ],
+ "topics": [
+  {
+   "name": "设限与监管",
+   "kicker": "刹车从谁手里踩下，仍在争",
+   "items": [
+    {
+     "title": "TechCrunch：OpenAI 首席科学家谈限制 AI 开发",
+     "note": "与头条同源，注意区分原文与转述。",
+     "src": "TechCrunch",
+     "metric": "11-22",
+     "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/"
+    },
+    {
+     "title": "联合国未能就“杀手机器人”规则达成一致",
+     "note": "国际层面仍无共识，进展慢于技术。",
+     "src": "The Verge",
+     "metric": "11-22",
+     "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots"
+    },
+    {
+     "title": "特朗普威胁对把 AI 数据中心搬到海外征“巨额税”",
+     "note": "目前是表态，具体办法未见。",
+     "src": "The Verge",
+     "metric": "11-21",
+     "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax"
+    },
+    {
+     "title": "IT之家：美国民主党拟推动成立参议院 AI 委员会",
+     "note": "转引美联社，与白宫立场或有分歧。",
+     "src": "IT之家",
+     "metric": "11-23",
+     "url": "https://www.ithome.com/1/030/720.htm"
+    }
+   ]
+  },
+  {
+   "name": "算力与电力",
+   "kicker": "账单从机房一路传到玩家",
+   "items": [
+    {
+     "title": "RTX 5090 卖到 5000 美元：AI 公司成托盘买游戏卡",
+     "note": "VideoCardz 的说法，需看原文数据。",
+     "src": "Reddit",
+     "metric": "463 赞",
+     "url": "https://videocardz.com/newz/heres-why-rtx-5090-costs-5000-ai-firms-are-buying-gaming-gpus-by-the-pallet"
+    },
+    {
+     "title": "TechCrunch：数据中心为何成了大科技反弹的中心",
+     "note": "作者新书访谈，观点偏批评。",
+     "src": "TechCrunch",
+     "metric": "11-22",
+     "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/"
+    },
+    {
+     "title": "消息称 AI 服务器厂商交付前提价，最高涨 45%",
+     "note": "据消息称，未见厂商确认。",
+     "src": "IT之家",
+     "metric": "11-23",
+     "url": "https://www.ithome.com/1/030/713.htm"
+    },
+    {
+     "title": "Oracle：已确保履行与 OpenAI 合同所需资金",
+     "note": "公司表态，具体金额未披露。",
+     "src": "IT之家",
+     "metric": "11-23",
+     "url": "https://www.ithome.com/1/030/715.htm"
+    }
+   ]
+  },
+  {
+   "name": "开发者工具",
+   "kicker": "智能体越能干，权限越要收",
+   "items": [
+    {
+     "title": "obra/superpowers：编程智能体的技能库",
+     "note": "单日约 800 星，先看技能是否可审计。",
+     "src": "GitHub",
+     "metric": "788 星/日",
+     "url": "https://github.com/obra/superpowers"
+    },
+    {
+     "title": "firecrawl：把网页抓成智能体能读的数据",
+     "note": "抓取类工具，注意站点条款。",
+     "src": "GitHub",
+     "metric": "915 星/日",
+     "url": "https://github.com/firecrawl/firecrawl"
+    },
+    {
+     "title": "HKUDS/CLI-Anything：让软件可被智能体调用",
+     "note": "方向有用，安全边界要自己把关。",
+     "src": "GitHub",
+     "metric": "699 星/日",
+     "url": "https://github.com/HKUDS/CLI-Anything"
+    },
+    {
+     "title": "论文：语言模型可以改写自己的权重",
+     "note": "论文热度 19 赞，结论待复现。",
+     "src": "Hugging Face",
+     "metric": "19 赞",
+     "url": "https://huggingface.co/papers/2611.21885"
+    }
+   ]
+  }
+ ],
+ "comments": [
+  "设限提议值得认真看，但指标由厂商自报，真要共同遵守，先得有可互相核对的口径。",
+  "“零数据留存”只是个标签。提示经过的每一跳都可能落盘，敏感内容别走便宜转售渠道。",
+  "87% 是智库按边际电源推算，不是公司披露。估算有用，但别当成账单。"
+ ],
+ "xhs": {
+  "title": "OpenAI自己提议给AI设上限",
+  "cover": "AI开始\n给自己\n装刹车",
+  "deck": "设限、泄露、电力",
+  "intro": "今天三件事：OpenAI 首席科学家提议头部实验室共同设开发上限；OpenRouter 在泄露测试后下架三家推理服务商；智库估算 Anthropic 2028 年用电约 87% 来自天然气（估算，非公司披露）。",
+  "oneliner": "AI 的外部账，正在一笔笔到期。",
+  "closing": "你会因为“零留存”标签就把敏感内容交给转售渠道吗？",
+  "tags": [
+   "人工智能",
+   "OpenAI",
+   "OpenRouter",
+   "数据隐私",
+   "Anthropic",
+   "数据中心",
+   "AI监管",
+   "科技资讯",
+   "AI日报"
+  ]
+ },
+ "sources": [
+  "OpenAI",
+  "OpenRouter",
+  "Better Data Center Project",
+  "Ars Technica",
+  "The Verge",
+  "TechCrunch",
+  "量子位",
+  "IT之家",
+  "Hacker News",
+  "Reddit",
+  "X（转述）",
+  "GitHub Trending",
+  "Hugging Face Papers",
+  "Lobsters"
+ ]
+}

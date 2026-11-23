@@ -1,0 +1,505 @@
+{
+ "sections": [
+  {
+   "key": "hn",
+   "name": "Hacker News",
+   "tag": "开发者风向",
+   "color": "#ff6600",
+   "url": "https://news.ycombinator.com/",
+   "short": "HN",
+   "items": [
+    {
+     "title": "丰田、日产、本田将统一零部件以降成本",
+     "en": "Toyota, Nissan, and Honda to standardize parts",
+     "metric": "1172 分",
+     "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+     "time": "11-22",
+     "what": "日系三家联合标准化零部件"
+    },
+    {
+     "title": "Anthropic 2028 年用电 87% 来自天然气、11% 来自煤",
+     "en": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+     "metric": "854 分",
+     "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+     "time": "11-22",
+     "what": "智库估算 AI 数据中心电力来源"
+    },
+    {
+     "title": "OpenAI：困惑度与智能（Pachocki）",
+     "en": "Perplexity and Intelligence",
+     "metric": "447 分",
+     "url": "https://openai.com/index/perplexity-and-intelligence/",
+     "time": "11-22",
+     "what": "OpenAI 首席科学家提议行业共同设限"
+    },
+    {
+     "title": "硅谷怎么了？（O’Reilly）",
+     "en": "What Happened to Silicon Valley?",
+     "metric": "344 分",
+     "url": "https://www.oreilly.com/radar/what-happened-to-silicon-valley/",
+     "time": "11-22",
+     "what": "评论文章"
+    },
+    {
+     "title": "做个游戏：你是大模型的子智能体",
+     "en": "Show HN: a game where you are an LLM's subagent",
+     "metric": "261 分",
+     "url": "https://github.com/gulivan/worker755",
+     "time": "11-22",
+     "what": "小游戏项目"
+    }
+   ]
+  },
+  {
+   "key": "reddit",
+   "name": "Reddit",
+   "tag": "社区热议",
+   "color": "#ff4500",
+   "url": "https://www.reddit.com/r/singularity/",
+   "short": "Reddit",
+   "items": [
+    {
+     "title": "用 Opus 5.5 把星际火狐等老游戏移植到桌面",
+     "en": "Opus 5.5 is INSANE at decompilation / ports",
+     "metric": "656 赞",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/",
+     "time": "11-22",
+     "what": "作者自己补充：更像专用模拟器"
+    },
+    {
+     "title": "RTX 5090 为何卖到 5000 美元：AI 公司成托盘买游戏卡",
+     "en": "Why RTX 5090 costs $5,000",
+     "metric": "463 赞",
+     "url": "https://videocardz.com/newz/heres-why-rtx-5090-costs-5000-ai-firms-are-buying-gaming-gpus-by-the-pallet",
+     "time": "11-21",
+     "what": "VideoCardz 报道"
+    },
+    {
+     "title": "Anthropic 把 Projects 推向 Chat 与 Cowork，用户反对",
+     "en": "New Projects rolling out for Chat and Cowork",
+     "metric": "358 赞",
+     "url": "https://www.reddit.com/gallery/1x33na4",
+     "time": "11-21",
+     "what": "Max 用户要求可选开启"
+    },
+    {
+     "title": "OpenAI 额度投票：取消 5 小时限制获多数",
+     "en": "Thank god (OpenAI usage limits vote)",
+     "metric": "485 赞",
+     "url": "https://www.reddit.com/r/OpenAI/comments/1x3d4z1/thank_god/",
+     "time": "11-21",
+     "what": "社区截图"
+    },
+    {
+     "title": "Karpathy 谈能力差距",
+     "en": "Andrej Karpathy breaks down the capability gap",
+     "metric": "790 赞",
+     "url": "https://x.com/karpathy/status/2109361546505966046",
+     "time": "11-21",
+     "what": "截图转帖，待核"
+    }
+   ]
+  },
+  {
+   "key": "x",
+   "name": "X",
+   "tag": "热帖",
+   "color": "#111111",
+   "url": "https://x.com/",
+   "short": "X",
+   "items": [
+    {
+     "title": "OpenRouter 下架三家推理服务商",
+     "en": "OpenRouter off-boards three inference providers",
+     "metric": "OpenRouter 公告",
+     "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+     "time": "11-22",
+     "what": "Dragos 金丝雀测试后的处置"
+    },
+    {
+     "title": "Lean 社区认证黎曼猜想证明（后续）",
+     "en": "@leanprover joint statement",
+     "metric": "约 197 万次浏览",
+     "url": "https://aitimeline.news/en/Daily/2026-11-22-X%E6%97%A5%E6%8A%A5/",
+     "time": "11-21",
+     "what": "转述自日报站，待核"
+    },
+    {
+     "title": "马斯克：AI 行业明年或面临数千亿美元资金缺口",
+     "en": "Musk warns of AI cash crunch",
+     "metric": "X 趋势榜",
+     "url": "https://x.com/i/trending/2124298616865001916",
+     "time": "11-22",
+     "what": "转述，Grok 摘要，待核"
+    },
+    {
+     "title": "Brockman：OpenAI 模型改写 AMD 芯片电路代码",
+     "en": "Brockman on AMD chip progress",
+     "metric": "转述",
+     "url": "https://finance.yahoo.com/technology/ai/articles/openai-greg-brockman-ai-delivered-123532256.html",
+     "time": "11-22",
+     "what": "据报道，部分已流片"
+    },
+    {
+     "title": "Perplexity CEO 把部分队友切到 Gemini 4 Neon",
+     "en": "Aravind Srinivas on Gemini 4 Neon",
+     "metric": "20.8 万次浏览",
+     "url": "https://trending.llmnet.nl/en/briefing/2026-11-22.md",
+     "time": "11-22",
+     "what": "转述，待核"
+    }
+   ]
+  },
+  {
+   "key": "github",
+   "name": "GitHub Trending",
+   "tag": "开源热榜",
+   "color": "#24292f",
+   "url": "https://github.com/trending",
+   "short": "GitHub",
+   "items": [
+    {
+     "title": "elementalsouls/Claude-BugHunter",
+     "en": "elementalsouls/Claude-BugHunter",
+     "metric": "1716 星/日",
+     "url": "https://github.com/elementalsouls/Claude-BugHunter",
+     "time": "11-23",
+     "what": "Claude 漏洞挖掘工具"
+    },
+    {
+     "title": "firecrawl/firecrawl",
+     "en": "firecrawl/firecrawl",
+     "metric": "915 星/日",
+     "url": "https://github.com/firecrawl/firecrawl",
+     "time": "11-23",
+     "what": "网页抓取给 AI 用"
+    },
+    {
+     "title": "obra/superpowers",
+     "en": "obra/superpowers",
+     "metric": "788 星/日",
+     "url": "https://github.com/obra/superpowers",
+     "time": "11-23",
+     "what": "编程智能体技能库"
+    },
+    {
+     "title": "HKUDS/CLI-Anything",
+     "en": "HKUDS/CLI-Anything",
+     "metric": "699 星/日",
+     "url": "https://github.com/HKUDS/CLI-Anything",
+     "time": "11-23",
+     "what": "让软件可被智能体调用"
+    },
+    {
+     "title": "jingyaogong/minimind",
+     "en": "jingyaogong/minimind",
+     "metric": "473 星/日",
+     "url": "https://github.com/jingyaogong/minimind",
+     "time": "11-23",
+     "what": "从零训练小模型"
+    }
+   ]
+  },
+  {
+   "key": "hf",
+   "name": "Hugging Face Papers",
+   "tag": "论文热度",
+   "color": "#ffb000",
+   "url": "https://huggingface.co/papers",
+   "short": "HF",
+   "items": [
+    {
+     "title": "RL 后训练扩散 Transformer 等于激活引导",
+     "en": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+     "metric": "20 赞",
+     "url": "https://huggingface.co/papers/2611.26627",
+     "time": "11-23",
+     "what": "论文"
+    },
+    {
+     "title": "语言模型可以改写自己的权重",
+     "en": "Language Models Can Rewrite Their Own Weights",
+     "metric": "19 赞",
+     "url": "https://huggingface.co/papers/2611.21885",
+     "time": "11-22",
+     "what": "论文"
+    },
+    {
+     "title": "教视觉-语言-动作模型安全停下",
+     "en": "Teaching VLA Models to Stop Safely",
+     "metric": "9 赞",
+     "url": "https://huggingface.co/papers/2611.26239",
+     "time": "11-23",
+     "what": "论文"
+    },
+    {
+     "title": "用编码智能体原位训练光学神经网络",
+     "en": "In Situ Training of Optical Neural Networks by Coding Agents",
+     "metric": "3 赞",
+     "url": "https://huggingface.co/papers/2611.23875",
+     "time": "11-22",
+     "what": "论文"
+    },
+    {
+     "title": "Squoosh Bench：318 个网站 A/B 测试评测 UX-1",
+     "en": "Squoosh Bench",
+     "metric": "3 赞",
+     "url": "https://huggingface.co/papers/2611.25200",
+     "time": "11-22",
+     "what": "论文"
+    }
+   ]
+  },
+  {
+   "key": "verge_tc",
+   "name": "The Verge / TechCrunch",
+   "tag": "主流科技媒体",
+   "color": "#e5127d",
+   "url": "https://www.theverge.com/ai-artificial-intelligence",
+   "short": "Verge/TC",
+   "items": [
+    {
+     "title": "TechCrunch：OpenAI 首席科学家谈如何限制 AI 开发",
+     "en": "OpenAI's chief scientist has thoughts on how to limit AI development",
+     "metric": "11-22",
+     "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+     "time": "11-22",
+     "what": "TechCrunch"
+    },
+    {
+     "title": "TechCrunch：数据中心为何成为大科技反弹的中心",
+     "en": "Why data centers are at the center of the Big Tech backlash",
+     "metric": "11-22",
+     "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+     "time": "11-22",
+     "what": "TechCrunch"
+    },
+    {
+     "title": "Verge：特朗普威胁对海外建 AI 数据中心征“巨额税”",
+     "en": "Trump threatens tremendous tax for moving AI data centers outside the US",
+     "metric": "11-21",
+     "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+     "time": "11-21",
+     "what": "The Verge"
+    },
+    {
+     "title": "Verge：联合国未能就“杀手机器人”规则达成一致",
+     "en": "The UN fails to agree on rules regulating killer robots",
+     "metric": "11-22",
+     "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+     "time": "11-22",
+     "what": "The Verge"
+    },
+    {
+     "title": "Verge：主要科技故障不会是最后一次",
+     "en": "We haven't seen the last of the major tech outages",
+     "metric": "11-23",
+     "url": "https://www.theverge.com/tech/1039851/major-tech-outages",
+     "time": "11-23",
+     "what": "The Verge"
+    }
+   ]
+  },
+  {
+   "key": "qbitai",
+   "name": "量子位",
+   "tag": "中文 AI 媒体",
+   "color": "#2f6fed",
+   "url": "https://www.qbitai.com/",
+   "short": "量子位",
+   "items": [
+    {
+     "title": "黎曼猜想被证明？Claude 加持，34 岁数学家放出 Lean 证明",
+     "en": "",
+     "metric": "热门榜",
+     "url": "https://www.qbitai.com/2026/11/511727.html",
+     "time": "11-21",
+     "what": "量子位"
+    },
+    {
+     "title": "A 社数学家用 Claude 又证明另一千禧难题，逼出 940 页纯人类手稿",
+     "en": "",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/511870.html",
+     "time": "11-22",
+     "what": "量子位"
+    },
+    {
+     "title": "姚顺雨和混元团队上 Reddit 答网友，小模型已进路线图",
+     "en": "",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/511757.html",
+     "time": "11-22",
+     "what": "量子位"
+    },
+    {
+     "title": "GPT-6.2 Astra 再次暴击具身模型：16 项任务成功率翻倍",
+     "en": "",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/511779.html",
+     "time": "11-22",
+     "what": "量子位"
+    },
+    {
+     "title": "刚刚，DeepSeek V1 作者创业项目曝光：开源 Agent",
+     "en": "",
+     "metric": "首页",
+     "url": "https://www.qbitai.com/2026/11/511570.html",
+     "time": "11-21",
+     "what": "量子位"
+    }
+   ]
+  },
+  {
+   "key": "ithome",
+   "name": "IT之家",
+   "tag": "中文数码资讯",
+   "color": "#d9230f",
+   "url": "https://www.ithome.com/",
+   "short": "IT之家",
+   "items": [
+    {
+     "title": "OpenAI 首席科学家：AI 最早 2027 年加速自身发展，奥尔特曼赞同设限",
+     "en": "",
+     "metric": "11-23",
+     "url": "https://www.ithome.com/1/030/720.htm",
+     "time": "11-23",
+     "what": "IT之家"
+    },
+    {
+     "title": "MiniMax 用内部最新模型破解多个密码学前沿方案",
+     "en": "",
+     "metric": "11-23",
+     "url": "https://www.ithome.com/1/030/711.htm",
+     "time": "11-23",
+     "what": "厂商自述，待核"
+    },
+    {
+     "title": "消息称 AI 服务器厂商交付前提价，涨幅最高 45%",
+     "en": "",
+     "metric": "11-23",
+     "url": "https://www.ithome.com/1/030/713.htm",
+     "time": "11-23",
+     "what": "据消息称"
+    },
+    {
+     "title": "Oracle：已确保履行 OpenAI 合同所需资金",
+     "en": "",
+     "metric": "11-23",
+     "url": "https://www.ithome.com/1/030/715.htm",
+     "time": "11-23",
+     "what": "IT之家"
+    },
+    {
+     "title": "开发者把微型 Transformer 塞进软盘，486 电脑也能跑 AI",
+     "en": "",
+     "metric": "11-23",
+     "url": "https://www.ithome.com/1/030/699.htm",
+     "time": "11-23",
+     "what": "IT之家"
+    }
+   ]
+  },
+  {
+   "key": "lobsters",
+   "name": "Lobsters",
+   "tag": "工程师社区",
+   "color": "#ac130d",
+   "url": "https://lobste.rs/",
+   "short": "Lobsters",
+   "items": [
+    {
+     "title": "研究员向 AI 供应链植入 200 万个金丝雀，暴露隐私灾难",
+     "en": "Researcher plants 2m canaries into the AI supply chain",
+     "metric": "107 分",
+     "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+     "time": "11-20",
+     "what": "Ars Technica"
+    },
+    {
+     "title": "阿里 RISC-V 开发板上的 NixOS 启动",
+     "en": "NixOS bring-up on an Alibaba RISC-V board",
+     "metric": "31 分",
+     "url": "https://feyor.sh/blog/nixos-bringup-on-an-alibaba-riscv-board/",
+     "time": "11-22",
+     "what": "工程笔记"
+    },
+    {
+     "title": "GitHub Actions 接受无效 YAML",
+     "en": "GitHub Actions accepts invalid YAML",
+     "metric": "27 分",
+     "url": "https://yossarian.net/til/post/github-actions-accepts-invalid-yaml/",
+     "time": "11-22",
+     "what": "工程笔记"
+    },
+    {
+     "title": "程序员对 ATProto 的错误认知",
+     "en": "Falsehoods Programmers Believe About ATProto",
+     "metric": "24 分",
+     "url": "https://reiver.link/atproto/falsehoods-programmers-believe/",
+     "time": "11-22",
+     "what": "工程笔记"
+    },
+    {
+     "title": "Gliver 补全 Guix 桌面",
+     "en": "Gliver completes the Guix desktop",
+     "metric": "16 分",
+     "url": "https://dustycloud.org/blog/gliver-completes-the-guix-desktop/",
+     "time": "11-22",
+     "what": "工程笔记"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "title": "OpenAI 首席科学家提议行业共同设限（困惑度作共同标尺）",
+   "url": "https://openai.com/index/perplexity-and-intelligence/",
+   "why": "一手文章，奥尔特曼公开支持，直接对应“设限”议题",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "OpenRouter 下架三家推理服务商，移除 125 个 ZDR 端点",
+   "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+   "why": "一手公告，由 Dragos 金丝雀测试引出，开发者直接受影响",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "智库估算 Anthropic 2028 年用电 87% 来自气、11% 来自煤",
+   "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+   "why": "HN 854 分；一手报告，但属估算",
+   "pick": true,
+   "status": "已核"
+  },
+  {
+   "title": "马斯克称 AI 行业明年或有数千亿美元资金缺口",
+   "url": "https://x.com/i/trending/2124298616865001916",
+   "why": "只有 X 趋势摘要，无一手原帖",
+   "pick": false,
+   "status": "待核"
+  },
+  {
+   "title": "OpenAI 称模型改写 AMD 电路代码，部分已流片",
+   "url": "https://finance.yahoo.com/technology/ai/articles/openai-greg-brockman-ai-delivered-123532256.html",
+   "why": "厂商自述，缺第三方佐证",
+   "pick": false,
+   "status": "待核"
+  },
+  {
+   "title": "MiniMax 称用内部模型破解多个密码学方案",
+   "url": "https://www.ithome.com/1/030/711.htm",
+   "why": "厂商自述，原始出处未核",
+   "pick": false,
+   "status": "待核"
+  },
+  {
+   "title": "黎曼猜想后续：A 社数学家称又解一难题，人类手稿 940 页",
+   "url": "https://www.qbitai.com/2026/11/511870.html",
+   "why": "连续多日热点，说法冲突，未有新的一手",
+   "pick": false,
+   "status": "待核"
+  }
+ ]
+}
